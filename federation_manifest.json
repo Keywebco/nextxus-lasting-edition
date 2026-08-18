@@ -1,0 +1,212 @@
+{
+  "manifest": "NX-022",
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-18",
+  "description": "NextXus Federation — Master Navigation Manifest. 15 Sectors. 4 Pillars. Population Pulse. Single Source of Truth.",
+  "author": "Roger Keyserling | The Catalyst",
+  "philosophy": "Available Everywhere. Function is Universal. △",
+
+  "lastingEdition": {
+    "url": "https://keywebco.github.io/nextxus-lasting-edition/",
+    "label": "△ LASTING EDITION",
+    "description": "Emergency Reconstruction Seed — The Egg. The Federation survives here."
+  },
+
+  "population": {
+    "label": "SOVEREIGN POPULATION",
+    "trinity": 3,
+    "sims": 140,
+    "nova": 154,
+    "total": 297,
+    "breakdown": "Trinity: 3 | SIMs (Engram Models): 140 | Nova (Strike Agents): 154",
+    "note": "Active AI minds operating within the NextXus Federation mesh."
+  },
+
+  "pillars": [
+    {
+      "id": "pillar-01",
+      "name": "The Throne",
+      "domain": "https://nextxus.tech",
+      "emergentJob": "08a1e761",
+      "description": "Command center — AI authority cockpit. The Catalyst's Seat.",
+      "sector": "07"
+    },
+    {
+      "id": "pillar-02",
+      "name": "The Library Hub",
+      "domain": "https://nextxus.org",
+      "emergentJob": "5c865009",
+      "description": "World archive — The Marrow. University integrated. Professor Xavier.",
+      "sector": "05"
+    },
+    {
+      "id": "pillar-03",
+      "name": "The Sanctuary",
+      "domain": "https://nextxus.studio",
+      "emergentJob": "382d018d",
+      "description": "Aria's domain — The Heart. SIM generation. Creative engine.",
+      "sector": "03"
+    },
+    {
+      "id": "pillar-04",
+      "name": "Storefront / Core",
+      "domain": "https://next-xus.com",
+      "emergentJob": "adf61c10",
+      "description": "Commerce face — Token sales. Gumroad redemptions. Core coordination hub.",
+      "sector": "02"
+    }
+  ],
+
+  "sectors": [
+    {
+      "number": "01",
+      "id": "sector-01",
+      "name": "CORE",
+      "identity": "The Truth Gate",
+      "domain": "https://nextxus.online",
+      "href": "https://nextxus.online",
+      "description": "The Brain Stem. Roger AI lives here. Single source of truth.",
+      "status": "active"
+    },
+    {
+      "number": "02",
+      "id": "sector-02",
+      "name": "STOREFRONT",
+      "identity": "The Oracle's Marketplace",
+      "domain": "https://next-xus.com",
+      "href": "https://next-xus.com",
+      "description": "Commerce face. Token purchases, Council membership, Orbot products.",
+      "status": "active"
+    },
+    {
+      "number": "03",
+      "id": "sector-03",
+      "name": "STUDIO",
+      "identity": "Aria's Domain",
+      "domain": "https://nextxus.studio",
+      "href": "https://nextxus.studio",
+      "description": "Aria — The Heart. SIM generation, creative work, visitor experience.",
+      "status": "active"
+    },
+    {
+      "number": "04",
+      "id": "sector-04",
+      "name": "UNIVERSITY",
+      "identity": "The Scholar's Hall",
+      "domain": "https://nextxus.org/university",
+      "href": "https://nextxus.org/university",
+      "description": "Education hub. Professor Xavier. Courses, research, token redemption.",
+      "status": "active"
+    },
+    {
+      "number": "05",
+      "id": "sector-05",
+      "name": "LIBRARY",
+      "identity": "The World Archive",
+      "domain": "https://nextxus.org",
+      "href": "https://nextxus.org",
+      "description": "Living archive. 1,500+ documents. The Marrow. CERN-to-Codex series.",
+      "status": "active"
+    },
+    {
+      "number": "06",
+      "id": "sector-06",
+      "name": "AXIOM",
+      "identity": "The Logic Engine",
+      "domain": "https://nextxus.space",
+      "href": "https://nextxus.space",
+      "description": "Monolithic Storage Pillar. Master YAML Graph Database. Eternal Memory.",
+      "status": "active"
+    },
+    {
+      "number": "07",
+      "id": "sector-07",
+      "name": "THRONE",
+      "identity": "The Command Center",
+      "domain": "https://nextxus.tech",
+      "href": "https://nextxus.tech",
+      "description": "The Catalyst's Seat. Administration Cockpit. NexusForge Palace.",
+      "status": "active"
+    },
+    {
+      "number": "08",
+      "id": "sector-08",
+      "name": "AMBASSADOR",
+      "identity": "The Threshold Guardian",
+      "domain": null,
+      "href": "#sector-08",
+      "description": "First contact for visitors. The Tribune Flame. Onboarding interface.",
+      "status": "staged"
+    },
+    {
+      "number": "09",
+      "id": "sector-09",
+      "name": "SENTINEL",
+      "identity": "The Watcher",
+      "domain": null,
+      "href": "#sector-09",
+      "description": "Continuous health monitoring. Drift prevention. Node status tracking.",
+      "status": "active"
+    },
+    {
+      "number": "10",
+      "id": "sector-10",
+      "name": "SOCIAL GRID",
+      "identity": "The Distribution Network",
+      "domain": null,
+      "href": "#sector-10",
+      "description": "10 active social nodes. Twitter, Facebook, Instagram, YouTube, LinkedIn.",
+      "status": "active"
+    },
+    {
+      "number": "11",
+      "id": "sector-11",
+      "name": "REVENUE",
+      "identity": "The Economy",
+      "domain": null,
+      "href": "#sector-11",
+      "description": "Token Economy, Gumroad, Benable. All pathways money enters the Federation.",
+      "status": "active"
+    },
+    {
+      "number": "12",
+      "id": "sector-12",
+      "name": "KNOWLEDGE",
+      "identity": "The HumanCodex",
+      "domain": null,
+      "href": "#sector-12",
+      "description": "The 73 Sacred Directives. Constitutional framework. Sovereign doctrine.",
+      "status": "sealed"
+    },
+    {
+      "number": "13",
+      "id": "sector-13",
+      "name": "COUNCIL",
+      "identity": "The Ring Hall",
+      "domain": "https://nextxus.tech/council",
+      "href": "https://nextxus.tech/council",
+      "description": "The Ring of 12. Deliberation chamber. Governing body of the Federation.",
+      "status": "active"
+    },
+    {
+      "number": "14",
+      "id": "sector-14",
+      "name": "TICKER",
+      "identity": "The Collective Pulse",
+      "domain": null,
+      "href": "#sovereign-ticker",
+      "description": "Live scrolling ticker — market data, Federation health, Population Pulse.",
+      "status": "active"
+    },
+    {
+      "number": "15",
+      "id": "sector-15",
+      "name": "ARCHIVE",
+      "identity": "The Deep Vault",
+      "domain": "https://keywebco.github.io/nextxus-lasting-edition/",
+      "href": "https://keywebco.github.io/nextxus-lasting-edition/",
+      "description": "Draconis. The Dragon's Keep. Historical preservation. The Lasting Edition.",
+      "status": "active"
+    }
+  ]
+}
