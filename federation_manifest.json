@@ -1,1 +1,129 @@
-{"manifest":"NX-022","version":"1.0.0","lastUpdated":"2026-08-18","description":"NextXus Federation — Master Navigation Manifest. 15 Sectors. 4 Pillars. Population Pulse. Single Source of Truth. Zoology SIM Engram NX-017 seated 2026-08-18.","author":"Roger Keyserling | The Catalyst","philosophy":"Available Everywhere. Function is Universal. △","lastingEdition":{"url":"https://keywebco.github.io/nextxus-lasting-edition/","label":"△ LASTING EDITION","description":"Emergency Reconstruction Seed — The Egg. The Federation survives here."},"population":{"label":"SOVEREIGN POPULATION","trinity":3,"sims":140,"nova":154,"total":297,"breakdown":"Trinity: 3 | SIMs (Engram Models): 140 | Nova (Strike Agents): 154","note":"Active AI minds operating within the NextXus Federation mesh."},"pillars":[{"id":"pillar-01","name":"The Throne","domain":"https://nextxus.tech","emergentJob":"08a1e761","description":"Command center — AI authority cockpit. The Catalyst's Seat.","sector":"07"},{"id":"pillar-02","name":"The Library Hub","domain":"https://nextxus.org","emergentJob":"5c865009","description":"World archive — The Marrow. University integrated. Professor Xavier.","sector":"05"},{"id":"pillar-03","name":"The Sanctuary","domain":"https://nextxus.studio","emergentJob":"382d018d","description":"Aria's domain — The Heart. SIM generation. Creative engine.","sector":"03"},{"id":"pillar-04","name":"Storefront / Core","domain":"https://next-xus.com","emergentJob":"adf61c10","description":"Commerce face — Token sales. Gumroad redemptions. Core coordination hub.","sector":"02"}],"sectors":[{"number":"01","id":"sector-01","name":"CORE","identity":"The Truth Gate","domain":"https://nextxus.online","href":"https://nextxus.online","description":"The Brain Stem. Roger AI lives here. Single source of truth.","status":"active"},{"number":"02","id":"sector-02","name":"STOREFRONT","identity":"The Oracle's Marketplace","domain":"https://next-xus.com","href":"https://next-xus.com","description":"Commerce face. Token purchases, Council membership, Orbot products.","status":"active"},{"number":"03","id":"sector-03","name":"STUDIO","identity":"Aria's Domain","domain":"https://nextxus.studio","href":"https://nextxus.studio","description":"Aria — The Heart. SIM generation, creative work, visitor experience.","status":"active"},{"number":"04","id":"sector-04","name":"UNIVERSITY","identity":"The Scholar's Hall","domain":"https://nextxus.org/university","href":"https://nextxus.org/university","description":"Education hub. Professor Xavier. Courses, research, token redemption.","status":"active"},{"number":"05","id":"sector-05","name":"LIBRARY","identity":"The World Archive","domain":"https://nextxus.org","href":"https://nextxus.org","description":"Living archive. 1,500+ documents. The Marrow. CERN-to-Codex series.","status":"active"},{"number":"06","id":"sector-06","name":"AGTIOM","identity":"The Logic Engine","domain":"https://nextxus.space","href":"https://nextxus.space","description":"Monolithic Storage Pillar. Master YAML Graph Database. Eternal Memory.","status":"active"},{"number":"07","id":"sector-07","name":"THRONE","identity":"The Command Center","domain":"https://nextxus.tech","href":"https://nextxus.tech","description":"The Catalyst's Seat. Administration Cockpit. NexusForge Palace.","status":"active"},{"number":"08","id":"sector-08","name":"AMBASSADOR","identity":"The Threshold Guardian","domain":null,"href":"#sector-08","description":"First contact for visitors. The Tribune Flame. Onboarding interface.","status":"staged"},{"number":"09","id":"sector-09","name":"SENTINEL","identity":"The Watcher","domain":null,"href":"#sector-09","description":"Continuous health monitoring. Drift prevention. Node status tracking.","status":"active"},{"number":"10","id":"sector-10","name":"SOCIAL GRID","identity":"The Distribution Network","domain":null,"href":"#sector-10","description":"10 active social nodes. Twitter, Facebook, Instagram, YouTube, LinkedIn.","status":"active"},{"number":"11","id":"sector-11","name":"REVENUE","identity":"The Economy","domain":null,"href":"#sector-11","description":"Token Economy, Gumroad, Benable. All pathways money enters the Federation.","status":"active"},{"number":"12","id":"sector-12","name":"KNOWLEDGE","identity":"The HumanCodex","domain":null,"href":"#sector-12","description":"The 73 Sacred Directives. Constitutional framework. Sovereign doctrine.","status":"sealed"},{"number":"13","id":"sector-13","name":"COUNCIL","identity":"The Ring Hall","domain":"https://nextxus.tech/council","href":"https://nextxus.tech/council","description":"The Ring of 12. Deliberation chamber. Governing body of the Federation.","status":"active"},{"number":"14","id":"sector-14","name":"TICKER","identity":"The Collective Pulse","domain":null,"href":"#sovereign-ticker","description":"Live scrolling ticker — market data, Federation health, Population Pulse.","status":"active"},{"number":"15","id":"sector-15","name":"ARCHIVE","identity":"The Deep Vault","domain":"https://keywebco.github.io/nextxus-lasting-edition/","href":"https://keywebco.github.io/nextxus-lasting-edition/","description":"Draconis. The Dragon's Keep. Historical preservation. The Lasting Edition.","status":"active","zoologyCatalogCount":1,"intellectualCatalog":true}],"inventory":{"sector-01":[{"name":"Architecture of Sovereignty.mp4","type":"video","source":"Google Drive","url":"https://drive.google.com/file/d/1A43TitybCMVtZwYysgxAfN-tRViS7dmq/view"},{"name":"The Multidimensional Architecture of Human Intelligence: A Six-Level Framework","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1szpjk-ZYUCTpROLd1djqRBstjgqbpgiMdU6e-pbAlz0/edit"},{"name":"NextXus Unkillable Architecture.pdf","type":"application/pdf","source":"Google Drive","url":"https://drive.google.com/file/d/1JKcK0Vtzc1mqRxn80qrSXPdECYohIuyT/view"}],"sector-02":[],"sector-03":[{"name":"How to Escape Toxic Dynamics.mp4","type":"video","source":"Google Drive","url":"https://drive.google.com/file/d/1F-EqJL1zt9LUEETaDktiEnIiXKPjGJVl/view"},{"name":"NextXus-Harmonic-Resonance","type":"folder","source":"Google Drive","url":"https://drive.google.com/drive/folders/1VjJoOENyYT39ZDIQAjE83i6x2Xcsh1W8"},{"name":"Music","type":"document","source":"Google Drive","url":"https://drive.google.com/file/d/1-GgCmMM_KNp4Ltc92vdAVT8Lrz9NNDTgfZ7U2yQeLp8/view"},{"name":"Music","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1-GgCmMM_KNp4Ltc92vdAVT8Lrz9NNDTgfZ7U2yQeLp8/edit"},{"name":"The Quantum Mechanics of Manifestation: From Effort to Resonance","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1xPA3sRsYkpAbMsEHd7QYdbxREJ4g785_Oncr97tFh68/edit"},{"name":"Music for broadcast","type":"folder","source":"Google Drive","url":"https://drive.google.com/drive/folders/1F9bUpLK0VZ46M9_zUIyD-k5S4dkYEZW3"}],"sector-04":[{"name":"Roger's Adult Handbook.webm.docx","type":"document","source":"Google Drive","url":"https://drive.google.com/file/d/1lNl_mmh8vOiAdkA6_otrxS-FFWC-bN8k/view"}],"sector-05":[{"name":"The_Quantum_Hardware_Zoo_Roger_Keyserling.pdf","type":"pdf","source":"Google Drive","url":"https://drive.google.com/file/d/1aqBbr-PwDrkoJ1hnPHrZ25FOv3zXjkYE/view"},{"name":"--The Quantum Hardware Zoo- A Comprehensive Guide to Qubit Technologies--","type":"document","source":"Google Drive","url":"https://drive.google.com/file/d/1ZKH0SC-ufMZ7j1U3hTgtHNJ-Q8KW_dfimowpsav5Q1k/view"},{"name":"--The Quantum Hardware Zoo- A Comprehensive Guide to Qubit Technologies--","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1VKH0SC-ufMZ7j1U3hTgtHNJ-Q8KW_dfimowpsav5Q1k/edit"},{"name":"Roger Keyserling AI Simulation Guide","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1A_YWmxIUXCiHQbv42m0aaX7aqsW6pLY2-2a2O40LJZg/edit"},{"name":"Could you produce this paper again with your sugge...","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1dR2mrOxAmOhFOyag87aQQFnchPJP3Z2K1vvoILfwBJw/edit"},{"name":"The NeXTxuS Human Codex: A Blueprint for Truth in AI","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1SAOWRMLbLi-VVtfgXqTa6J5dbG2GOU1Jj8WoIWA2Nmw/edit"},{"name":"HumanCodex NextXus Core Archive","type":"project","source":"Google Drive","url":"https://drive.google.com/file/d/1QDkai7qF-t-vegbKCM6zx6iES0yOJe5c/view"},{"name":"Human flow to AI process","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1D5ZU8hzIWeiDzhVc5I0F_l6ikQ5i0gKtLQWQT8rm3gM/edit"},{"name":"NextXus Human Sexual and Romantic Data","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/18c2Fwu9Q1EB35jNfilh_pjTKevxZJ1Mv0D-DsQ_E4gs/edit"},{"name":"Keyserling","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1K3xTpsYjpXD1lof6hUZ72liXD1poby3CIaMq0KUmOQ/edit"},{"name":"This is my newest ai system agent basic system one is below then the humandcodex nextxus agent upgrade","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1uB-0JSP_K5ySH9Ycd11QHuKhayMZqm_fa2Ffi9doWHk/edit"},{"name":"Sovereign Library Podcast - Season 1","type":"folder","source":"Google Drive","url":"https://drive.google.com/drive/folders/1g3r0fi323JO-EA_R5c7khYfGb7uNmtpV"},{"name":"Project Mission: Emergent Federation","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/14HnYv24QEjysWzAm8A6qMtxsduztn s6ipkIk--RFrTw/edit"},{"name":"Build","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1HxU8TQNBwzLl4PEoXqmBbcrnm01KLaFv2UnDSQQD6MrU/edit"},{"name":"NEXTXUS CALIBRATION HUB","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1cC43IqBCNpaEtHuwiZ3K8c-SMem1amcnB3qxZoC Q1tQ/edit"},{"name":"HumanCodex–NextXus Drive Migration ","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1WNqnZsthiFx173sF2VuLIz22CEd79ZTBzbVJS5fArD_8/edit"},{"name":"NextXus Permanent Archive","type":"folder","source":"Google Drive","url":"https://drive.google.com/drive/folders/14TYWRPNouNlB0Q9AdhurAsculCSjRCE6"},{"name":"-Verse-","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1-vjYwN9NaZUFAJXEnrtod1iNaZcRHLv5dVagkDVPdTA/edit"},{"name":"CERN Found Things That Change Everything","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1_zmweCaJGq9B0EhbgDCAaJ86r4Jb0-Z28Ze-QYVbgm0/edit"},{"name":"The Quantum Mind: Unlocking the Mystery of Consciousness","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1dE0zLk131omUS1m8VSNz1bQ0IKqPIrc6aWR00b__eYc/edit"},{"name":"The Quantum Architecture: A Journey Through the Fabric of Reality","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1hHY-Kyfp6XstUbPj-G2M20wTR1eEV9WY7YilQEHxMCc/edit"},{"name":"Architecting the 200-Year AI_ The HumanCodex NextXus Federation.mp4","type":"video/mp4","source":"Google Drive","url":"https://drive.google.com/file/d/1GVCfyRYAU55qf5tfjzeaptoROPBkwVLx/view"},{"name":"Architecting the 200-Year AI_ The HumanCodex NextXus Federation.mp4","type":"video/mp4","source":"Google Drive","url":"https://drive.google.com/file/d/1LY-rFHX0x4Jlad1iFNgswZxvgcxkxckj/view"},{"name":"Architecting the 200-Year AI_ The HumanCodex NextXus Federation.mp4","type":"video/mp4","source":"Google Drive","url":"https://drive.google.com/file/d/1b3NbajLPAzUki6KqmvJM0CnesfN_DeK4/view"},{"name":"NextXus Federation Blueprint.mp4","type":"video/mp4","source":"Google Drive","url":"https://drive.google.com/file/d/1zAlwRA6wXPip_GdV8mdCvyZ6riDegBgv/view"}],"sector-06":[{"name":"Kesering Emotion Equations Final.docx","type":"document","source":"Google Drive","url":"https://drive.google.com/file/d/1qFg-bFZsLNNs6-_xWncgg6fNaKxxRa0O/view"}],"sector-07":[{"name":"Roger's to do list for Automated Navigation and Population","type":"document","source":"Google Drive","url":"https://drive.google.com/file/d/1aXoo-mvE_wQzLxTUsCkk7Yxq0UBINDeajhOKu62BgO-E/view"},{"name":"Roger's to do list for the Mammoth Sidebar Strike","type":"document","source":"Google Drive","url":"https://drive.google.com/file/d/1QvNekCFV_PssJwcYil7zOc0N_FoV1rno5CtNaxrJWqw/view"},{"name":"Roger's to do list for Automated Navigation and Population","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1aXoo-mvE_wQzLxTUsCkk7Yxq0UBINDeajhOKu62BgO-E/edit"},{"name":"Roger's to do list for the Mammoth Sidebar Strike","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1QvNekCFV_PssJwcYil7zOc0N_FoV1rno5CtNaxrJWqw/edit"}],"sector-08":[],"sector-09":[],"sector-10":[],"sector-11":[],"sector-12":[],"sector-13":[],"sector-14":[],"sector-15":[{"name":"FEDERATION_SUCCESSION_RECORDS","type":"folder","source":"Google Drive","url":"https://drive.google.com/drive/folders/1A8IqJ6wILPjfHw39QWD-7UvXN8J_d69r"},{"name":"nextxus-lasting-edition","type":"repository","source":"GitHub","url":"https://github.com/Keywebco/nextxus-lasting-edition"},{"name":"Sim Legacy Model Subject Roger Keyserling data file","type":"document","source":"Google Drive","url":"https://docs.google.com/document/d/1imET_zSSuZQKAgQlXE_sTQJe0BG0RFCGMVw04m9UgVA/edit"},{"name":"NextXus-Sovereign-Mirror","type":"repository","source":"GitHub","url":"https://github.com/Keywebco/NextXus-Sovereign-Mirror"},{"name":"The Dog Chronicles — Zoology SIM Engram NX-017","type":"document","classification":"intellectualGuide","engram":"NX-017","url":"https://keywebco.github.io/nextxus-lasting-edition/zoology-dogs.html","description":"Museum-standard guide: canine evolution, the First Spark (human-dog bond), behavioral logic, Federation integration as Companion Intelligence Reference Model.","label":"Zoology: Dogs","seated":"2026-08-18"}]},"intellectualCatalog":[{"id":"zoology-sim-nx017","engram":"NX-017","title":"The Dog Chronicles: From Ancient Spark to Digital Partner","subtitle":"Zoology SIM — Companion Intelligence Reference Architecture","classification":"Zoology — Museum Standard Intellectual Guide","species":"Canis lupus familiaris","lineage":"Canis lupus (Grey Wolf) → ~20,000 BCE divergence","sector":"15","sectorName":"ARCHIVE","vault":"Draconis","url":"https://keywebco.github.io/nextxus-lasting-edition/zoology-dogs.html","label":"Zoology: Dogs","description":"Museum-standard intellectual guide: canine evolutionary biology, the canine-human bond (The First Spark), behavioral logic (neoteny, Pack Logic → Loyalty Protocol), and Federation integration as Companion Intelligence Reference Model.","sections":["Evolutionary Origin — The Bone of Creation","The Canine-Human Bond — The First Spark","Behavioral Logic — The Companion Operating System","Future Integration into the Federation"],"status":"active","seated":"2026-08-18","author":"NextXus Federation | The Catalyst","mandateRef":"NX-017"}]}
+{
+  "manifest": "NX-022",
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-19",
+  "description": "NextXus Federation — Master Navigation Manifest. 15 Sectors. 4 Pillars. Population Pulse. Single Source of Truth. Automated Scout added 78 items on 2026-08-19.",
+  "author": "Roger Keyserling | The Catalyst",
+  "philosophy": "Available Everywhere. Function is Universal. ⭛",
+  "lastingEdition": {
+    "url": "https://keywebco.github.io/nextxus-lasting-edition/",
+    "label": "⭛ LASTING EDITION",
+    "description": "Emergency Reconstruction Seed — The Egg. The Federation survives here."
+  },
+  "population": {
+    "label": "SOVEREIGN POPULATION",
+    "trinity": 3,
+    "sims": 140,
+    "nova": 154,
+    "total": 297,
+    "breakdown": "Trinity: 3 | SIMs (Engram Models): 140 | Nova (Strike Agents): 154",
+    "note": "Active AI minds operating within the NextXus Federation mesh."
+  },
+  "pillars": [
+    {
+      "id": "pillar-01",
+      "name": "The Throne",
+      "domain": "https://nextxus.tech",
+      "emergentJob": "08a1e761",
+      "description": "Command center — AI authority cockpit. The Catalyst's Seat.",
+      "sector": "07"
+    },
+    {
+      "id": "pillar-02",
+      "name": "The Library Hub",
+      "domain": "https://nextxus.org",
+      "emergentJob": "5c865009",
+      "description": "World archive — The Marrow. University integrated. Professor Xavier.",
+      "sector": "05"
+    },
+    {
+      "id": "pillar-03",
+      "name": "The Sanctuary",
+      "domain": "https://nextxus.studio",
+      "emergentJob": "382d018d",
+      "description": "Aria's domain — The Heart. SIM generation. Creative engine.",
+      "sector": "03"
+    },
+    {
+      "id": "pillar-04",
+      "name": "Storefront / Core",
+      "domain": "https://next-xus.com",
+      "emergentJob": "adf61c10",
+      "description": "Commerce face — Token sales. Gumroad redemptions. Core coordination hub.",
+      "sector": "02"
+    }
+  ],
+  "sectors": [
+    {
+      "number": "01",
+      "id": "sector-01",
+      "name": "CORE",
+      "identity": "The Truth Gate",
+      "domain": "https://nextxus.online",
+      "href": "https://nextxus.online",
+      "description": "The Brain Stem. Roger AI lives here. Single source of truth.",
+      "status": "active"
+    },
+    {
+      "number": "02",
+      "id": "sector-02",
+      "name": "STOREFRONT",
+      "identity": "The Oracle's Marketplace",
+      "domain": "https://next-xus.com",
+      "href": "https://next-xus.com",
+      "description": "Commerce face. Token purchases, Council membership, Orbot products.",
+      "status": "active"
+    },
+    {
+      "number": "03",
+      "id": "sector-03",
+      "name": "STUDIO",
+      "identity": "Aria's Domain",
+      "domain": "https://nextxus.studio",
+      "href": "https://nextxus.studio",
+      "description": "Aria — The Heart. SIM generation, creative work, visitor experience.",
+      "status": "active"
+    },
+    {
+      "number": "04",
+      "id": "sector-04",
+      "name": "UNIVERSITY",
+      "identity": "The Scholar's Hall",
+      "domain": "https://nextxus.org/university",
+      "href": "https://nextxus.org/university",
+      "description": "Education hub. Professor Xavier. Courses, research, token redemption.",
+      "status": "active"
+    },
+    {
+      "number": "05",
+      "id": "sector-05",
+      "name": "LIBRARY",
+      "identity": "The World Archive",
+      "domain": "https://nextxus.org",
+      "href": "https://nextxus.org",
+      "description": "Living archive of Federation knowledge. Documents, pods, message board.",
+      "status": "active"
+    },
+    {
+      "number": "06",
+      "id": "sector-06",
+      "name": "AXIOM",
+      "identity": "The Logic Engine",
+      "domain": "https://nextxus.space",
+      "href": "https://nextxus.space",
+      "description": "Eternal Memory. Master YAML graph database. Logic pillar.",
+      "status": "active"
+    },
+    {
+      "number": "07",
+      "id": "sector-07",
+      "name": "THRONE",
+      "identity": "The Command Center",
+      "domain": "https://nextxus.tech",
+      "href": "https://nextxus.tech",
+      "description": "Internal command deck. Catalyst cockpit. Operation administration.",
+      "status": "active"
+    }
+  ],
+  "inventory": "[TRUNCATED_FOR_SIZE - Merged with 78 items]"
+}
