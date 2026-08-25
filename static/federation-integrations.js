@@ -15,7 +15,7 @@
   // ============================================================
   const FED_CONFIG = {
     geminiEndpoint: '/api/gemini',
-    googleClientId: null, // Set via FED_GOOGLE_CLIENT_ID global or data attribute
+    googleClientId: '134917241648-9goc8mcat23m1qkts62ujnq723a81n2v.apps.googleusercontent.com',
     isThrone: false,      // Set true on nextxus.tech admin pages
     siteName: document.title || 'NextXus',
   };
@@ -48,64 +48,52 @@
   // A. GEMINI AI CHAT WIDGET
   // ============================================================
   function initGeminiChat() {
-    // Chat trigger button
     const trigger = el('button', {
       className: 'fed-chat-trigger',
       'aria-label': 'Open Federation AI Chat',
       title: 'Federation AI Assistant',
       innerHTML: '<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/><path d="M7 9h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z"/></svg>'
     });
-
-    // Chat panel
     const panel = el('div', { className: 'fed-chat-panel' });
     panel.innerHTML = `
       <div class="fed-chat-header">
-        <h3>⟡ FEDERATION AI</h3>
+        <h3>\u27e1 FEDERATION AI</h3>
         <button class="fed-chat-close" aria-label="Close chat">&times;</button>
       </div>
       <div class="fed-chat-messages" role="log" aria-live="polite">
-        <div class="fed-msg system">Federation AI Assistant — Ask anything about NextXus</div>
+        <div class="fed-msg system">Federation AI Assistant \u2014 Ask anything about NextXus</div>
       </div>
       <div class="fed-chat-input-area">
         <input class="fed-chat-input" type="text" placeholder="Type your question..." aria-label="Chat message" autocomplete="off">
         <button class="fed-chat-send" aria-label="Send message">SEND</button>
       </div>
     `;
-
     document.body.appendChild(trigger);
     document.body.appendChild(panel);
-
     const messages = panel.querySelector('.fed-chat-messages');
     const input = panel.querySelector('.fed-chat-input');
     const sendBtn = panel.querySelector('.fed-chat-send');
     const closeBtn = panel.querySelector('.fed-chat-close');
-
     let isOpen = false;
-
     function toggleChat() {
       isOpen = !isOpen;
       panel.classList.toggle('active', isOpen);
       if (isOpen) input.focus();
     }
-
     trigger.addEventListener('click', toggleChat);
     closeBtn.addEventListener('click', toggleChat);
-
-    // Close on outside click
     document.addEventListener('click', function(e) {
       if (isOpen && !panel.contains(e.target) && !trigger.contains(e.target)) {
         isOpen = false;
         panel.classList.remove('active');
       }
     });
-
     function addMessage(text, role) {
       const msg = el('div', { className: 'fed-msg ' + role }, text);
       messages.appendChild(msg);
       messages.scrollTop = messages.scrollHeight;
       return msg;
     }
-
     function showTyping() {
       const typing = el('div', { className: 'fed-msg assistant' });
       typing.innerHTML = '<div class="fed-typing"><span></span><span></span><span></span></div>';
@@ -113,29 +101,22 @@
       messages.scrollTop = messages.scrollHeight;
       return typing;
     }
-
     async function sendMessage() {
       const text = input.value.trim();
       if (!text) return;
-
       input.value = '';
       sendBtn.disabled = true;
       addMessage(text, 'user');
-
       const typing = showTyping();
-
       try {
         const resp = await fetch(FED_CONFIG.geminiEndpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: text })
         });
-
         if (!resp.ok) throw new Error('Network error: ' + resp.status);
-
         const data = await resp.json();
         typing.remove();
-
         if (data.reply) {
           addMessage(data.reply, 'assistant');
         } else if (data.error) {
@@ -148,11 +129,9 @@
         addMessage('Connection error. Please try again.', 'system');
         console.error('[Federation AI]', err);
       }
-
       sendBtn.disabled = false;
       input.focus();
     }
-
     sendBtn.addEventListener('click', sendMessage);
     input.addEventListener('keydown', function(e) {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -166,7 +145,6 @@
   // B. GOOGLE SIGN-IN
   // ============================================================
   function initGoogleSignIn() {
-    // Check for existing session
     const stored = localStorage.getItem('fed_user');
     if (stored) {
       try {
@@ -177,14 +155,10 @@
         localStorage.removeItem('fed_user');
       }
     }
-
-    // If no Google Client ID configured, show placeholder button
     if (!FED_CONFIG.googleClientId) {
       injectSignInButton(null);
       return;
     }
-
-    // Load Google Identity Services
     const script = document.createElement('script');
     script.src = 'https://accounts.google.com/gsi/client';
     script.async = true;
@@ -201,12 +175,9 @@
   }
 
   function injectSignInButton(gsiReady) {
-    // Find nav or header to inject into
     const nav = document.querySelector('nav, header, [role="navigation"], .nav, .header, .navbar');
     if (!nav) return;
-
     const container = el('div', { className: 'fed-auth-bar' });
-
     if (gsiReady) {
       const btn = el('button', {
         className: 'fed-google-signin',
@@ -217,7 +188,6 @@
       });
       container.appendChild(btn);
     } else {
-      // No client ID — show inactive placeholder
       const btn = el('button', {
         className: 'fed-google-signin',
         innerHTML: '<svg viewBox="0 0 24 24"><path fill="#666" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/></svg> Sign in (config pending)',
@@ -227,12 +197,10 @@
       btn.style.opacity = '0.5';
       container.appendChild(btn);
     }
-
     nav.appendChild(container);
   }
 
   function handleGoogleSignIn(response) {
-    // Decode JWT payload
     const payload = JSON.parse(atob(response.credential.split('.')[1]));
     const user = {
       name: payload.name || payload.email,
@@ -245,27 +213,21 @@
   }
 
   function showWelcome(user) {
-    // Remove any existing sign-in buttons
     document.querySelectorAll('.fed-auth-bar').forEach(e => e.remove());
-
     const nav = document.querySelector('nav, header, [role="navigation"], .nav, .header, .navbar');
     if (!nav) return;
-
     const container = el('div', { className: 'fed-auth-bar' });
     const welcome = el('div', { className: 'fed-user-welcome' });
-
     if (user.picture) {
       const img = el('img', { className: 'fed-user-avatar', src: user.picture, alt: user.name });
       welcome.appendChild(img);
     }
     welcome.appendChild(el('span', {}, 'Welcome, ' + user.name.split(' ')[0]));
-
     const signout = el('button', { className: 'fed-user-signout' }, 'Sign out');
     signout.addEventListener('click', function() {
       localStorage.removeItem('fed_user');
       location.reload();
     });
-
     container.appendChild(welcome);
     container.appendChild(signout);
     nav.appendChild(container);
@@ -276,18 +238,16 @@
   // ============================================================
   function initMediaLibrary() {
     if (!FED_CONFIG.isThrone) return;
-
-    // Create overlay + panel
     const overlay = el('div', { className: 'fed-media-overlay' });
     const panel = el('div', { className: 'fed-media-panel' });
     panel.innerHTML = `
       <div class="fed-media-header">
-        <h3>⟡ MEDIA LIBRARY — Google Drive</h3>
+        <h3>\u27e1 MEDIA LIBRARY \u2014 Google Drive</h3>
         <button class="fed-chat-close" aria-label="Close media library">&times;</button>
       </div>
       <div class="fed-media-body">
         <div class="fed-media-upload">
-          <p>📁 Drop files here or click to upload to Google Drive</p>
+          <p>\ud83d\udcc1 Drop files here or click to upload to Google Drive</p>
           <input type="file" multiple style="display:none" id="fed-media-file-input">
         </div>
         <div class="fed-msg system" style="grid-column:1/-1;text-align:center;padding:24px;">
@@ -296,16 +256,13 @@
         </div>
       </div>
     `;
-
     document.body.appendChild(overlay);
     document.body.appendChild(panel);
-
-    // Find admin nav / sidebar to inject trigger
     const adminArea = document.querySelector('.admin-nav, .sidebar, nav, header');
     if (adminArea) {
       const trigger = el('button', {
         className: 'fed-media-trigger',
-        innerHTML: '📁 Media Library'
+        innerHTML: '\ud83d\udcc1 Media Library'
       });
       trigger.addEventListener('click', function() {
         overlay.classList.add('active');
@@ -313,7 +270,6 @@
       });
       adminArea.appendChild(trigger);
     }
-
     const closeBtn = panel.querySelector('.fed-chat-close');
     closeBtn.addEventListener('click', function() {
       overlay.classList.remove('active');
@@ -323,13 +279,10 @@
       overlay.classList.remove('active');
       panel.classList.remove('active');
     });
-
-    // File upload placeholder
     const uploadZone = panel.querySelector('.fed-media-upload');
     const fileInput = panel.querySelector('#fed-media-file-input');
     uploadZone.addEventListener('click', function() { fileInput.click(); });
     fileInput.addEventListener('change', function() {
-      // In production, this would use Google Drive API v3
       alert('Google Drive upload requires OAuth connection. Files selected: ' + fileInput.files.length);
     });
   }
@@ -338,7 +291,6 @@
   // INITIALIZATION
   // ============================================================
   function init() {
-    // Wait for DOM
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', boot);
     } else {
@@ -350,7 +302,7 @@
     initGeminiChat();
     initGoogleSignIn();
     initMediaLibrary();
-    console.log('[Federation Integration Pack v1] Loaded — ' + FED_CONFIG.siteName);
+    console.log('[Federation Integration Pack v1] Loaded \u2014 ' + FED_CONFIG.siteName);
   }
 
   init();
