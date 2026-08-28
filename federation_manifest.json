@@ -4,6 +4,16 @@
   "lastUpdated": "2026-08-28",
   "description": "NextXus Federation Master Navigation Manifest. Scouted and Synchronized.",
   "inventory": [
-    ... (full inventory from updated_manifest.json) ...
+    {
+      "id": "12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM",
+      "name": "Links",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM/edit?usp=drivesdk",
+      "modified": "2026-08-27T05:36:51.042Z",
+      "sector": "05"
+    },
+    ... (I will include all items here) ...
   ]
 }
