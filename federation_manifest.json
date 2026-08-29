@@ -1,19 +1,676 @@
 {
   "manifest": "NX-022",
-  "version": "1.2.5",
-  "lastUpdated": "2026-08-28",
-  "description": "NextXus Federation Master Navigation Manifest. Scouted and Synchronized.",
+  "version": "1.2.6",
+  "lastUpdated": "2026-08-29",
+  "description": "NextXus Federation Master Navigation Manifest. Full Integrity Scout & Synchronize.",
   "inventory": [
+    {
+      "id": "next-xus-com-sovereign",
+      "name": "next-xus-com-sovereign",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/next-xus-com-sovereign",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-agent-zero",
+      "name": "nextxus-agent-zero",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-ai-course-hub",
+      "name": "nextxus-ai-course-hub",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-ai-course-hub",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-ai-minds-lab",
+      "name": "nextxus-ai-minds-lab",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-ai-minds-lab",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-emmy-board",
+      "name": "nextxus-emmy-board",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-emmy-board",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-federation-hub",
+      "name": "nextxus-federation-hub",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-federation-hub",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-help-sovereign",
+      "name": "nextxus-help-sovereign",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-help-sovereign",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-lasting-edition",
+      "name": "nextxus-lasting-edition",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-online-sovereign",
+      "name": "nextxus-online-sovereign",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-online-sovereign",
+      "sector": "13"
+    },
+    {
+      "id": "nextxus-org-sovereign",
+      "name": "nextxus-org-sovereign",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-org-sovereign",
+      "sector": "13"
+    },
+    {
+      "id": "NextXus-Sovereign-Mirror",
+      "name": "NextXus-Sovereign-Mirror",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/NextXus-Sovereign-Mirror",
+      "sector": "13"
+    },
+    {
+      "id": "nextxus-space-sovereign",
+      "name": "nextxus-space-sovereign",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-space-sovereign",
+      "sector": "13"
+    },
+    {
+      "id": "nextxus-staging",
+      "name": "nextxus-staging",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-staging",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-studio-sovereign",
+      "name": "nextxus-studio-sovereign",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-studio-sovereign",
+      "sector": "03"
+    },
+    {
+      "id": "nextxus-truth-gate-core",
+      "name": "nextxus-truth-gate-core",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-truth-gate-core",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-unified-storefront",
+      "name": "nextxus-unified-storefront",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-unified-storefront",
+      "sector": "13"
+    },
+    {
+      "id": "15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU",
+      "name": "NextXus Federation \u2014 Legal Directive (Roger Keyserling, 2026)",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU/edit",
+      "sector": "01"
+    },
     {
       "id": "12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM",
       "name": "Links",
       "type": "file",
       "mimeType": "application/vnd.google-apps.document",
       "source": "Google Drive",
-      "url": "https://docs.google.com/document/d/12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM/edit?usp=drivesdk",
-      "modified": "2026-08-27T05:36:51.042Z",
+      "url": "https://docs.google.com/document/d/12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM/edit",
       "sector": "05"
     },
-    ... (I will include all items here) ...
+    {
+      "id": "1G1o7szLgeb76csQTMrM9kQEYL6McpYuw",
+      "name": "NextXus Shared Mind",
+      "type": "folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1G1o7szLgeb76csQTMrM9kQEYL6McpYuw/view",
+      "sector": "05"
+    },
+    {
+      "id": "1WcJxMBEyS59zzeWYuvrFD9oT78iA8pqp",
+      "name": "NextXus Federation Backup 2026-08-25",
+      "type": "folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WcJxMBEyS59zzeWYuvrFD9oT78iA8pqp/view",
+      "sector": "15"
+    },
+    {
+      "id": "1WiUMKXVonvpiQFMIP6ufSRtaBuqFwohV",
+      "name": "grok_video_2026-08-24-12-42-29.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WiUMKXVonvpiQFMIP6ufSRtaBuqFwohV/view",
+      "sector": "03"
+    },
+    {
+      "id": "1q08kvtfib2y2OBvBgbqBFue17VhE4NXl",
+      "name": "grok_video_2026-08-24-12-14-24.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1q08kvtfib2y2OBvBgbqBFue17VhE4NXl/view",
+      "sector": "03"
+    },
+    {
+      "id": "1eDP4V_9exCMW0gmuzVsdW7v7crdRlG-M9ozZb2vWwIk",
+      "name": "The era of creation is concluding",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1eDP4V_9exCMW0gmuzVsdW7v7crdRlG-M9ozZb2vWwIk/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1LceIime2cnWbdoKotQeIZ_U90WHwVN-Ya1n2QNX14M8",
+      "name": "Sims",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1LceIime2cnWbdoKotQeIZ_U90WHwVN-Ya1n2QNX14M8/edit",
+      "sector": "05"
+    },
+    {
+      "id": "125HRPYpeq9oJvzaVAfC6l2zDXHUGl23LTcZ7NmcH5yA",
+      "name": "Galaxy Note",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/125HRPYpeq9oJvzaVAfC6l2zDXHUGl23LTcZ7NmcH5yA/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1aQPzMNl6woEIdWKxN4LvxvLhJ-jTWopyh1sbf9TcmiY",
+      "name": "Roger's to do list for Token-Based Subscriptions",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1aQPzMNl6woEIdWKxN4LvxvLhJ-jTWopyh1sbf9TcmiY/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1oehxargzDaK8aY2pUqv6SFDBTNesjr3X5MY0aEJMIus",
+      "name": "Untitled document",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1oehxargzDaK8aY2pUqv6SFDBTNesjr3X5MY0aEJMIus/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1aXooMvE_wQzLxTUqCkk7Yxq0UBINDEajhOKu62BgO-E",
+      "name": "Roger's to do list for Automated Navigation and Population",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1aXooMvE_wQzLxTUqCkk7Yxq0UBINDEajhOKu62BgO-E/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1aqBbr-PwDrkoJ1hnPHrZ25FOv3zXjkYE",
+      "name": "The_Quantum_Hardware_Zoo_Roger_Keyserling.pdf",
+      "type": "file",
+      "mimeType": "application/pdf",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aqBbr-PwDrkoJ1hnPHrZ25FOv3zXjkYE/view",
+      "sector": "05"
+    },
+    {
+      "id": "1ZKH0SC-ufMZ7j1U3hTgtHNJ-Q8KW_dfimowpsav5Q1k",
+      "name": "--The Quantum Hardware Zoo- A Comprehensive Guide to Qubit Technologies--",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ZKH0SC-ufMZ7j1U3hTgtHNJ-Q8KW_dfimowpsav5Q1k/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1lNl_mmh8vOiAdkA6_otrxS-FFWC-bN8k",
+      "name": "Roger's Adult Handbook.webm.docx",
+      "type": "file",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1lNl_mmh8vOiAdkA6_otrxS-FFWC-bN8k/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1QvNekcFV_PssJwcYil7zOc0N_FoV1rno5CtNaxrWJqw",
+      "name": "Roger's to do list for the Mammoth Sidebar Strike",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1QvNekcFV_PssJwcYil7zOc0N_FoV1rno5CtNaxrWJqw/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1A8IqJ6wILPjfHw39QWD-7UvXN8J_d69r",
+      "name": "FEDERATION_SUCCESSION_RECORDS",
+      "type": "folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A8IqJ6wILPjfHw39QWD-7UvXN8J_d69r/view",
+      "sector": "15"
+    },
+    {
+      "id": "1A43TitybCMVtZwYysgxAfN-tRViS7dmq",
+      "name": "Architecture of Sovereignty.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A43TitybCMVtZwYysgxAfN-tRViS7dmq/view",
+      "sector": "03"
+    },
+    {
+      "id": "1F-EqJL1zt9LUEETaDktiEnIiXKPjGJVl",
+      "name": "How to Escape Toxic Dynamics.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1F-EqJL1zt9LUEETaDktiEnIiXKPjGJVl/view",
+      "sector": "03"
+    },
+    {
+      "id": "1K6G4QdT0PMtDLKiWi1AB19876sPFf84C",
+      "name": "https://noteboo.txt",
+      "type": "file",
+      "mimeType": "text/plain",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1K6G4QdT0PMtDLKiWi1AB19876sPFf84C/view",
+      "sector": "05"
+    },
+    {
+      "id": "1VjJoOENyYT39ZDIQAjE83i6x2Xcsh1W8",
+      "name": "NextXus-Harmonic-Resonance",
+      "type": "folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VjJoOENyYT39ZDIQAjE83i6x2Xcsh1W8/view",
+      "sector": "11"
+    },
+    {
+      "id": "1-GgCmMM_KNp4Ltc92vdAVT8Lrz9NNDTgfZ7U2yQeLp8",
+      "name": "Music",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1-GgCmMM_KNp4Ltc92vdAVT8Lrz9NNDTgfZ7U2yQeLp8/edit",
+      "sector": "11"
+    },
+    {
+      "id": "1qFg-bFZsLNNs6-_xWncgg6fNaKxxRa0O",
+      "name": "Keyserling Emotion Equations Final.docx",
+      "type": "file",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1qFg-bFZsLNNs6-_xWncgg6fNaKxxRa0O/edit",
+      "sector": "12"
+    },
+    {
+      "id": "1A_YWmxIUXCiHQbv42m0aaX7aqsW6pLY2-2a2O40LJZg",
+      "name": "Roger Keyserling AI Simulation Guide",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1A_YWmxIUXCiHQbv42m0aaX7aqsW6pLY2-2a2O40LJZg/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1dR2mrOxAmOhFOyag87aQQFnchPJP3Z2K1vvoILfwBJw",
+      "name": "Could you produce this paper again with your sugge...",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1dR2mrOxAmOhFOyag87aQQFnchPJP3Z2K1vvoILfwBJw/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1SAOWRMLbLi-VVtfgXqTa6J5dbG2GOU1Jj8WoIWA2Nmw",
+      "name": "The NexTxuS Human Codex: A Blueprint for Truth in AI",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1SAOWRMLbLi-VVtfgXqTa6J5dbG2GOU1Jj8WoIWA2Nmw/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1imET_zSSuZQKAgQlXE_sTQJe0BG0RFCDMVw04m9UgVA",
+      "name": "Sim Legacy Model Subject Roger Keyserling data file",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1imET_zSSuZQKAgQlXE_sTQJe0BG0RFCDMVw04m9UgVA/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1QDkai7qF-t-vegbKCM6zx6iES0yOJe5c",
+      "name": "HumanCodex NextXus Core Archive",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.project",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QDkai7qF-t-vegbKCM6zx6iES0yOJe5c/view",
+      "sector": "01"
+    },
+    {
+      "id": "1D5ZU8hzIWEiDzhVc5I0F_l6ikQ5i0gKtLQWQT8rm3gM",
+      "name": "Human flow to AI process",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1D5ZU8hzIWEiDzhVc5I0F_l6ikQ5i0gKtLQWQT8rm3gM/edit",
+      "sector": "05"
+    },
+    {
+      "id": "18c2Gwu9Q1EB35jNfilH_pjTKevxZJ3Mv0D-DsQ_E4gs",
+      "name": "NextXus Human Sexual and Romantic Data",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/18c2Gwu9Q1EB35jNfilH_pjTKevxZJ3Mv0D-DsQ_E4gs/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1K3xTfpsYjpXD1lof6hUZ72liXD1poby3CIaMq0KUmOQ",
+      "name": "Keyserling",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1K3xTfpsYjpXD1lof6hUZ72liXD1poby3CIaMq0KUmOQ/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1uB-0JSP_K5ySH9Ycd11QHuKhayMZqm_fa2Ffi9doWHk",
+      "name": "This is my newest ai system agent basic system one is below then the humancodex nextxus agent upgrade",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1uB-0JSP_K5ySH9Ycd11QHuKhayMZqm_fa2Ffi9doWHk/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1g3r0fi323JO-EA_R5c7klYfGb7uNmtpV",
+      "name": "Sovereign Library Podcast - Season 1",
+      "type": "folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1g3r0fi323JO-EA_R5c7klYfGb7uNmtpV/view",
+      "sector": "05"
+    },
+    {
+      "id": "14HnYv24QEjysWzAm8A6qMtxsduztns6ipkIk--RFrTw",
+      "name": "Project Mission: Emergent Federation",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/14HnYv24QEjysWzAm8A6qMtxsduztns6ipkIk--RFrTw/edit",
+      "sector": "01"
+    },
+    {
+      "id": "1HxU8TQNBwzLl4PEoXqmBbcrnm01KLaFv2UnDSQQ6MrU",
+      "name": "Build",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1HxU8TQNBwzLl4PEoXqmBbcrnm01KLaFv2UnDSQQ6MrU/edit",
+      "sector": "12"
+    },
+    {
+      "id": "1cC43IqBCNpaEtHuwiZ3K8c-SMem1amcnB3qxZoCQ1tQ",
+      "name": "NEXTXUS CALIBRATION HUB",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1cC43IqBCNpaEtHuwiZ3K8c-SMem1amcnB3qxZoCQ1tQ/edit",
+      "sector": "07"
+    },
+    {
+      "id": "1WNqnZsthiFx73sF2VuLIz22CEd79ZTBzbVJS5fArD_8",
+      "name": "HumanCodex\u2013NextXus Drive Migration ",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1WNqnZsthiFx73sF2VuLIz22CEd79ZTBzbVJS5fArD_8/edit",
+      "sector": "05"
+    },
+    {
+      "id": "14TYWRPNouNlB0Q9AdhurAsculCSjRCE6",
+      "name": "NextXus Permanent Archive",
+      "type": "folder",
+      "mimeType": "application/vnd.google-apps.folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/14TYWRPNouNlB0Q9AdhurAsculCSjRCE6/view",
+      "sector": "15"
+    },
+    {
+      "id": "1-vjYwN9NaZUFAJXEnrtod1iNaZcRHLv5dVagkDVPdTA",
+      "name": "-Verse-",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1-vjYwN9NaZUFAJXEnrtod1iNaZcRHLv5dVagkDVPdTA/edit",
+      "sector": "11"
+    },
+    {
+      "id": "1_zmweCaJGq9B0EhbgDCAaJ86r4Jb0-Z28Ze-QYVbgm0",
+      "name": "CERN Found Things That Change Everything",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1_zmweCaJGq9B0EhbgDCAaJ86r4Jb0-Z28Ze-QYVbgm0/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1dE0zLk131omUS1m8VSnz1bQ0IKqPIrc6aWR00b__eYc",
+      "name": "The Quantum Mind: Unlocking the Mystery of Consciousness",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1dE0zLk131omUS1m8VSnz1bQ0IKqPIrc6aWR00b__eYc/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1hHY-Kyfp6XstUbPj-G2M20wTR1eEV9WY7YilQEHxMCc",
+      "name": "The Quantum Architecture: A Journey Through the Fabric of Reality",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1hHY-Kyfp6XstUbPj-G2M20wTR1eEV9WY7YilQEHxMCc/edit",
+      "sector": "03"
+    },
+    {
+      "id": "1szpjk-ZYUCTpROLd1djqRBstjgqbpgiMdU6e-pbAlz0",
+      "name": "The Multidimensional Architecture of Human Intelligence: A Six-Level Framework",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1szpjk-ZYUCTpROLd1djqRBstjgqbpgiMdU6e-pbAlz0/edit",
+      "sector": "03"
+    },
+    {
+      "id": "1xPA3sRsYkpAbMsEHd7QYdbxREJ4g785_Oncr97tFh68",
+      "name": "The Quantum Mechanics of Manifestation: From Effort to Resonance",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1xPA3sRsYkpAbMsEHd7QYdbxREJ4g785_Oncr97tFh68/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1GVCfyRYAU55qf5tfjzeaptoROPBkwVLx",
+      "name": "Architecting the 200-Year AI_ The HumanCodex NextXus Federation.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GVCfyRYAU55qf5tfjzeaptoROPBkwVLx/view",
+      "sector": "03"
+    },
+    {
+      "id": "1LY-rFHX0x4Jlad1iFNgswZxvgcxkxckj",
+      "name": "Architecting the 200-Year AI_ The HumanCodex NextXus Federation.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LY-rFHX0x4Jlad1iFNgswZxvgcxkxckj/view",
+      "sector": "03"
+    },
+    {
+      "id": "1b3NbajLPAzUki6KqmvJM0CnesfN_DeK4",
+      "name": "Architecting the 200-Year AI_ The HumanCodex NextXus Federation.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1b3NbajLPAzUki6KqmvJM0CnesfN_DeK4/view",
+      "sector": "03"
+    },
+    {
+      "id": "1zAlwRA6wXPip_GdV8mdCvyZ6riDegBgv",
+      "name": "NextXus Federation Blueprint.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zAlwRA6wXPip_GdV8mdCvyZ6riDegBgv/view",
+      "sector": "03"
+    },
+    {
+      "id": "1AHIOFWXoM3ELwVHs2cD_f4gIrD7j3mT4",
+      "name": "How to Build Unkillable Apps.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1AHIOFWXoM3ELwVHs2cD_f4gIrD7j3mT4/view",
+      "sector": "03"
+    },
+    {
+      "id": "1TAp6lMbmVxyz7SeOg2dout-UBI6cWdPX",
+      "name": "NextXus Federation.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TAp6lMbmVxyz7SeOg2dout-UBI6cWdPX/view",
+      "sector": "03"
+    },
+    {
+      "id": "1ZIJHGcHNNHZd8MZm1K4Z2uRfcysLbuh9",
+      "name": "NextXus Federation.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZIJHGcHNNHZd8MZm1K4Z2uRfcysLbuh9/view",
+      "sector": "03"
+    },
+    {
+      "id": "1HasKW5_ndV9iBYJqYHkBolGnDNd4YkvL",
+      "name": "Architecting _Unkillable_ Client-Side AI Systems.mp4",
+      "type": "file",
+      "mimeType": "video/mp4",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1HasKW5_ndV9iBYJqYHkBolGnDNd4YkvL/view",
+      "sector": "03"
+    },
+    {
+      "id": "1JKcK0Vtzc1mqRxn80qrSXPdECYohIuyT",
+      "name": "NextXus Unkillable Architecture.pdf",
+      "type": "file",
+      "mimeType": "application/pdf",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JKcK0Vtzc1mqRxn80qrSXPdECYohIuyT/view",
+      "sector": "03"
+    },
+    {
+      "id": "1LTKwTwGrdZUF4amp9H8B1VRWCTNLzUUbutpwnx-Q3ac",
+      "name": "The NextXus Protocol for Cognitive Evolution: The Complete Manual",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1LTKwTwGrdZUF4amp9H8B1VRWCTNLzUUbutpwnx-Q3ac/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1CA-neMOvh1uDIIbw5xxgCxUDSeBb8jhjIlEZF1XXLe4",
+      "name": "The NextXus Protocol for Cognitive Evolution: The Complete Manual",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1CA-neMOvh1uDIIbw5xxgCxUDSeBb8jhjIlEZF1XXLe4/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1zDPpx0lLqBFmhedHsvEoLg6R6hypftCQyBPiIqUzljA",
+      "name": "Untitled document",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1zDPpx0lLqBFmhedHsvEoLg6R6hypftCQyBPiIqUzljA/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1RbyyyXGO53-jFY3xMRd9r4umaneCeQVTpKFUOls_N40",
+      "name": "Untitled document",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1RbyyyXGO53-jFY3xMRd9r4umaneCeQVTpKFUOls_N40/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1ewhsPz31MwCM7sUeV9lBXueMepLBbE28o04rGXVWRBE",
+      "name": "Fast Ring",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ewhsPz31MwCM7sUeV9lBXueMepLBbE28o04rGXVWRBE/edit",
+      "sector": "13"
+    },
+    {
+      "id": "1aKcP10XdZn2ho0MU35kzjQvknKGd18aroEFMCHWbW0Y",
+      "name": "Philosophical Operating System (POS): A Handbook for Layered Reality",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1aKcP10XdZn2ho0MU35kzjQvknKGd18aroEFMCHWbW0Y/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1Re8BhYfR8Kh_2Fb3G5yImO7p1Ni86pxx8vRgPL-R3K8",
+      "name": "# NextXus Transition Protocol: Fast-Ring (Stage 0",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.document",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1Re8BhYfR8Kh_2Fb3G5yImO7p1Ni86pxx8vRgPL-R3K8/edit",
+      "sector": "01"
+    }
   ]
 }
