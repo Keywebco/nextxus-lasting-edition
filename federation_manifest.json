@@ -1,1 +1,1 @@
-$(cat /root/workspace/manifest_b64.txt)
+$(cat /root/workspace/manifest_final_b64.txt)
