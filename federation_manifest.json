@@ -1,1 +1,24 @@
-$(cat /root/workspace/manifest_base64.txt)
+{
+  "manifest": "NX-022",
+  "version": "1.3.1",
+  "lastUpdated": "2026-08-31",
+  "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
+  "inventory": [
+    {
+      "id": "13tThdvCjWsBmkqMCynGQbQCX27xVwOaDedw6HxCDAMk",
+      "name": "Declaration of Planned Evolution \u2014 NextXus Federation (August 30, 2026)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/13tThdvCjWsBmkqMCynGQbQCX27xVwOaDedw6HxCDAMk/edit?usp=drivesdk",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-free-satellites-index",
+      "name": "nextxus-free-satellites/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/index.html",
+      "sector": "10"
+    }
+  ]
+}
