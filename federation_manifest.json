@@ -1,1 +1,1 @@
-$(cat /root/workspace/manifest_base64.txt)
+$(cat /root/workspace/federation_manifest_updated.json)
