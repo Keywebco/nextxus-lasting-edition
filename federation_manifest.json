@@ -1,1 +1,1 @@
-$(cat manifest_updated.json)
+$(cat manifest_payload.txt)
