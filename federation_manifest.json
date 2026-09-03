@@ -1,1 +1,88 @@
-$(cat /root/workspace/manifest_rebuild.json)
+{
+  "manifest": "NX-022",
+  "version": "1.4.1",
+  "lastUpdated": "2026-09-03",
+  "description": "NextXus Federation Master Navigation Manifest. Integrity Restored.",
+  "inventory": [
+    {
+      "id": "13tThdvCjWsBmkqMCynGQbQCX27xVwOaDedw6HxCDAMk",
+      "name": "Declaration of Planned Evolution — NextXus Federation (August 30, 2026)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/13tThdvCjWsBmkqMCynGQbQCX27xVwOaDedw6HxCDAMk/edit?usp=drivesdk",
+      "sector": "01"
+    },
+    {
+      "id": "1jLjfl8-wwpiQsTelRvTL8O_gNL_nekxD0B8O8PjL4BM",
+      "name": "Emergent Bill Dispute — Roger Keyserling (keywebco@gmail.com)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1jLjfl8-wwpiQsTelRvTL8O_gNL_nekxD0B,8O8PjL4BM/edit?usp=drivesdk",
+      "sector": "07"
+    },
+    {
+      "id": "15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU",
+      "name": "NextXus Federation — Legal Directive (Roger Keyserling, 2026)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU/edit?usp=drivesdk",
+      "sector": "01"
+    },
+    {
+      "id": "12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM",
+      "name": "Links",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1Zn8P6nCunNIEjKfM9PA037FuRuMIv7ZOMonzstz1qok",
+      "name": "Untitled document",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1Zn8P6nCunNIEjKfM9PA037FuRuMIv7ZOMonzstz1qok/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "11tiYYWcPv3bLjJjf1zoamW2K9p5CaHZC",
+      "name": "HumanCodex Governance Foundation — NextXus Federation",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/11tiYYWcPv3bLjJjf1zoamW2K9p5CaHZC/view?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1HoGuytEAPSSEX7V99D7G8owgGIYqei-r",
+      "name": "NextXus Federation — Sovereign Mirror",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1HoGuytEAPSSEX7V99D7G8owgGIYqei-r/view?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1IzPb_ONRdeFS_E6s2iewmVixxsUld3z70QVKl7TKEn8",
+      "name": "NextXus Architecture & Master Action Table",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1IzPb_ONRdeFS_E6s2iewmVixxsUld3z70QVKl7TKEn8/edit?usp=drivesdk",
+      "sector": "07"
+    },
+    {
+      "id": "14-HqE-wSqsPaA46Y_EsOAfOkfOao9MIIOqTvLVwfA98",
+      "name": "Fig",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/14-HqE-wSqsPaA46Y_EsOAfOkfOao9MIIOqTvLVwfA98/edit?usp=drivesdk",
+      "sector": "03"
+    },
+    {
+      "id": "sovereigntools",
+      "name": "sovereigntools",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereigntools",
+      "sector": "12"
+    }
+  ]
+}
