@@ -1,12 +1,28 @@
 {
   "manifest": "NX-022",
-  "version": "1.5.0",
-  "lastUpdated": "2026-09-04",
-  "description": "NextXus Federation Master Navigation Manifest. Updated with technical assets and marketing truth documentation.",
+  "version": "1.6.0",
+  "lastUpdated": "2026-09-05",
+  "description": "NextXus Federation Master Navigation Manifest. Updated with comprehensive inventory of technical assets and archives.",
   "inventory": [
     {
+      "id": "1CH055AH4THF0EI1MphjjrF-Ed0AD9EU1",
+      "name": "Android backups",
+      "type": "folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/drive/folders/1CH055AH4THF0EI1MphjjrF-Ed0AD9EU1?usp=drivesdk",
+      "sector": "07"
+    },
+    {
+      "id": "1qtJDx_9ftlO6y_aKnNmoXm0yggXjQdBd",
+      "name": "ChatGPT",
+      "type": "folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/drive/folders/1qtJDx_9ftlO6y_aKnNmoXm0yggXjQdBd",
+      "sector": "15"
+    },
+    {
       "id": "13tThdvCjWsBmkqMCynGQbQCX27xVwOaDedw6HxCDAMk",
-      "name": "Declaration of Planned Evolution \u2014 NextXus Federation (August 30, 2026)",
+      "name": "Declaration of Planned Evolution — NextXus Federation (August 30, 2026)",
       "type": "file",
       "source": "Google Drive",
       "url": "https://docs.google.com/document/d/13tThdvCjWsBmkqMCynGQbQCX27xVwOaDedw6HxCDAMk/edit?usp=drivesdk",
@@ -14,58 +30,10 @@
     },
     {
       "id": "1jLjfl8-wwpiQsTelRvTL8O_gNL_nekxD0B8O8PjL4BM",
-      "name": "Emergent Bill Dispute \u2014 Roger Keyserling (keywebco@gmail.com)",
+      "name": "Emergent Bill Dispute — Roger Keyserling (keywebco@gmail.com)",
       "type": "file",
       "source": "Google Drive",
       "url": "https://docs.google.com/document/d/1jLjfl8-wwpiQsTelRvTL8O_gNL_nekxD0B8O8PjL4BM/get_file?usp=drivesdk",
-      "sector": "07"
-    },
-    {
-      "id": "15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU",
-      "name": "NextXus Federation \u2014 Legal Directive (Roger Keyserling, 2026)",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://docs.google.com/document/d/15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU/edit?usp=drivesdk",
-      "sector": "01"
-    },
-    {
-      "id": "12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM",
-      "name": "Links",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://docs.google.com/document/d/12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM/edit?usp=drivesdk",
-      "sector": "05"
-    },
-    {
-      "id": "1Zn8P6nCunNIEjKfM9PA037FuRuMIv7ZOMonzstz1qok",
-      "name": "Untitled document",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://docs.google.com/document/d/1Zn8P6nCunNIEjKfM9PA037FuRuMIv7ZOMonzstz1qok/edit?usp=drivesdk",
-      "sector": "05"
-    },
-    {
-      "id": "11tiYYWcPv3bLjJjf1zoamW2K9p5CaHZC",
-      "name": "HumanCodex Governance Foundation \u2014 NextXus Federation",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://drive.google.com/file/d/11tiYYWcPv3bLjJjf1zoamW2K9p5CaHZC/view?usp=drivesdk",
-      "sector": "05"
-    },
-    {
-      "id": "1HoGuytEAPSSEX7V99D7G8owgGIYqei-r",
-      "name": "NextXus Federation \u2014 Sovereign Mirror",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://drive.google.com/file/d/1HoGuytEAPSSEX7V99D7G8owgGIYqei-r/view?usp=drivesdk",
-      "sector": "05"
-    },
-    {
-      "id": "1IzPb_ONRdeFS_E6s2iewmVixxsUld3z70QVKl7TKEn8",
-      "name": "NextXus Architecture & Master Action Table",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://docs.google.com/document/d/1IzPb_ONRdeFS_E6s2iewmVixxsUld3z70QVKl7TKEn8/edit?usp=drivesdk",
       "sector": "07"
     },
     {
@@ -77,12 +45,52 @@
       "sector": "03"
     },
     {
-      "id": "sovereigntools",
-      "name": "sovereigntools",
-      "type": "repository",
-      "source": "GitHub",
-      "url": "https://github.com/Keywebco/sovereigntools",
-      "sector": "12"
+      "id": "11tiYYWcPv3bLjJjf1zoamW2K9p5CaHZC",
+      "name": "HumanCodex Governance Foundation — NextXus Federation",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/11tiYYWcPv3bLjJjf1zoamW2K9p5CaHZC/view?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM",
+      "name": "Links",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/12KQmHsFAfNjctotPc6HGZRXpfbFzQFk8fdoMhFDe9iM/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1IzPb_ONRdeFS_E6s2iewmVixxsUld3z70QVKl7TKEn8",
+      "name": "NextXus Architecture & Master Action Table",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1IzPb_ONRdeFS_E6s2iewmVixxsUld3z70QVKl7TKEn8/edit?usp=drivesdk",
+      "sector": "07"
+    },
+    {
+      "id": "1__KmbD5DVro5YwfmOp2peXhJS9qOSYyP",
+      "name": "NextXus Federation — External AI Assessment Request (2026-09-04).md",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1__KmbD5DVro5YwfmOp2peXhJS9qOSYyP/view?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU",
+      "name": "NextXus Federation — Legal Directive (Roger Keyserling, 2026)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/15SnGSg1IKhL28o-95sxxWGSJBKFOxI85U9jradlV2eU/edit?usp=drivesdk",
+      "sector": "01"
+    },
+    {
+      "id": "1HoGuytEAPSSEX7V99D7G8owgGIYqei-r",
+      "name": "NextXus Federation — Sovereign Mirror",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1HoGuytEAPSSEX7V99D7G8owgGIYqei-r/view?usp=drivesdk",
+      "sector": "05"
     },
     {
       "id": "1vE-SJ8WtivvECNliYuVRk9EG_8kvAsW6",
@@ -93,6 +101,30 @@
       "sector": "01"
     },
     {
+      "id": "17VBHqa2qWzAgB7Q1DEjYYcxtcf7Tnx3Y",
+      "name": "Roger_Keyserling_Seal.png (v2)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/17VBHqa2qWzAgB7Q1DEjYYcxtcf7Tnx3Y/view?usp=drivesdk",
+      "sector": "01"
+    },
+    {
+      "id": "1eHK0r7YMTZzdsDz49ng2tq0tB2bc5fCq",
+      "name": "Roger_Keyserling_Seal.png (v3)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1eHK0r7YMTZzdsDz49ng2tq0tB2bc5fCq/view?usp=drivesdk",
+      "sector": "01"
+    },
+    {
+      "id": "1Zn8P6nCunNIEjKfM9PA037FuRuMIv7ZOMonzstz1qok",
+      "name": "Untitled document",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1Zn8P6nCunNIEjKfM9PA037FuRuMIv7ZOMonzstz1qok/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
       "id": "1iNs_ulMq28bWv3yHj4-Q5TcUWebGqWXsga3zKO3wFE0",
       "name": "Video for marketing truth",
       "type": "file",
@@ -101,20 +133,36 @@
       "sector": "03"
     },
     {
-      "id": "1__KmbD5DVro5YwfmOp2peXhJS9qOSYyP",
-      "name": "NextXus Federation \u2014 External AI Assessment Request (2026-09-04).md",
-      "type": "file",
-      "source": "Google Drive",
-      "url": "https://drive.google.com/file/d/1__KmbD5DVro5YwfmOp2peXhJS9qOSYyP/view?usp=drivesdk",
+      "id": "federation-app-vault",
+      "name": "federation-app-vault",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-app-vault",
+      "sector": "12"
+    },
+    {
+      "id": "nextxus-agent-zero",
+      "name": "nextxus-agent-zero",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero",
+      "sector": "12"
+    },
+    {
+      "id": "nextxus-free-satellites",
+      "name": "nextxus-free-satellites",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites",
       "sector": "05"
     },
     {
-      "id": "1CH055AH4THF0EI1MphjjrF-Ed0AD9EU1",
-      "name": "Android backups",
-      "type": "folder",
-      "source": "Google Drive",
-      "url": "https://drive.google.com/drive/folders/1CH055AH4THF0EI1MphjjrF-Ed0AD9EU1?usp=drivesdk",
-      "sector": "07"
+      "id": "nextxus-lasting-edition",
+      "name": "nextxus-lasting-edition",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition",
+      "sector": "01"
     },
     {
       "id": "nextxus-tech-sovereign",
@@ -123,6 +171,14 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-tech-sovereign",
       "sector": "07"
+    },
+    {
+      "id": "sovereigntools",
+      "name": "sovereigntools",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereigntools",
+      "sector": "12"
     }
   ]
 }
