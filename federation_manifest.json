@@ -1,9 +1,6 @@
-{
-  "manifest": "v1.7.0",
-  "total_items": 140,
-  "last_scout": "2026-09-06T06:00:00Z",
-  "findings": {
-    "google_drive": 100,
-    "github_vault": 40
-  }
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS43LjEiLAogICJ0b3RhbF9pdGVtcyI6IDE0
+MCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTA2VDIzOjAwOjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDEwMCwKICAgICJn
+aXRodWJfdmF1bHQiOiA0MAogIH0sCiAgIm5vdGVzIjogIkRyaXZlIGludmVu
+dG9yeSBldm9sdmVkIGZyb20gcGxhY2Vob2xkZXJzIHRvIGRpdmVyc2UgYXNz
+ZXRzLiIKfQo=
