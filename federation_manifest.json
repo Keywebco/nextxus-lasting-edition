@@ -1,1 +1,9 @@
-$(cat /new_manifest.b64)
+{
+  "manifest": "v1.7.0",
+  "total_items": 140,
+  "last_scout": "2026-09-06T06:00:00Z",
+  "findings": {
+    "google_drive": 100,
+    "github_vault": 40
+  }
+}
