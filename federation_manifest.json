@@ -1,10 +1,10 @@
 {
-  "manifest": "v1.7.2",
+  "manifest": "v1.7.3",
   "total_items": 140,
-  "last_scout": "2026-09-07T11:00:00Z",
+  "last_scout": "2026-09-07T23:00:00Z",
   "findings": {
     "google_drive": 100,
     "github_vault": 40
   },
-  "notes": "Monday Morning Scout complete. Inventory stable: 64 real assets, 36 placeholders."
+  "notes": "Monday Evening Scout complete. 8 Drive items modified (WhatsApp logs, SESSION manifest, Links). Inventory split: 64 real / 36 placeholders. Total stable at 140."
 }
