@@ -1,10 +1,7 @@
-{
-  "manifest": "v1.7.3",
-  "total_items": 140,
-  "last_scout": "2026-09-07T23:00:00Z",
-  "findings": {
-    "google_drive": 100,
-    "github_vault": 40
-  },
-  "notes": "Monday Evening Scout complete. 8 Drive items modified (WhatsApp logs, SESSION manifest, Links). Inventory split: 64 real / 36 placeholders. Total stable at 140."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS43LjQiLAogICJ0b3RhbF9pdGVtcyI6IDE0
+MCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTA4VDExOjAwOjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDEwMCwKICAgICJn
+aXRodWJfdmF1bHQiOiA0MAogIH0sCiAgIm5vdGVzIjogIlR1ZXNkYXkgTW9y
+bmluZyBTY291dCBjb21wbGV0ZS4gSW52ZW50b3J5IHN0YWJsZSBhdCAxNDAu
+IE5vIG5ldyBmaWxlcyBkZXRlY3RlZCBzaW5jZSBNb25kYXkgZXZlbmluZy4i
+Cn0=
