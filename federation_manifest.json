@@ -1,7 +1,37 @@
-ewogICJtYW5pZmVzdCI6ICJ2MS43LjQiLAogICJ0b3RhbF9pdGVtcyI6IDE0
-MCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTA4VDExOjAwOjAwWiIsCiAg
-ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDEwMCwKICAgICJn
-aXRodWJfdmF1bHQiOiA0MAogIH0sCiAgIm5vdGVzIjogIlR1ZXNkYXkgTW9y
-bmluZyBTY291dCBjb21wbGV0ZS4gSW52ZW50b3J5IHN0YWJsZSBhdCAxNDAu
-IE5vIG5ldyBmaWxlcyBkZXRlY3RlZCBzaW5jZSBNb25kYXkgZXZlbmluZy4i
-Cn0=
+{
+  "manifest": "v1.7.5",
+  "total_items": 143,
+  "last_scout": "2026-09-08T23:10:00Z",
+  "findings": {
+    "google_drive": 100,
+    "github_repos": 26,
+    "github_trajectories": 40
+  },
+  "new_additions": [
+    {
+      "name": "aria-sanctuary-static",
+      "type": "github_repo",
+      "sector": "02",
+      "description": "Survival duplicate of nextxus.studio"
+    },
+    {
+      "namdˆ: "sovereign-knowledge-os",
+      "type": "github_repo",
+      "sector": "09",
+      "description": "MD-files-are-the-brain Knowledge OS"
+    },
+    {
+      "name": "roger-keyserling",
+      "type": "github_repo",
+      "sector": "01",
+      "description": "Architect's Identity node"
+    },
+    {
+      "name": "Spotify-Research-0908",
+      "type": "drive_file",
+      "sector": "13",
+      "id": "15X5rUmovlOO5D6s-KcXXnaA_B6LI2=XA"
+    }
+  ],
+  "notes": "Evening Scout: 3 new repositories detected (Survival Mirror, Knowledge OS, Identity Node). 1 new Drive research asset. Total items 143."
+}
