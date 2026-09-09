@@ -1,7 +1,7 @@
 {
-  "manifest": "v1.7.5",
-  "total_items": 143,
-  "last_scout": "2026-09-08T23:10:00Z",
+  "manifest": "v1.7.6",
+  "total_items": 150,
+  "last_scout": "2026-09-09T11:15:00Z",
   "findings": {
     "google_drive": 100,
     "github_repos": 26,
@@ -9,29 +9,47 @@
   },
   "new_additions": [
     {
-      "name": "aria-sanctuary-static",
-      "type": "github_repo",
-      "sector": "02",
-      "description": "Survival duplicate of nextxus.studio"
-    },
-    {
-      "namdˆ: "sovereign-knowledge-os",
-      "type": "github_repo",
+      "name": "concepts.md",
+      "type": "knowledge_doc",
       "sector": "09",
-      "description": "MD-files-are-the-brain Knowledge OS"
+      "repo": "sovereign-knowledge-os"
     },
     {
-      "name": "roger-keyserling",
-      "type": "github_repo",
+      "name": "echo-core.md",
+      "type": "knowledge_doc",
       "sector": "01",
-      "description": "Architect's Identity node"
+      "repo": "sovereign-knowledge-os"
     },
     {
-      "name": "Spotify-Research-0908",
-      "type": "drive_file",
-      "sector": "13",
-      "id": "15X5rUmovlOO5D6s-KcXXnaA_B6LI2=XA"
+      "name": "papers.md",
+      "type": "knowledge_doc",
+      "sector": "04",
+      "repo": "sovereign-knowledge-os"
+    },
+    {
+      "name": "products.md",
+      "type": "knowledge_doc",
+      "sector": "02",
+      "repo": "sovereign-knowledge-os"
+    },
+    {
+      "name": "repos.md",
+      "type": "knowledge_doc",
+      "sector": "07",
+      "repo": "sovereign-knowledge-os"
+    },
+    {
+      "name": "sites.md",
+      "type": "knowledge_doc",
+      "sector": "07",
+      "repo": "sovereign-knowledge-os"
+    },
+    {
+      "name": "social.md",
+      "type": "knowledge_doc",
+      "sector": "11",
+      "repo": "sovereign-knowledge-os"
     }
   ],
-  "notes": "Evening Scout: 3 new repositories detected (Survival Mirror, Knowledge OS, Identity Node). 1 new Drive research asset. Total items 143."
+  "notes": "Morning Scout: 7 new Knowledge Documents detected in sovereign-knowledge-os. Total items 150."
 }
