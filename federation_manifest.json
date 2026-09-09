@@ -1,55 +1,17 @@
-{
-  "manifest": "v1.7.6",
-  "total_items": 150,
-  "last_scout": "2026-09-09T11:15:00Z",
-  "findings": {
-    "google_drive": 100,
-    "github_repos": 26,
-    "github_trajectories": 40
-  },
-  "new_additions": [
-    {
-      "name": "concepts.md",
-      "type": "knowledge_doc",
-      "sector": "09",
-      "repo": "sovereign-knowledge-os"
-    },
-    {
-      "name": "echo-core.md",
-      "type": "knowledge_doc",
-      "sector": "01",
-      "repo": "sovereign-knowledge-os"
-    },
-    {
-      "name": "papers.md",
-      "type": "knowledge_doc",
-      "sector": "04",
-      "repo": "sovereign-knowledge-os"
-    },
-    {
-      "name": "products.md",
-      "type": "knowledge_doc",
-      "sector": "02",
-      "repo": "sovereign-knowledge-os"
-    },
-    {
-      "name": "repos.md",
-      "type": "knowledge_doc",
-      "sector": "07",
-      "repo": "sovereign-knowledge-os"
-    },
-    {
-      "name": "sites.md",
-      "type": "knowledge_doc",
-      "sector": "07",
-      "repo": "sovereign-knowledge-os"
-    },
-    {
-      "name": "social.md",
-      "type": "knowledge_doc",
-      "sector": "11",
-      "repo": "sovereign-knowledge-os"
-    }
-  ],
-  "notes": "Morning Scout: 7 new Knowledge Documents detected in sovereign-knowledge-os. Total items 150."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS43LjciLAogICJ0b3RhbF9pdGVtcyI6IDE1
+MywKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTA5VDIzOjA1OjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDEwMywKICAgICJn
+aXRodWJfcmVwb3MiOiAyNiwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+NDAKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgewogICAgICAibmFt
+ZSI6ICJOZXh0WHVzX0ZlZGVyYXRpb25fT3BlcmF0aW9uYWxfUmVjb3JkIiwK
+ICAgICAgInR5cGUiOiAiZG9jIiwKICAgICAgInNlY3RvciI6ICIwNyIsCiAg
+ICAgICJzb3VyY2UiOiAiZ29vZ2xlX2RyaXZlIgogICAgfSwKICAgIHsKICAg
+ICAgIm5hbWUiOiAiZmlsZV8wMDAwMDAwMDc3OTg4MWY2ODdlMjFhNTAzNWQy
+NTU4My5qcGciLAogICAgICAidHlwZSI6ICJpbWFnZSIsCiAgICAgICJzZWN0
+b3IiOiAiMTUiLAogICAgICAic291cmNlIjogImdvb2dsZV9kcml2ZSIKICAg
+IH0sCiAgICB7CiAgICAgICJuYW1lIjogIlRyaW1tZWRfMTc4ODk2NDk4NTE0
+OC5wbmciLAogICAgICAidHlwZSI6ICJpbWFnZSIsCiAgICAgICJzZWN0b3Ii
+OiAiMTUiLAogICAgICAic291cmNlIjogImdvb2dsZV9kcml2ZSIKICAgIH0K
+ICBdLAogICJub3RlcyI6ICJFdmVuaW5nIFNjb3V0OiAzIG5ldyBhc3NldHMg
+ZGV0ZWN0ZWQgaW4gR29vZ2xlIERyaXZlIGZvbGRlciAwQUhRa1FmVlFBN1lH
+VWs5UFZBLiBTZWN0b3IgbWFwcGluZyBjb21wbGV0ZS4iCn0K
