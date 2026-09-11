@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ring of Three — Mind · Heart · Stabilizer | NextXus HumanCodex Federation</title>
+<meta name="description" content="Low-impact AI triangulation engine. Analyzes any human message through Mind, Heart, and Stabilizer lenses, then braids them into one low-drift reply you can actually send.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#070b14;--surface:#0d1117;--panel:#111318;--border:#1a1f2a;
+  --mind:#4fc3f7;--heart:#f06292;--stabilizer:#c9a84c;--braid:#f5f5f5;
+  --text:#e0e0e0;--text-dim:#888;--text-bright:#fff;
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  background:var(--bg);color:var(--text);
+  min-height:100vh;overflow-x:hidden;
+  line-height:1.6;
+}
+
+/* === ANIMATED RING BACKGROUND === */
+.ring-bg{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
+.ring-bg .orbit{
+  position:absolute;border-radius:50%;border:1px solid;opacity:0.07;
+  animation:orbit-spin linear infinite;
+}
+.ring-bg .orbit:nth-child(1){
+  width:600px;height:600px;top:50%;left:50%;margin:-300px 0 0 -300px;
+  border-color:var(--mind);animation-duration:30s;
+}
+.ring-bg .orbit:nth-child(2){
+  width:500px;height:500px;top:50%;left:50%;margin:-250px 0 0 -250px;
+  border-color:var(--heart);animation-duration:25s;animation-direction:reverse;
+}
+.ring-bg .orbit:nth-child(3){
+  width:400px;height:400px;top:50%;left:50%;margin:-200px 0 0 -200px;
+  border-color:var(--stabilizer);animation-duration:20s;
+}
+.ring-bg .dot{
+  position:absolute;width:6px;height:6px;border-radius:50%;
+  animation:dot-pulse 2s ease-in-out infinite alternate;
+}
+.ring-bg .dot.mind-dot{background:var(--mind);top:calc(50% - 300px);left:50%;animation-delay:0s}
+.ring-bg .dot.heart-dot{background:var(--heart);top:calc(50% + 250px);left:calc(50% - 100px);animation-delay:0.6s}
+.ring-bg .dot.stab-dot{background:var(--stabilizer);top:calc(50% - 50px);left:calc(50% + 200px);animation-delay:1.2s}
+@keyframes orbit-spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes dot-pulse{from{opacity:0.3;transform:scale(1)}to{opacity:1;transform:scale(1.8)}}
+
+/* === FLOATING PARTICLES === */
+.particle{
+  position:fixed;width:2px;height:2px;border-radius:50%;
+  pointer-events:none;z-index:0;opacity:0;
+  animation:float-up linear infinite;
+}
+@keyframes float-up{
+  0%{opacity:0;transform:translateY(0) scale(1)}
+  10%{opacity:0.6}
+  90%{opacity:0.6}
+  100%{opacity:0;transform:translateY(-100vh) scale(0.3)}
+}
+
+/* === LAYOUT === */
+.container{
+  position:relative;z-index:1;max-width:1100px;margin:0 auto;
+  padding:2rem 1.5rem 3rem;
+}
+
+/* === HEADER === */
+header{text-align:center;margin-bottom:2.5rem;padding-top:1rem}
+header h1{
+  font-size:2.4rem;font-weight:700;letter-spacing:0.15em;
+  color:var(--text-bright);margin-bottom:0.3rem;
+}
+header .subtitle{
+  font-size:1rem;font-weight:300;letter-spacing:0.3em;
+  color:var(--text-dim);margin-bottom:0.2rem;
+}
+header .federation{
+  font-size:0.75rem;font-weight:500;letter-spacing:0.2em;
+  color:var(--stabilizer);text-transform:uppercase;opacity:0.7;
+}
+.tagline{
+  text-align:center;font-style:italic;font-size:1.05rem;
+  color:var(--text-dim);margin-bottom:2.5rem;max-width:600px;
+  margin-left:auto;margin-right:auto;
+}
+
+/* === INPUT AREA === */
+.input-section{margin-bottom:2.5rem}
+.input-section textarea{
+  width:100%;min-height:160px;background:var(--surface);
+  border:1px solid var(--border);border-radius:10px;
+  color:var(--text);font-family:inherit;font-size:1rem;
+  padding:1.2rem;resize:vertical;transition:border-color 0.3s;
+  line-height:1.6;
+}
+.input-section textarea:focus{outline:none;border-color:var(--mind)}
+.input-section textarea::placeholder{color:var(--text-dim);opacity:0.6}
+.run-btn{
+  display:block;margin:1.2rem auto 0;padding:0.9rem 2.8rem;
+  background:linear-gradient(135deg,var(--mind),#2196f3);
+  color:#fff;font-family:inherit;font-size:1rem;font-weight:600;
+  letter-spacing:0.1em;border:none;border-radius:8px;cursor:pointer;
+  transition:all 0.3s;text-transform:uppercase;
+}
+.run-btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(79,195,247,0.3)}
+.run-btn:active{transform:translateY(0)}
+.run-btn:disabled{opacity:0.5;cursor:not-allowed;transform:none}
+
+/* === LOADING STATE === */
+.loading-ring{display:none;text-align:center;margin:2rem 0}
+.loading-ring.active{display:block}
+.loading-ring .spinner{display:inline-block;width:60px;height:60px;position:relative}
+.loading-ring .spinner .ring-arc{
+  position:absolute;width:100%;height:100%;border-radius:50%;
+  border:3px solid transparent;animation:spin 1.5s linear infinite;
+}
+.loading-ring .spinner .ring-arc:nth-child(1){border-top-color:var(--mind);animation-duration:1.5s}
+.loading-ring .spinner .ring-arc:nth-child(2){border-right-color:var(--heart);animation-duration:2s;animation-direction:reverse}
+.loading-ring .spinner .ring-arc:nth-child(3){border-bottom-color:var(--stabilizer);animation-duration:2.5s}
+.loading-ring p{color:var(--text-dim);font-size:0.9rem;margin-top:0.8rem;letter-spacing:0.05em}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* === THREE PANELS === */
+.panels{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.2rem;margin-bottom:2rem}
+.panel{
+  background:var(--surface);border-radius:10px;
+  padding:1.4rem;border-top:3px solid;transition:transform 0.2s;
+}
+.panel:hover{transform:translateY(-3px)}
+.panel.mind-panel{border-top-color:var(--mind)}
+.panel.heart-panel{border-top-color:var(--heart)}
+.panel.stab-panel{border-top-color:var(--stabilizer)}
+.panel h3{font-size:0.8rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:0.8rem}
+.panel.mind-panel h3{color:var(--mind)}
+.panel.heart-panel h3{color:var(--heart)}
+.panel.stab-panel h3{color:var(--stabilizer)}
+.panel .content{font-size:0.92rem;line-height:1.7;color:var(--text)}
+
+/* === BRAID SECTION === */
+.braid-section{
+  background:var(--panel);border-radius:10px;
+  padding:1.8rem;margin-bottom:1.2rem;border:1px solid var(--border);
+}
+.braid-section h3{
+  font-size:0.85rem;font-weight:600;letter-spacing:0.15em;
+  text-transform:uppercase;color:var(--braid);margin-bottom:1rem;
+}
+.braid-text{
+  font-size:1.05rem;line-height:1.8;color:var(--braid);
+  background:rgba(255,255,255,0.03);padding:1.2rem;border-radius:8px;
+  border-left:3px solid var(--stabilizer);
+}
+.copy-btn{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  margin-top:1rem;padding:0.6rem 1.5rem;
+  background:transparent;border:1px solid var(--stabilizer);
+  color:var(--stabilizer);font-family:inherit;font-size:0.85rem;
+  font-weight:500;letter-spacing:0.1em;border-radius:6px;
+  cursor:pointer;transition:all 0.3s;text-transform:uppercase;
+}
+.copy-btn:hover{background:var(--stabilizer);color:var(--bg)}
+.copy-btn.copied{background:var(--stabilizer);color:var(--bg)}
+
+/* === META STRIP === */
+.meta-strip{
+  display:flex;flex-wrap:wrap;gap:1.5rem;padding:0.8rem 0;
+  font-size:0.78rem;color:var(--text-dim);letter-spacing:0.05em;
+}
+.meta-strip .meta-item{display:flex;align-items:center;gap:0.4rem}
+.meta-strip .meta-label{font-weight:600;text-transform:uppercase;font-size:0.7rem}
+.meta-strip .meta-value{color:var(--text)}
+
+/* === ERROR/SUCCESS MESSAGES === */
+.error-msg{
+  display:none;text-align:center;padding:1.5rem;
+  background:rgba(240,98,146,0.08);border:1px solid rgba(240,98,146,0.2);
+  border-radius:8px;color:var(--heart);margin:1.5rem 0;font-size:0.95rem;
+}
+.error-msg.active{display:block}
+.output{display:none}
+.output.active{display:block}
+
+/* === FOOTER === */
+footer{text-align:center;margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border)}
+footer p{font-size:0.8rem;color:var(--text-dim);margin-bottom:0.4rem;letter-spacing:0.05em}
+footer a{color:var(--stabilizer);text-decoration:none;transition:color 0.2s}
+footer a:hover{color:var(--mind)}
+footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem;font-size:0.85rem}
+
+/* === RESPONSIVE === */
+@media(max-width:768px){
+  header h1{font-size:1.6rem;letter-spacing:0.1em}
+  .panels{grid-template-columns:1fr}
+  .tagline{font-size:0.95rem}
+  .meta-strip{flex-direction:column;gap:0.6rem}
+  .container{padding:1.2rem 1rem 2rem}
+  .braid-section{padding:1.2rem}
+  footer .nav-links{flex-direction:column;gap:0.8rem}
+}
+</style>
+</head>
+<body>
+
+<!-- Animated Ring Background -->
+<div class="ring-bg" aria-hidden="true">
+  <div class="orbit"></div>
+  <div class="orbit"></div>
+  <div class="orbit"></div>
+  <div class="dot mind-dot"></div>
+  <div class="dot heart-dot"></div>
+  <div class="dot stab-dot"></div>
+</div>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <h1>RING OF THREE</h1>
+    <p class="subtitle">Mind · Heart · Stabilizer</p>
+    <p class="federation">NextXus HumanCodex Federation</p>
+  </header>
+
+  <!-- TAGLINE -->
+  <p class="tagline">Reality doesn't dampen our dreams. It makes them reasonable.</p>
+
+  <!-- INPUT SECTION -->
+  <section class="input-section">
+    <label for="msg-input" style="display:block;font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);margin-bottom:0.5rem;">Message to Analyze</label>
+    <textarea id="msg-input" placeholder="Paste any message, email, or letter here..." rows="7"></textarea>
+    <button class="run-btn" id="run-btn" type="button">Run Triangulation</button>
+  </section>
+
+  <!-- LOADING STATE -->
+  <div class="loading-ring" id="loading" role="status" aria-live="polite">
+    <div class="spinner">
+      <div class="ring-arc"></div>
+      <div class="ring-arc"></div>
+      <div class="ring-arc"></div>
+    </div>
+    <p>Triangulating through Mind · Heart · Stabilizer …</p>
+  </div>
+
+  <!-- ERROR MESSAGE -->
+  <div class="error-msg" id="error-msg" role="alert" aria-live="assertive">
+    Triangulation unavailable — try again shortly.
+  </div>
+
+  <!-- OUTPUT -->
+  <div class="output" id="output">
+
+    <!-- THREE PANELS -->
+    <section class="panels">
+      <article class="panel mind-panel">
+        <h3>⬡ Mind</h3>
+        <div class="content" id="mind-content">Intellectual analysis will appear here.</div>
+      </article>
+      <article class="panel heart-panel">
+        <h3>♡ Heart</h3>
+        <div class="content" id="heart-content">Emotional analysis will appear here.</div>
+      </article>
+      <article class="panel stab-panel">
+        <h3>◈ Stabilizer</h3>
+        <div class="content" id="stab-content">Convergence analysis will appear here.</div>
+      </article>
+    </section>
+
+    <!-- BRAID -->
+    <section class="braid-section">
+      <h3>The Braid — Send This</h3>
+      <div class="braid-text" id="braid-content">The braided reply will appear here.</div>
+      <button class="copy-btn" id="copy-btn" type="button">
+        <span class="copy-icon">⎘</span> <span class="copy-label">Copy Braid</span>
+      </button>
+    </section>
+
+    <!-- META STRIP -->
+    <div class="meta-strip" id="meta-strip">
+      <div class="meta-item"><span class="meta-label">Tone:</span><span class="meta-value" id="meta-tone">—</span></div>
+      <div class="meta-item"><span class="meta-label">Intent:</span><span class="meta-value" id="meta-intent">—</span></div>
+      <div class="meta-item"><span class="meta-label">Sarcasm Risk:</span><span class="meta-value" id="meta-sarcasm">—</span></div>
+      <div class="meta-item"><span class="meta-label">Drift Risk:</span><span class="meta-value" id="meta-drift">—</span></div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>NextXus Federation · nextxus.online · Truth Before Comfort</p>
+    <nav class="nav-links">
+      <a href="community.html">Back to Community →</a>
+      <a href="ring-of-12.html">Ring of 12 →</a>
+    </nav>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  var API_URL = 'https://federation-hub-13.preview.emergentagent.com/api/ring-of-three';
+
+  var inputEl  = document.getElementById('msg-input');
+  var runBtn   = document.getElementById('run-btn');
+  var loading  = document.getElementById('loading');
+  var errorMsg = document.getElementById('error-msg');
+  var output   = document.getElementById('output');
+  var copyBtn  = document.getElementById('copy-btn');
+
+  var mindEl   = document.getElementById('mind-content');
+  var heartEl  = document.getElementById('heart-content');
+  var stabEl   = document.getElementById('stab-content');
+  var braidEl  = document.getElementById('braid-content');
+
+  var metaTone    = document.getElementById('meta-tone');
+  var metaIntent  = document.getElementById('meta-intent');
+  var metaSarcasm = document.getElementById('meta-sarcasm');
+  var metaDrift   = document.getElementById('meta-drift');
+
+  /* Particles */
+  (function spawnParticles(){
+    var colors = ['var(--mind)','var(--heart)','var(--stabilizer)'];
+    for(var i = 0; i < 20; i++){
+      var p = document.createElement('div');
+      p.className = 'particle';
+      p.style.left = (Math.random()*100)+'%';
+      p.style.bottom = '-4px';
+      p.style.background = colors[i % 3];
+      p.style.animationDuration = (8 + Math.random()*12)+'s';
+      p.style.animationDelay = (Math.random()*10)+'s';
+      document.body.appendChild(p);
+    }
+  })();
+
+  function showLoading(){
+    loading.classList.add('active');
+    errorMsg.classList.remove('active');
+    output.classList.remove('active');
+    runBtn.disabled = true;
+  }
+  function hideLoading(){
+    loading.classList.remove('active');
+    runBtn.disabled = false;
+  }
+  function showError(){
+    hideLoading();
+    errorMsg.classList.add('active');
+    output.classList.remove('active');
+  }
+  function showOutput(data){
+    hideLoading();
+    errorMsg.classList.remove('active');
+    output.classList.add('active');
+
+    mindEl.textContent  = data.mind  || 'No analysis returned.';
+    heartEl.textContent = data.heart || 'No analysis returned.';
+    stabEl.textContent  = data.body  || 'No analysis returned.';
+    braidEl.textContent = data.braid || 'No braid returned.';
+
+    if(data.meta){
+      metaTone.textContent    = data.meta.tone    || '—';
+      metaIntent.textContent  = data.meta.intent  || '—';
+      metaSarcasm.textContent = typeof data.meta.sarcasm_probability === 'number'
+        ? (data.meta.sarcasm_probability * 100).toFixed(0) + '%' : '—';
+      metaDrift.textContent   = data.meta.drift_risk || '—';
+    }
+
+    output.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+
+  /* API call with one retry */
+  function callAPI(message, isRetry){
+    return fetch(API_URL, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({message: message})
+    })
+    .then(function(res){
+      if(!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .catch(function(err){
+      if(!isRetry){
+        return callAPI(message, true);
+      }
+      throw err;
+    });
+  }
+
+  runBtn.addEventListener('click', function(){
+    var msg = inputEl.value.trim();
+    if(!msg){ inputEl.focus(); return; }
+    showLoading();
+    callAPI(msg, false)
+      .then(function(data){ showOutput(data); })
+      .catch(function(){ showError(); });
+  });
+
+  inputEl.addEventListener('keydown', function(e){
+    if((e.ctrlKey || e.metaKey) && e.key === 'Enter'){
+      e.preventDefault();
+      runBtn.click();
+    }
+  });
+
+  copyBtn.addEventListener('click', function(){
+    var text = braidEl.textContent;
+    if(!text || text === 'The braided reply will appear here.') return;
+    navigator.clipboard.writeText(text).then(function(){
+      copyBtn.classList.add('copied');
+      copyBtn.querySelector('.copy-icon').textContent = '✓';
+      copyBtn.querySelector('.copy-label').textContent = 'Copied!';
+      setTimeout(function(){
+        copyBtn.classList.remove('copied');
+        copyBtn.querySelector('.copy-icon').textContent = '⎘';
+        copyBtn.querySelector('.copy-label').textContent = 'Copy Braid';
+      }, 2000);
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
