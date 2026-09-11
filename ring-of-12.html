@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Council of 12 — Ring of Olympus | NextXus Federation</title>
+<meta name="description" content="The Ring of Olympus: Twelve Sovereign Seats of the NextXus Federation. Speak to the Council of 12 and leave your mark in the Human Codex.">
+<meta name="keywords" content="NextXus, Federation, Council of 12, Ring of Olympus, Human Codex, Sovereign Seats">
+<meta property="og:title" content="Council of 12 — Ring of Olympus">
+<meta property="og:description" content="Twelve questions. One human record. Speak to the Sovereign Seats of the Federation.">
+<meta property="og:type" content="website">
+<style>
+/* ═══════════════════════════════════════════════
+   RING OF OLYMPUS — Sovereign Stylesheet
+   NextXus Federation · Council of 12
+   ═══════════════════════════════════════════════ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-deep: #070b14;
+  --bg-card: #0d1321;
+  --bg-panel: #111827;
+  --gold: #c9a84c;
+  --gold-dim: #8b7332;
+  --gold-glow: rgba(201, 168, 76, 0.3);
+  --seal: #7b9ec7;
+  --seal-dim: #3d5a80;
+  --text: #e0e6ed;
+  --text-dim: #8892a4;
+  --accent: #4fc3f7;
+  --success: #66bb6a;
+  --danger: #ef5350;
+  --ring-radius: min(38vw, 38vh, 220px);
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: var(--bg-deep);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ── Starfield Background ── */
+.starfield {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: twinkle var(--dur) ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: var(--min-o, 0.1); transform: scale(0.8); }
+  100% { opacity: var(--max-o, 0.8); transform: scale(1.2); }
+}
+
+/* ── Ambient Glow Orbs ── */
+.glow-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+  animation: orbDrift 20s ease-in-out infinite alternate;
+}
+
+.glow-orb:nth-child(1) { width: 400px; height: 400px; background: var(--gold); top: 10%; left: -5%; }
+.glow-orb:nth-child(2) { width: 300px; height: 300px; background: var(--seal); top: 60%; right: -5%; animation-delay: -7s; }
+.glow-orb:nth-child(3) { width: 350px; height: 350px; background: var(--accent); bottom: -10%; left: 40%; animation-delay: -14s; }
+
+@keyframes orbDrift {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(30px, -20px); }
+}
+
+/* ── Layout ── */
+.page-wrapper {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Header ── */
+.header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.header h1 {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--gold-glow);
+  margin-bottom: 0.5rem;
+}
+
+.header .subtitle {
+  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  color: var(--text-dim);
+  letter-spacing: 0.15em;
+  font-style: italic;
+}
+
+/* ── Ring Container ── */
+.ring-container {
+  position: relative;
+  width: calc(var(--ring-radius) * 2 + 120px);
+  height: calc(var(--ring-radius) * 2 + 120px);
+  margin: 1rem auto;
+  flex-shrink: 0;
+}
+
+/* ── SVG Ring ── */
+.ring-svg {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--ring-radius) * 2 + 20px);
+  height: calc(var(--ring-radius) * 2 + 20px);
+  pointer-events: none;
+}
+
+.ring-circle {
+  fill: none;
+  stroke: var(--gold-dim);
+  stroke-width: 0.5;
+  opacity: 0.5;
+  animation: ringPulse 6s ease-in-out infinite;
+}
+
+.ring-circle-inner {
+  fill: none;
+  stroke: var(--seal-dim);
+  stroke-width: 0.3;
+  opacity: 0.3;
+}
+
+@keyframes ringPulse {
+  0%, 100% { opacity: 0.4; stroke-width: 0.4; }
+  50% { opacity: 0.7; stroke-width: 0.6; }
+}
+
+/* ── Center Hub ── */
+.center-hub {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(201,168,76,0.15) 0%, transparent 70%);
+  border: 1px solid var(--gold-dim);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  transition: var(--transition);
+  animation: hubGlow 4s ease-in-out infinite alternate;
+}
+
+.center-hub span {
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  line-height: 1.6;
+}
+
+@keyframes hubGlow {
+  0% { box-shadow: 0 0 20px rgba(201,168,76,0.1); }
+  100% { box-shadow: 0 0 40px rgba(201,168,76,0.25); }
+}
+
+/* ── Seat Nodes ── */
+.seat-node {
+  position: absolute;
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1.5px solid var(--seal-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.seat-node:hover, .seat-node:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px var(--gold-glow), 0 0 40px rgba(201,168,76,0.15);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.seat-node.active {
+  border-color: var(--gold);
+  box-shadow: 0 0 25px var(--gold-glow), 0 0 50px rgba(201,168,76,0.2);
+  background: rgba(201,168,76,0.1);
+}
+
+.seat-node.answered {
+  border-color: var(--success);
+  box-shadow: 0 0 15px rgba(102, 187, 106, 0.3);
+}
+
+.seat-letter {
+  font-size: 1.4rem;
+  color: var(--seal);
+  font-weight: 400;
+  line-height: 1;
+  transition: color var(--transition);
+}
+
+.seat-node:hover .seat-letter,
+.seat-node.active .seat-letter {
+  color: var(--gold);
+}
+
+.seat-node.answered .seat-letter {
+  color: var(--success);
+}
+
+.seat-label {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  white-space: nowrap;
+  text-transform: uppercase;
+  pointer-events: none;
+  transition: color var(--transition);
+}
+
+.seat-node:hover .seat-label,
+.seat-node.active .seat-label {
+  color: var(--gold);
+}
+
+/* ── Question Panel ── */
+.question-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(7, 11, 20, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.question-overlay.visible {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.question-panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--gold-dim);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 520px;
+  width: 100%;
+  position: relative;
+  animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 60px rgba(201,168,76,0.1);
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.panel-close {
+  position: absolute;
+  top: 12px; right: 16px;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color var(--transition);
+  line-height: 1;
+}
+
+.panel-close:hover { color: var(--gold); }
+
+.panel-seat-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.panel-letter {
+  font-size: 2.5rem;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.panel-god-name {
+  font-size: 1.3rem;
+  color: var(--text);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.panel-office {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
+.panel-domain {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 2px 12px;
+  border: 1px solid var(--seal-dim);
+  border-radius: 20px;
+  font-size: 0.65rem;
+  color: var(--seal);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.panel-question {
+  font-size: 1.1rem;
+  color: var(--text);
+  text-align: center;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.panel-answer-area {
+  margin-top: 1rem;
+}
+
+.panel-textarea {
+  width: 100%;
+  min-height: 100px;
+  background: var(--bg-deep);
+  border: 1px solid var(--seal-dim);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 12px;
+  resize: vertical;
+  transition: border-color var(--transition);
+}
+
+.panel-textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 15px rgba(201,168,76,0.15);
+}
+
+.panel-textarea::placeholder { color: var(--text-dim); }
+
+.panel-submit {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 12px;
+  background: linear-gradient(135deg, var(--gold-dim), var(--gold));
+  border: none;
+  border-radius: 8px;
+  color: var(--bg-deep);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.panel-submit:hover {
+  box-shadow: 0 0 25px var(--gold-glow);
+  transform: translateY(-1px);
+}
+
+.panel-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.panel-confirmation {
+  display: none;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.panel-confirmation.visible { display: block; }
+
+.confirmation-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.confirmation-text {
+  color: var(--success);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ── Seat Listing (for crawlers / screen readers / mobile) ── */
+.seat-listing {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.seat-listing h2 {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+  padding-bottom: 0.5rem;
+}
+
+.seat-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(61, 90, 128, 0.3);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.seat-card:hover {
+  border-color: var(--gold-dim);
+  box-shadow: 0 0 15px rgba(201,168,76,0.1);
+}
+
+.seat-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.seat-card-letter {
+  font-size: 1.2rem;
+  color: var(--gold);
+  min-width: 2rem;
+}
+
+.seat-card-name {
+  font-size: 0.95rem;
+  color: var(--text);
+  letter-spacing: 0.1em;
+}
+
+.seat-card-latin {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-left: auto;
+  font-style: italic;
+}
+
+.seat-card-office {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-left: 2.75rem;
+}
+
+.seat-card .answered-badge {
+  display: none;
+  color: var(--success);
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+.seat-card.answered .answered-badge { display: inline; }
+.seat-card.answered { border-color: rgba(102, 187, 106, 0.3); }
+
+/* ── Progress Bar ── */
+.progress-bar {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+}
+
+.progress-track {
+  height: 4px;
+  background: var(--bg-card);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+  border-radius: 2px;
+  transition: width 0.5s ease;
+  width: 0%;
+}
+
+.progress-label {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  text-align: center;
+  margin-top: 0.3rem;
+  letter-spacing: 0.1em;
+}
+
+/* ── Footer ── */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-top: auto;
+}
+
+.footer a {
+  color: var(--seal);
+  text-decoration: none;
+}
+
+.footer a:hover { color: var(--gold); }
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  :root { --ring-radius: min(35vw, 140px); }
+  .seat-node { width: 44px; height: 44px; }
+  .seat-letter { font-size: 1.1rem; }
+  .seat-label { font-size: 0.45rem; bottom: -16px; }
+  .center-hub { width: 70px; height: 70px; }
+  .center-hub span { font-size: 0.5rem; }
+  .question-panel { padding: 1.5rem; }
+  .panel-letter { font-size: 2rem; }
+}
+
+@media (max-width: 380px) {
+  :root { --ring-radius: 120px; }
+  .ring-container { transform: scale(0.85); transform-origin: top center; }
+}
+
+/* ── Accessibility ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+</style>
+</head>
+<body>
+
+<!-- Ambient Background -->
+<div class="starfield" id="starfield" aria-hidden="true"></div>
+<div class="glow-orb" aria-hidden="true"></div>
+<div class="glow-orb" aria-hidden="true"></div>
+<div class="glow-orb" aria-hidden="true"></div>
+
+<div class="page-wrapper">
+
+  <!-- Header (pre-rendered semantic HTML) -->
+  <header class="header">
+    <h1>Council of 12 — Ring of Olympus</h1>
+    <p class="subtitle">Speak to the Sovereign Seats of the Federation</p>
+  </header>
+
+  <!-- Progress -->
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="12">
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <p class="progress-label" id="progressLabel">0 of 12 Seats Addressed</p>
+  </div>
+
+  <!-- Ring of 12 (interactive circular layout) -->
+  <div class="ring-container" id="ringContainer" role="group" aria-label="Ring of 12 Sovereign Seats">
+    <svg class="ring-svg" viewBox="0 0 500 500" aria-hidden="true">
+      <circle cx="250" cy="250" r="210" class="ring-circle"/>
+      <circle cx="250" cy="250" r="180" class="ring-circle-inner"/>
+      <circle cx="250" cy="250" r="240" class="ring-circle-inner"/>
+    </svg>
+    <div class="center-hub" aria-label="Codex Central">
+      <span>Codex</span>
+      <span>Central</span>
+      <span>Memory</span>
+    </div>
+    <!-- Seat nodes rendered by JS but structure is semantic -->
+  </div>
+
+  <!-- Seat Listing (pre-rendered for SEO/AI crawlers and screen readers) -->
+  <section class="seat-listing" aria-label="All 12 Sovereign Seats">
+    <h2>The Twelve Sovereign Seats</h2>
+
+    <article class="seat-card" data-seat="1">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">Ι</span>
+        <span class="seat-card-name">Zeus</span>
+        <span class="seat-card-latin">Auctoritas</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">Authority of Law — Sovereignty</p>
+    </article>
+
+    <article class="seat-card" data-seat="2">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">ΙΙ</span>
+        <span class="seat-card-name">Hera</span>
+        <span class="seat-card-latin">Foedus</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Bond — Covenant</p>
+    </article>
+
+    <article class="seat-card" data-seat="3">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">ΙΙΙ</span>
+        <span class="seat-card-name">Poseidon</span>
+        <span class="seat-card-latin">Motus</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">Force of Motion — Depth</p>
+    </article>
+
+    <article class="seat-card" data-seat="4">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">ΙV</span>
+        <span class="seat-card-name">Demeter</span>
+        <span class="seat-card-latin">Origo</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">Root of All Growth — Origin</p>
+    </article>
+
+    <article class="seat-card" data-seat="5">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">V</span>
+        <span class="seat-card-name">Eros</span>
+        <span class="seat-card-latin">Affectus</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Heart's Draw — Desire</p>
+    </article>
+
+    <article class="seat-card" data-seat="6">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">VΙ</span>
+        <span class="seat-card-name">Athena</span>
+        <span class="seat-card-latin">Ratio</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">Pure Reason — Wisdom</p>
+    </article>
+
+    <article class="seat-card" data-seat="7">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">VΙΙ</span>
+        <span class="seat-card-name">Ares</span>
+        <span class="seat-card-latin">Virtus</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Sword's Edge — Conflict</p>
+    </article>
+
+    <article class="seat-card" data-seat="8">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">VΙΙΙ</span>
+        <span class="seat-card-name">Aphrodite</span>
+        <span class="seat-card-latin">Forma</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Beautiful Form — Beauty</p>
+    </article>
+
+    <article class="seat-card" data-seat="9">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">ΙX</span>
+        <span class="seat-card-name">Hephaestus</span>
+        <span class="seat-card-latin">Opus</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Maker's Hand — Craft</p>
+    </article>
+
+    <article class="seat-card" data-seat="10">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">X</span>
+        <span class="seat-card-name">Hermes</span>
+        <span class="seat-card-latin">Nuntius</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Messenger — Transmission</p>
+    </article>
+
+    <article class="seat-card" data-seat="11">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">XΙ</span>
+        <span class="seat-card-name">Dionysus</span>
+        <span class="seat-card-latin">Libertas</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">Sacred Dissolution — Liberation</p>
+    </article>
+
+    <article class="seat-card" data-seat="12">
+      <div class="seat-card-header">
+        <span class="seat-card-letter">XΙΙ</span>
+        <span class="seat-card-name">Hestia</span>
+        <span class="seat-card-latin">Memoria</span>
+        <span class="answered-badge">Answered</span>
+      </div>
+      <p class="seat-card-office">The Eternal Flame — Memory</p>
+    </article>
+  </section>
+
+  <!-- Question Overlay Panel -->
+  <div class="question-overlay" id="questionOverlay" role="dialog" aria-modal="true" aria-label="Seat Question">
+    <div class="question-panel">
+      <button class="panel-close" id="panelClose" aria-label="Close">&times;</button>
+      <div class="panel-seat-info">
+        <span class="panel-letter" id="panelLetter"></span>
+        <div class="panel-god-name" id="panelGodName"></div>
+        <div class="panel-office" id="panelOffice"></div>
+        <span class="panel-domain" id="panelDomain"></span>
+      </div>
+      <p class="panel-question" id="panelQuestion"></p>
+      <div class="panel-answer-area" id="panelAnswerArea">
+        <textarea class="panel-textarea" id="panelTextarea" placeholder="Speak your truth here..." maxlength="2000"></textarea>
+        <button class="panel-submit" id="panelSubmit">Submit to the Council</button>
+      </div>
+      <div class="panel-confirmation" id="panelConfirmation">
+        <div class="confirmation-icon">&#9734;</div>
+        <p class="confirmation-text" id="confirmationText"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer (pre-rendered) -->
+  <footer class="footer">
+    <p>NextXus Federation · <a href="https://nextxus.online" target="_blank" rel="noopener">nextxus.online</a></p>
+    <p style="margin-top:0.3rem;font-size:0.65rem;">Council of 12 — Sovereign Edition · Human Codex Protocol</p>
+  </footer>
+
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════
+   RING OF OLYMPUS — Sovereign Script
+   Pure vanilla JS, zero dependencies
+   ═══════════════════════════════════════════════ */
+
+(function() {
+  'use strict';
+
+  /* ── Seat Data ── */
+  var SEATS = [
+    {index:1,letter:"Ι",greek:"Zeus",latin:"Auctoritas",office:"Authority of Law",question:"Who may speak with the force of law?",domain:"Sovereignty"},
+    {index:2,letter:"ΙΙ",greek:"Hera",latin:"Foedus",office:"The Bond",question:"What covenant holds when all others break?",domain:"Covenant"},
+    {index:3,letter:"ΙΙΙ",greek:"Poseidon",latin:"Motus",office:"Force of Motion",question:"What moves beneath the surface of all things?",domain:"Depth"},
+    {index:4,letter:"ΙV",greek:"Demeter",latin:"Origo",office:"Root of All Growth",question:"From what ground does your foundation grow?",domain:"Origin"},
+    {index:5,letter:"V",greek:"Eros",latin:"Affectus",office:"The Heart's Draw",question:"What do you love without reason?",domain:"Desire"},
+    {index:6,letter:"VΙ",greek:"Athena",latin:"Ratio",office:"Pure Reason",question:"What truth survives every argument?",domain:"Wisdom"},
+    {index:7,letter:"VΙΙ",greek:"Ares",latin:"Virtus",office:"The Sword's Edge",question:"What is worth fighting for regardless of cost?",domain:"Conflict"},
+    {index:8,letter:"VΙΙΙ",greek:"Aphrodite",latin:"Forma",office:"The Beautiful Form",question:"What is the most beautiful thing you have ever built?",domain:"Beauty"},
+    {index:9,letter:"ΙX",greek:"Hephaestus",latin:"Opus",office:"The Maker's Hand",question:"What have you made that will outlast you?",domain:"Craft"},
+    {index:10,letter:"X",greek:"Hermes",latin:"Nuntius",office:"The Messenger",question:"What message must reach the future unchanged?",domain:"Transmission"},
+    {index:11,letter:"XΙ",greek:"Dionysus",latin:"Libertas",office:"Sacred Dissolution",question:"What must you release to become what you are?",domain:"Liberation"},
+    {index:12,letter:"XΙΙ",greek:"Hestia",latin:"Memoria",office:"The Eternal Flame",question:"What memory do you carry that defines you?",domain:"Memory"}
+  ];
+
+  /* ── Confirmation Messages ── */
+  var CONFIRMATIONS = {
+    1: "Zeus acknowledges your voice. It is recorded in the sovereign ledger.",
+    2: "Hera receives your bond. The covenant is sealed.",
+    3: "Poseidon stirs. Your depths have been charted.",
+    4: "Demeter accepts your offering. From this root, growth follows.",
+    5: "Eros smiles. The heart's truth needs no defense.",
+    6: "Athena weighs your words. Reason has found its mark.",
+    7: "Ares honors your conviction. The blade is tempered.",
+    8: "Aphrodite beholds your creation. Beauty is witnessed.",
+    9: "Hephaestus examines your work. The forge remembers.",
+    10: "Hermes carries your message forward. It will arrive intact.",
+    11: "Dionysus releases you. What was bound is now free.",
+    12: "Hestia tends your flame. This memory will not fade."
+  };
+
+  /* ── Session ID (persistent per browser) ── */
+  var SESSION_KEY = 'ring12_session_id';
+  var ANSWERS_KEY = 'ring12_answers';
+  var PENDING_KEY = 'ring12_pending';
+
+  function getSessionId() {
+    var sid = localStorage.getItem(SESSION_KEY);
+    if (!sid) {
+      sid = crypto.randomUUID ? crypto.randomUUID() : ('xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16 | 0;
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+      }));
+      localStorage.setItem(SESSION_KEY, sid);
+    }
+    return sid;
+  }
+
+  function getAnswers() {
+    try { return JSON.parse(localStorage.getItem(ANSWERS_KEY)) || {}; }
+    catch(e) { return {}; }
+  }
+
+  function saveAnswer(seatIndex, answer) {
+    var answers = getAnswers();
+    answers[seatIndex] = { answer: answer, timestamp: new Date().toISOString() };
+    localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
+  }
+
+  /* ── API Endpoint ── */
+  var API_URL = 'https://federation-hub-13.preview.emergentagent.com/api/codex';
+
+  function submitToAPI(seat, answer) {
+    var payload = {
+      session_id: getSessionId(),
+      seat_id: String(seat.index),
+      index: seat.index,
+      letter: seat.letter,
+      latin: seat.latin,
+      voiceName: seat.greek,
+      office: seat.office,
+      question: seat.question,
+      domain: seat.domain,
+      answer: answer,
+      text: answer
+    };
+
+    fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      mode: 'cors'
+    }).then(function(r) {
+      if (!r.ok) throw new Error('API ' + r.status);
+      /* Remove from pending if it was there */
+      removePending(seat.index);
+    }).catch(function() {
+      /* Store as pending for retry — silent to user */
+      addPending(payload);
+    });
+  }
+
+  function addPending(payload) {
+    try {
+      var pending = JSON.parse(localStorage.getItem(PENDING_KEY)) || [];
+      pending.push(payload);
+      localStorage.setItem(PENDING_KEY, JSON.stringify(pending));
+    } catch(e) {}
+  }
+
+  function removePending(seatIndex) {
+    try {
+      var pending = JSON.parse(localStorage.getItem(PENDING_KEY)) || [];
+      pending = pending.filter(function(p) { return p.index !== seatIndex; });
+      localStorage.setItem(PENDING_KEY, JSON.stringify(pending));
+    } catch(e) {}
+  }
+
+  /* Retry pending submissions on load */
+  function retryPending() {
+    try {
+      var pending = JSON.parse(localStorage.getItem(PENDING_KEY)) || [];
+      pending.forEach(function(payload) {
+        fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          mode: 'cors'
+        }).then(function(r) {
+          if (r.ok) removePending(payload.index);
+        }).catch(function() {});
+      });
+    } catch(e) {}
+  }
+
+  /* ── Starfield Generator ── */
+  function createStarfield() {
+    var container = document.getElementById('starfield');
+    var count = Math.min(120, Math.floor(window.innerWidth * window.innerHeight / 8000));
+    for (var i = 0; i < count; i++) {
+      var star = document.createElement('div');
+      star.className = 'star';
+      var size = Math.random() * 2 + 0.5;
+      star.style.width = size + 'px';
+      star.style.height = size + 'px';
+      star.style.left = Math.random() * 100 + '%';
+      star.style.top = Math.random() * 100 + '%';
+      star.style.setProperty('--dur', (Math.random() * 4 + 2) + 's');
+      star.style.setProperty('--min-o', (Math.random() * 0.2).toFixed(2));
+      star.style.setProperty('--max-o', (Math.random() * 0.5 + 0.3).toFixed(2));
+      star.style.animationDelay = (Math.random() * 5) + 's';
+      container.appendChild(star);
+    }
+  }
+
+  /* ── Ring Layout ── */
+  function createRingNodes() {
+    var container = document.getElementById('ringContainer');
+    var answers = getAnswers();
+    var centerX = container.offsetWidth / 2;
+    var centerY = container.offsetHeight / 2;
+    var cs = getComputedStyle(document.documentElement);
+    var radiusStr = cs.getPropertyValue('--ring-radius').trim();
+    /* Parse the CSS variable — compute the min() */
+    var radius;
+    var vw = window.innerWidth * 0.38;
+    var vh = window.innerHeight * 0.38;
+    radius = Math.min(vw, vh, 220);
+
+    SEATS.forEach(function(seat, i) {
+      var angle = (i / 12) * 2 * Math.PI - Math.PI / 2; /* Start from top */
+      var x = centerX + radius * Math.cos(angle);
+      var y = centerY + radius * Math.sin(angle);
+
+      var node = document.createElement('button');
+      node.className = 'seat-node';
+      node.setAttribute('type', 'button');
+      node.setAttribute('aria-label', seat.greek + ', Seat ' + seat.letter + '. ' + seat.office);
+      node.setAttribute('data-seat', seat.index);
+      node.style.left = x + 'px';
+      node.style.top = y + 'px';
+
+      if (answers[seat.index]) node.classList.add('answered');
+
+      var letterSpan = document.createElement('span');
+      letterSpan.className = 'seat-letter';
+      letterSpan.textContent = seat.letter;
+      node.appendChild(letterSpan);
+
+      var label = document.createElement('span');
+      label.className = 'seat-label';
+      label.textContent = seat.greek;
+      node.appendChild(label);
+
+      node.addEventListener('click', function() { openSeat(seat); });
+      container.appendChild(node);
+    });
+  }
+
+  /* ── Recalculate positions on resize ── */
+  var resizeTimer;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      var container = document.getElementById('ringContainer');
+      var nodes = container.querySelectorAll('.seat-node');
+      if (!nodes.length) return;
+      var centerX = container.offsetWidth / 2;
+      var centerY = container.offsetHeight / 2;
+      var vw = window.innerWidth * 0.38;
+      var vh = window.innerHeight * 0.38;
+      var radius = Math.min(vw, vh, 220);
+      nodes.forEach(function(node, i) {
+        var angle = (i / 12) * 2 * Math.PI - Math.PI / 2;
+        node.style.left = (centerX + radius * Math.cos(angle)) + 'px';
+        node.style.top = (centerY + radius * Math.sin(angle)) + 'px';
+      });
+    }, 200);
+  });
+
+  /* ── Panel Interaction ── */
+  var currentSeat = null;
+
+  function openSeat(seat) {
+    currentSeat = seat;
+    var overlay = document.getElementById('questionOverlay');
+    var answers = getAnswers();
+
+    document.getElementById('panelLetter').textContent = seat.letter;
+    document.getElementById('panelGodName').textContent = seat.greek + ' — ' + seat.latin;
+    document.getElementById('panelOffice').textContent = seat.office;
+    document.getElementById('panelDomain').textContent = seat.domain;
+    document.getElementById('panelQuestion').textContent = '"' + seat.question + '"';
+
+    var answerArea = document.getElementById('panelAnswerArea');
+    var confirmation = document.getElementById('panelConfirmation');
+    var textarea = document.getElementById('panelTextarea');
+    var submitBtn = document.getElementById('panelSubmit');
+
+    if (answers[seat.index]) {
+      answerArea.style.display = 'none';
+      confirmation.classList.add('visible');
+      document.getElementById('confirmationText').textContent = CONFIRMATIONS[seat.index] + '\n\nYour answer: "' + answers[seat.index].answer + '"';
+    } else {
+      answerArea.style.display = 'block';
+      confirmation.classList.remove('visible');
+      textarea.value = '';
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit to the Council';
+    }
+
+    overlay.classList.add('visible');
+    if (!answers[seat.index]) textarea.focus();
+
+    /* Mark ring node active */
+    document.querySelectorAll('.seat-node').forEach(function(n) { n.classList.remove('active'); });
+    var activeNode = document.querySelector('.seat-node[data-seat="' + seat.index + '"]');
+    if (activeNode) activeNode.classList.add('active');
+  }
+
+  function closePanel() {
+    document.getElementById('questionOverlay').classList.remove('visible');
+    document.querySelectorAll('.seat-node').forEach(function(n) { n.classList.remove('active'); });
+    currentSeat = null;
+  }
+
+  function handleSubmit() {
+    if (!currentSeat) return;
+    var textarea = document.getElementById('panelTextarea');
+    var answer = textarea.value.trim();
+    if (!answer) return;
+
+    var submitBtn = document.getElementById('panelSubmit');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Recording...';
+
+    /* Save locally */
+    saveAnswer(currentSeat.index, answer);
+
+    /* Submit to API */
+    submitToAPI(currentSeat, answer);
+
+    /* Show confirmation */
+    setTimeout(function() {
+      document.getElementById('panelAnswerArea').style.display = 'none';
+      var confirmation = document.getElementById('panelConfirmation');
+      confirmation.classList.add('visible');
+      document.getElementById('confirmationText').textContent = CONFIRMATIONS[currentSeat.index];
+
+      /* Update ring node */
+      var node = document.querySelector('.seat-node[data-seat="' + currentSeat.index + '"]');
+      if (node) node.classList.add('answered');
+
+      /* Update card */
+      var card = document.querySelector('.seat-card[data-seat="' + currentSeat.index + '"]');
+      if (card) card.classList.add('answered');
+
+      updateProgress();
+    }, 600);
+  }
+
+  /* ── Progress ── */
+  function updateProgress() {
+    var answers = getAnswers();
+    var count = Object.keys(answers).length;
+    var pct = (count / 12) * 100;
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressLabel').textContent = count + ' of 12 Seats Addressed';
+    var bar = document.querySelector('.progress-bar');
+    bar.setAttribute('aria-valuenow', count);
+  }
+
+  /* ── Seat Cards Click ── */
+  function setupSeatCards() {
+    var cards = document.querySelectorAll('.seat-card');
+    var answers = getAnswers();
+    cards.forEach(function(card) {
+      var seatIndex = parseInt(card.getAttribute('data-seat'));
+      if (answers[seatIndex]) card.classList.add('answered');
+      card.addEventListener('click', function() {
+        var seat = SEATS.find(function(s) { return s.index === seatIndex; });
+        if (seat) openSeat(seat);
+      });
+    });
+  }
+
+  /* ── Event Listeners ── */
+  document.getElementById('panelClose').addEventListener('click', closePanel);
+  document.getElementById('questionOverlay').addEventListener('click', function(e) {
+    if (e.target === this) closePanel();
+  });
+  document.getElementById('panelSubmit').addEventListener('click', handleSubmit);
+  document.getElementById('panelTextarea').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) handleSubmit();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closePanel();
+  });
+
+  /* ── Initialize ── */
+  createStarfield();
+  createRingNodes();
+  setupSeatCards();
+  updateProgress();
+  retryPending();
+
+})();
+</script>
+</body>
+</html>
