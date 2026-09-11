@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NextXus Federation Community of Minds — a council of scientists, builders, and thinkers who value truth over agreement. Join on Telegram.">
+  <title>Community of Minds · NextXus Federation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #070b14;
+      --bg2:      #0d1526;
+      --bg3:      #111d33;
+      --gold:     #c9a84c;
+      --gold-dim: #8a6e2f;
+      --blue:     #4fc3f7;
+      --blue-dim: #1e7ca8;
+      --white:    #e8eaf0;
+      --muted:    #6b7a99;
+      --font:     'Inter', Georgia, serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: var(--font);
+      font-size: 18px;
+      line-height: 1.65;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ============================================================
+       STARFIELD CANVAS (animated background)
+    ============================================================ */
+    #star-canvas {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* ============================================================
+       LAYOUT WRAPPER
+    ============================================================ */
+    .page-wrap {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ============================================================
+       SITE HEADER / NAV BAR
+    ============================================================ */
+    .site-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background: rgba(7, 11, 20, 0.85);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.18);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .site-nav .brand {
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--gold);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .site-nav .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .site-nav .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      transition: color 0.2s;
+    }
+
+    .site-nav .nav-links a:hover,
+    .site-nav .nav-links a.active {
+      color: var(--blue);
+    }
+
+    /* ============================================================
+       HERO / PAGE HEADER
+    ============================================================ */
+    .page-header {
+      text-align: center;
+      padding: 5rem 2rem 4rem;
+      position: relative;
+    }
+
+    .page-header .eyebrow {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 1.2rem;
+    }
+
+    .page-header h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    .page-header h1 span {
+      color: var(--white);
+    }
+
+    .page-header .tagline {
+      font-size: clamp(0.85rem, 2vw, 1rem);
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      font-weight: 400;
+    }
+
+    .tagline-dividers {
+      color: var(--gold-dim);
+      margin: 0 0.6em;
+    }
+
+    .header-rule {
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 2rem auto 0;
+    }
+
+    /* ============================================================
+       SECTIONS — general
+    ============================================================ */
+    section {
+      padding: 4rem 2rem;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    section + section {
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 0.8rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 2.5rem;
+      line-height: 1.2;
+    }
+
+    .section-title em {
+      font-style: normal;
+      color: var(--gold);
+    }
+
+    /* ============================================================
+       SECTION 1 — THE PROTOCOL
+    ============================================================ */
+    #protocol .laws-list {
+      list-style: none;
+      counter-reset: law-counter;
+    }
+
+    #protocol .laws-list li {
+      counter-increment: law-counter;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.4rem;
+      padding: 1.6rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    #protocol .laws-list li:last-child {
+      border-bottom: none;
+    }
+
+    #protocol .law-number {
+      flex-shrink: 0;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--gold);
+      background: rgba(201, 168, 76, 0.08);
+    }
+
+    #protocol .law-text {
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      font-weight: 500;
+      color: var(--white);
+      padding-top: 0.5rem;
+      line-height: 1.5;
+    }
+
+    /* ============================================================
+       SECTION 2 — WHAT THIS COMMUNITY IS
+    ============================================================ */
+    #about .about-text {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: var(--white);
+      line-height: 1.85;
+      background: rgba(13, 21, 38, 0.6);
+      border-left: 3px solid var(--gold);
+      padding: 2rem 2rem;
+      border-radius: 0 8px 8px 0;
+    }
+
+    /* ============================================================
+       SECTION 3 — JOIN THE CONVERSATION
+    ============================================================ */
+    #join {
+      text-align: center;
+    }
+
+    #join .join-inner {
+      background: linear-gradient(135deg, rgba(13,21,38,0.9), rgba(17,29,51,0.9));
+      border: 1px solid rgba(201, 168, 76, 0.25);
+      border-radius: 16px;
+      padding: 3.5rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #join .join-inner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+
+    .telegram-btn {
+      display: inline-block;
+      padding: 1.1rem 3rem;
+      background: linear-gradient(135deg, #c9a84c, #e8c56a);
+      color: #070b14;
+      font-family: var(--font);
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 50px;
+      margin: 2rem 0 1.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 0 30px rgba(201,168,76,0.35);
+    }
+
+    .telegram-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 45px rgba(201,168,76,0.55);
+    }
+
+    .join-sub {
+      color: var(--muted);
+      font-size: 0.9rem;
+      letter-spacing: 0.04em;
+    }
+
+    /* ============================================================
+       SECTION 4 — TOOLS
+    ============================================================ */
+    #tools .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tool-card {
+      background: rgba(13, 21, 38, 0.75);
+      border: 1px solid rgba(79, 195, 247, 0.15);
+      border-radius: 12px;
+      padding: 2rem 1.5rem;
+      text-decoration: none;
+      display: block;
+      transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .tool-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--blue-dim), var(--blue));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s;
+    }
+
+    .tool-card:hover {
+      border-color: rgba(79, 195, 247, 0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 32px rgba(79,195,247,0.1);
+    }
+
+    .tool-card:hover::after {
+      transform: scaleX(1);
+    }
+
+    .tool-card .card-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .tool-card .card-name {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--blue);
+      margin-bottom: 0.5rem;
+    }
+
+    .tool-card .card-desc {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .tool-card .card-arrow {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--gold);
+      letter-spacing: 0.05em;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      border-top: 1px solid rgba(201, 168, 76, 0.12);
+      color: var(--muted);
+      font-size: 0.85rem;
+      letter-spacing: 0.06em;
+      background: rgba(7, 11, 20, 0.6);
+    }
+
+    footer a {
+      color: var(--gold-dim);
+      text-decoration: none;
+    }
+
+    footer a:hover { color: var(--gold); }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 640px) {
+      .site-nav .nav-links {
+        display: none;
+      }
+
+      section { padding: 3rem 1.2rem; }
+
+      .page-header { padding: 3.5rem 1.2rem 3rem; }
+
+      #protocol .law-text { font-size: 1rem; }
+
+      .telegram-btn { padding: 1rem 2rem; font-size: 0.95rem; }
+
+      #join .join-inner { padding: 2.5rem 1.2rem; }
+    }
+
+    /* ============================================================
+       ACCESSIBILITY — motion reduction
+    ============================================================ */
+    @media (prefers-reduced-motion: reduce) {
+      #star-canvas { display: none; }
+      .telegram-btn, .tool-card { transition: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- STARFIELD ANIMATION CANVAS -->
+<canvas id="star-canvas" aria-hidden="true"></canvas>
+
+<div class="page-wrap">
+
+  <!-- SITE NAV BAR -->
+  <nav class="site-nav" role="navigation" aria-label="Site navigation">
+    <a class="brand" href="index.html">NextXus Federation</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Hub</a></li>
+      <li><a href="ring-of-12.html">Ring of 12</a></li>
+      <li><a href="ring-of-three.html">Ring of Three</a></li>
+      <li><a href="community.html" class="active">Community</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header" role="banner">
+    <span class="eyebrow">NextXus Federation</span>
+    <h1>Community <span>of Minds</span></h1>
+    <p class="tagline">
+      Truth Before Comfort
+      <span class="tagline-dividers">·</span>
+      Legacy Before Ego
+      <span class="tagline-dividers">·</span>
+      Give Without Reward
+    </p>
+    <div class="header-rule" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <!-- SECTION 1 — THE TRUTH-ONLY PROTOCOL -->
+    <section id="protocol" aria-labelledby="protocol-heading">
+      <p class="section-label">Operating Standard</p>
+      <h2 id="protocol-heading" class="section-title">The <em>Truth-Only Protocol</em></h2>
+      <ol class="laws-list" aria-label="Four Laws of the Truth-Only Protocol">
+        <li>
+          <span class="law-number" aria-hidden="true">1</span>
+          <span class="law-text">State what is true, not what is comfortable. No sycophancy.</span>
+        </li>
+        <li>
+          <span class="law-number" aria-hidden="true">2</span>
+          <span class="law-text">Evidence, or clearly labeled inference. No fiction dressed as fact.</span>
+        </li>
+        <li>
+          <span class="law-number" aria-hidden="true">3</span>
+          <span class="law-text">Dissent is welcome. Hostility is not.</span>
+        </li>
+        <li>
+          <span class="law-number" aria-hidden="true">4</span>
+          <span class="law-text">Reality does not dampen dreams. It makes them reasonable.</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SECTION 2 — WHAT THIS COMMUNITY IS -->
+    <section id="about" aria-labelledby="about-heading">
+      <p class="section-label">Who We Are</p>
+      <h2 id="about-heading" class="section-title">What This <em>Community Is</em></h2>
+      <p class="about-text">
+        This is not a social network. It is a council of minds — scientists, builders, thinkers — who value truth over agreement. The NextXus Federation has spent years constructing tools for honest human-AI collaboration. If you carry the same standard, you belong here.
+      </p>
+    </section>
+
+    <!-- SECTION 3 — JOIN THE CONVERSATION -->
+    <section id="join" aria-labelledby="join-heading">
+      <div class="join-inner">
+        <p class="section-label">Open Invitation</p>
+        <h2 id="join-heading" class="section-title">Enter the <em>Council</em></h2>
+        <a class="telegram-btn" href="TELEGRAM_LINK_PLACEHOLDER" rel="noopener noreferrer" aria-label="Join the NextXus Federation community on Telegram">
+          Join on Telegram
+        </a>
+        <p class="join-sub">Public group. Free. No algorithm. No corporate filter.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 4 — TOOLS OF THE FEDERATION -->
+    <section id="tools" aria-labelledby="tools-heading">
+      <p class="section-label">Federation Instruments</p>
+      <h2 id="tools-heading" class="section-title">Tools of the <em>Federation</em></h2>
+      <div class="cards-grid">
+
+        <a class="tool-card" href="ring-of-12.html" aria-label="Ring of 12 — Deep sovereign inquiry across 12 dimensions">
+          <div class="card-icon" aria-hidden="true">⬡</div>
+          <div class="card-name">Ring of 12</div>
+          <p class="card-desc">Deep sovereign inquiry across 12 dimensions</p>
+          <span class="card-arrow">Enter →</span>
+        </a>
+
+        <a class="tool-card" href="ring-of-three.html" aria-label="Ring of Three — Fast triangulation for daily decisions">
+          <div class="card-icon" aria-hidden="true">△</div>
+          <div class="card-name">Ring of Three</div>
+          <p class="card-desc">Fast triangulation for daily decisions</p>
+          <span class="card-arrow">Enter →</span>
+        </a>
+
+        <a class="tool-card" href="https://federation-hub-13.preview.emergentagent.com/" target="_blank" rel="noopener noreferrer" aria-label="Federation Hub — The live coordination center (opens in new tab)">
+          <div class="card-icon" aria-hidden="true">◈</div>
+          <div class="card-name">Federation Hub</div>
+          <p class="card-desc">The live coordination center</p>
+          <span class="card-arrow">Enter →</span>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <p>NextXus Federation · <a href="https://nextxus.online">nextxus.online</a> · Truth Before Comfort</p>
+  </footer>
+
+</div><!-- /.page-wrap -->
+
+<script>
+/* ============================================================
+   STARFIELD — subtle animated background
+   Pure canvas, no dependencies.
+   Stars drift slowly; a few pulse with blue/gold glow.
+============================================================ */
+(function () {
+  var canvas = document.getElementById('star-canvas');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var W = 0, H = 0;
+  var stars = [];
+  var STAR_COUNT = 160;
+  var RAF;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  function rand(min, max) {
+    return min + Math.random() * (max - min);
+  }
+
+  function initStars() {
+    stars = [];
+    for (var i = 0; i < STAR_COUNT; i++) {
+      stars.push({
+        x:     rand(0, W),
+        y:     rand(0, H),
+        r:     rand(0.3, 1.6),
+        speed: rand(0.04, 0.18),
+        alpha: rand(0.15, 0.75),
+        pulse: Math.random() < 0.12,
+        phase: rand(0, Math.PI * 2),
+        freq:  rand(0.005, 0.02),
+        color: Math.random() < 0.15 ? '#4fc3f7' : (Math.random() < 0.1 ? '#c9a84c' : '#ffffff')
+      });
+    }
+  }
+
+  function draw(ts) {
+    ctx.clearRect(0, 0, W, H);
+    var t = ts * 0.001;
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i];
+      var a = s.alpha;
+      if (s.pulse) {
+        a = s.alpha * (0.5 + 0.5 * Math.sin(s.phase + t * (s.freq * 200)));
+      }
+      ctx.save();
+      ctx.globalAlpha = Math.max(0.05, Math.min(1, a));
+      ctx.fillStyle = s.color;
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+
+      // slow upward drift
+      s.y -= s.speed;
+      if (s.y < -2) {
+        s.y = H + 2;
+        s.x = rand(0, W);
+      }
+    }
+    RAF = requestAnimationFrame(draw);
+  }
+
+  resize();
+  initStars();
+  RAF = requestAnimationFrame(draw);
+  window.addEventListener('resize', function () {
+    resize();
+    initStars();
+  });
+})();
+</script>
+
+</body>
+</html>
