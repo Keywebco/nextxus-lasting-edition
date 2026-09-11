@@ -3,22 +3,400 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NextXus Lasting Edition</title>
-<link rel="stylesheet" href="styles.css">
+<title>NextXus Federation — The Galaxy of Tools</title>
+<meta name="description" content="NextXus Federation Galaxy — Truth Tools, Inner Council, and Community. One planet at a time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:#070b14;
+  color:#e0e0e0;
+  font-family:'Inter',sans-serif;
+  min-height:100vh;
+  overflow-x:hidden;
+  position:relative;
+}
+/* --- Starfield Canvas --- */
+#starfield{
+  position:fixed;top:0;left:0;width:100%;height:100%;
+  z-index:0;pointer-events:none;
+}
+/* --- Layout --- */
+.page-wrap{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;}
+/* --- Header --- */
+.galaxy-header{
+  text-align:center;
+  padding:3rem 1.5rem 1.5rem;
+}
+.galaxy-header h1{
+  font-size:clamp(1.4rem,4vw,2.2rem);
+  font-weight:700;
+  letter-spacing:.25em;
+  text-transform:uppercase;
+  color:#fff;
+  margin-bottom:.4rem;
+  text-shadow:0 0 30px rgba(79,195,247,.3);
+}
+.galaxy-header p.subtitle{
+  font-size:clamp(1rem,2.5vw,1.35rem);
+  font-weight:300;
+  color:rgba(255,255,255,.7);
+  margin-bottom:.25rem;
+}
+.galaxy-header p.tagline{
+  font-size:clamp(.8rem,2vw,1rem);
+  font-weight:400;
+  color:rgba(255,255,255,.45);
+  font-style:italic;
+}
+/* --- Galaxy Grid --- */
+.galaxy{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  gap:2rem;
+  padding:2rem 1.5rem 4rem;
+  flex-wrap:wrap;
+}
+/* --- Solar System --- */
+.solar-system{
+  position:relative;
+  width:clamp(280px,30vw,380px);
+  min-height:380px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+/* Central Node */
+.central-node{
+  position:relative;
+  width:130px;height:130px;
+  border-radius:50%;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  cursor:default;
+  z-index:3;
+  text-align:center;
+  transition:transform .4s ease, box-shadow .4s ease;
+}
+.central-node:hover{transform:scale(1.08);}
+.central-node h2{
+  font-size:.85rem;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  line-height:1.2;
+  color:#fff;
+}
+.central-node p{
+  font-size:.6rem;
+  font-weight:300;
+  color:rgba(255,255,255,.7);
+  margin-top:.2rem;
+  line-height:1.3;
+  max-width:110px;
+}
+/* System-specific colors */
+.sys-truth .central-node{
+  background:radial-gradient(circle at 40% 35%,rgba(79,195,247,.35),rgba(79,195,247,.08));
+  border:1.5px solid rgba(79,195,247,.5);
+  box-shadow:0 0 40px rgba(79,195,247,.2),0 0 80px rgba(79,195,247,.08);
+}
+.sys-council .central-node{
+  background:radial-gradient(circle at 40% 35%,rgba(201,168,76,.35),rgba(201,168,76,.08));
+  border:1.5px solid rgba(201,168,76,.5);
+  box-shadow:0 0 40px rgba(201,168,76,.2),0 0 80px rgba(201,168,76,.08);
+}
+.sys-community .central-node{
+  background:radial-gradient(circle at 40% 35%,rgba(240,98,146,.35),rgba(240,98,146,.08));
+  border:1.5px solid rgba(240,98,146,.5);
+  box-shadow:0 0 40px rgba(240,98,146,.2),0 0 80px rgba(240,98,146,.08);
+}
+/* --- Orbital Ring --- */
+.orbit-ring{
+  position:absolute;
+  top:0;left:50%;
+  transform:translateX(-50%);
+  width:100%;height:100%;
+  pointer-events:none;
+}
+/* --- Planet --- */
+.planet{
+  position:absolute;
+  pointer-events:all;
+  z-index:2;
+}
+.planet a{
+  display:flex;flex-direction:column;align-items:center;
+  text-decoration:none;
+  transition:transform .3s ease;
+}
+.planet a:hover{transform:scale(1.12);}
+.planet-dot{
+  width:14px;height:14px;
+  border-radius:50%;
+  margin-bottom:.35rem;
+  transition:box-shadow .3s ease;
+}
+.planet a:hover .planet-dot{
+  box-shadow:0 0 16px 4px var(--sys-color);
+}
+.planet-name{
+  font-size:.75rem;
+  font-weight:600;
+  color:#fff;
+  white-space:nowrap;
+  text-shadow:0 1px 6px rgba(0,0,0,.8);
+}
+.planet-desc{
+  font-size:.58rem;
+  font-weight:300;
+  color:rgba(255,255,255,.5);
+  white-space:nowrap;
+  text-shadow:0 1px 4px rgba(0,0,0,.8);
+  margin-top:.1rem;
+}
+/* System color vars */
+.sys-truth{--sys-color:#4fc3f7;}
+.sys-council{--sys-color:#c9a84c;}
+.sys-community{--sys-color:#f06292;}
+.sys-truth .planet-dot{background:radial-gradient(circle at 35% 30%,#81d4fa,#4fc3f7);border:1px solid rgba(79,195,247,.6);}
+.sys-council .planet-dot{background:radial-gradient(circle at 35% 30%,#dcc176,#c9a84c);border:1px solid rgba(201,168,76,.6);}
+.sys-community .planet-dot{background:radial-gradient(circle at 35% 30%,#f48fb1,#f06292);border:1px solid rgba(240,98,146,.6);}
+
+/* --- Orbital trace lines (decorative SVG) --- */
+.orbit-trace{
+  position:absolute;
+  top:0;left:0;width:100%;height:100%;
+  pointer-events:none;
+  z-index:1;
+}
+.orbit-trace ellipse{
+  fill:none;
+  stroke:var(--sys-color);
+  stroke-width:.5;
+  opacity:.15;
+}
+/* --- Footer --- */
+.galaxy-footer{
+  text-align:center;
+  padding:2rem 1.5rem 2.5rem;
+  border-top:1px solid rgba(255,255,255,.06);
+}
+.galaxy-footer p{
+  font-size:.8rem;
+  color:rgba(255,255,255,.4);
+  line-height:1.8;
+}
+.galaxy-footer a{
+  color:#4fc3f7;
+  text-decoration:none;
+  font-weight:500;
+  transition:color .2s;
+}
+.galaxy-footer a:hover{color:#81d4fa;}
+.galaxy-footer .arrow{font-size:.7rem;margin-left:.2rem;}
+
+/* --- Mobile --- */
+@media(max-width:860px){
+  .galaxy{
+    flex-direction:column;
+    align-items:center;
+    gap:3rem;
+  }
+  .solar-system{
+    width:clamp(280px,85vw,380px);
+  }
+}
+
+/* --- Pulse Animation --- */
+@keyframes pulse-glow{
+  0%,100%{opacity:1;}
+  50%{opacity:.6;}
+}
+.central-node{animation:pulse-glow 4s ease-in-out infinite;}
+
+/* --- Planet Orbit Float --- */
+@keyframes orbit-float{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-6px);}
+}
+.planet{animation:orbit-float 5s ease-in-out infinite;}
+.planet:nth-child(2){animation-delay:-.8s;}
+.planet:nth-child(3){animation-delay:-1.6s;}
+.planet:nth-child(4){animation-delay:-2.4s;}
+.planet:nth-child(5){animation-delay:-3.2s;}
+</style>
 </head>
-<Body>
-<header><h1>NextXus Lasting Edition</h1><button id="tts-btn">&#128266; Read Page</button><button id="stt-btn">&#127897; Listen</button><button id="font-toggle">Large Text</button></header>
-<nav><a href="#directives">Directives</a><a href="#calibration">Agent Zero Gate</a><a href="#knowledge">Knowledge</a><a href="#echocore">EchoCore</a><a href="ring-of-12.html">Ring of 12</a><a href="community.html">Community</a></nav>
-<main>
-<section id="directives"><h2>Directive Archive</h2><input type="search" id="dir-search" placeholder="Search directives..." aria-label="Search Directives"><div id="dir-list"></div></section>
-<section id="calibration"><h2>Agent Zero Calibration Gate</h2><div id="sliders"></div><div id="calibration-result"></div></section>
-<section id="knowledge"><h2>Knowledge Base</h2><input type="search" id="kb-search" placeholder="Search knowledge..." aria-label="Search Knowledge Base"><div id="kb-list"></div></section>
-<section id="echocore"><h2>EchoCore 3.0 Memory</h2><button id="export-json">Export JSON</button><button id="export-yaml">Export YAML</button><div id="session-log"></div></section>
-</main>
-<footer><p>NextXus Federation &copy; 2026 Roger Keyserling. 200-Year Horizon. DIR-053 Compliant.</p></footer>
-<script src="app.js"></script>
-<!-- Federation Integration Pack v1 -->
-<link rel="stylesheet" href="static/federation-integrations.css">
-<script src="static/federation-integrations.js"></script>
+<body>
+<canvas id="starfield" aria-hidden="true"></canvas>
+
+<div class="page-wrap">
+  <!-- ===== HEADER ===== -->
+  <header class="galaxy-header">
+    <h1>NextXus Federation</h1>
+    <p class="subtitle">The Galaxy of Tools</p>
+    <p class="tagline">One planet at a time.</p>
+  </header>
+
+  <!-- ===== GALAXY ===== -->
+  <main class="galaxy" role="navigation" aria-label="Galaxy of Tools">
+
+    <!-- ── TRUTH TOOLS ── -->
+    <section class="solar-system sys-truth" aria-label="Truth Tools solar system">
+      <svg class="orbit-trace" viewBox="0 0 380 380"><ellipse cx="190" cy="190" rx="170" ry="170"/><ellipse cx="190" cy="190" rx="130" ry="130"/></svg>
+      <div class="central-node">
+        <h2>Truth Tools</h2>
+        <p>Communicate without drift</p>
+      </div>
+      <div class="orbit-ring">
+        <div class="planet" style="top:8%;left:50%;transform:translateX(-50%);">
+          <a href="ring-of-three.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Ring of Three</span>
+            <span class="planet-desc">How do I reply to this?</span>
+          </a>
+        </div>
+        <div class="planet" style="top:45%;left:2%;">
+          <a href="ring-of-12.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Ring of 12</span>
+            <span class="planet-desc">What does the Council say?</span>
+          </a>
+        </div>
+        <div class="planet" style="top:80%;left:18%;">
+          <a href="coming-soon.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">24-Hour Test</span>
+            <span class="planet-desc">Should I send this?</span>
+          </a>
+        </div>
+        <div class="planet" style="top:75%;right:8%;">
+          <a href="coming-soon.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Drift Detector</span>
+            <span class="planet-desc">Is this AI telling me what I want?</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── INNER COUNCIL ── -->
+    <section class="solar-system sys-council" aria-label="Inner Council solar system">
+      <svg class="orbit-trace" viewBox="0 0 380 380"><ellipse cx="190" cy="190" rx="170" ry="170"/><ellipse cx="190" cy="190" rx="120" ry="120"/></svg>
+      <div class="central-node">
+        <h2>Inner Council</h2>
+        <p>Questions worth asking yourself</p>
+      </div>
+      <div class="orbit-ring">
+        <div class="planet" style="top:5%;left:55%;">
+          <a href="ring-of-12.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Ring of 12</span>
+            <span class="planet-desc">Speak to the sovereign seats</span>
+          </a>
+        </div>
+        <div class="planet" style="top:55%;left:0%;">
+          <a href="coming-soon.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">The Mirror</span>
+            <span class="planet-desc">What do I actually believe?</span>
+          </a>
+        </div>
+        <div class="planet" style="top:82%;right:12%;">
+          <a href="coming-soon.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Legacy Letter</span>
+            <span class="planet-desc">What do you want the future to remember?</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── COMMUNITY ── -->
+    <section class="solar-system sys-community" aria-label="Community solar system">
+      <svg class="orbit-trace" viewBox="0 0 380 380"><ellipse cx="190" cy="190" rx="170" ry="170"/><ellipse cx="190" cy="190" rx="125" ry="125"/></svg>
+      <div class="central-node">
+        <h2>Community</h2>
+        <p>Minds who value truth over agreement</p>
+      </div>
+      <div class="orbit-ring">
+        <div class="planet" style="top:6%;left:45%;">
+          <a href="community.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Truth Protocol</span>
+            <span class="planet-desc">The 4 laws</span>
+          </a>
+        </div>
+        <div class="planet" style="top:50%;left:0%;">
+          <a href="community.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">Join the Council</span>
+            <span class="planet-desc">Enter the Telegram group</span>
+          </a>
+        </div>
+        <div class="planet" style="top:78%;right:10%;">
+          <a href="coming-soon.html">
+            <span class="planet-dot" aria-hidden="true"></span>
+            <span class="planet-name">The Covenant</span>
+            <span class="planet-desc">Sign your name to the protocol</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="galaxy-footer">
+    <p>NextXus Federation · <a href="https://nextxus.online">nextxus.online</a></p>
+    <p><a href="https://nextxus.online">Universe</a>: For seekers of the full architecture <span class="arrow">→</span></p>
+  </footer>
+</div>
+
+<script>
+/* ===== Starfield ===== */
+(function(){
+  var c=document.getElementById('starfield');
+  var ctx=c.getContext('2d');
+  var stars=[];
+  var STAR_COUNT=320;
+  function resize(){c.width=window.innerWidth;c.height=window.innerHeight;}
+  window.addEventListener('resize',resize);
+  resize();
+  for(var i=0;i<STAR_COUNT;i++){
+    stars.push({
+      x:Math.random()*c.width,
+      y:Math.random()*c.height,
+      r:Math.random()*1.5+.3,
+      dx:(Math.random()-.5)*.12,
+      dy:(Math.random()-.5)*.08,
+      a:Math.random()*.5+.3,
+      twinkleSpeed:Math.random()*.002+.001,
+      twinklePhase:Math.random()*Math.PI*2
+    });
+  }
+  function draw(t){
+    ctx.clearRect(0,0,c.width,c.height);
+    for(var i=0;i<stars.length;i++){
+      var s=stars[i];
+      s.x+=s.dx;s.y+=s.dy;
+      if(s.x<0)s.x=c.width;if(s.x>c.width)s.x=0;
+      if(s.y<0)s.y=c.height;if(s.y>c.height)s.y=0;
+      var tw=Math.sin(t*s.twinkleSpeed+s.twinklePhase)*.3+.7;
+      ctx.beginPath();
+      ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+      ctx.fillStyle='rgba(255,255,255,'+(s.a*tw)+')';
+      ctx.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+})();
+</script>
 </body>
 </html>
