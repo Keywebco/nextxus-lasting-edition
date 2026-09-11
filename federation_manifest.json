@@ -1,25 +1,19 @@
 {
-  "manifest": "v1.7.8",
-  "total_items": 155,
-  "last_scout": "2026-09-11T11:05:00Z",
+  "manifest": "v1.7.9",
+  "total_items": 267,
+  "last_scout": "2026-09-11T23:00:00Z",
   "findings": {
-    "google_drive": 105,
-    "github_repos": 26,
+    "google_drive": 200,
+    "github_repos": 27,
     "github_trajectories": 40
   },
   "new_additions": [
     {
-      "name": "Untitled document (RS-2026-09-10-001)",
-      "type": "doc",
-      "sector": "13",
-      "source": "google_drive"
-    },
-    {
-      "name": "https://hazel-p.txt (Grok Session URL)",
-      "type": "text",
-      "sector": "13",
-      "source": "google_drive"
+      "name": "keywebco.github.io",
+      "type": "repo",
+      "sector": "15",
+      "source": "github"
     }
   ],
-  "notes": "Morning Scout: 2 new assets detected in Google Drive folder 0AHQkQfVQA7YGUk9PVA (Ring Session Record and Grok URL). Sector 13 mapping complete."
+  "notes": "Evening Scout: 1 new repo detected (keywebco.github.io) redirection root. Drive count reconciled to 200 items across all pages. Sector 15 mapping complete."
 }
