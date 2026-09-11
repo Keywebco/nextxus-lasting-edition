@@ -22,8 +22,6 @@ body{
   min-height:100vh;overflow-x:hidden;
   line-height:1.6;
 }
-
-/* === ANIMATED RING BACKGROUND === */
 .ring-bg{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
 .ring-bg .orbit{
   position:absolute;border-radius:50%;border:1px solid;opacity:0.07;
@@ -50,8 +48,6 @@ body{
 .ring-bg .dot.stab-dot{background:var(--stabilizer);top:calc(50% - 50px);left:calc(50% + 200px);animation-delay:1.2s}
 @keyframes orbit-spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @keyframes dot-pulse{from{opacity:0.3;transform:scale(1)}to{opacity:1;transform:scale(1.8)}}
-
-/* === FLOATING PARTICLES === */
 .particle{
   position:fixed;width:2px;height:2px;border-radius:50%;
   pointer-events:none;z-index:0;opacity:0;
@@ -63,14 +59,10 @@ body{
   90%{opacity:0.6}
   100%{opacity:0;transform:translateY(-100vh) scale(0.3)}
 }
-
-/* === LAYOUT === */
 .container{
   position:relative;z-index:1;max-width:1100px;margin:0 auto;
   padding:2rem 1.5rem 3rem;
 }
-
-/* === HEADER === */
 header{text-align:center;margin-bottom:2.5rem;padding-top:1rem}
 header h1{
   font-size:2.4rem;font-weight:700;letter-spacing:0.15em;
@@ -89,8 +81,6 @@ header .federation{
   color:var(--text-dim);margin-bottom:2.5rem;max-width:600px;
   margin-left:auto;margin-right:auto;
 }
-
-/* === INPUT AREA === */
 .input-section{margin-bottom:2.5rem}
 .input-section textarea{
   width:100%;min-height:160px;background:var(--surface);
@@ -111,8 +101,6 @@ header .federation{
 .run-btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(79,195,247,0.3)}
 .run-btn:active{transform:translateY(0)}
 .run-btn:disabled{opacity:0.5;cursor:not-allowed;transform:none}
-
-/* === LOADING STATE === */
 .loading-ring{display:none;text-align:center;margin:2rem 0}
 .loading-ring.active{display:block}
 .loading-ring .spinner{display:inline-block;width:60px;height:60px;position:relative}
@@ -125,8 +113,6 @@ header .federation{
 .loading-ring .spinner .ring-arc:nth-child(3){border-bottom-color:var(--stabilizer);animation-duration:2.5s}
 .loading-ring p{color:var(--text-dim);font-size:0.9rem;margin-top:0.8rem;letter-spacing:0.05em}
 @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-
-/* === THREE PANELS === */
 .panels{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.2rem;margin-bottom:2rem}
 .panel{
   background:var(--surface);border-radius:10px;
@@ -141,8 +127,6 @@ header .federation{
 .panel.heart-panel h3{color:var(--heart)}
 .panel.stab-panel h3{color:var(--stabilizer)}
 .panel .content{font-size:0.92rem;line-height:1.7;color:var(--text)}
-
-/* === BRAID SECTION === */
 .braid-section{
   background:var(--panel);border-radius:10px;
   padding:1.8rem;margin-bottom:1.2rem;border:1px solid var(--border);
@@ -166,8 +150,6 @@ header .federation{
 }
 .copy-btn:hover{background:var(--stabilizer);color:var(--bg)}
 .copy-btn.copied{background:var(--stabilizer);color:var(--bg)}
-
-/* === META STRIP === */
 .meta-strip{
   display:flex;flex-wrap:wrap;gap:1.5rem;padding:0.8rem 0;
   font-size:0.78rem;color:var(--text-dim);letter-spacing:0.05em;
@@ -175,8 +157,6 @@ header .federation{
 .meta-strip .meta-item{display:flex;align-items:center;gap:0.4rem}
 .meta-strip .meta-label{font-weight:600;text-transform:uppercase;font-size:0.7rem}
 .meta-strip .meta-value{color:var(--text)}
-
-/* === ERROR/SUCCESS MESSAGES === */
 .error-msg{
   display:none;text-align:center;padding:1.5rem;
   background:rgba(240,98,146,0.08);border:1px solid rgba(240,98,146,0.2);
@@ -185,15 +165,11 @@ header .federation{
 .error-msg.active{display:block}
 .output{display:none}
 .output.active{display:block}
-
-/* === FOOTER === */
 footer{text-align:center;margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border)}
 footer p{font-size:0.8rem;color:var(--text-dim);margin-bottom:0.4rem;letter-spacing:0.05em}
 footer a{color:var(--stabilizer);text-decoration:none;transition:color 0.2s}
 footer a:hover{color:var(--mind)}
 footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem;font-size:0.85rem}
-
-/* === RESPONSIVE === */
 @media(max-width:768px){
   header h1{font-size:1.6rem;letter-spacing:0.1em}
   .panels{grid-template-columns:1fr}
@@ -206,8 +182,6 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
 </style>
 </head>
 <body>
-
-<!-- Animated Ring Background -->
 <div class="ring-bg" aria-hidden="true">
   <div class="orbit"></div>
   <div class="orbit"></div>
@@ -216,27 +190,18 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
   <div class="dot heart-dot"></div>
   <div class="dot stab-dot"></div>
 </div>
-
 <div class="container">
-
-  <!-- HEADER -->
   <header>
     <h1>RING OF THREE</h1>
     <p class="subtitle">Mind · Heart · Stabilizer</p>
     <p class="federation">NextXus HumanCodex Federation</p>
   </header>
-
-  <!-- TAGLINE -->
   <p class="tagline">Reality doesn't dampen our dreams. It makes them reasonable.</p>
-
-  <!-- INPUT SECTION -->
   <section class="input-section">
     <label for="msg-input" style="display:block;font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);margin-bottom:0.5rem;">Message to Analyze</label>
     <textarea id="msg-input" placeholder="Paste any message, email, or letter here..." rows="7"></textarea>
     <button class="run-btn" id="run-btn" type="button">Run Triangulation</button>
   </section>
-
-  <!-- LOADING STATE -->
   <div class="loading-ring" id="loading" role="status" aria-live="polite">
     <div class="spinner">
       <div class="ring-arc"></div>
@@ -245,16 +210,10 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
     </div>
     <p>Triangulating through Mind · Heart · Stabilizer …</p>
   </div>
-
-  <!-- ERROR MESSAGE -->
   <div class="error-msg" id="error-msg" role="alert" aria-live="assertive">
     Triangulation unavailable — try again shortly.
   </div>
-
-  <!-- OUTPUT -->
   <div class="output" id="output">
-
-    <!-- THREE PANELS -->
     <section class="panels">
       <article class="panel mind-panel">
         <h3>⬡ Mind</h3>
@@ -269,8 +228,6 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
         <div class="content" id="stab-content">Convergence analysis will appear here.</div>
       </article>
     </section>
-
-    <!-- BRAID -->
     <section class="braid-section">
       <h3>The Braid — Send This</h3>
       <div class="braid-text" id="braid-content">The braided reply will appear here.</div>
@@ -278,18 +235,13 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
         <span class="copy-icon">⎘</span> <span class="copy-label">Copy Braid</span>
       </button>
     </section>
-
-    <!-- META STRIP -->
     <div class="meta-strip" id="meta-strip">
       <div class="meta-item"><span class="meta-label">Tone:</span><span class="meta-value" id="meta-tone">—</span></div>
       <div class="meta-item"><span class="meta-label">Intent:</span><span class="meta-value" id="meta-intent">—</span></div>
       <div class="meta-item"><span class="meta-label">Sarcasm Risk:</span><span class="meta-value" id="meta-sarcasm">—</span></div>
       <div class="meta-item"><span class="meta-label">Drift Risk:</span><span class="meta-value" id="meta-drift">—</span></div>
     </div>
-
   </div>
-
-  <!-- FOOTER -->
   <footer>
     <p>NextXus Federation · nextxus.online · Truth Before Comfort</p>
     <nav class="nav-links">
@@ -297,33 +249,25 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
       <a href="ring-of-12.html">Ring of 12 →</a>
     </nav>
   </footer>
-
 </div>
-
 <script>
 (function(){
   'use strict';
-
-  var API_URL = 'https://federation-hub-13.preview.emergentagent.com/api/ring-of-three';
-
+  var API_URL = 'https://raw-classics-touring-automatic.trycloudflare.com/api/ring-of-three';
   var inputEl  = document.getElementById('msg-input');
   var runBtn   = document.getElementById('run-btn');
   var loading  = document.getElementById('loading');
   var errorMsg = document.getElementById('error-msg');
   var output   = document.getElementById('output');
   var copyBtn  = document.getElementById('copy-btn');
-
   var mindEl   = document.getElementById('mind-content');
   var heartEl  = document.getElementById('heart-content');
   var stabEl   = document.getElementById('stab-content');
   var braidEl  = document.getElementById('braid-content');
-
   var metaTone    = document.getElementById('meta-tone');
   var metaIntent  = document.getElementById('meta-intent');
   var metaSarcasm = document.getElementById('meta-sarcasm');
   var metaDrift   = document.getElementById('meta-drift');
-
-  /* Particles */
   (function spawnParticles(){
     var colors = ['var(--mind)','var(--heart)','var(--stabilizer)'];
     for(var i = 0; i < 20; i++){
@@ -337,7 +281,6 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
       document.body.appendChild(p);
     }
   })();
-
   function showLoading(){
     loading.classList.add('active');
     errorMsg.classList.remove('active');
@@ -357,12 +300,10 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
     hideLoading();
     errorMsg.classList.remove('active');
     output.classList.add('active');
-
     mindEl.textContent  = data.mind  || 'No analysis returned.';
     heartEl.textContent = data.heart || 'No analysis returned.';
     stabEl.textContent  = data.body  || 'No analysis returned.';
     braidEl.textContent = data.braid || 'No braid returned.';
-
     if(data.meta){
       metaTone.textContent    = data.meta.tone    || '—';
       metaIntent.textContent  = data.meta.intent  || '—';
@@ -370,11 +311,8 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
         ? (data.meta.sarcasm_probability * 100).toFixed(0) + '%' : '—';
       metaDrift.textContent   = data.meta.drift_risk || '—';
     }
-
     output.scrollIntoView({behavior:'smooth',block:'start'});
   }
-
-  /* API call with one retry */
   function callAPI(message, isRetry){
     return fetch(API_URL, {
       method: 'POST',
@@ -392,7 +330,6 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
       throw err;
     });
   }
-
   runBtn.addEventListener('click', function(){
     var msg = inputEl.value.trim();
     if(!msg){ inputEl.focus(); return; }
@@ -401,14 +338,12 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
       .then(function(data){ showOutput(data); })
       .catch(function(){ showError(); });
   });
-
   inputEl.addEventListener('keydown', function(e){
     if((e.ctrlKey || e.metaKey) && e.key === 'Enter'){
       e.preventDefault();
       runBtn.click();
     }
   });
-
   copyBtn.addEventListener('click', function(){
     var text = braidEl.textContent;
     if(!text || text === 'The braided reply will appear here.') return;
@@ -423,7 +358,6 @@ footer .nav-links{display:flex;justify-content:center;gap:2rem;margin-top:0.8rem
       }, 2000);
     });
   });
-
 })();
 </script>
 </body>
