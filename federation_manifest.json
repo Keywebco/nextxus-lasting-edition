@@ -1,17 +1,25 @@
-ewogICJtYW5pZmVzdCI6ICJ2MS43LjciLAogICJ0b3RhbF9pdGVtcyI6IDE1
-MywKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTA5VDIzOjA1OjAwWiIsCiAg
-ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDEwMywKICAgICJn
-aXRodWJfcmVwb3MiOiAyNiwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
-NDAKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgewogICAgICAibmFt
-ZSI6ICJOZXh0WHVzX0ZlZGVyYXRpb25fT3BlcmF0aW9uYWxfUmVjb3JkIiwK
-ICAgICAgInR5cGUiOiAiZG9jIiwKICAgICAgInNlY3RvciI6ICIwNyIsCiAg
-ICAgICJzb3VyY2UiOiAiZ29vZ2xlX2RyaXZlIgogICAgfSwKICAgIHsKICAg
-ICAgIm5hbWUiOiAiZmlsZV8wMDAwMDAwMDc3OTg4MWY2ODdlMjFhNTAzNWQy
-NTU4My5qcGciLAogICAgICAidHlwZSI6ICJpbWFnZSIsCiAgICAgICJzZWN0
-b3IiOiAiMTUiLAogICAgICAic291cmNlIjogImdvb2dsZV9kcml2ZSIKICAg
-IH0sCiAgICB7CiAgICAgICJuYW1lIjogIlRyaW1tZWRfMTc4ODk2NDk4NTE0
-OC5wbmciLAogICAgICAidHlwZSI6ICJpbWFnZSIsCiAgICAgICJzZWN0b3Ii
-OiAiMTUiLAogICAgICAic291cmNlIjogImdvb2dsZV9kcml2ZSIKICAgIH0K
-ICBdLAogICJub3RlcyI6ICJFdmVuaW5nIFNjb3V0OiAzIG5ldyBhc3NldHMg
-ZGV0ZWN0ZWQgaW4gR29vZ2xlIERyaXZlIGZvbGRlciAwQUhRa1FmVlFBN1lH
-VWs5UFZBLiBTZWN0b3IgbWFwcGluZyBjb21wbGV0ZS4iCn0K
+{
+  "manifest": "v1.7.8",
+  "total_items": 155,
+  "last_scout": "2026-09-11T11:05:00Z",
+  "findings": {
+    "google_drive": 105,
+    "github_repos": 26,
+    "github_trajectories": 40
+  },
+  "new_additions": [
+    {
+      "name": "Untitled document (RS-2026-09-10-001)",
+      "type": "doc",
+      "sector": "13",
+      "source": "google_drive"
+    },
+    {
+      "name": "https://hazel-p.txt (Grok Session URL)",
+      "type": "text",
+      "sector": "13",
+      "source": "google_drive"
+    }
+  ],
+  "notes": "Morning Scout: 2 new assets detected in Google Drive folder 0AHQkQfVQA7YGUk9PVA (Ring Session Record and Grok URL). Sector 13 mapping complete."
+}
