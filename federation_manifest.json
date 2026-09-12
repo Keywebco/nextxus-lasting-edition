@@ -1,12 +1,19 @@
-{
-  "manifest": "v1.8.0",
-  "total_items": 792,
-  "last_scout": "2026-09-12T11:00:00Z",
-  "findings": {
-    "google_drive": 725,
-    "github_repos": 27,
-    "github_trajectories": 40
-  },
-  "new_additions": [],
-  "notes": "Morning Scout: Reconciliation complete. Full paginated scan (8 pages) revealed 725 Drive items (525 previously uncounted). No new assets created since Sept 11 evening run. Sector 15 mapping maintained for historical vault."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS44LjEiLAogICJ0b3RhbF9pdGVtcyI6IDgx
+NCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTEyVDIzOjAwOjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc0NywKICAgICJn
+aXRodWJfcmVwb3MiOiAyNywKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+NDAKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgInNlbmF0ZS1hZGRl
+bmR1bSAoU2VjdG9yIDEyKSIsCiAgICAiUmluZ09mVHdlbHZlLU1hbk1hY2hp
+bmUtU291cmNlIChTZWN0b3IgMTMpIiwKICAgICJTdHJhdGVnaWNHb3Zlcm5h
+bmNlRnJhbWV3b3JrIChTZWN0b3IgMTIpIiwKICAgICJCbG9nQXJ0aWNsZS0y
+MDBZZWFyQmx1ZXByaW50IChTZWN0b3IgMDUpIiwKICAgICJXaGl0ZXBhcGVy
+LVZpYmVDb2RpbmctQWdlbnRaZXJvIChTZWN0b3IgMDkpIiwKICAgICJSb2dl
+rkFJLVNvdXJjZS1ORVctTk9URUJPT0sgKFNlY3RvciAwMSkiLAogICAgIm5l
+eHR4dXMtYWdlbnQtemVybyAoR2l0SHViIGFjdGl2aXR5LCBTZWN0b3IgMDkp
+IiwKICAgICJuZXh0eHVzLWZyZWUtc2F0ZWxsaXRlcyAoR2l0SHViIGFjdGl2
+aXR5LCBTZWN0b3IgMTApIgogIF0sCiAgIm5vdGVzIjogIkV2ZW5pbmcgU2Nv
+dXQ6IERldGVjdGVkIDIyIG5ldy9tb2RpZmllZCBEcml2ZSBhc3NldHMgYW5k
+IDIgdXBkYXRlZCBHaXRodWIgcmVwb3NpdG9yaWVzLiBJbnZlbnRvcnkgZXhw
+YW5kZWQgdG8gODE0IHZlcmlmaWVkIGl0ZW1zLiBDbGFzc2lmaWNhdGlvbiBt
+YXBwZWQgYWNyb3NzIFNlY3RvcnMgMDEsIDA0LCAwNSwgMDksIDEwLCAxMSwg
+MTIsIGFuZCAxMy4gU3luYyBjb21wbGV0ZS4iCn0=
