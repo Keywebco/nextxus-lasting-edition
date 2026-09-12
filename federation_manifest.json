@@ -1,19 +1,12 @@
 {
-  "manifest": "v1.7.9",
-  "total_items": 267,
-  "last_scout": "2026-09-11T23:00:00Z",
+  "manifest": "v1.8.0",
+  "total_items": 792,
+  "last_scout": "2026-09-12T11:00:00Z",
   "findings": {
-    "google_drive": 200,
+    "google_drive": 725,
     "github_repos": 27,
     "github_trajectories": 40
   },
-  "new_additions": [
-    {
-      "name": "keywebco.github.io",
-      "type": "repo",
-      "sector": "15",
-      "source": "github"
-    }
-  ],
-  "notes": "Evening Scout: 1 new repo detected (keywebco.github.io) redirection root. Drive count reconciled to 200 items across all pages. Sector 15 mapping complete."
+  "new_additions": [],
+  "notes": "Morning Scout: Reconciliation complete. Full paginated scan (8 pages) revealed 725 Drive items (525 previously uncounted). No new assets created since Sept 11 evening run. Sector 15 mapping maintained for historical vault."
 }
