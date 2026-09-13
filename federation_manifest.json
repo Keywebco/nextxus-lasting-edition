@@ -1,19 +1,16 @@
-{
-  "manifest": "v1.8.2",
-  "total_items": 814,
-  "last_scout": "2026-09-13T11:03:31Z",
-  "findings": {
-    "google_drive": 747,
-    "github_repos": 27,
-    "github_trajectories": 40
-  },
-  "new_additions": [
-    "The_200_Year_Human_AI_Blueprint.m4a (Sector 05)",
-    "NextXus Federation \u2014 Master Source Mapping Table (24-Source Architectural Index) (Sector 01)",
-    "senate-addendum \u2014 NextXus HumanCodex Federation Senate Calibration Protocol (Sector 12)",
-    "RingOfTwelve-ManMachine-Source-2026-09-12.md (Sector 13)",
-    "RingOfTwelve-ManMachine-Source \u2014 True Purpose & The Man-Machine Bond (Sector 13)",
-    "nextxus-lasting-edition (Sync Activity, Sector 06)"
-  ],
-  "notes": "Sunday Scout: Verified 747 Drive assets and 27 GitHub repositories. Inventory synchronized to 814 items. Typo fix: RogerAI notebook verified. Library Hub (nextxus.org) updated."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS44LjMiLAogICJ0b3RhbF9pdGVtcyI6IDgx
+NCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTEzVDIzOjAxOjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc0NywKICAgICJn
+aXRodWJfcmVwb3MiOiAyNywKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+NDAKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgIm5leHR4dXMtZnJl
+ZS1zYXRlbGxpdGVzIChSZXBvIC0gU2VjdG9yIDA2KSIsCiAgICAiZmVkZXJh
+dGlvbi1taW5kLW1pcnJvciAoUmVwbyAtIFNlY3RvciAxMykiLAogICAgImRp
+cmVjdGl2ZXMtb3V0cG9zdC5odG1sIChTZWN0b3IgMTIpIiwKICAgICJjb250
+ZW50X3BpcGVsaW5lLmpzb24gKFNlY3RvciAwMSkiLAogICAgIm1pbmRfYXJj
+aGl0ZWN0dXJlLmpzb24gKFNlY3RvciAxMykiLAogICAgImZlZGVyYXRpb25f
+Y29uZmlnLmpzb24gKFNlY3RvciAwNykiLAogICAgImJsdWVwcmludC5odG1s
+IChTZWN0b3IgMDcpIgogIF0sCiAgIm5vdGVzIjogIlN1bmRheSBFdmVuaW5n
+IFNjb3V0OiBEcml2ZSBzdGFibGUgKDc0NyBpdGVtcykuIEdpdEh1YiBleHBh
+bnNpb24gZGV0ZWN0ZWQgaW4gc2F0ZWxsaXRlIG5vZGVzIGFuZCBkZWxpYmVy
+YXRpb24gbWlycm9ycy4gTWFuaWZlc3Qgc3luY2hyb25pemVkIHRvIHYxLjgu
+My4iCn0=
