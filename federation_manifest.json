@@ -1,12 +1,12 @@
-{
-  "manifest": "v1.8.4",
-  "total_items": 814,
-  "last_scout": "2026-09-14T11:06:06Z",
-  "findings": {
-    "google_drive": 747,
-    "github_repos": 51,
-    "github_trajectories": 40
-  },
-  "new_additions": [],
-  "notes": "Monday Morning Scout: Inventory stable (747 Drive / 51 GitHub). Stability confirmed. Heartbeat pulse detected in private vault."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS44LjUiLAogICJ0b3RhbF9pdGVtcyI6IDgx
+OCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTE0VDIzOjA1OjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc1MSwKICAgICJn
+aXRodWJfcmVwb3MiOiA1MSwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+NDAKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgIkdvb2dsZSBBSSBT
+dHVkaW8gKEZvbGRlcikiLAogICAgIlVuZGVyc3RhbmRpbmcgdGhlIFJpbmcg
+b2YgVHdlbHZlIChQcm9tcHQpIiwKICAgICJhcHBsZXRfYWNjZXNzX2hpc3Rv
+cnkuanNvbiIsCiAgICAiZHJhZ29uLXZvcnR5eC5odG1sIgogIF0sCiAgIm5v
+dGVzIjogIk1vbmRheSBFdmVuaW5nIFNjb3V0OiAxIG5ldyBmb2xkZXIgYW5k
+IDMgbmV3IGFzc2V0cyBkZXRlY3RlZCBpbiBHb29nbGUgQUkgU3R1ZGlvLiBH
+aXRodWIgc3RhYmxlICg1MSByZXBvcykuIENsYXNzaWZpZWQgaW50byBTZWN0
+b3JzIDA3LCAxMiwgMTUuIgp9Cg==
