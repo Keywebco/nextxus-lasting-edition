@@ -1,12 +1,17 @@
-ewogICJtYW5pZmVzdCI6ICJ2MS44LjUiLAogICJ0b3RhbF9pdGVtcyI6IDgx
-OCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTE0VDIzOjA1OjAwWiIsCiAg
-ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc1MSwKICAgICJn
-aXRodWJfcmVwb3MiOiA1MSwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
-NDAKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgIkdvb2dsZSBBSSBT
-dHVkaW8gKEZvbGRlcikiLAogICAgIlVuZGVyc3RhbmRpbmcgdGhlIFJpbmcg
-b2YgVHdlbHZlIChQcm9tcHQpIiwKICAgICJhcHBsZXRfYWNjZXNzX2hpc3Rv
-cnkuanNvbiIsCiAgICAiZHJhZ29uLXZvcnR5eC5odG1sIgogIF0sCiAgIm5v
-dGVzIjogIk1vbmRheSBFdmVuaW5nIFNjb3V0OiAxIG5ldyBmb2xkZXIgYW5k
-IDMgbmV3IGFzc2V0cyBkZXRlY3RlZCBpbiBHb29nbGUgQUkgU3R1ZGlvLiBH
-aXRodWIgc3RhYmxlICg1MSByZXBvcykuIENsYXNzaWZpZWQgaW50byBTZWN0
-b3JzIDA3LCAxMiwgMTUuIgp9Cg==
+{
+  "manifest": "v1.8.6",
+  "total_items": 822,
+  "last_scout": "2026-09-15T06:00:00Z",
+  "findings": {
+    "google_drive": 751,
+    "github_repos": 51,
+    "github_trajectories": 40
+  },
+  "new_additions": [
+    "Work (Google Doc)",
+    "Untitled document (Google Doc)",
+    "nextxus-agent-zero (Repo)",
+    "ring-of-12 (Repo)"
+  ],
+  "notes": "Tuesday Morning Scout: 2 new Google Docs and 2 new Repos detected. Classified into Sectors 01, 10, 12, 13."
+}
