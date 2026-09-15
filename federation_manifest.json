@@ -1,17 +1,17 @@
 {
-  "manifest": "v1.8.6",
-  "total_items": 822,
-  "last_scout": "2026-09-15T06:00:00Z",
+  "manifest": "v1.8.7",
+  "total_items": 826,
+  "last_scout": "2026-09-15T23:00:00Z",
   "findings": {
-    "google_drive": 751,
-    "github_repos": 51,
+    "google_drive": 753,
+    "github_repos": 53,
     "github_trajectories": 40
   },
   "new_additions": [
-    "Work (Google Doc)",
-    "Untitled document (Google Doc)",
-    "nextxus-agent-zero (Repo)",
-    "ring-of-12 (Repo)"
+    "OneKey by Pontus (Google Doc)",
+    "Ring-12 Instrumented Deploy (Drive Folder)",
+    "onekey (Repo)",
+    "plexus-relay (Repo)"
   ],
-  "notes": "Tuesday Morning Scout: 2 new Google Docs and 2 new Repos detected. Classified into Sectors 01, 10, 12, 13."
+  "notes": "Tuesday Evening Scout: 2 new active Drive items and 2 new Repos detected. Classified into Sectors 04, 06, 13."
 }
