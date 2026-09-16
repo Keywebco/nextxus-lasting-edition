@@ -1,17 +1,15 @@
 {
-  "manifest": "v1.8.8",
-  "total_items": 830,
-  "last_scout": "2026-09-16T11:00:00Z",
+  "manifest": "v1.8.9",
+  "total_items": 878,
+  "last_scout": "2026-09-16T23:00:00Z",
   "findings": {
-    "google_drive": 757,
+    "google_drive": 758,
     "github_repos": 53,
-    "github_trajectories": 40
+    "github_trajectories": 87
   },
   "new_additions": [
-    "DEPLOY.md (Drive: 1PPs8bJc5ZoRbG1aYOeYRzdriiUWbq69V)",
-    "server.js (Drive: 1rNrph_trp2gaHl7IAon9CDuOhyZXPUm6)",
-    "index.html (Drive: 1SX2Hr3lPfqdsuUtGrPZ5_Li2rhzpq877)",
-    "Ring-12 Instrumented Deploy Binary (Drive: 1_0fb63KSwAdaODF6h-D4kGl8lBlxH5ng)"
+    "ring-proliferation-pack.md (Drive: 1EZZezT5bExZ9HbfseEnX7eBYUI1syr59)",
+    "47 press articles (GitHub: nextxus-free-satellites)"
   ],
-  "notes": "Wednesday Morning Scout: 4 new technical deployment assets detected in Drive folder 0AHQkQfVQA7YGUk9PVA. Classified into Sector 07 (Throne/Tech). Manifest synchronized to Library Hub."
+  "notes": "Wednesday Evening Scout: 1 new technical proliferation asset in Drive and 47 press articles auto-published to GitHub. Classified into Sectors 07 (Throne) and 03 (Media). Manifest synchronized to Library Hub."
 }
