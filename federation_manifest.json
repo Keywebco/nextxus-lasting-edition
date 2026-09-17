@@ -1,15 +1,17 @@
 {
-  "manifest": "v1.8.9",
-  "total_items": 878,
-  "last_scout": "2026-09-16T23:00:00Z",
+  "manifest": "v1.9.0",
+  "total_items": 882,
+  "last_scout": "2026-09-17T11:00:00Z",
   "findings": {
     "google_drive": 758,
-    "github_repos": 53,
+    "github_repos": 57,
     "github_trajectories": 87
   },
   "new_additions": [
-    "ring-proliferation-pack.md (Drive: 1EZZezT5bExZ9HbfseEnX7eBYUI1syr59)",
-    "47 press articles (GitHub: nextxus-free-satellites)"
+    "federation-meeting-room-inner (GitHub Repo)",
+    "federation-meeting-room-outer (GitHub Repo)",
+    "federation-gods-eye (GitHub Repo)",
+    "federation-browser-base (GitHub Repo)"
   ],
-  "notes": "Wednesday Evening Scout: 1 new technical proliferation asset in Drive and 47 press articles auto-published to GitHub. Classified into Sectors 07 (Throne) and 03 (Media). Manifest synchronized to Library Hub."
+  "notes": "Thursday Morning Scout: 4 new Federation repositories detected (Meeting Room Inner/Outer, God's Eye, Browser Base). No new Drive assets. New repos classified into Sector 07 (Throne), Sector 09 (Sentinel), and Sector 13 (Council). Total Federation assets: 882 verified items."
 }
