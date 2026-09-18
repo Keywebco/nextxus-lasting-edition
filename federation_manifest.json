@@ -1,15 +1,12 @@
-{
-  "manifest": "v1.9.1",
-  "total_items": 883,
-  "last_scout": "2026-09-18T06:00:00Z",
-  "findings": {
-    "google_drive": 759,
-    "github_repos": 57,
-    "github_trajectories": 87
-  },
-  "new_additions": [
-    "relay-github-store-patch.md (Google Drive)",
-    "generated_video.MP4 (Google Drive)"
-  ],
-  "notes": "Friday Morning Scout: 2 new Drive assets detected (relay-github-store-patch.md, generated_video.MP4). Repositories stable at 144. New assets classified into Sector 02 (Storefront) and Sector 15 (Archive). Total Federation assets: 883 verified items."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS45LjIiLAogICJ0b3RhbF9pdGVtcyI6IDg4
+OCwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTE4VDE4OjAwOjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc2MSwKICAgICJn
+aXRodWJfcmVwb3MiOiA2MCwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+ODcKICB9LAogICJuZXdfYWRkaXRpb25zIjogWwogICAgImVudGl0eS1zbG90
+LXNwZWMubWQgKEdvb2dsZSBEcml2ZSkiLAogICAgIlNoYXduIChHb29nbGUg
+RHJpdmUpIgogIF0sCiAgIm5vdGVzIjogIkZyaWRheSBFdmVuaW5nIFNjb3V0
+OiAyIG5ldyBEcml2ZSBhc3NldHMgZGV0ZWN0ZWQgKGVudGl0eS1zbG90LXNw
+ZWMubWQsIFNoYXduKS4gR2l0SHViIHJlcG9zaXRvcmllcyB2ZXJpZmllZCBh
+dCA2MCB0b3RhbC4gTmV3IGFzc2V0cyBjbGFzc2lmaWVkIGludG8gU2VjdG9y
+IDExIChOZXh1c0ZvcmdlKSBhbmQgU2VjdG9yIDE1IChBcmNoaXZlKS4gVG90
+YWwgRmVkZXJhdGlvbiBhc3NldHM6IDg4OCB2ZXJpZmllZCBpdGVtcy4iCn0=
