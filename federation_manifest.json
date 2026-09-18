@@ -1,17 +1,15 @@
 {
-  "manifest": "v1.9.0",
-  "total_items": 882,
-  "last_scout": "2026-09-17T11:00:00Z",
+  "manifest": "v1.9.1",
+  "total_items": 883,
+  "last_scout": "2026-09-18T06:00:00Z",
   "findings": {
-    "google_drive": 758,
+    "google_drive": 759,
     "github_repos": 57,
     "github_trajectories": 87
   },
   "new_additions": [
-    "federation-meeting-room-inner (GitHub Repo)",
-    "federation-meeting-room-outer (GitHub Repo)",
-    "federation-gods-eye (GitHub Repo)",
-    "federation-browser-base (GitHub Repo)"
+    "relay-github-store-patch.md (Google Drive)",
+    "generated_video.MP4 (Google Drive)"
   ],
-  "notes": "Thursday Morning Scout: 4 new Federation repositories detected (Meeting Room Inner/Outer, God's Eye, Browser Base). No new Drive assets. New repos classified into Sector 07 (Throne), Sector 09 (Sentinel), and Sector 13 (Council). Total Federation assets: 882 verified items."
+  "notes": "Friday Morning Scout: 2 new Drive assets detected (relay-github-store-patch.md, generated_video.MP4). Repositories stable at 144. New assets classified into Sector 02 (Storefront) and Sector 15 (Archive). Total Federation assets: 883 verified items."
 }
