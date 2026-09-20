@@ -1,28 +1,8 @@
-{
-  "manifest": "v1.9.3",
-  "total_items": 905,
-  "last_scout": "2026-09-20T11:00:00Z",
-  "findings": {
-    "google_drive": 777,
-    "github_repos": 61,
-    "github_trajectories": 87
-  },
-  "new_additions": [
-    "plexus-relay (GitHub)",
-    "video (Google Drive)",
-    "Mark Down Federation (Google Drive)",
-    "Adaptive Federated Inquiry System (Google Drive)",
-    "NextXus HumanCodex Federation (Google Drive)",
-    "Adaptive Federated Inquiry Research (Google Drive)",
-    "Agent Zero v5.1 Sandbox Test Suite (Google Drive)",
-    "Ring Of 12- True Purpose & The Man-Machine Bond (Google Drive)",
-    "Understanding Haiku (Google Drive)",
-    "Gumroad Link (Google Drive)",
-    "The Gravity Of Us (Google Drive)",
-    "The Ascendence of Synthetic Intelligence - Complete Volume (Google Drive)",
-    "The Ascendence of Synthetic Intelligence - HumanCodex & Systems (Google Drive)",
-    "Federation _Alexa_Skill_V1_Implementation (Google Drive)",
-    "Alexa Skill Design (Google Drive)"
-  ],
-  "notes": "Sunday Morning Scout: 17 new assets detected. Classified across Sectors 01, 03, 05, 06, 09, 11, 12, 13, 15. Total Federation assets: 905 verified items."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS45LjQiLAogICJ0b3RhbF9pdGVtcyI6IDkw
+NSwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTIwVDIzOjAwOjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc3OCwKICAgICJn
+aXRodWJfcmVwb3MiOiA2MCwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+ODcKICB9LAogICJuZXdfYWRkaXRpb25zIjogW10sCiAgIm5vdGVzIjogIkV2
+ZW5pbmcgcmVjb25jaWxpYXRpb24gc2NvdXQ6IERyaXZlIGNvdW50IHZlcmlm
+aWVkIGF0IDc3OCwgR2l0SHViIGF0IDYwLiBObyBuZXcgYXNzZXRzIGRldGVj
+dGVkIHNpbmNlIFN1bmRheSBtb3JuaW5nLiIKfQo=
