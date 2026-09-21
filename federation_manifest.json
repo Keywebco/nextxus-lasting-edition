@@ -1,31 +1,19 @@
 {
-  "manifest": "v1.9.5",
-  "total_items": 908,
-  "last_scout": "2026-09-21T11:00:00Z",
+  "manifest": "v1.9.6",
+  "total_items": 909,
+  "last_scout": "2026-09-21T23:02:13Z",
   "findings": {
     "google_drive": 780,
     "github_repos": 61,
     "github_trajectories": 87
-  },
+  }, 
   "new_additions": [
     {
-      "name": "SIMs Nextxus Creation Data Set",
-      "type": "Google Drive File",
-      "sector": "06 — AXIOM",
-      "id": "1eiuFWhW8_g-pIYBHf7fJ17conkTAChNWab7VaiwwmjM"
-    },
-    {
-      "name": "Ethical Governance",
-      "type": "Google Drive Folder",
+      "name": "External Mentions — 2026-09-21.md",
+      "type": "GitHub File",
       "sector": "12 — KNOWLEDGE BASE",
-      "id": "1D5_dwkb5BIc9f9kvfcm3sgFpKcrcWOW"
-    },
-    {
-      "name": "nextxus-sim-api",
-      "type": "GitHub Repository",
-      "sector": "13 — COUNCIL CGAMBER",
-      "url": "https://github.com/Keywebco/nextxus-sim-api"
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-09-21.md"
     }
   ],
-  "notes": "Monday morning scout: Drive count 780 (+2), GitHub count 61 (+1). New assets classified into Sectors 06, 12, and 13."
+  "notes": "Monday evening scout: Drive count stable (780), GitHub count stable (61). New asset: External Mentions — 2026-09-21.md classified into Sector 12."
 }
