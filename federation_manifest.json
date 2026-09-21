@@ -1,8 +1,31 @@
-ewogICJtYW5pZmVzdCI6ICJ2MS45LjQiLAogICJ0b3RhbF9pdGVtcyI6IDkw
-NSwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTIwVDIzOjAwOjAwWiIsCiAg
-ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDc3OCwKICAgICJn
-aXRodWJfcmVwb3MiOiA2MCwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
-ODcKICB9LAogICJuZXdfYWRkaXRpb25zIjogW10sCiAgIm5vdGVzIjogIkV2
-ZW5pbmcgcmVjb25jaWxpYXRpb24gc2NvdXQ6IERyaXZlIGNvdW50IHZlcmlm
-aWVkIGF0IDc3OCwgR2l0SHViIGF0IDYwLiBObyBuZXcgYXNzZXRzIGRldGVj
-dGVkIHNpbmNlIFN1bmRheSBtb3JuaW5nLiIKfQo=
+{
+  "manifest": "v1.9.5",
+  "total_items": 908,
+  "last_scout": "2026-09-21T11:00:00Z",
+  "findings": {
+    "google_drive": 780,
+    "github_repos": 61,
+    "github_trajectories": 87
+  },
+  "new_additions": [
+    {
+      "name": "SIMs Nextxus Creation Data Set",
+      "type": "Google Drive File",
+      "sector": "06 — AXIOM",
+      "id": "1eiuFWhW8_g-pIYBHf7fJ17conkTAChNWab7VaiwwmjM"
+    },
+    {
+      "name": "Ethical Governance",
+      "type": "Google Drive Folder",
+      "sector": "12 — KNOWLEDGE BASE",
+      "id": "1D5_dwkb5BIc9f9kvfcm3sgFpKcrcWOW"
+    },
+    {
+      "name": "nextxus-sim-api",
+      "type": "GitHub Repository",
+      "sector": "13 — COUNCIL CGAMBER",
+      "url": "https://github.com/Keywebco/nextxus-sim-api"
+    }
+  ],
+  "notes": "Monday morning scout: Drive count 780 (+2), GitHub count 61 (+1). New assets classified into Sectors 06, 12, and 13."
+}
