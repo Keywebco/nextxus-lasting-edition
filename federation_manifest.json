@@ -1,1 +1,8 @@
-{"manifest": "NX-022", "version": "1.9.8", "lastUpdated": "2026-09-22", "totalItems": 928, "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.", "inventory": []}
+{
+  "manifest": "NX-022",
+  "version": "1.9.8",
+  "lastUpdated": "2026-09-22",
+  "totalItems": 928,
+  "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
+  "inventory": []
+}
