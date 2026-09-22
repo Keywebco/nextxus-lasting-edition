@@ -1,19 +1,21 @@
-{
-  "manifest": "v1.9.6",
-  "total_items": 909,
-  "last_scout": "2026-09-21T23:02:13Z",
-  "findings": {
-    "google_drive": 780,
-    "github_repos": 61,
-    "github_trajectories": 87
-  }, 
-  "new_additions": [
-    {
-      "name": "External Mentions — 2026-09-21.md",
-      "type": "GitHub File",
-      "sector": "12 — KNOWLEDGE BASE",
-      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-09-21.md"
-    }
-  ],
-  "notes": "Monday evening scout: Drive count stable (780), GitHub count stable (61). New asset: External Mentions — 2026-09-21.md classified into Sector 12."
-}
+ewogICJtYW5pZmVzdCI6ICJ2MS45LjciLAogICJ0b3RhbF9pdGVtcyI6IDkz
+MiwKICAibGFzdF9zY291dCI6ICIyMDI2LTA5LTIyVDExOjE1OjAwWiIsCiAg
+ImZpbmRpbmdzIjogewogICAgImdvb2dsZV9kcml2ZSI6IDgwMywKICAgICJn
+aXRodWJfcmVwb3MiOiA2MSwKICAgICJnaXRodWJfdHJhamVjdG9yaWVzIjog
+ODcKICB9LCAKICAibmV3X2FkZGl0aW9ucyI6IFsKICAgIHsKICAgICAgIm5h
+bWUiOiAiSEVZIE1VU0Ug4oCUIEZlZGVyYXRpb24gUHJvY2VkdXJlIERvYyAy
+MDI2LTA5LTIxIChDYXRhbHlzdCB0byBNdXNlKSIsCiAgICAgICJ0eXBlIjog
+Ikdvb2dsZSBEcml2ZSBEb2MiLAogICAgICAic2VjdG9yIjogIjEzIOKAlCBD
+T1VOQ0lMIENIQU1CRVIiLAogICAgICAidXJsIjogImh0dHBzOi8vZG9jcy5n
+b29nbGUuY29tL2RvY3VtZW50L2QvMXpEMDBLZ3J6eVhrMG5aN1hOSDFJbElk
+REpsNEM2dnhkMkFITHlfWi1BSUEvZWRpdCIKICAgIH0sCiAgICB7CiAgICAg
+ICJuYW1lIjogIlN5c3RlbSBUcmFjZSBBcnRpZmFjdHMgKDIyIEhUTUwgZmls
+ZXMpIiwKICAgICAgInR5cGUiOiAiR29vZ2xlIERyaXZlIEZpbGUiLAogICAg
+ICAic2VjdG9yIjogIjE1IOKAlCBBUkNISVZFIiwKICAgICAgInVybCI6ICJo
+dHRwczovL2RyaXZlLmdvb2dsZS5jb20vZHJpdmUvZm9sZGVycy8wQUhRa1Fm
+VlFBN1lHVWs5UFZBIgogICAgfQogIF0sCiAgIm5vdGVzIjogIlR1ZXNkYXkg
+bW9ybmluZyBzY291dDogRHJpdmUgaXRlbXMgaW5jcmVhc2VkICgrMjMpLiBO
+ZXcgYXNzZXRzIGluY2x1ZGUgQ2F0YWx5c3QtdG8tTXVzZSBGZWRlcmF0aW9u
+IFByb2NlZHVyZSBEb2MgKFNlY3RvciAxMykgYW5kIDIyIHN5c3RlbSB0cmFj
+ZSBhcnRpZmFjdHMgKFNlY3RvciAxNSkuIEdpdEh1YiBjb3VudCBzdGFibGUg
+KDYxKSB3aXRoIHJlY2VudCBwdXNoIHRvIGxhc3RpbmctZWRpdGlvbi4iCn0K
