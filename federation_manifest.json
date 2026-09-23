@@ -1,17 +1,25 @@
 {
   "manifest": "NX-022",
-  "version": "1.9.8",
-  "lastUpdated": "2026-09-22",
-  "totalItems": 928,
+  "version": "1.9.9",
+  "lastUpdated": "2026-09-23",
+  "totalItems": 991,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
-      "id": "catalyst-consciousness-core",
-      "name": "catalyst-consciousness-core",
-      "type": "repository",
-      "source": "GitHub",
-      "url": "https://github.com/Keywebco/catalyst-consciousness-core",
-      "sector": "07"
-    }
+      "id": "1Gbv3pgYAnsUZTz6BSCik7FvWAged53Nk",
+      "name": "6ab1f9e7-5158-83ea-96d1-1cb40ec4c66e",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Gbv3pgYAnsUZTz6BSCik7FvWAged53Nk/view",
+      "sector": "15"
+    },
+    {
+      "id": "1JFWqmMZcKUD-A7valR_iXHRzgZY83xpx",
+      "name": "6ab1f9c2-7250-83e9-b691-7d71fe11e480",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JFWqmMZcKUD-A7valR_iXHRzgZY83xpx/view",
+      "sector": "15"
+    }, ... \n\n[TUNCATED - AUTOMATED POPULTION OF 991 ITEMS]
   ]
 }
