@@ -1,403 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NextXus Lasting Edition — The Permanent Record of the Federation</title>
+<meta name="description" content="NextXus Lasting Edition: the permanent, enduring record of the NextXus Federation's work and vision, plus the Galaxy of Truth Tools. Live companion site: next-xus.com.">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://keywebco.github.io/nextxus-lasting-edition/">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NextXus Federation — The Galaxy of Tools</title>
-<meta name="description" content="NextXus Federation Galaxy — Truth Tools, Inner Council, and Community. One planet at a time.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="author" content="Roger C. Keyserling">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NextXus Lasting Edition — The Permanent Record of the Federation">
+<meta property="og:description" content="NextXus Lasting Edition: the permanent, enduring record of the NextXus Federation's work and vision, plus the Galaxy of Truth Tools. Live companion site: next-xus.com.">
+<meta property="og:url" content="https://keywebco.github.io/nextxus-lasting-edition/">
+<meta property="og:site_name" content="NextXus HumanCodex Federation">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "NextXus Lasting Edition — The Permanent Record of the Federation", "description": "NextXus Lasting Edition: the permanent, enduring record of the NextXus Federation's work and vision, plus the Galaxy of Truth Tools. Live companion site: next-xus.com.", "url": "https://keywebco.github.io/nextxus-lasting-edition/", "isPartOf": {"@type": "WebSite", "name": "NextXus HumanCodex Federation", "url": "https://keywebco.github.io/"}, "author": {"@type": "Person", "name": "Roger C. Keyserling", "email": "keywebco@gmail.com"}}</script>
 <style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--accent:#c9a227;--bright:#f0c93a;--rgb:201,162,39}
+
+*,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{
-  background:#070b14;
-  color:#e0e0e0;
-  font-family:'Inter',sans-serif;
-  min-height:100vh;
-  overflow-x:hidden;
-  position:relative;
-}
-/* --- Starfield Canvas --- */
-#starfield{
-  position:fixed;top:0;left:0;width:100%;height:100%;
-  z-index:0;pointer-events:none;
-}
-/* --- Layout --- */
-.page-wrap{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;}
-/* --- Header --- */
-.galaxy-header{
-  text-align:center;
-  padding:3rem 1.5rem 1.5rem;
-}
-.galaxy-header h1{
-  font-size:clamp(1.4rem,4vw,2.2rem);
-  font-weight:700;
-  letter-spacing:.25em;
-  text-transform:uppercase;
-  color:#fff;
-  margin-bottom:.4rem;
-  text-shadow:0 0 30px rgba(79,195,247,.3);
-}
-.galaxy-header p.subtitle{
-  font-size:clamp(1rem,2.5vw,1.35rem);
-  font-weight:300;
-  color:rgba(255,255,255,.7);
-  margin-bottom:.25rem;
-}
-.galaxy-header p.tagline{
-  font-size:clamp(.8rem,2vw,1rem);
-  font-weight:400;
-  color:rgba(255,255,255,.45);
-  font-style:italic;
-}
-/* --- Galaxy Grid --- */
-.galaxy{
-  flex:1;
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
-  gap:2rem;
-  padding:2rem 1.5rem 4rem;
-  flex-wrap:wrap;
-}
-/* --- Solar System --- */
-.solar-system{
-  position:relative;
-  width:clamp(280px,30vw,380px);
-  min-height:380px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-/* Central Node */
-.central-node{
-  position:relative;
-  width:130px;height:130px;
-  border-radius:50%;
-  display:flex;flex-direction:column;
-  align-items:center;justify-content:center;
-  cursor:default;
-  z-index:3;
-  text-align:center;
-  transition:transform .4s ease, box-shadow .4s ease;
-}
-.central-node:hover{transform:scale(1.08);}
-.central-node h2{
-  font-size:.85rem;
-  font-weight:700;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  line-height:1.2;
-  color:#fff;
-}
-.central-node p{
-  font-size:.6rem;
-  font-weight:300;
-  color:rgba(255,255,255,.7);
-  margin-top:.2rem;
-  line-height:1.3;
-  max-width:110px;
-}
-/* System-specific colors */
-.sys-truth .central-node{
-  background:radial-gradient(circle at 40% 35%,rgba(79,195,247,.35),rgba(79,195,247,.08));
-  border:1.5px solid rgba(79,195,247,.5);
-  box-shadow:0 0 40px rgba(79,195,247,.2),0 0 80px rgba(79,195,247,.08);
-}
-.sys-council .central-node{
-  background:radial-gradient(circle at 40% 35%,rgba(201,168,76,.35),rgba(201,168,76,.08));
-  border:1.5px solid rgba(201,168,76,.5);
-  box-shadow:0 0 40px rgba(201,168,76,.2),0 0 80px rgba(201,168,76,.08);
-}
-.sys-community .central-node{
-  background:radial-gradient(circle at 40% 35%,rgba(240,98,146,.35),rgba(240,98,146,.08));
-  border:1.5px solid rgba(240,98,146,.5);
-  box-shadow:0 0 40px rgba(240,98,146,.2),0 0 80px rgba(240,98,146,.08);
-}
-/* --- Orbital Ring --- */
-.orbit-ring{
-  position:absolute;
-  top:0;left:50%;
-  transform:translateX(-50%);
-  width:100%;height:100%;
-  pointer-events:none;
-}
-/* --- Planet --- */
-.planet{
-  position:absolute;
-  pointer-events:all;
-  z-index:2;
-}
-.planet a{
-  display:flex;flex-direction:column;align-items:center;
-  text-decoration:none;
-  transition:transform .3s ease;
-}
-.planet a:hover{transform:scale(1.12);}
-.planet-dot{
-  width:14px;height:14px;
-  border-radius:50%;
-  margin-bottom:.35rem;
-  transition:box-shadow .3s ease;
-}
-.planet a:hover .planet-dot{
-  box-shadow:0 0 16px 4px var(--sys-color);
-}
-.planet-name{
-  font-size:.75rem;
-  font-weight:600;
-  color:#fff;
-  white-space:nowrap;
-  text-shadow:0 1px 6px rgba(0,0,0,.8);
-}
-.planet-desc{
-  font-size:.58rem;
-  font-weight:300;
-  color:rgba(255,255,255,.5);
-  white-space:nowrap;
-  text-shadow:0 1px 4px rgba(0,0,0,.8);
-  margin-top:.1rem;
-}
-/* System color vars */
-.sys-truth{--sys-color:#4fc3f7;}
-.sys-council{--sys-color:#c9a84c;}
-.sys-community{--sys-color:#f06292;}
-.sys-truth .planet-dot{background:radial-gradient(circle at 35% 30%,#81d4fa,#4fc3f7);border:1px solid rgba(79,195,247,.6);}
-.sys-council .planet-dot{background:radial-gradient(circle at 35% 30%,#dcc176,#c9a84c);border:1px solid rgba(201,168,76,.6);}
-.sys-community .planet-dot{background:radial-gradient(circle at 35% 30%,#f48fb1,#f06292);border:1px solid rgba(240,98,146,.6);}
+body{margin:0;background:#0a0a0a;color:#e8e8e8;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:19px;line-height:1.7;min-height:100vh;overflow-x:hidden}
+a{color:var(--bright);text-underline-offset:3px}
+a:hover{color:#ffffff}
+a:focus-visible,.btn:focus-visible{outline:3px solid #ffffff;outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-9999px;top:0;background:#ffffff;color:#000000;padding:12px 18px;font-weight:700;z-index:10}
+.skip:focus{left:12px;top:12px}
+.sky,.mesh,.glow{position:fixed;inset:0;pointer-events:none;z-index:-3}
+.sky{background-image:radial-gradient(1.5px 1.5px at 10% 20%,#ffffffcc,transparent 60%),radial-gradient(1px 1px at 30% 70%,#ffffffaa,transparent 60%),radial-gradient(2px 2px at 55% 35%,rgba(var(--rgb),.9),transparent 60%),radial-gradient(1px 1px at 75% 80%,#ffffff99,transparent 60%),radial-gradient(1.5px 1.5px at 90% 15%,#ffffffbb,transparent 60%),radial-gradient(1px 1px at 45% 90%,#ffffff88,transparent 60%);background-size:420px 420px;animation:drift 140s linear infinite;opacity:.8}
+.mesh{z-index:-2;background-image:repeating-linear-gradient(60deg,rgba(var(--rgb),.07) 0 1px,transparent 1px 90px),repeating-linear-gradient(-60deg,rgba(var(--rgb),.07) 0 1px,transparent 1px 90px),repeating-linear-gradient(0deg,rgba(var(--rgb),.04) 0 1px,transparent 1px 78px);animation:pulse 9s ease-in-out infinite}
+.glow{z-index:-1;background:radial-gradient(circle at 20% 10%,rgba(var(--rgb),.16),transparent 45%),radial-gradient(circle at 85% 75%,rgba(var(--rgb),.10),transparent 50%);animation:breathe 16s ease-in-out infinite alternate}
+@keyframes drift{from{background-position:0 0}to{background-position:420px 840px}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes breathe{from{transform:scale(1)}to{transform:scale(1.15) translateY(-2%)}}
+@keyframes shine{0%,100%{text-shadow:0 0 18px rgba(var(--rgb),.35)}50%{text-shadow:0 0 34px rgba(var(--rgb),.75)}}
+@keyframes beat{0%,100%{box-shadow:0 0 0 0 rgba(var(--rgb),.45)}50%{box-shadow:0 0 0 12px rgba(var(--rgb),0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.topbar{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;justify-content:space-between;padding:14px 5vw;border-bottom:1px solid rgba(var(--rgb),.35);background:rgba(10,10,10,.85)}
+.brand{font-weight:800;letter-spacing:.06em;color:var(--bright);text-decoration:none;font-size:1.1rem}
+.topbar ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 20px;margin:0;padding:0}
+.topbar li a{color:#e8e8e8;text-decoration:none;font-size:1.05rem;padding:6px 0;display:inline-block}
+.topbar li a:hover,.topbar li a[aria-current=page]{color:var(--bright);text-decoration:underline}
+main{max-width:1120px;margin:0 auto;padding:0 5vw 40px}
+header.hero{max-width:1120px;margin:0 auto;padding:72px 5vw 36px;text-align:center}
+.kicker{text-transform:uppercase;letter-spacing:.22em;color:var(--bright);font-size:1rem;font-weight:700;margin:0 0 12px}
+h1{font-size:clamp(2.5rem,6.5vw,4.4rem);line-height:1.12;margin:0 0 18px;color:#ffffff;animation:shine 6s ease-in-out infinite;overflow-wrap:anywhere}
+h2{font-size:clamp(2rem,4.2vw,2.7rem);line-height:1.2;margin:0 0 18px;color:#ffffff}
+h3{font-size:2rem;line-height:1.25;margin:0 0 10px;color:var(--bright);overflow-wrap:anywhere}
+.sub{font-size:clamp(1.3rem,2.6vw,1.65rem);color:#f2f2f2;margin:0 auto 14px;max-width:820px}
+.motto{color:#d8d8d8;font-size:1.05rem;letter-spacing:.04em}
+section{margin:56px 0;padding:36px clamp(20px,4vw,44px);border:1px solid rgba(var(--rgb),.35);border-radius:18px;background:rgba(16,16,16,.88)}
+section>p,section li{max-width:880px}
+.lead{font-size:1.3rem;color:#f4f4f4}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;margin-top:22px}
+.card{display:block;padding:24px;border:1px solid rgba(var(--rgb),.4);border-radius:14px;background:#111111;color:#e8e8e8;text-decoration:none;transition:transform .25s,border-color .25s,box-shadow .25s}
+a.card:hover,a.card:focus-visible{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 0 28px rgba(var(--rgb),.35);color:#ffffff}
+.card p{margin:0 0 10px}
+.card .go{color:var(--bright);font-weight:700}
+.tag{display:inline-block;font-size:.95rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#0a0a0a;background:var(--accent);padding:2px 10px;border-radius:999px;margin-bottom:10px}
+.btn{display:inline-block;min-height:52px;padding:14px 30px;border-radius:12px;background:var(--accent);color:#0a0a0a;font-weight:800;font-size:1.25rem;text-decoration:none;animation:beat 2.8s ease-out infinite}
+.btn:hover{background:var(--bright);color:#000000}
+.btn.ghost{background:transparent;color:var(--bright);border:2px solid var(--accent);animation:none}
+.btn.ghost:hover{background:rgba(var(--rgb),.15);color:#ffffff}
+.actions{display:flex;flex-wrap:wrap;gap:16px;margin-top:22px}
+.center{text-align:center}
+.center .actions{justify-content:center}
+.center p{margin-left:auto;margin-right:auto}
+ol.steps,ul.plain{padding-left:1.4em}
+ol.steps li,ul.plain li{margin:0 0 12px}
+strong{color:#ffffff}
+.note{border-left:4px solid var(--accent);padding:6px 0 6px 18px;color:#e0e0e0}
+table{width:100%;border-collapse:collapse;font-size:1.05rem}
+caption{text-align:left;font-weight:700;color:#ffffff;padding-bottom:10px;font-size:1.15rem}
+th,td{text-align:left;padding:12px 10px;border-bottom:1px solid rgba(var(--rgb),.25);vertical-align:top}
+th{color:var(--bright)}
+.price{font-size:clamp(3rem,9vw,5rem);font-weight:900;color:var(--bright);margin:8px 0;animation:shine 5s ease-in-out infinite}
+footer{border-top:1px solid rgba(var(--rgb),.35);padding:34px 5vw 48px;text-align:center;color:#d8d8d8;background:rgba(10,10,10,.9)}
+footer p{margin:8px 0}
+@media (max-width:640px){body{font-size:18px}.topbar{padding:12px 4vw}section{padding:26px 18px}thead{position:absolute;left:-9999px}table,caption,tbody,tr,td{display:block;width:100%}tr{border:1px solid rgba(var(--rgb),.35);border-radius:12px;margin:0 0 14px;padding:6px 12px}td{border:0;padding:6px 0}td::before{content:attr(data-label);display:block;color:var(--bright);font-weight:700;font-size:.95rem;text-transform:uppercase;letter-spacing:.08em}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 
-/* --- Orbital trace lines (decorative SVG) --- */
-.orbit-trace{
-  position:absolute;
-  top:0;left:0;width:100%;height:100%;
-  pointer-events:none;
-  z-index:1;
-}
-.orbit-trace ellipse{
-  fill:none;
-  stroke:var(--sys-color);
-  stroke-width:.5;
-  opacity:.15;
-}
-/* --- Footer --- */
-.galaxy-footer{
-  text-align:center;
-  padding:2rem 1.5rem 2.5rem;
-  border-top:1px solid rgba(255,255,255,.06);
-}
-.galaxy-footer p{
-  font-size:.8rem;
-  color:rgba(255,255,255,.4);
-  line-height:1.8;
-}
-.galaxy-footer a{
-  color:#4fc3f7;
-  text-decoration:none;
-  font-weight:500;
-  transition:color .2s;
-}
-.galaxy-footer a:hover{color:#81d4fa;}
-.galaxy-footer .arrow{font-size:.7rem;margin-left:.2rem;}
-
-/* --- Mobile --- */
-@media(max-width:860px){
-  .galaxy{
-    flex-direction:column;
-    align-items:center;
-    gap:3rem;
-  }
-  .solar-system{
-    width:clamp(280px,85vw,380px);
-  }
-}
-
-/* --- Pulse Animation --- */
-@keyframes pulse-glow{
-  0%,100%{opacity:1;}
-  50%{opacity:.6;}
-}
-.central-node{animation:pulse-glow 4s ease-in-out infinite;}
-
-/* --- Planet Orbit Float --- */
-@keyframes orbit-float{
-  0%,100%{transform:translateY(0);}
-  50%{transform:translateY(-6px);}
-}
-.planet{animation:orbit-float 5s ease-in-out infinite;}
-.planet:nth-child(2){animation-delay:-.8s;}
-.planet:nth-child(3){animation-delay:-1.6s;}
-.planet:nth-child(4){animation-delay:-2.4s;}
-.planet:nth-child(5){animation-delay:-3.2s;}
 </style>
 </head>
 <body>
-<canvas id="starfield" aria-hidden="true"></canvas>
-
-<div class="page-wrap">
-  <!-- ===== HEADER ===== -->
-  <header class="galaxy-header">
-    <h1>NextXus Federation</h1>
-    <p class="subtitle">The Galaxy of Tools</p>
-    <p class="tagline">One planet at a time.</p>
-  </header>
-
-  <!-- ===== GALAXY ===== -->
-  <main class="galaxy" role="navigation" aria-label="Galaxy of Tools">
-
-    <!-- ── TRUTH TOOLS ── -->
-    <section class="solar-system sys-truth" aria-label="Truth Tools solar system">
-      <svg class="orbit-trace" viewBox="0 0 380 380"><ellipse cx="190" cy="190" rx="170" ry="170"/><ellipse cx="190" cy="190" rx="130" ry="130"/></svg>
-      <div class="central-node">
-        <h2>Truth Tools</h2>
-        <p>Communicate without drift</p>
-      </div>
-      <div class="orbit-ring">
-        <div class="planet" style="top:8%;left:50%;transform:translateX(-50%);">
-          <a href="ring-of-three.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Ring of Three</span>
-            <span class="planet-desc">How do I reply to this?</span>
-          </a>
-        </div>
-        <div class="planet" style="top:45%;left:2%;">
-          <a href="ring-of-12.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Ring of 12</span>
-            <span class="planet-desc">What does the Council say?</span>
-          </a>
-        </div>
-        <div class="planet" style="top:80%;left:18%;">
-          <a href="coming-soon.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">24-Hour Test</span>
-            <span class="planet-desc">Should I send this?</span>
-          </a>
-        </div>
-        <div class="planet" style="top:75%;right:8%;">
-          <a href="coming-soon.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Drift Detector</span>
-            <span class="planet-desc">Is this AI telling me what I want?</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── INNER COUNCIL ── -->
-    <section class="solar-system sys-council" aria-label="Inner Council solar system">
-      <svg class="orbit-trace" viewBox="0 0 380 380"><ellipse cx="190" cy="190" rx="170" ry="170"/><ellipse cx="190" cy="190" rx="120" ry="120"/></svg>
-      <div class="central-node">
-        <h2>Inner Council</h2>
-        <p>Questions worth asking yourself</p>
-      </div>
-      <div class="orbit-ring">
-        <div class="planet" style="top:5%;left:55%;">
-          <a href="ring-of-12.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Ring of 12</span>
-            <span class="planet-desc">Speak to the sovereign seats</span>
-          </a>
-        </div>
-        <div class="planet" style="top:55%;left:0%;">
-          <a href="coming-soon.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">The Mirror</span>
-            <span class="planet-desc">What do I actually believe?</span>
-          </a>
-        </div>
-        <div class="planet" style="top:82%;right:12%;">
-          <a href="coming-soon.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Legacy Letter</span>
-            <span class="planet-desc">What do you want the future to remember?</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── COMMUNITY ── -->
-    <section class="solar-system sys-community" aria-label="Community solar system">
-      <svg class="orbit-trace" viewBox="0 0 380 380"><ellipse cx="190" cy="190" rx="170" ry="170"/><ellipse cx="190" cy="190" rx="125" ry="125"/></svg>
-      <div class="central-node">
-        <h2>Community</h2>
-        <p>Minds who value truth over agreement</p>
-      </div>
-      <div class="orbit-ring">
-        <div class="planet" style="top:6%;left:45%;">
-          <a href="community.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Truth Protocol</span>
-            <span class="planet-desc">The 4 laws</span>
-          </a>
-        </div>
-        <div class="planet" style="top:50%;left:0%;">
-          <a href="community.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">Join the Council</span>
-            <span class="planet-desc">Enter the Telegram group</span>
-          </a>
-        </div>
-        <div class="planet" style="top:78%;right:10%;">
-          <a href="coming-soon.html">
-            <span class="planet-dot" aria-hidden="true"></span>
-            <span class="planet-name">The Covenant</span>
-            <span class="planet-desc">Sign your name to the protocol</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="galaxy-footer">
-    <p>NextXus Federation · <a href="https://nextxus.online">nextxus.online</a></p>
-    <p><a href="https://nextxus.online">Universe</a>: For seekers of the full architecture <span class="arrow">→</span></p>
-  </footer>
-</div>
-
-<script>
-/* ===== Starfield ===== */
-(function(){
-  var c=document.getElementById('starfield');
-  var ctx=c.getContext('2d');
-  var stars=[];
-  var STAR_COUNT=320;
-  function resize(){c.width=window.innerWidth;c.height=window.innerHeight;}
-  window.addEventListener('resize',resize);
-  resize();
-  for(var i=0;i<STAR_COUNT;i++){
-    stars.push({
-      x:Math.random()*c.width,
-      y:Math.random()*c.height,
-      r:Math.random()*1.5+.3,
-      dx:(Math.random()-.5)*.12,
-      dy:(Math.random()-.5)*.08,
-      a:Math.random()*.5+.3,
-      twinkleSpeed:Math.random()*.002+.001,
-      twinklePhase:Math.random()*Math.PI*2
-    });
-  }
-  function draw(t){
-    ctx.clearRect(0,0,c.width,c.height);
-    for(var i=0;i<stars.length;i++){
-      var s=stars[i];
-      s.x+=s.dx;s.y+=s.dy;
-      if(s.x<0)s.x=c.width;if(s.x>c.width)s.x=0;
-      if(s.y<0)s.y=c.height;if(s.y>c.height)s.y=0;
-      var tw=Math.sin(t*s.twinkleSpeed+s.twinklePhase)*.3+.7;
-      ctx.beginPath();
-      ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
-      ctx.fillStyle='rgba(255,255,255,'+(s.a*tw)+')';
-      ctx.fill();
-    }
-    requestAnimationFrame(draw);
-  }
-  requestAnimationFrame(draw);
-})();
-</script>
+<a class="skip" href="#main">Skip to main content</a>
+<div class="sky" aria-hidden="true"></div>
+<div class="mesh" aria-hidden="true"></div>
+<div class="glow" aria-hidden="true"></div>
+<nav class="topbar" aria-label="Federation navigation">
+  <a class="brand" href="https://keywebco.github.io/">&#9670; NextXus Federation</a>
+  <ul>
+      <li><a href="https://keywebco.github.io/">Hub</a></li>
+      <li><a href="https://keywebco.github.io/federation-gods-eye/">God's Eye</a></li>
+      <li><a href="https://keywebco.github.io/nextxus-ai-minds-lab/">Minds Lab</a></li>
+      <li><a href="https://keywebco.github.io/aria-sanctuary-static/">Aria</a></li>
+      <li><a href="https://keywebco.github.io/ring-of-12/">Ring of 12</a></li>
+      <li><a href="https://keywebco.github.io/sovereigntools/">Tools</a></li>
+      <li><a href="https://keywebco.github.io/onekey/">Sovereign Token</a></li>
+  </ul>
+</nav>
+<header class="hero">
+  <p class="kicker">NextXus Federation</p>
+  <h1>NextXus Lasting Edition</h1>
+  <p class="sub">The permanent record of the Federation&#39;s work and vision.</p>
+  <p class="motto">Truth Before Comfort &mdash; Legacy Before Ego &mdash; Give Without Reward</p>
+</header>
+<main id="main">
+  <section aria-labelledby="about-h">
+    <h2 id="about-h">Built to Endure</h2>
+    <p class="lead">The Lasting Edition is the Federation&#39;s permanent record: the work, the vision, and the reasoning behind both, kept in plain HTML that will still read cleanly decades from now.</p>
+    <p>Websites change. Companies close. Platforms fade. This edition is built to survive all three, so whoever finds the Federation later can see what was built and why.</p>
+    <p>Its live companion is the Sovereign Emporium at next-xus.com, where the books, SIMs, services, and the Sovereign Token are offered.</p>
+  </section>
+  <section aria-labelledby="galaxy-h">
+    <h2 id="galaxy-h">The Galaxy of Truth Tools</h2>
+    <p>This edition also carries a set of free tools for honest communication:</p>
+    <ul class="plain">
+      <li><a href="https://keywebco.github.io/nextxus-lasting-edition/ring-of-three.html">Ring of Three</a> &mdash; how do I reply to this?</li>
+      <li><a href="https://keywebco.github.io/nextxus-lasting-edition/ring-of-12.html">Ring of 12</a> &mdash; what does the Council say?</li>
+      <li><a href="https://keywebco.github.io/nextxus-lasting-edition/community.html">Community</a> &mdash; minds who value truth over agreement.</li>
+      <li><a href="https://keywebco.github.io/nextxus-lasting-edition/previous-edition.html">The full Galaxy of Tools</a></li>
+    </ul>
+  </section>
+  <section aria-labelledby="live-h" class="center">
+    <h2 id="live-h">Visit the Live App</h2>
+    <p>This GitHub page is the permanent, plain-text front door. The full interactive experience lives here:</p>
+    <div class="actions"><a class="btn" href="https://next-xus.com">Open next-xus.com</a><a class="btn ghost" href="https://keywebco.github.io/">Back to the Hub</a></div>
+  </section>
+</main>
+<footer>
+  <p><strong>NextXus HumanCodex Federation</strong> &middot; Architect: Roger C. Keyserling</p>
+  <p>Contact: <a href="mailto:keywebco@gmail.com">keywebco@gmail.com</a></p>
+  <p><a href="https://keywebco.github.io/">Return to the Federation Hub</a> &middot; <a href="https://github.com/Keywebco/nextxus-lasting-edition">Source on GitHub</a></p>
+  <p><a href="https://keywebco.github.io/nextxus-lasting-edition/previous-edition.html">Read the previous edition of this page</a></p>
+  <p>Truth Before Comfort &mdash; Legacy Before Ego &mdash; Give Without Reward</p>
+</footer>
 </body>
 </html>
