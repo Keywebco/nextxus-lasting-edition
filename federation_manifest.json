@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.0.4",
-  "lastUpdated": "2026-09-26 23:04 UTC",
-  "totalItems": 966,
+  "version": "v2.0.5",
+  "lastUpdated": "2026-09-27 11:01 UTC",
+  "totalItems": 970,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -7732,6 +7732,38 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/echo-64",
       "sector": "06"
+    },
+    {
+      "id": "1jz-cIJFGvY3JHvS99cEgg5FXOdGlLkao",
+      "name": "YouTube: ak3f1YJ6lus (Social Grid)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jz-cIJFGvY3JHvS99cEgg5FXOdGlLkao/view",
+      "sector": "10"
+    },
+    {
+      "id": "1eLkgxxaDn3iD0W2UWFaiwVrNs52UA0k1",
+      "name": "YouTube: 5HgxcEEjQoA (Social Grid)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1eLkgxxaDn3iD0W2UWFaiwVrNs52UA0k1/view",
+      "sector": "10"
+    },
+    {
+      "id": "1Jb3ONJcqqIQvZUzLdZUcLa81fOPI29ul",
+      "name": "IMG_5249.jpeg (Visual Logic)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Jb3ONJcqqIQvZUzLdZUcLa81fOPI29ul/view",
+      "sector": "12"
+    },
+    {
+      "id": "1ha2Tsg7Ylkrh49gjYxHuf3s8DIorFVFUsfnQ6GWl-30",
+      "name": "A Terminology Map for the Federation (Philosophical Terms)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ha2Tsg7Ylkrh49gjYxHuf3s8DIorFVFUsfnQ6GWl-30/edit",
+      "sector": "01"
     }
   ]
 }
