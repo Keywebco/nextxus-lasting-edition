@@ -1,1 +1,1 @@
-$(cat updated_manifest_b64.txt)
+$(cat /updated_manifest.json)
