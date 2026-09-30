@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.0.9",
-  "lastUpdated": "2026-09-29 23:02 UTC",
-  "totalItems": 1073,
+  "version": "v2.1.0",
+  "lastUpdated": "2026-09-30 11:06 UTC",
+  "totalItems": 1075,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -8587,6 +8587,22 @@
       "type": "file",
       "source": "Google Drive",
       "url": "https://docs.google.com/document/d/1U_pnwHvzZvvYFM1GWoml-8blKD36M18xoXdBVs48I30/edit?usp=drivesdk",
+      "sector": "06"
+    },
+    {
+      "id": "Keywebco/ring-of-12-middleware",
+      "name": "ring-of-12-middleware",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/ring-of-12-middleware",
+      "sector": "06"
+    },
+    {
+      "id": "Keywebco/ring-of-six-middleware",
+      "name": "ring-of-six-middleware",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/ring-of-six-middleware",
       "sector": "06"
     }
   ]
