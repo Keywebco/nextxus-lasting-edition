@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.1.0",
-  "lastUpdated": "2026-09-30 11:06 UTC",
-  "totalItems": 1075,
+  "version": "v2.1.1",
+  "lastUpdated": "2026-10-01 11:03 UTC",
+  "totalItems": 1092,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -8603,6 +8603,142 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/ring-of-six-middleware",
+      "sector": "06"
+    },
+    {
+      "id": "1lrNoj46WCZMmGJqQdzfycb-kmQp-fXkCTOmgMYEtJGk",
+      "name": "The End of Distance: A Scientific Journey through Quantum Entanglement and Non-Locality",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1lrNoj46WCZMmGJqQdzfycb-kmQp-fXkCTOmgMYEtJGk/edit",
+      "sector": "12"
+    },
+    {
+      "id": "16IJKszB9lcRBW8zaDodQJodAa7oss8BQF2detcod4sk",
+      "name": "Untitled document",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/16IJKszB9lcRBW8zaDodQJodAa7oss8BQF2detcod4sk/edit",
+      "sector": "12"
+    },
+    {
+      "id": "R_kgDOU2aZVw",
+      "name": "nextxus-sim-telegram",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-sim-telegram",
+      "sector": "06"
+    },
+    {
+      "id": "R_kgDOU2aDJQ",
+      "name": "nextxus-archives",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2aCfw",
+      "name": "nextxus-process",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-process",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2aBqQ",
+      "name": "nextxus-yaml",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-yaml",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2aBCg",
+      "name": "nextxus-senate",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-senate",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2aAIQ",
+      "name": "nextxus-chat",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-chat",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z_kw",
+      "name": "nextxus-recycler",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-recycler",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z-zw",
+      "name": "nextxus-research-hub",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-research-hub",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z-Rg",
+      "name": "nextxus-build-nova",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-build-nova",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z9mA",
+      "name": "nextxus-build-sim",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-build-sim",
+      "sector": "06"
+    },
+    {
+      "id": "R_kgDOU2Z9CA",
+      "name": "nextxus-build-website",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-build-website",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z8YQ",
+      "name": "nextxus-tools",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-tools",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z7UQ",
+      "name": "nextxus-music",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-music",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU2Z6iw",
+      "name": "nextxus-blog",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-blog",
+      "sector": "05"
+    },
+    {
+      "id": "R_kgDOU1JEwA",
+      "name": "roger-sim-api",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/roger-sim-api",
       "sector": "06"
     }
   ]
