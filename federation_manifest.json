@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.1.1",
-  "lastUpdated": "2026-10-01 11:03 UTC",
-  "totalItems": 1092,
+  "version": "v2.1.2",
+  "lastUpdated": "2026-10-01 23:04 UTC",
+  "totalItems": 1103,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -8740,6 +8740,94 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/roger-sim-api",
       "sector": "06"
+    },
+    {
+      "id": "14lLXLEYp0vtUbd7DXBWpYSUejbe_-i7U4QZ917keKaM",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Working Manuscript",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/14lLXLEYp0vtUbd7DXBWpYSUejbe_-i7U4QZ917keKaM/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1jEY_obLdNASqVoBy-g-LV0_n9FXjMAOp",
+      "name": "43-suffragettes.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jEY_obLdNASqVoBy-g-LV0_n9FXjMAOp/view",
+      "sector": "12"
+    },
+    {
+      "id": "17P5qsIwDnhaJNdk7F6jIcw76or4YTh1p",
+      "name": "42-al-qarawiyyin.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/17P5qsIwDnhaJNdk7F6jIcw76or4YTh1p/view",
+      "sector": "12"
+    },
+    {
+      "id": "1W2cr2UsHl6TpFyzxXZhhuNkecw-XtBnV",
+      "name": "41-roman-feast.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1W2cr2UsHl6TpFyzxXZhhuNkecw-XtBnV/view",
+      "sector": "12"
+    },
+    {
+      "id": "1kwmt0CQIF7o6dSVQCjXd0xgzOHe4lfHY",
+      "name": "40-saloon.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kwmt0CQIF7o6dSVQCjXd0xgzOHe4lfHY/view",
+      "sector": "12"
+    },
+    {
+      "id": "11Ng9x0FNdNvWGbq-HkqjD4vNRqtJTBId",
+      "name": "39-quantum.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/11Ng9x0FNdNvWGbq-HkqjD4vNRqtJTBId/view",
+      "sector": "12"
+    },
+    {
+      "id": "1fmRqfCoTcCLATuC4hj5tlrawwWhvT1eh",
+      "name": "38-simulation.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1fmRqfCoTcCLATuC4hj5tlrawwWhvT1eh/view",
+      "sector": "06"
+    },
+    {
+      "id": "1AO8RhES_17N-gqWjLD41NJn2-ss-Su6x",
+      "name": "37-new-mind.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1AO8RhES_17N-gqWjLD41NJn2-ss-Su6x/view",
+      "sector": "12"
+    },
+    {
+      "id": "1YTnONzVhRKU3Kk96sSX8oDk6txH61jlabYd9ulK92Ms",
+      "name": "Roger, this is perfect",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1YTnONzVhRKU3Kk96sSX8oDk6txH61jlabYd9ulK92Ms/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1LwIHv_iIr8S6xiexGh6IEvxSg4c7LbqlnHMi8AQjrfU",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Working Manuscript",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1LwIHv_iIr8S6xiexGh6IEvxSg4c7LbqlnHMi8AQjrfU/edit",
+      "sector": "05"
+    },
+    {
+      "id": "1x3OKWMx5Dmo7ZgwCuK5ZgVtURYVltCXluBfr-GBWK48",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Working Manuscript",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1x3OKWMx5Dmo7ZgwCuK5ZgVtURYVltCXluBfr-GBWK48/edit",
+      "sector": "05"
     }
   ]
 }
