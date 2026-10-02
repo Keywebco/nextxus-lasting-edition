@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.1.2",
-  "lastUpdated": "2026-10-01 23:04 UTC",
-  "totalItems": 1103,
+  "version": "v2.1.3",
+  "lastUpdated": "2026-10-02 11:01 UTC",
+  "totalItems": 1119,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -8828,6 +8828,134 @@
       "source": "Google Drive",
       "url": "https://docs.google.com/document/d/1x3OKWMx5Dmo7ZgwCuK5ZgVtURYVltCXluBfr-GBWK48/edit",
       "sector": "05"
+    },
+    {
+      "id": "nextxus-dispatch",
+      "name": "nextxus-dispatch",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-sim-telegram",
+      "name": "nextxus-sim-telegram",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-sim-telegram",
+      "sector": "06"
+    },
+    {
+      "id": "nextxus-archives",
+      "name": "nextxus-archives",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-process",
+      "name": "nextxus-process",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-process",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-yaml",
+      "name": "nextxus-yaml",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-yaml",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-senate",
+      "name": "nextxus-senate",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-senate",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-chat",
+      "name": "nextxus-chat",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-chat",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-recycler",
+      "name": "nextxus-recycler",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-recycler",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-research-hub",
+      "name": "nextxus-research-hub",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-research-hub",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-build-nova",
+      "name": "nextxus-build-nova",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-build-nova",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-build-sim",
+      "name": "nextxus-build-sim",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-build-sim",
+      "sector": "06"
+    },
+    {
+      "id": "nextxus-build-website",
+      "name": "nextxus-build-website",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-build-website",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-tools",
+      "name": "nextxus-tools",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-tools",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-music",
+      "name": "nextxus-music",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-music",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-blog",
+      "name": "nextxus-blog",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-blog",
+      "sector": "07"
+    },
+    {
+      "id": "roger-sim-api",
+      "name": "roger-sim-api",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/roger-sim-api",
+      "sector": "06"
     }
   ]
 }
