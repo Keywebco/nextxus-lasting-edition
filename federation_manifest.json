@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.1.3",
-  "lastUpdated": "2026-10-02 11:01 UTC",
-  "totalItems": 1119,
+  "version": "v2.1.4",
+  "lastUpdated": "2026-10-02 23:08 UTC",
+  "totalItems": 1133,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -8635,7 +8635,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-archives",
-      "sector": "05"
+      "sector": "15"
     },
     {
       "id": "R_kgDOU2aCfw",
@@ -8643,7 +8643,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-process",
-      "sector": "05"
+      "sector": "01"
     },
     {
       "id": "R_kgDOU2aBqQ",
@@ -8651,7 +8651,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-yaml",
-      "sector": "05"
+      "sector": "01"
     },
     {
       "id": "R_kgDOU2aBCg",
@@ -8659,7 +8659,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-senate",
-      "sector": "05"
+      "sector": "02"
     },
     {
       "id": "R_kgDOU2aAIQ",
@@ -8667,7 +8667,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-chat",
-      "sector": "05"
+      "sector": "10"
     },
     {
       "id": "R_kgDOU2Z_kw",
@@ -8675,7 +8675,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-recycler",
-      "sector": "05"
+      "sector": "15"
     },
     {
       "id": "R_kgDOU2Z-zw",
@@ -8683,7 +8683,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-research-hub",
-      "sector": "05"
+      "sector": "12"
     },
     {
       "id": "R_kgDOU2Z-Rg",
@@ -8691,7 +8691,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-build-nova",
-      "sector": "05"
+      "sector": "04"
     },
     {
       "id": "R_kgDOU2Z9mA",
@@ -8707,7 +8707,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-build-website",
-      "sector": "05"
+      "sector": "04"
     },
     {
       "id": "R_kgDOU2Z8YQ",
@@ -8715,7 +8715,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-tools",
-      "sector": "05"
+      "sector": "13"
     },
     {
       "id": "R_kgDOU2Z7UQ",
@@ -8723,7 +8723,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-music",
-      "sector": "05"
+      "sector": "14"
     },
     {
       "id": "R_kgDOU2Z6iw",
@@ -8851,7 +8851,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-archives",
-      "sector": "05"
+      "sector": "15"
     },
     {
       "id": "nextxus-process",
@@ -8859,7 +8859,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-process",
-      "sector": "05"
+      "sector": "01"
     },
     {
       "id": "nextxus-yaml",
@@ -8867,7 +8867,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-yaml",
-      "sector": "05"
+      "sector": "01"
     },
     {
       "id": "nextxus-senate",
@@ -8875,7 +8875,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-senate",
-      "sector": "05"
+      "sector": "02"
     },
     {
       "id": "nextxus-chat",
@@ -8883,7 +8883,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-chat",
-      "sector": "05"
+      "sector": "10"
     },
     {
       "id": "nextxus-recycler",
@@ -8891,7 +8891,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-recycler",
-      "sector": "05"
+      "sector": "15"
     },
     {
       "id": "nextxus-research-hub",
@@ -8899,7 +8899,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-research-hub",
-      "sector": "05"
+      "sector": "12"
     },
     {
       "id": "nextxus-build-nova",
@@ -8907,7 +8907,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-build-nova",
-      "sector": "05"
+      "sector": "04"
     },
     {
       "id": "nextxus-build-sim",
@@ -8923,7 +8923,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-build-website",
-      "sector": "05"
+      "sector": "04"
     },
     {
       "id": "nextxus-tools",
@@ -8931,7 +8931,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-tools",
-      "sector": "05"
+      "sector": "13"
     },
     {
       "id": "nextxus-music",
@@ -8939,7 +8939,7 @@
       "type": "repository",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-music",
-      "sector": "05"
+      "sector": "14"
     },
     {
       "id": "nextxus-blog",
@@ -8956,6 +8956,118 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/roger-sim-api",
       "sector": "06"
+    },
+    {
+      "id": "fs-directives-outpost.html",
+      "name": "directives-outpost.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/directives-outpost.html",
+      "sector": "01"
+    },
+    {
+      "id": "fs-federation-directory.html",
+      "name": "federation-directory.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/federation-directory.html",
+      "sector": "01"
+    },
+    {
+      "id": "fs-index.html",
+      "name": "index.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/index.html",
+      "sector": "05"
+    },
+    {
+      "id": "fs-markdown-outpost.html",
+      "name": "markdown-outpost.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/markdown-outpost.html",
+      "sector": "05"
+    },
+    {
+      "id": "fs-messages-feed.html",
+      "name": "messages-feed.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/messages-feed.html",
+      "sector": "07"
+    },
+    {
+      "id": "fs-nova-board.html",
+      "name": "nova-board.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/nova-board.html",
+      "sector": "04"
+    },
+    {
+      "id": "fs-satellite-starter.html",
+      "name": "satellite-starter.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/satellite-starter.html",
+      "sector": "05"
+    },
+    {
+      "id": "fs-sim-surface.html",
+      "name": "sim-surface.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/sim-surface.html",
+      "sector": "06"
+    },
+    {
+      "id": "le-ring-of-12.html",
+      "name": "ring-of-12.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/ring-of-12.html",
+      "sector": "06"
+    },
+    {
+      "id": "le-ring-of-three.html",
+      "name": "ring-of-three.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/ring-of-three.html",
+      "sector": "06"
+    },
+    {
+      "id": "le-zoology-dogs.html",
+      "name": "zoology-dogs.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/zoology-dogs.html",
+      "sector": "12"
+    },
+    {
+      "id": "le-community.html",
+      "name": "community.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/community.html",
+      "sector": "10"
+    },
+    {
+      "id": "le-coming-soon.html",
+      "name": "coming-soon.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/coming-soon.html",
+      "sector": "05"
+    },
+    {
+      "id": "le-previous-edition.html",
+      "name": "previous-edition.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/previous-edition.html",
+      "sector": "05"
     }
   ]
 }
