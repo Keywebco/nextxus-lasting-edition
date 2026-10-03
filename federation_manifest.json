@@ -1,8 +1,8 @@
 {
   "manifest": "NX-022",
-  "version": "v2.1.4",
-  "lastUpdated": "2026-10-02 23:08 UTC",
-  "totalItems": 1133,
+  "version": "v2.1.5",
+  "lastUpdated": "2026-10-03 11:03 UTC",
+  "totalItems": 1141,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -9067,6 +9067,70 @@
       "type": "file",
       "source": "GitHub (nextxus-lasting-edition)",
       "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/previous-edition.html",
+      "sector": "05"
+    },
+    {
+      "id": "1SITpqDunYgxB_O0AitmlVl2ireU3qs_C",
+      "name": "timeline-search-icon.png",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SITpqDunYgxB_O0AitmlVl2ireU3qs_C/view",
+      "sector": "12"
+    },
+    {
+      "id": "1Lc45GOZeTZlIjnqZeVRQOhJS2A1vspOgFe657ezNnxU",
+      "name": "THE HUMAN CODEX \u2014 Timeline & Table of Contents",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Lc45GOZeTZlIjnqZeVRQOhJS2A1vspOgFe657ezNnxU/view",
+      "sector": "05"
+    },
+    {
+      "id": "11XAsNMiwmn0dj_NmnKF5pILmM5K6dleDXWKYggsazTA",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Vol. VI: The Cold Peace to Tomorrow",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/11XAsNMiwmn0dj_NmnKF5pILmM5K6dleDXWKYggsazTA/view",
+      "sector": "05"
+    },
+    {
+      "id": "1YizFTlwhVj_BSA4gRgS2itR22DCWoWYEWBN0CpOHW44",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Vol. V: Steam, Steel, and the Wars",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1YizFTlwhVj_BSA4gRgS2itR22DCWoWYEWBN0CpOHW44/view",
+      "sector": "05"
+    },
+    {
+      "id": "1y08P0zAWW1hsQJWgTl2CS7avvOalBRDRIjrJbzZfXGw",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Vol. IV: Plague, Sail, and Reason",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1y08P0zAWW1hsQJWgTl2CS7avvOalBRDRIjrJbzZfXGw/view",
+      "sector": "05"
+    },
+    {
+      "id": "1ki1EjPOqCHuJVKfJ-gDxXv_1mFMLqIe7F3I7spvDWAU",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Vol. III: Faiths and the Medieval World",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ki1EjPOqCHuJVKfJ-gDxXv_1mFMLqIe7F3I7spvDWAU/view",
+      "sector": "05"
+    },
+    {
+      "id": "1ZRkGcE1FY5JWkUwU84S_F3McDBnDF40hDXLizy8wZw0",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Vol. II: Bronze and Iron",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ZRkGcE1FY5JWkUwU84S_F3McDBnDF40hDXLizy8wZw0/view",
+      "sector": "05"
+    },
+    {
+      "id": "13Ol-WG3Panjs2QgZGYpBheXOX1m2qHiIGW0qHsH2Zoo",
+      "name": "THE HUMAN CODEX: A COLLECTION IN VERSE \u2014 Vol. I: Deep Time to the First Villages",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/13Ol-WG3Panjs2QgZGYpBheXOX1m2qHiIGW0qHsH2Zoo/view",
       "sector": "05"
     }
   ]
