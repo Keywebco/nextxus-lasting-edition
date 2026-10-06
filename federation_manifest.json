@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.1.6",
-  "lastUpdated": "2026-10-05 11:02 UTC",
-  "totalItems": 1150,
+  "version": "v2.1.7",
+  "lastUpdated": "2026-10-06 11:04 UTC",
+  "totalItems": 1152,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -9204,6 +9204,22 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-brain",
       "sector": "01"
+    },
+    {
+      "id": "19UWylCePOBgvKCLaz3c8P6uAfiw3zcD3",
+      "name": "0eddae3d-7df8-476e-8281-364f55be2049",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/19UWylCePOBgvKCLaz3c8P6uAfiw3zcD3/view",
+      "sector": "15"
+    },
+    {
+      "id": "1jOMPvmj8j5T2EZZzRyPQQr9lDXGIh5l5",
+      "name": "401dc3fc-2e4f-4ec2-abd3-e3634ebdcfe4",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jOMPvmj8j5T2EZZzRyPQQr9lDXGIh5l5/view",
+      "sector": "15"
     }
   ]
 }
