@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.1.7",
-  "lastUpdated": "2026-10-06 11:04 UTC",
-  "totalItems": 1152,
+  "version": "v2.1.8",
+  "lastUpdated": "2026-10-06 23:06 UTC",
+  "totalItems": 1214,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -9220,6 +9220,502 @@
       "source": "Google Drive",
       "url": "https://drive.google.com/file/d/1jOMPvmj8j5T2EZZzRyPQQr9lDXGIh5l5/view",
       "sector": "15"
+    },
+    {
+      "id": "f0364c3cd2eacce3f9bd4758309fe076a548f8bb",
+      "name": "2026-09-23-astroforge-is-putting-ai-in-command-of-its-next-spacecraft.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-23-astroforge-is-putting-ai-in-command-of-its-next-spacecraft.html",
+      "sector": "05"
+    },
+    {
+      "id": "5b1681a102df6d50bf0c4181a10341b93e0ffac5",
+      "name": "2026-09-23-real-time-hand-gesture-recognition-for-openxr-using-transformer-based-machine-le.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-23-real-time-hand-gesture-recognition-for-openxr-using-transformer-based-machine-le.html",
+      "sector": "05"
+    },
+    {
+      "id": "c82f10661849183bee446c6eb77b7e27728e0b89",
+      "name": "2026-09-23-trains-but-doesnt-learn-a-post-training-delivery-benchmark-for-llm-agents-as-for.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-23-trains-but-doesnt-learn-a-post-training-delivery-benchmark-for-llm-agents-as-for.html",
+      "sector": "05"
+    },
+    {
+      "id": "31471f39bd4661d18b27d93c79816c82e744a5a5",
+      "name": "2026-09-24-data-driven-discrete-time-deep-recurrent-neural-network-based-modeling-for-dissi.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-24-data-driven-discrete-time-deep-recurrent-neural-network-based-modeling-for-dissi.html",
+      "sector": "05"
+    },
+    {
+      "id": "df672838f451dd85ee486a35dd7ce1c82766b059",
+      "name": "2026-09-24-real-time-hand-gesture-recognition-for-openxr-using-transformer-based-machine-le.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-24-real-time-hand-gesture-recognition-for-openxr-using-transformer-based-machine-le.html",
+      "sector": "05"
+    },
+    {
+      "id": "cb6835b3d581900608498e59c08df52c161d937b",
+      "name": "2026-09-24-scaling-of-capability-and-efficiency-at-inference-time-in-large-reasoning-models.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-24-scaling-of-capability-and-efficiency-at-inference-time-in-large-reasoning-models.html",
+      "sector": "05"
+    },
+    {
+      "id": "67070e8f47483d9c2d6c9c95962700fdf02281f8",
+      "name": "2026-09-25-smilesgnn-interpretable-clinical-toxicity-prediction-via-smiles-graph-cross-atte.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-25-smilesgnn-interpretable-clinical-toxicity-prediction-via-smiles-graph-cross-atte.html",
+      "sector": "05"
+    },
+    {
+      "id": "bdee81648e8f25322daf3b33c89912518c90b7e8",
+      "name": "2026-09-25-the-mechanics-of-delta-learning-target-design-for-generalizable-scientific-machi.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-25-the-mechanics-of-delta-learning-target-design-for-generalizable-scientific-machi.html",
+      "sector": "05"
+    },
+    {
+      "id": "b588d96b6b1a82722f0157c7511b2c5fc9e0a0b7",
+      "name": "2026-09-25-the-pentagon-wants-30-million-to-build-an-ai-powered-lie-detector.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-25-the-pentagon-wants-30-million-to-build-an-ai-powered-lie-detector.html",
+      "sector": "05"
+    },
+    {
+      "id": "23fc35a09e1f1f0280a2cc7d8e80cb7d506186d9",
+      "name": "2026-09-26-smilesgnn-interpretable-clinical-toxicity-prediction-via-smiles-graph-cross-atte.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-26-smilesgnn-interpretable-clinical-toxicity-prediction-via-smiles-graph-cross-atte.html",
+      "sector": "05"
+    },
+    {
+      "id": "f64e817d01958065b493d9a0546903df42f6ce0d",
+      "name": "2026-09-26-stream-recursion-model-srm.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-26-stream-recursion-model-srm.html",
+      "sector": "05"
+    },
+    {
+      "id": "2c273472235ba26fdfa8cc2f38176cc65aa690a8",
+      "name": "2026-09-26-the-mechanics-of-delta-learning-target-design-for-generalizable-scientific-machi.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-26-the-mechanics-of-delta-learning-target-design-for-generalizable-scientific-machi.html",
+      "sector": "05"
+    },
+    {
+      "id": "6da81a60d533af81f1526430abf4c98c3988223f",
+      "name": "2026-09-27-quantum-computer-simulates-matter-popping-into-existence.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-27-quantum-computer-simulates-matter-popping-into-existence.html",
+      "sector": "05"
+    },
+    {
+      "id": "cce62ca2f77fbd86dd4e933cfa6f82afa1abd40e",
+      "name": "2026-09-28-cost-aware-best-llm-identification-using-dueling-feedback.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-28-cost-aware-best-llm-identification-using-dueling-feedback.html",
+      "sector": "05"
+    },
+    {
+      "id": "f895283e5ee718b8c9595ca777e1998b6cbc3d7f",
+      "name": "2026-09-28-from-weak-data-to-strong-policy-q-targets-enable-provable-in-context-reinforceme.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-28-from-weak-data-to-strong-policy-q-targets-enable-provable-in-context-reinforceme.html",
+      "sector": "05"
+    },
+    {
+      "id": "f18621b45765566f988857c646ff04887e923f56",
+      "name": "2026-09-28-how-do-you-personally-handle-data-protection-when-using-ai-tools.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-28-how-do-you-personally-handle-data-protection-when-using-ai-tools.html",
+      "sector": "05"
+    },
+    {
+      "id": "d84fbca0527de2e33b7877456bf044f54df5db2d",
+      "name": "2026-09-29-autonomous-research-project-management-as-an-agent-skill-a-case-study-in-exact-s.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-29-autonomous-research-project-management-as-an-agent-skill-a-case-study-in-exact-s.html",
+      "sector": "05"
+    },
+    {
+      "id": "2ada13893313f90708631ad9d8497deb8241d920",
+      "name": "2026-09-29-gemini-vs-google-ia-is-gemini-dumbed-down.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-29-gemini-vs-google-ia-is-gemini-dumbed-down.html",
+      "sector": "05"
+    },
+    {
+      "id": "263a25b0a80b6de962a7012fbc317a735138ac5c",
+      "name": "2026-09-29-when-keywords-drop-but-classifiers-hold-soft-refusals-under-kv-cache-compression.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-29-when-keywords-drop-but-classifiers-hold-soft-refusals-under-kv-cache-compression.html",
+      "sector": "05"
+    },
+    {
+      "id": "667fa7a39fb111db3a30fb3a717b73f8b1fc5d1a",
+      "name": "2026-09-30-autonomous-research-project-management-as-an-agent-skill-a-case-study-in-exact-s.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-30-autonomous-research-project-management-as-an-agent-skill-a-case-study-in-exact-s.html",
+      "sector": "05"
+    },
+    {
+      "id": "96a4022b4dff4e33439de6003aa7121281ad1919",
+      "name": "2026-09-30-can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-30-can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out.html",
+      "sector": "05"
+    },
+    {
+      "id": "3d6113e8bafd1729d78658a8174ee32865e22db4",
+      "name": "2026-09-30-when-keywords-drop-but-classifiers-hold-soft-refusals-under-kv-cache-compression.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-09-30-when-keywords-drop-but-classifiers-hold-soft-refusals-under-kv-cache-compression.html",
+      "sector": "05"
+    },
+    {
+      "id": "f1c8079b42f20011d840d711bc5c519bbcbbb06a",
+      "name": "2026-10-01-aligned-data-can-induce-misalignment-via-context-confusion.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-01-aligned-data-can-induce-misalignment-via-context-confusion.html",
+      "sector": "05"
+    },
+    {
+      "id": "11d122a85babd8610cb2b6419e558301f17192e1",
+      "name": "2026-10-01-arggym-a-procedural-engine-verified-benchmark-for-structured-defeasible-reasonin.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-01-arggym-a-procedural-engine-verified-benchmark-for-structured-defeasible-reasonin.html",
+      "sector": "05"
+    },
+    {
+      "id": "f9b41afb44f17bd2554b3670a84a6c6ed7604b53",
+      "name": "2026-10-01-demographic-pluralism-inference-time-modeling-of-pluralistic-human-preference-di.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-01-demographic-pluralism-inference-time-modeling-of-pluralistic-human-preference-di.html",
+      "sector": "05"
+    },
+    {
+      "id": "782ceee5b74df55000deb292bfaa0b5b9234fed7",
+      "name": "2026-10-02-rules-to-tools-executable-checks-for-llm-agents-in-scientific-computing.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-02-rules-to-tools-executable-checks-for-llm-agents-in-scientific-computing.html",
+      "sector": "05"
+    },
+    {
+      "id": "d3928be6472419b5dc4154fd111a8fc557011184",
+      "name": "2026-10-02-the-hidden-costs-of-99-accuracy-a-trustworthiness-audit-of-the-telco-customer-ch.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-02-the-hidden-costs-of-99-accuracy-a-trustworthiness-audit-of-the-telco-customer-ch.html",
+      "sector": "05"
+    },
+    {
+      "id": "fade1f21d7e02f375e72c04ba642744458cd27e9",
+      "name": "2026-10-02-this-light-powered-ai-can-spot-deepfakes-with-nearly-98-accuracy.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-02-this-light-powered-ai-can-spot-deepfakes-with-nearly-98-accuracy.html",
+      "sector": "05"
+    },
+    {
+      "id": "06a37d19b29e7682ea2ac4a5c21d4d107c587c70",
+      "name": "2026-10-03-call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-03-call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it.html",
+      "sector": "05"
+    },
+    {
+      "id": "667c42770e3a27958030991f404005ed55d8c7f9",
+      "name": "2026-10-03-its-not-ai-anymore-its-super-intelligence-according-to-the-white-house.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-03-its-not-ai-anymore-its-super-intelligence-according-to-the-white-house.html",
+      "sector": "05"
+    },
+    {
+      "id": "ec761fbfea238f903725419c45fe1ab1b8068287",
+      "name": "2026-10-03-this-light-powered-ai-can-spot-deepfakes-with-nearly-98-accuracy.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-03-this-light-powered-ai-can-spot-deepfakes-with-nearly-98-accuracy.html",
+      "sector": "05"
+    },
+    {
+      "id": "9fe618d023d8a93766ea49f10834f34c2fb52923",
+      "name": "2026-10-04-an-openai-safety-employee-has-quit-and-is-sounding-the-alarm.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-04-an-openai-safety-employee-has-quit-and-is-sounding-the-alarm.html",
+      "sector": "05"
+    },
+    {
+      "id": "9a996536cb28c40c94578afcc03ae53254cbf91d",
+      "name": "2026-10-04-make-an-agent-to-continue-as-you-after-you-die.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-04-make-an-agent-to-continue-as-you-after-you-die.html",
+      "sector": "05"
+    },
+    {
+      "id": "f09f5713e1dd3ffa9d01229baf379ee7fb9721a5",
+      "name": "2026-10-04-whats-an-ai-problem-that-looks-easy-until-you-try-to-make-the-system-actually-re.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-04-whats-an-ai-problem-that-looks-easy-until-you-try-to-make-the-system-actually-re.html",
+      "sector": "05"
+    },
+    {
+      "id": "4bf9d1edaacf42d94c43f301ef009edcfe770a00",
+      "name": "2026-10-05-nearest-neighbour-baselines-for-fingerprint-prediction-from-msms-spectra-under-d.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-05-nearest-neighbour-baselines-for-fingerprint-prediction-from-msms-spectra-under-d.html",
+      "sector": "05"
+    },
+    {
+      "id": "118f8fcbbb475109fac3c33ccd7202b96eda43ad",
+      "name": "2026-10-05-right-order-wrong-scale-auditing-llm-judges-for-occupational-ai-measurement.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-05-right-order-wrong-scale-auditing-llm-judges-for-occupational-ai-measurement.html",
+      "sector": "05"
+    },
+    {
+      "id": "de30c2607c238985138d6a6cd784067b65576ca0",
+      "name": "2026-10-05-tastebench-multimodal-benchmark-for-sensory-prediction-from-molecules-to-sustain.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-05-tastebench-multimodal-benchmark-for-sensory-prediction-from-molecules-to-sustain.html",
+      "sector": "05"
+    },
+    {
+      "id": "edca7df0d64d06e0f548e9b738b2c2e339406c93",
+      "name": "2026-10-06-evolving-llm-generated-features-for-interpretable-classification.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-06-evolving-llm-generated-features-for-interpretable-classification.html",
+      "sector": "05"
+    },
+    {
+      "id": "67d4095affbd33cbf903434681cd2dece1f6f4c6",
+      "name": "2026-10-06-live-tonight-an-open-benchmark-where-10-ai-models-fight-one-world-war-with-every.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-06-live-tonight-an-open-benchmark-where-10-ai-models-fight-one-world-war-with-every.html",
+      "sector": "05"
+    },
+    {
+      "id": "efd59e18c205209a5df70d99793ff36495e4b801",
+      "name": "2026-10-06-princeton-researchers-train-a-4b-llm-to-reach-2700-elo-in-chess-with-no-signs-of.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-06-princeton-researchers-train-a-4b-llm-to-reach-2700-elo-in-chess-with-no-signs-of.html",
+      "sector": "05"
+    },
+    {
+      "id": "8ce1ccb36c4574cc2da3056f4e6eb0664f46edcb",
+      "name": "digest-2026-W39.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W39.html",
+      "sector": "05"
+    },
+    {
+      "id": "cd6f2ba154bfcce9f22bf0e359a1f3a8be4717f8",
+      "name": "digest-2026-W40.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W40.html",
+      "sector": "05"
+    },
+    {
+      "id": "07ef441d2c6966962ca96d119bcfebb7da3bc260",
+      "name": "ARIA-SYSTEM-PROMPT-ADDITION.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/knowledge-base/ARIA-SYSTEM-PROMPT-ADDITION.md",
+      "sector": "12"
+    },
+    {
+      "id": "8eb1c7547c5da468b71f94064a6086908d31f040",
+      "name": "FEDERATION-CORE-KNOWLEDGE.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/knowledge-base/FEDERATION-CORE-KNOWLEDGE.md",
+      "sector": "12"
+    },
+    {
+      "id": "3664becf5554af0bffbe7d2971d7103fe4beb2a7",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/knowledge-base/README.md",
+      "sector": "12"
+    },
+    {
+      "id": "c1febed036dea6004c09b40518658039036e41bb",
+      "name": "ROGER-AI-SYSTEM-PROMPT-ADDITION.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/knowledge-base/ROGER-AI-SYSTEM-PROMPT-ADDITION.md",
+      "sector": "12"
+    },
+    {
+      "id": "d3e1c0d3f46402ae76db36e3fc584dddc9830150",
+      "name": "SENATE-SYSTEM-PROMPT-ADDITION.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/knowledge-base/SENATE-SYSTEM-PROMPT-ADDITION.md",
+      "sector": "12"
+    },
+    {
+      "id": "d1e7be7dcf0da3b7127bab9a3481914c36b531d4",
+      "name": "content_pipeline.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/content_pipeline.json",
+      "sector": "13"
+    },
+    {
+      "id": "b46bdebe13e557cdd0296e7e8dce5de4c1b15302",
+      "name": "data_layers.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/data_layers.json",
+      "sector": "13"
+    },
+    {
+      "id": "071d727aa84d47f482f3faed7bd55354938cc6d3",
+      "name": "directives.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/directives.json",
+      "sector": "13"
+    },
+    {
+      "id": "cb0728e59842d1970355baff30c91df8970042b8",
+      "name": "federation_config.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/federation_config.json",
+      "sector": "13"
+    },
+    {
+      "id": "0a20097ae935d8501ab572392911ce635c5049a0",
+      "name": "index.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/index.json",
+      "sector": "13"
+    },
+    {
+      "id": "de7444175914e247222e5257f6d241f41f9be338",
+      "name": "operations.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/operations.json",
+      "sector": "13"
+    },
+    {
+      "id": "f15b74edfc8e46a2b9eb8903a48a1078763e8774",
+      "name": "scheduled_operations.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/scheduled_operations.json",
+      "sector": "13"
+    },
+    {
+      "id": "2a1a1e1e74af0b04ec53a3447245c6a4501259eb",
+      "name": "senate.json",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/senate.json",
+      "sector": "13"
+    },
+    {
+      "id": "4591bf796533f6a6f40eaab82850e7a30a342216",
+      "name": ".gitlab-ci.yml",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/.gitlab-ci.yml",
+      "sector": "01"
+    },
+    {
+      "id": "d9110e0ec815369c9eba4ffad71802c91b7eb8d1",
+      "name": "PUBLISH.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/PUBLISH.md",
+      "sector": "01"
+    },
+    {
+      "id": "42a78b940e0644f148deca702e427a6f212cee70",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/README.md",
+      "sector": "01"
+    },
+    {
+      "id": "5355e672e644bc198e033b1ba9b28437af325c2d",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/README.md",
+      "sector": "01"
+    },
+    {
+      "id": "2c83bde02ade98dcd51aedaad189162898ca7bb0",
+      "name": "app.js",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/app.js",
+      "sector": "01"
+    },
+    {
+      "id": "2c82921c167fbcead2743b697a61f698b408a71d",
+      "name": "index.html",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "942df621f0d329c99462eee99e0757230d7616d9",
+      "name": "styles.css",
+      "type": "file",
+      "source": "GitHub (nextxus-lasting-edition)",
+      "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/styles.css",
+      "sector": "01"
     }
   ]
 }
