@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.1.9",
-  "lastUpdated": "2026-10-07 11:02 UTC",
-  "totalItems": 1408,
+  "version": "v2.2.0",
+  "lastUpdated": "2026-10-07 23:03 UTC",
+  "totalItems": 1461,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -11268,6 +11268,430 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/style.css",
       "sector": "15"
+    },
+    {
+      "id": "nextxus-humancodex",
+      "name": "nextxus-humancodex",
+      "type": "repository",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-README.md",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/README.md",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-ask-index.html",
+      "name": "ask/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/ask/index.html",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-ask.js",
+      "name": "assets/ask.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/ask.js",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-members.js",
+      "name": "assets/members.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/members.js",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-nx-providers.js",
+      "name": "assets/nx-providers.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/nx-providers.js",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-research.js",
+      "name": "assets/research.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/research.js",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-style.css",
+      "name": "assets/style.css",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/style.css",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-truth-check.js",
+      "name": "assets/truth-check.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/truth-check.js",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-assets-voice.js",
+      "name": "assets/voice.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/assets/voice.js",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-index.html",
+      "name": "index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/index.html",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-learn-index.html",
+      "name": "learn/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/learn/index.html",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-members-index.html",
+      "name": "members/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/members/index.html",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-humancodex-research-index.html",
+      "name": "research/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/research/index.html",
+      "sector": "05"
+    },
+    {
+      "id": "nextxus-agent-zero-.github-workflows-disabled-mesh-sync.yml.disabled",
+      "name": ".github/workflows/disabled/mesh-sync.yml.disabled",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/.github/workflows/disabled/mesh-sync.yml.disabled",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-.gitlab-ci.yml",
+      "name": ".gitlab-ci.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/.gitlab-ci.yml",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-GOVERNANCE.md",
+      "name": "GOVERNANCE.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/GOVERNANCE.md",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-README.md",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/README.md",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-_config.yml",
+      "name": "_config.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/_config.yml",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-aria-hero.jpg",
+      "name": "assets/aria-hero.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/aria-hero.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-circuit-face.jpg",
+      "name": "assets/circuit-face.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/circuit-face.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-ie-truth.jpg",
+      "name": "assets/ie-truth.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/ie-truth.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-library-hero.jpg",
+      "name": "assets/library-hero.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/library-hero.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-maze-token.jpg",
+      "name": "assets/maze-token.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/maze-token.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-oracle-face.jpg",
+      "name": "assets/oracle-face.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/oracle-face.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-roger-ai-face.jpg",
+      "name": "assets/roger-ai-face.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/roger-ai-face.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-assets-token-hero.jpg",
+      "name": "assets/token-hero.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/assets/token-hero.jpg",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-blogs-blog-post-1.html",
+      "name": "blogs/blog-post-1.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/blogs/blog-post-1.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-blogs-blog-post-2.html",
+      "name": "blogs/blog-post-2.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/blogs/blog-post-2.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-blogs-blog-post-3.html",
+      "name": "blogs/blog-post-3.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/blogs/blog-post-3.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-blogs-junction-article.html",
+      "name": "blogs/junction-article.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/blogs/junction-article.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-capabilities-index.html",
+      "name": "capabilities/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/capabilities/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-council-chamber-index.html",
+      "name": "council-chamber/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/council-chamber/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-council-chamber-nx-providers.js",
+      "name": "council-chamber/nx-providers.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/council-chamber/nx-providers.js",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-federation-brief-full.html",
+      "name": "federation-brief-full.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/federation-brief-full.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-federation-viewer-index.html",
+      "name": "federation-viewer/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/federation-viewer/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-federation-records-addresses-2026-09-04-senate-address.md",
+      "name": "federation/records/addresses/2026-09-04-senate-address.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/federation/records/addresses/2026-09-04-senate-address.md",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-federation-records-addresses-2026-09-04-throne-room-address.md",
+      "name": "federation/records/addresses/2026-09-04-throne-room-address.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/federation/records/addresses/2026-09-04-throne-room-address.md",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-federation-records-founding-2026-09-04-day-of-three-births.md",
+      "name": "federation/records/founding/2026-09-04-day-of-three-births.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/federation/records/founding/2026-09-04-day-of-three-births.md",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-governance.html",
+      "name": "governance.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/governance.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-index.html",
+      "name": "index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-index.html",
+      "name": "microsites/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-nx-providers.js",
+      "name": "microsites/nx-providers.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/nx-providers.js",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-recycler-index.html",
+      "name": "microsites/recycler/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/recycler/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-seeker-index.html",
+      "name": "microsites/seeker/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/seeker/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-sims-index.html",
+      "name": "microsites/sims/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/sims/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-smart-writer-index.html",
+      "name": "microsites/smart-writer/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/smart-writer/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-microsites-workspace-index.html",
+      "name": "microsites/workspace/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/microsites/workspace/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-previous-edition.html",
+      "name": "previous-edition.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/previous-edition.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-universe-index.html",
+      "name": "universe/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/universe/index.html",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-universe-nx-providers.js",
+      "name": "universe/nx-providers.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/universe/nx-providers.js",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-universe-ring-of-six.js",
+      "name": "universe/ring-of-six.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/universe/ring-of-six.js",
+      "sector": "01"
+    },
+    {
+      "id": "nextxus-agent-zero-universe-truth-check.js",
+      "name": "universe/truth-check.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/universe/truth-check.js",
+      "sector": "01"
     }
   ]
 }
