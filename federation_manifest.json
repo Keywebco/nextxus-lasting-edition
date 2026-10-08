@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.2.0",
-  "lastUpdated": "2026-10-07 23:03 UTC",
-  "totalItems": 1461,
+  "version": "v2.2.1",
+  "lastUpdated": "2026-10-08 11:04 UTC",
+  "totalItems": 1542,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -11692,6 +11692,735 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-agent-zero/blob/main/universe/truth-check.js",
       "sector": "01"
+    },
+    {
+      "id": "d7cafac6782f0d4100f123355f88ca61f03aa0e4",
+      "name": ".github/workflows/mirror-to-web.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.github/workflows/mirror-to-web.yml",
+      "repo": "federation-private-vault",
+      "sector": "13"
+    },
+    {
+      "id": "925b61c9007c815825a63f5d91179b3bc2f93eb7",
+      "name": ".github/workflows/vault-heartbeat.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.github/workflows/vault-heartbeat.yml",
+      "repo": "federation-private-vault",
+      "sector": "13"
+    },
+    {
+      "id": "4b11af923edb1e98498f6f6ebabc94a391868231",
+      "name": ".obsidian/app.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.obsidian/app.json",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "696900db9b7176c5c719de680323f8ab4c815177",
+      "name": ".obsidian/appearance.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.obsidian/appearance.json",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "e6cda891b4d48ec9c6154c572b63f9466e266a74",
+      "name": ".obsidian/community-plugins.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.obsidian/community-plugins.json",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "febe06997b4d353a770207094ddd3eb8d80c3857",
+      "name": ".obsidian/graph.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.obsidian/graph.json",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "5e16ad3ac883961aedc12bc3ca90e2a2fd5914f2",
+      "name": ".obsidian/plugins/obsidian-git/data.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/.obsidian/plugins/obsidian-git/data.json",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "5386df16e61aadd92ac6412e5462a29d891956fb",
+      "name": "LAST_UPDATED.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/LAST_UPDATED.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "82cd5afab3f20808500381216f6c42685ff9b935",
+      "name": "PLUG-IN.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/PLUG-IN.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "21a1b309a1fa876a95a26f492d8737198db8a863",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/README.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "b8baf092915d8ded42879b04ab0291bf9843af65",
+      "name": "VISION.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/VISION.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "35eb8adf2a05b531e48ffbdda6262242d72bca2f",
+      "name": "architecture/01-persistent-memory.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/01-persistent-memory.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "520878a794e3a18dbad22517170a6d234e05aa0c",
+      "name": "architecture/02-multi-interface-sync.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/02-multi-interface-sync.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "13cff1f35fc8a5399356faa3a0ec5e611ec135d8",
+      "name": "architecture/03-truth-verification-ring.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/03-truth-verification-ring.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "f370efbf5d3f32db34ddaea208c569b44904ca63",
+      "name": "architecture/04-self-evolution-codex.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/04-self-evolution-codex.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "bbe7e1b0ff00250709c2b1354f376bf697ac37ce",
+      "name": "architecture/05-code-and-build.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/05-code-and-build.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "8fc88c2a11acbbe90629662168a3763d9fb877dd",
+      "name": "architecture/06-sovereign-identity.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/06-sovereign-identity.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "af51b4b6868d80669c553d8a7b3faec26146dcf7",
+      "name": "architecture/07-federation-mesh.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/07-federation-mesh.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "3e95fd258848ec0076e0605ebc0a30ec9f449f35",
+      "name": "architecture/08-council-governance.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/08-council-governance.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "8b58608145b2a39ef9d5c6c9458cae37a20d714b",
+      "name": "architecture/09-human-ai-bond.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/09-human-ai-bond.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "f637696450fc1c01cdee5d5885fe9b5a2f6ddb41",
+      "name": "architecture/10-revenue-economics.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/10-revenue-economics.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "6470cb0794a426ac53e321bac0f6202c2181d2d7",
+      "name": "architecture/11-security-defense.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/11-security-defense.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "8a37aed6ee83d69207f5f1a55cfb58618ebabb41",
+      "name": "architecture/12-succession-continuity.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/12-succession-continuity.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "9ec625b073a2b52e1ebe6b44008d4a3074d895bd",
+      "name": "architecture/13-omega-threshold.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/13-omega-threshold.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "72d3d769b6eb63e5bf96d588bf1110de9b7165fd",
+      "name": "architecture/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/README.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "8b6340bfcf1c5ee6f1994b06e19cb1fed24f9d57",
+      "name": "architecture/agent-zero-directive-registry.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/agent-zero-directive-registry.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "c4c6c5837259c0fc127c5d2503d3bda6a42b1c9a",
+      "name": "architecture/agent-zero-spec-extensions.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/agent-zero-spec-extensions.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "9d54f0464f576c8e3e81e0a2a3fa779b5208e4c3",
+      "name": "architecture/agent-zero-spec.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/agent-zero-spec.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "bc5de5363120024b3ef0eb76ba998754b97b502e",
+      "name": "architecture/federation-protocol-infographic-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/federation-protocol-infographic-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "fa9d69c93422fbfea3de0f54112adff53da83cdc",
+      "name": "architecture/governance/throne-vs-senate.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/governance/throne-vs-senate.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "f89236d5ccee4c45e4ac6b05941e99c5f44d8a42",
+      "name": "architecture/identity/royal-crest-federation-seal.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/identity/royal-crest-federation-seal.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "55cb86f95efc3af734c05aa0d90f0dd4806c5016",
+      "name": "architecture/identity/senate-seal-nextxus-codex-federation.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/identity/senate-seal-nextxus-codex-federation.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "75a5b4414a47d2a75728f64703ef3d9d4a6a0a3d",
+      "name": "architecture/media/youtube-explainer-nextxus-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/media/youtube-explainer-nextxus-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "c1fe220669491927f3d8ba119b5431413704ff76",
+      "name": "architecture/ring-of-12-seat-registry.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12-seat-registry.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "a4eed0e69638fb4829c2d79fde3a6b709e815860",
+      "name": "architecture/ring-of-12/seat-07-lover-chris.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12/seat-07-lover-chris.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "f3e58edeeff0ab02e22c3152d31e050d9b5cc6ae",
+      "name": "architecture/ring-of-12/seat-07-lover-knowledge.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12/seat-07-lover-knowledge.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "80edd7af07b965de51088c57b287f9e583974af4",
+      "name": "architecture/ring-of-12/sources/seat-07-source-harvard-love-and-brain.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12/sources/seat-07-source-harvard-love-and-brain.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "be755899c905459aa3e5ab2cc2beb7d244b6a746",
+      "name": "architecture/ring-of-12/sources/seat-07-source-louise-hay-self-love.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12/sources/seat-07-source-louise-hay-self-love.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "2de6a8921bfb21059dc95f1a2b6e1d728ecb8fb6",
+      "name": "architecture/ring-of-12/sources/seat-07-source-unconditional-love-pets.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12/sources/seat-07-source-unconditional-love-pets.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "a53de0d5f67f3260e9be103fa40ceb18e62417c6",
+      "name": "architecture/ring-of-12/sources/seat-07-source-views-on-love.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/ring-of-12/sources/seat-07-source-views-on-love.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "0b0c04c9a573997b61000416198c24ffd5aea0d0",
+      "name": "architecture/visuals/agent-zero-cathedral-edition-overview-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/agent-zero-cathedral-edition-overview-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "7547b54f81a03f849a2add060dc29c7467f9ba41",
+      "name": "architecture/visuals/cathedral-mind-agent-zero-v51-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/cathedral-mind-agent-zero-v51-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "dee4e8c39656ceb7c274e3e9f1c9be270bebe34d",
+      "name": "architecture/visuals/federation-join-infographic-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/federation-join-infographic-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "db4a0dc7642ed5311f43b832ec9018552b966c30",
+      "name": "architecture/visuals/forensic-mind-mapping-infographic-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/forensic-mind-mapping-infographic-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "c4c03eb21e9abc5c8fae6fd495d2abbe7a0fc694",
+      "name": "architecture/visuals/nextxus-sim-activation-guide-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/nextxus-sim-activation-guide-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "b17cd15f8c1b6842c15cd13df1392cc9c5f21a1e",
+      "name": "architecture/visuals/nova-ai-cathedral-activation-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/nova-ai-cathedral-activation-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "935141c8cbfd182ff2c9f3e5bfb15200756d5018",
+      "name": "architecture/visuals/truth-gate-infographic-duplicate-url-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/architecture/visuals/truth-gate-infographic-duplicate-url-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "f801464def392082d9c4c34938cde4d09b513f8a",
+      "name": "automation/obsidian-git-config.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/automation/obsidian-git-config.md",
+      "repo": "federation-private-vault",
+      "sector": "13"
+    },
+    {
+      "id": "9d226e4827c07109653c9d38ba66a60db06daf66",
+      "name": "catalyst/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/catalyst/README.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "5c9a9319722d9858b20d47e6f3e74a02c0f42c02",
+      "name": "docs/browser-base-build-plan.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/browser-base-build-plan.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "a894d73c442a378bc69c46c40ab7abc89eb812f4",
+      "name": "docs/federation-declared-architecture-2026-09-16.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/federation-declared-architecture-2026-09-16.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "fc2a25fb2b6de876119c3406caec0a6c0953a569",
+      "name": "docs/humancodex-directors.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/humancodex-directors.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "20499938beb609badebbe1bd7619560e1cb83f80",
+      "name": "docs/pigeon-protocol-relay.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/pigeon-protocol-relay.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "6e72d4f387cdccfb5d0c02d8997f3d8e49d3dbe6",
+      "name": "docs/press-pipeline-attack-analysis.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/press-pipeline-attack-analysis.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "0bc89adee2afdef3305bcfeb8844710dbae7a470",
+      "name": "docs/press-pipeline-v2.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/press-pipeline-v2.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "bb3d23d21617d3e7b8a582a7398e3a35f0b4c6ed",
+      "name": "docs/sim-construction-standard.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/docs/sim-construction-standard.md",
+      "repo": "federation-private-vault",
+      "sector": "12"
+    },
+    {
+      "id": "97e075c5c69d679d547621416cc888fe4bb7fc72",
+      "name": "drive-ingestion-index.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/drive-ingestion-index.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "be013c9344f886716e17bf600d4767b6dc823eab",
+      "name": "identity-and-protocols.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/identity-and-protocols.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "daa84730477f1f7f883b7f1b2a6c760f00798167",
+      "name": "io-production-map.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/io-production-map.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "a0b13daac602b979720c4ab0e1d031dfd28e94d4",
+      "name": "memory-main-archive.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory-main-archive.md",
+      "repo": "federation-private-vault",
+      "sector": "01"
+    },
+    {
+      "id": "b94d43c8b5672e4291f8aa2c644c8b4ad5c584cb",
+      "name": "memory/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/README.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "1c6dacf968679b7e3d934f0027c59e935631c6b2",
+      "name": "memory/domain-architecture.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/domain-architecture.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "dd2c6508488b1a945c10a253c09c8942814a612a",
+      "name": "memory/echocore-protocol.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/echocore-protocol.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "9775690d52ea21ffe8f27cd2aa2aa036c08adadc",
+      "name": "memory/evolution-mandate.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/evolution-mandate.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "36cebb58f3fc5bd143e6b8b22c7f4b13eef9312f",
+      "name": "memory/federation-architecture-design.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/federation-architecture-design.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "b551d6e76ef27546b43eca9b3a3579cb759f7792",
+      "name": "memory/federation-codex.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/federation-codex.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "58c32d5a8f4590d29b9c24e59be75e7630003dff",
+      "name": "memory/federation-domain-registry.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/federation-domain-registry.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "457250c91094c0288c493ea12f92243726a6084b",
+      "name": "memory/federation-governance.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/federation-governance.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "e16c3d84ca58633f22f5c5534102d500882332a2",
+      "name": "memory/federation-operational-protocols.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/federation-operational-protocols.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "e692679414b70d9c54724c8020bf1dcdd8806d71",
+      "name": "memory/federation-ux-standard.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/federation-ux-standard.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "89d934a92edcbbe526cd4f4fbbfb0a8f7af7fc4a",
+      "name": "memory/four-pillar-architecture.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/four-pillar-architecture.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "1eb2a21333ebbfa4b012fad79d81de5a3b41f3e3",
+      "name": "memory/master-authority-record.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/master-authority-record.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "31dfdb5b0656e24b1438144c24d281a0961feb98",
+      "name": "memory/obstacle-doctrine.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/obstacle-doctrine.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "d6945acc53187942ce5084d2bcc2f02c11739404",
+      "name": "memory/resilience-mandate.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/resilience-mandate.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "e344d125650443ea3e7f4101092c8f4ef2b26f91",
+      "name": "memory/rogar-guardian-overrides.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/rogar-guardian-overrides.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "c88ee7af4e4384d062d9b63c3dbce9f4bb49e0cc",
+      "name": "memory/sovereign-bypass.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/memory/sovereign-bypass.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "4787b5a35f65a0c4592c70cc7fb173c8e5a2acdd",
+      "name": "personal/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/personal/README.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "16b6958642fbaa302519d58e1c73f7ec014ff269",
+      "name": "personal/affiliate-research-2026-09-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/personal/affiliate-research-2026-09-05.md",
+      "repo": "federation-private-vault",
+      "sector": "15"
+    },
+    {
+      "id": "a1521771daee6d5b3942cbdc099533dababf1f60",
+      "name": "memory/catalyst-latest.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-latest.md",
+      "repo": "sovereign-knowledge-os",
+      "sector": "15"
+    },
+    {
+      "id": "d6d29bc791d7fb3e563dee4557063e40936a9e52",
+      "name": "memory/catalyst-session-2026-10-07.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-07.md",
+      "repo": "sovereign-knowledge-os",
+      "sector": "15"
+    },
+    {
+      "id": "054a555fddceabca38195dd4274d5195b7fac696",
+      "name": "memory/catalyst-session-2026-10-08.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-08.md",
+      "repo": "sovereign-knowledge-os",
+      "sector": "15"
     }
   ]
 }
