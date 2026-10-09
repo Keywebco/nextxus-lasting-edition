@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.2.2",
-  "lastUpdated": "2026-10-09 11:02 UTC",
-  "totalItems": 1754,
+  "version": "v2.2.3",
+  "lastUpdated": "2026-10-09 23:01 UTC",
+  "totalItems": 1821,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -14535,6 +14535,542 @@
       "path": "static/federation-integrations.js",
       "url": "https://github.com/Keywebco/nextxus-ai-course-hub/blob/main/static/federation-integrations.js",
       "sector": "05"
+    },
+    {
+      "id": "1SSZkqiuUUOYPG7OkeIh1j0uI-GOrxruEXSqdkrjxp8c",
+      "name": "NextXus GitHub Operational Systems Manual v1.0",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SSZkqiuUUOYPG7OkeIh1j0uI-GOrxruEXSqdkrjxp8c/view",
+      "sector": "13"
+    },
+    {
+      "id": "1pE3gcpudcfsygtNTASAES0nhxzBc6hyUOLsUNJHABwA",
+      "name": "Federation-Wide Commands: Procedure and Map",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pE3gcpudcfsygtNTASAES0nhxzBc6hyUOLsUNJHABwA/view",
+      "sector": "01"
+    },
+    {
+      "id": "7831dade2edb657c0aef9efffcc329b7dae474ff",
+      "name": ".github/scripts/command_build.py",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/command_build.py",
+      "sector": "13"
+    },
+    {
+      "id": "6ba0358cdd8c671a8cce2729f8bc9a01b088330d",
+      "name": ".github/scripts/health_check.py",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/health_check.py",
+      "sector": "13"
+    },
+    {
+      "id": "79165ba636890a1f41d84f1f6bd078041a321fd9",
+      "name": ".github/scripts/health_targets.json",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/health_targets.json",
+      "sector": "13"
+    },
+    {
+      "id": "2b6ec046d211240a7d4f2251b5dae1e2f4f0ebc9",
+      "name": ".github/workflows/command-build.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/workflows/command-build.yml",
+      "sector": "13"
+    },
+    {
+      "id": "988c17a35eff859297a8eed359cc7807785644c5",
+      "name": ".github/workflows/health-check.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/workflows/health-check.yml",
+      "sector": "13"
+    },
+    {
+      "id": "38528b285dfb96efaf09e91cdc7b1dae7264f9aa",
+      "name": ".orders/README.md",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.orders/README.md",
+      "sector": "01"
+    },
+    {
+      "id": "ca5d2e4002ca29b44b884fac688f49cdd63c6460",
+      "name": "04-builds/github-operations.yaml",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/github-operations.yaml",
+      "sector": "01"
+    },
+    {
+      "id": "4790bb4501c7286411e3f7482364bcd713b4ad4f",
+      "name": "LATTICE/reports/health.md",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/health.md",
+      "sector": "01"
+    },
+    {
+      "id": "7ccc90f63ddf2429181a257e8f175818795a4f71",
+      "name": "framework/Federation_Wide_Commands.md",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/Federation_Wide_Commands.md",
+      "sector": "01"
+    },
+    {
+      "id": "dc2ea137b70e0630739fa58ebe370b40775d1cf1",
+      "name": "framework/GitHub_Operational_Systems_Manual.md",
+      "type": "file",
+      "source": "GitHub: nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/GitHub_Operational_Systems_Manual.md",
+      "sector": "01"
+    },
+    {
+      "id": "606efa11b2b6251ddba1a3bd318ef9f829a9a758",
+      "name": ".github/workflows/nova-commerce.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-commerce.yml",
+      "sector": "13"
+    },
+    {
+      "id": "f2d4690d0e1554e98e7a97782712bd5a9ba705ca",
+      "name": ".github/workflows/nova-dispatch.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-dispatch.yml",
+      "sector": "13"
+    },
+    {
+      "id": "b919d1d2ce524ef883796a467fe855d44d894b1b",
+      "name": ".github/workflows/nova-domain.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-domain.yml",
+      "sector": "13"
+    },
+    {
+      "id": "6b1a8ef9f63e92186bafd2883712101df78d255f",
+      "name": ".github/workflows/nova-health.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-health.yml",
+      "sector": "13"
+    },
+    {
+      "id": "8b5aec064ca7bc67e709ed5273d860e6b28ad077",
+      "name": ".github/workflows/nova-link-audit.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-link-audit.yml",
+      "sector": "13"
+    },
+    {
+      "id": "c39ba8064852b869d34db9d6fd49abb435e815d2",
+      "name": ".github/workflows/nova-memory.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-memory.yml",
+      "sector": "13"
+    },
+    {
+      "id": "888950e1f6b407cef19da0138dc28f5330089fd8",
+      "name": ".github/workflows/nova-readability.yml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/.github/workflows/nova-readability.yml",
+      "sector": "13"
+    },
+    {
+      "id": "175608a8c097a20fad08c875f25d62e7f5a01f84",
+      "name": "AGENTS.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/AGENTS.md",
+      "sector": "13"
+    },
+    {
+      "id": "a249e07df935246fed838422e099758950bc2203",
+      "name": "README.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/README.md",
+      "sector": "13"
+    },
+    {
+      "id": "00d2172afb599ecac418514155caef14e668c809",
+      "name": "SCHEDULE.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/SCHEDULE.md",
+      "sector": "13"
+    },
+    {
+      "id": "162991c44f32c06150a513c73f477f770a57a5c2",
+      "name": "audit-reports/.gitkeep",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/audit-reports/.gitkeep",
+      "sector": "13"
+    },
+    {
+      "id": "9649d90162577147466ee15ec5796ac1f437ad92",
+      "name": "audit-reports/link-audit-2026-10-02.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/audit-reports/link-audit-2026-10-02.md",
+      "sector": "13"
+    },
+    {
+      "id": "c110da7922ef46699692ab6fad2ace944c342ff0",
+      "name": "audit-reports/link-audit-2026-10-05.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/audit-reports/link-audit-2026-10-05.md",
+      "sector": "13"
+    },
+    {
+      "id": "1cdf14196f7a5f2e27882b1922d0dda776579c40",
+      "name": "dispatch/.gitkeep",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/.gitkeep",
+      "sector": "13"
+    },
+    {
+      "id": "7609c4d9f59ae794c4b19787b58b45d79b42a3bd",
+      "name": "dispatch/2026-10-02-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-02-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "87b56cc6928b38a2cdc6c6f3bd8db2c0c5d7cbc1",
+      "name": "dispatch/2026-10-03-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-03-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "8de9d952c41c507de8491f69475ed4e34b282480",
+      "name": "dispatch/2026-10-04-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-04-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "aa8ff91dd558d6060eab91af62d3f19a0a8c69c4",
+      "name": "dispatch/2026-10-05-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-05-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "76b27b3866711ed27ed6b29cfa14f29ca7506548",
+      "name": "dispatch/2026-10-06-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-06-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "a85eabd6b044f15b303833f197bf07ac1542abf8",
+      "name": "dispatch/2026-10-07-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-07-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "4f12549380e9ca206f930e44ba27b6d27e5b2006",
+      "name": "dispatch/2026-10-08-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-08-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "7351f4d19986c8c701e465cb0b57d5c7dfb0a95e",
+      "name": "dispatch/2026-10-09-status.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-09-status.md",
+      "sector": "13"
+    },
+    {
+      "id": "48ca233c4ad644cebee756f4919fc049f8b1f3c4",
+      "name": "health-reports/.gitkeep",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/.gitkeep",
+      "sector": "13"
+    },
+    {
+      "id": "15f708a3ee3433b9af6cd94c4d24a116bdee679e",
+      "name": "health-reports/2026-10-02-01.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-02-01.md",
+      "sector": "13"
+    },
+    {
+      "id": "d3a5d79f426677b6e23ad35c7d25334669b1a705",
+      "name": "health-reports/2026-10-02-11.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-02-11.md",
+      "sector": "13"
+    },
+    {
+      "id": "4d8e0817ce9eccb2740ed03c92bb4a4046333121",
+      "name": "health-reports/2026-10-02-21.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-02-21.md",
+      "sector": "13"
+    },
+    {
+      "id": "fac93adf912074bacf06b059d42141f7c64d8563",
+      "name": "health-reports/2026-10-03-10.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-03-10.md",
+      "sector": "13"
+    },
+    {
+      "id": "d1717457ef567f7366e4e2f294453be061c0640b",
+      "name": "health-reports/2026-10-03-20.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-03-20.md",
+      "sector": "13"
+    },
+    {
+      "id": "504dd8e0c64757317c137027274f41e95a7bb076",
+      "name": "health-reports/2026-10-04-11.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-04-11.md",
+      "sector": "13"
+    },
+    {
+      "id": "7580e4a202482473f63b774aa18beb76e0061aae",
+      "name": "health-reports/2026-10-04-20.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-04-20.md",
+      "sector": "13"
+    },
+    {
+      "id": "6553febc94772eb692cb118ac52cfc8d42194d12",
+      "name": "health-reports/2026-10-05-12.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-05-12.md",
+      "sector": "13"
+    },
+    {
+      "id": "1f0f643c094a361397ed6940109542107d547200",
+      "name": "health-reports/2026-10-05-23.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-05-23.md",
+      "sector": "13"
+    },
+    {
+      "id": "88b86023e332ccfc387ccafa8f92b7df0d5c2598",
+      "name": "health-reports/2026-10-06-12.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-06-12.md",
+      "sector": "13"
+    },
+    {
+      "id": "8c12861a3439302aca0225be71fe4fd8f04ce55c",
+      "name": "health-reports/2026-10-06-22.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-06-22.md",
+      "sector": "13"
+    },
+    {
+      "id": "5a80b92cf53514c4e548cc45be5346bbb6545972",
+      "name": "health-reports/2026-10-07-12.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-07-12.md",
+      "sector": "13"
+    },
+    {
+      "id": "4c84f601dd081d7b5f6aec5dacb55f65398e4f46",
+      "name": "health-reports/2026-10-07-22.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-07-22.md",
+      "sector": "13"
+    },
+    {
+      "id": "abed1fe9a97a911ec132aad0f338d1a6fdcfc7e3",
+      "name": "health-reports/2026-10-08-12.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-08-12.md",
+      "sector": "13"
+    },
+    {
+      "id": "6546a7900d3a011d49d00c5bc99ffcc0b5282e2e",
+      "name": "health-reports/2026-10-08-22.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-08-22.md",
+      "sector": "13"
+    },
+    {
+      "id": "7891ac8cde71483b4af76a28cc81a1cc057926ac",
+      "name": "health-reports/2026-10-09-12.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-09-12.md",
+      "sector": "13"
+    },
+    {
+      "id": "7b8c803c9daf20c37a7a4a36247cd6610b976228",
+      "name": "health-reports/2026-10-09-22.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-09-22.md",
+      "sector": "13"
+    },
+    {
+      "id": "fee1fbd0ae9c2211469c7c347525cb575fd4f539",
+      "name": "lattice/lattice_state.yaml",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/lattice_state.yaml",
+      "sector": "13"
+    },
+    {
+      "id": "cace8f3b357b19a815ffba558a8c5dc61ac0890c",
+      "name": "lattice/nova-commerce-report.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-commerce-report.md",
+      "sector": "13"
+    },
+    {
+      "id": "9e6c4aa71f1c2d8e10577ac7044a0e565cf5da1a",
+      "name": "lattice/nova-domain-report.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-domain-report.md",
+      "sector": "13"
+    },
+    {
+      "id": "6d41ddc43d813da7a86a274e4b813b879f2c802d",
+      "name": "lattice/nova-readability-report.md",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-readability-report.md",
+      "sector": "13"
+    },
+    {
+      "id": "dd0ced95d57e8483d1f3397dad0dea6a47becd82",
+      "name": "scripts/nova_memory.py",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/scripts/nova_memory.py",
+      "sector": "13"
+    },
+    {
+      "id": "280ff9e72e867cc820af46137c001b1b99b096d3",
+      "name": "tests/test_nova_memory.py",
+      "type": "file",
+      "source": "GitHub: nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/tests/test_nova_memory.py",
+      "sector": "13"
+    },
+    {
+      "id": "8d3a1361fb82626ab346500b7124302dc5d9e9e7",
+      "name": "press/2026-10-07-identifiable-world-models-from-pretrained-diffusion-representations.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-07-identifiable-world-models-from-pretrained-diffusion-representations.html",
+      "sector": "15"
+    },
+    {
+      "id": "98306ef612b8c711630e0ac1263ba6d7ebdca63a",
+      "name": "press/2026-10-07-mirror-particle-is-building-a-world-model-of-human-behavior.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-07-mirror-particle-is-building-a-world-model-of-human-behavior.html",
+      "sector": "15"
+    },
+    {
+      "id": "5a3391aa40f016fcbae7fe5c80bc8272bc648dfb",
+      "name": "press/2026-10-07-should-we-skip-diffusion.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-07-should-we-skip-diffusion.html",
+      "sector": "15"
+    },
+    {
+      "id": "1fd3239720595fc776f354d8036a4f201dff3a1a",
+      "name": "press/2026-10-08-chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-08-chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises.html",
+      "sector": "15"
+    },
+    {
+      "id": "cfdfb203611970b34758eb187130e2dac66b7c63",
+      "name": "press/2026-10-08-chatgpts-intelligent-ui-update-fills-its-responses-with-pictures-charts-and-butt.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-08-chatgpts-intelligent-ui-update-fills-its-responses-with-pictures-charts-and-butt.html",
+      "sector": "15"
+    },
+    {
+      "id": "538572e420487f9230154059fa3015210041fbfe",
+      "name": "press/2026-10-08-scientists-use-generative-ai-to-build-better-proteins-for-editing-dna.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-08-scientists-use-generative-ai-to-build-better-proteins-for-editing-dna.html",
+      "sector": "15"
+    },
+    {
+      "id": "45a530c9d9c7ee7cbde0a767ebd1eb40b2023820",
+      "name": "press/2026-10-09-beyond-the-ergodic-wall-a-discrete-geometric-physics-sandbox-for-analysing-ai-sc.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-09-beyond-the-ergodic-wall-a-discrete-geometric-physics-sandbox-for-analysing-ai-sc.html",
+      "sector": "15"
+    },
+    {
+      "id": "4e7640e91fb8d01280f2fc4fafd724f4f1440ed5",
+      "name": "press/2026-10-09-openai-doubles-down-on-decision-to-fire-three-ai-safety-researchers.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-09-openai-doubles-down-on-decision-to-fire-three-ai-safety-researchers.html",
+      "sector": "15"
+    },
+    {
+      "id": "2da1b7a1b3d3c5005eae14933672d94a67a31dce",
+      "name": "press/2026-10-09-what-would-make-you-actually-use-a-personal-ai-assistant-everyday.html",
+      "type": "file",
+      "source": "GitHub: nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-09-what-would-make-you-actually-use-a-personal-ai-assistant-everyday.html",
+      "sector": "15"
     }
   ]
 }
