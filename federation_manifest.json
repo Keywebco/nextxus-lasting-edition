@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.2.8",
-  "lastUpdated": "2026-10-12 11:04 UTC",
-  "totalItems": 10701,
+  "version": "v2.2.9",
+  "lastUpdated": "2026-10-12 23:02 UTC",
+  "totalItems": 10726,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -87010,6 +87010,248 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/quickstart.js",
       "sector": "12"
+    },
+    {
+      "id": "1zq1kF3asBrbcfTG3jb4uxOgg-_4YWJ7bbaI3CFT1J_k",
+      "name": "Living Library batch 3: entries 0095 to 0174 (for Pontus)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1zq1kF3asBrbcfTG3jb4uxOgg-_4YWJ7bbaI3CFT1J_k/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1kgoXL1973kZGS669Yh3RJxTBymvPPpuNTPFSOJRPN54",
+      "name": "Living Library batch 2: entries 0045 to 0094 (for Pontus)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1kgoXL1973kZGS669Yh3RJxTBymvPPpuNTPFSOJRPN54/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1ninp8-4uI51ym0QzJ5EpwUdBNuC3r62yIL65ePc770Y",
+      "name": "Living Library revision: sample of 10 for Pontus",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ninp8-4uI51ym0QzJ5EpwUdBNuC3r62yIL65ePc770Y/edit?usp=drivesdk",
+      "sector": "05"
+    },
+    {
+      "id": "1BX1PvTHdipuvNTQfbWQn3PJ7m9_kiVukyBvv3m1lS1g",
+      "name": "val companion",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1BX1PvTHdipuvNTQfbWQn3PJ7m9_kiVukyBvv3m1lS1g/edit?usp=drivesdk",
+      "sector": "15"
+    },
+    {
+      "id": "fda9760eed18e12e64958a2491f271588e89a3a9",
+      "name": "2026-10-12.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "sovereign-knowledge-os",
+      "path": "knowledge/external/2026-10-12.md",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-10-12.md",
+      "sector": "15"
+    },
+    {
+      "id": "697b753689fa0516f53f51132f06a40d4862f98a",
+      "name": "catalyst-latest.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "sovereign-knowledge-os",
+      "path": "memory/catalyst-latest.md",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-latest.md",
+      "sector": "15"
+    },
+    {
+      "id": "cb3a19997974019139c75fa82f4406b73d2e4f53",
+      "name": "catalyst-session-2026-10-11.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "sovereign-knowledge-os",
+      "path": "memory/catalyst-session-2026-10-11.md",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-11.md",
+      "sector": "15"
+    },
+    {
+      "id": "035d7abf3566ef02f8b330cb32be76b5b1cba3aa",
+      "name": "catalyst-session-2026-10-12.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "sovereign-knowledge-os",
+      "path": "memory/catalyst-session-2026-10-12.md",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-12.md",
+      "sector": "15"
+    },
+    {
+      "id": "f35f75b51a4cf526e8114b3c2e9b03d53bd64dc4",
+      "name": "astris.js",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/astris.js",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/astris.js",
+      "sector": "12"
+    },
+    {
+      "id": "e3f489c8d9605fef8160da96f9fb1610bfdb6bf6",
+      "name": "revised-1.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-1.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-1.json",
+      "sector": "12"
+    },
+    {
+      "id": "6f6899ae9f9942244530c82d5505488f6af09ac6",
+      "name": "revised-1b.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-1b.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-1b.json",
+      "sector": "12"
+    },
+    {
+      "id": "0ecac72e8203c63deaf1dee6bf92a6f11871c7df",
+      "name": "revised-1c.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-1c.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-1c.json",
+      "sector": "12"
+    },
+    {
+      "id": "987a55cba97544ecbaa00aa3a6ed366df560b8a8",
+      "name": "revised-1d.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-1d.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-1d.json",
+      "sector": "12"
+    },
+    {
+      "id": "b07220e5dcbb376a0ac49d3ef6df46b353451813",
+      "name": "revised-1e.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-1e.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-1e.json",
+      "sector": "12"
+    },
+    {
+      "id": "ad5b17087aaebb398a33ea0ff691ea9c43e606be",
+      "name": "revised-2.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-2.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-2.json",
+      "sector": "12"
+    },
+    {
+      "id": "1d610193f19f8dff3310fb1e0adb617acff475f4",
+      "name": "revised-3.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-3.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-3.json",
+      "sector": "12"
+    },
+    {
+      "id": "14ca6188d48b7856d7765df463e726042c57a264",
+      "name": "revised-4.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-4.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-4.json",
+      "sector": "12"
+    },
+    {
+      "id": "8d351359a565b5fca95a496419295411cd698a13",
+      "name": "revised-5.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-5.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-5.json",
+      "sector": "12"
+    },
+    {
+      "id": "256d999be03ffe559552c2346b751dd2d96e1f9e",
+      "name": "revised-6.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised-6.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised-6.json",
+      "sector": "12"
+    },
+    {
+      "id": "f0cc497b63797ffe10cf401acbbeebb4a1c38791",
+      "name": "revised.json",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/data/revised.json",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/data/revised.json",
+      "sector": "12"
+    },
+    {
+      "id": "576e76ae0dcadf8aee4bb838305ad04630860b2c",
+      "name": "index.html",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/index.html",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/index.html",
+      "sector": "12"
+    },
+    {
+      "id": "39808b526548c0d0ced4320d0f667a2740768f82",
+      "name": "library.js",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-humancodex",
+      "path": "library/library.js",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/library.js",
+      "sector": "12"
+    },
+    {
+      "id": "2b732a6515f86691b1435a8e285861ade0c940ef",
+      "name": "health.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-brain",
+      "path": "LATTICE/reports/health.md",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/health.md",
+      "sector": "01"
+    },
+    {
+      "id": "0bb961f820d701baf9232a157f66760d230b0875",
+      "name": "latest.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-brain",
+      "path": "LATTICE/reports/latest.md",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/latest.md",
+      "sector": "01"
+    },
+    {
+      "id": "1b0a53d386e42ec9bc755a07f79741890883907f",
+      "name": "LAST_UPDATED.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "federation-private-vault",
+      "path": "LAST_UPDATED.md",
+      "url": "https://github.com/Keywebco/federation-private-vault/blob/main/LAST_UPDATED.md",
+      "sector": "15"
     }
   ]
 }
