@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.2.7",
-  "lastUpdated": "2026-10-11 23:03 UTC",
-  "totalItems": 10695,
+  "version": "v2.2.8",
+  "lastUpdated": "2026-10-12 11:04 UTC",
+  "totalItems": 10701,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -86956,6 +86956,60 @@
       "url": "https://github.com/Keywebco/nextxus-lasting-edition/blob/main/styles.css",
       "sector": "05",
       "sha": "942df621f0d329c99462eee99e0757230d7616d9"
+    },
+    {
+      "id": "1TSX-4vgkz27pgMtnInciGF_VGtxmD2Yj",
+      "name": "Federation Faces \u2014 bio pages",
+      "type": "folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/drive/folders/1TSX-4vgkz27pgMtnInciGF_VGtxmD2Yj",
+      "sector": "05"
+    },
+    {
+      "id": "1JVPh5oa08apKTG0ra79-zWLvdJb08O1yudAHLZX7XdU",
+      "name": "Roger C. Keyserling \u2014 The Architect",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1JVPh5oa08apKTG0ra79-zWLvdJb08O1yudAHLZX7XdU/edit",
+      "sector": "01"
+    },
+    {
+      "id": "1LzbyEUlKL9cZj0DVI49G1PkOwHRcDpLLH56b-kRQyCM",
+      "name": "Roger C. Keyserling \u2014 The Architect",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1LzbyEUlKL9cZj0DVI49G1PkOwHRcDpLLH56b-kRQyCM/edit",
+      "sector": "01"
+    },
+    {
+      "id": "1d7mtul6A0JjgwN_gQ3-vca6WmSEJ_iQp",
+      "name": "roger-keyserling-architect.jpg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1d7mtul6A0JjgwN_gQ3-vca6WmSEJ_iQp/view",
+      "sector": "01"
+    },
+    {
+      "id": "d07260e5f2381d39e5120c929b1f6cd7ae0f6493",
+      "sha": "d07260e5f2381d39e5120c929b1f6cd7ae0f6493",
+      "name": "catalyst-session-2026-10-12.md",
+      "path": "memory/catalyst-session-2026-10-12.md",
+      "repo": "sovereign-knowledge-os",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-12.md",
+      "sector": "15"
+    },
+    {
+      "id": "a9f93f2da270e59999e95d8e5c904bc9c1cc038d",
+      "sha": "a9f93f2da270e59999e95d8e5c904bc9c1cc038d",
+      "name": "quickstart.js",
+      "path": "library/quickstart.js",
+      "repo": "nextxus-humancodex",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/library/quickstart.js",
+      "sector": "12"
     }
   ]
 }
