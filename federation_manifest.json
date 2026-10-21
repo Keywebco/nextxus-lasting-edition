@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.0",
-  "lastUpdated": "2026-10-19 11:02 UTC",
-  "totalItems": 11275,
+  "version": "v2.3.3",
+  "lastUpdated": "2026-10-21 23:07 UTC",
+  "totalItems": 11287,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -91644,6 +91644,102 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/research/index.html",
       "sector": "12"
+    },
+    {
+      "id": "1dWb64DHg8U6jKT2_Z5wdjBflcfAUubAIPMaiUcH-o_c",
+      "name": "val companion",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dWb64DHg8U6jKT2_Z5wdjBflcfAUubAIPMaiUcH-o_c/view",
+      "sector": "05"
+    },
+    {
+      "path": "nextxus-brain/.github/scripts/command_build.py",
+      "name": "command_build.py",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/command_build.py",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/.github/scripts/health_check.py",
+      "name": "health_check.py",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/health_check.py",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/.github/scripts/health_targets.json",
+      "name": "health_targets.json",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/health_targets.json",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/.github/workflows/command-build.yml",
+      "name": "command-build.yml",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/workflows/command-build.yml",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/.github/workflows/health-check.yml",
+      "name": "health-check.yml",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/workflows/health-check.yml",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/.orders/README.md",
+      "name": "README.md",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.orders/README.md",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/04-builds/github-operations.yaml",
+      "name": "github-operations.yaml",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/github-operations.yaml",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/LATTICE/reports/cost.md",
+      "name": "cost.md",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/cost.md",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/LATTICE/reports/health.md",
+      "name": "health.md",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/health.md",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/framework/Federation_Wide_Commands.md",
+      "name": "Federation_Wide_Commands.md",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/Federation_Wide_Commands.md",
+      "sector": "01"
+    },
+    {
+      "path": "nextxus-brain/framework/GitHub_Operational_Systems_Manual.md",
+      "name": "GitHub_Operational_Systems_Manual.md",
+      "type": "blob",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/GitHub_Operational_Systems_Manual.md",
+      "sector": "01"
     }
   ]
 }
