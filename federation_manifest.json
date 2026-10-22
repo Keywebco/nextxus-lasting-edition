@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.3",
-  "lastUpdated": "2026-10-21 23:07 UTC",
-  "totalItems": 11287,
+  "version": "v2.3.4",
+  "lastUpdated": "2026-10-22 11:04 UTC",
+  "totalItems": 11309,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -91739,6 +91739,182 @@
       "type": "blob",
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/GitHub_Operational_Systems_Manual.md",
+      "sector": "01"
+    },
+    {
+      "id": "08f09f865aa952482046125b7ee6606873cdd0d8",
+      "name": "03-minds/roger-sim-charter-2026-10-17.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/roger-sim-charter-2026-10-17.yaml",
+      "sector": "01"
+    },
+    {
+      "id": "b66972916069b80db67e4f96c3c5b5652eedc107",
+      "name": "audit-reports/link-audit-2026-10-19.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/audit-reports/link-audit-2026-10-19.md",
+      "sector": "01"
+    },
+    {
+      "id": "276fa69fbf447ef61fbed686df9ba0c5723c8249",
+      "name": "dispatch/2026-10-19-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-19-status.md",
+      "sector": "01"
+    },
+    {
+      "id": "56b75398460cebe962a85a20475aee35768bb6cf",
+      "name": "dispatch/2026-10-20-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-20-status.md",
+      "sector": "01"
+    },
+    {
+      "id": "b25c78d131a483f3d2c754c703686b566798c102",
+      "name": "dispatch/2026-10-21-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-21-status.md",
+      "sector": "01"
+    },
+    {
+      "id": "aa4022f1afb495733f6d18dc7e17fe6e22eda032",
+      "name": "health-reports/2026-10-19-11.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-19-11.md",
+      "sector": "01"
+    },
+    {
+      "id": "acc12cc95e51c141a2172c2dc86f5dae09911c37",
+      "name": "health-reports/2026-10-19-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-19-21.md",
+      "sector": "01"
+    },
+    {
+      "id": "8d1e566401ee7ddfd3693d20d7123978e25b012a",
+      "name": "health-reports/2026-10-20-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-20-10.md",
+      "sector": "01"
+    },
+    {
+      "id": "354b3d551795075011b81183ab12cf3f9b1554e0",
+      "name": "health-reports/2026-10-20-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-20-21.md",
+      "sector": "01"
+    },
+    {
+      "id": "e553b40120ba1c338ff7d3462eb904d447594cf6",
+      "name": "health-reports/2026-10-21-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-21-10.md",
+      "sector": "01"
+    },
+    {
+      "id": "15d015d552ce2c673b2cb4ab8e9487488b929015",
+      "name": "health-reports/2026-10-21-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-21-21.md",
+      "sector": "01"
+    },
+    {
+      "id": "85cc0c51260acc14b723239d4bfe3f0218807310",
+      "name": "health-reports/2026-10-22-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-22-10.md",
+      "sector": "01"
+    },
+    {
+      "id": "07670145e854440f2b96670da6ff8dcd11c9bd69",
+      "name": "CNAME",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/CNAME",
+      "sector": "14"
+    },
+    {
+      "id": "d1f576e933a6206912f9d3bf4dc7ad69fba58b6d",
+      "name": "press/2026-10-19-predicting-privileged-information-effectiveness-for-on-policy-self-distillation.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-19-predicting-privileged-information-effectiveness-for-on-policy-self-distillation.html",
+      "sector": "14"
+    },
+    {
+      "id": "ae56b74809168308aa18ce1cf4e6ea14ad4128bd",
+      "name": "press/2026-10-19-three-reasons-why-ai-is-not-conscious-and-perhaps-never-will-be.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-19-three-reasons-why-ai-is-not-conscious-and-perhaps-never-will-be.html",
+      "sector": "14"
+    },
+    {
+      "id": "aa6057978f99bfd43a3d215c5d2002d21c72ce99",
+      "name": "press/2026-10-19-trust-but-verify-designing-region-inhomogeneous-forward-dynamics-for-discrete-di.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-19-trust-but-verify-designing-region-inhomogeneous-forward-dynamics-for-discrete-di.html",
+      "sector": "14"
+    },
+    {
+      "id": "7e2314615cc4add369eddb2c4622e6218acb334f",
+      "name": "press/2026-10-20-the-mirror-and-the-codex.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-20-the-mirror-and-the-codex.html",
+      "sector": "14"
+    },
+    {
+      "id": "3aaac652b3a75291c172508e51c8063325524d56",
+      "name": "press/2026-10-21-edma-entropy-driven-multimodal-answering.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-21-edma-entropy-driven-multimodal-answering.html",
+      "sector": "14"
+    },
+    {
+      "id": "e7327885cf659c9c50dd9f4bbbd173668b57c871",
+      "name": "press/2026-10-21-industrial-agentic-ai-llm-driven-new-generation-agents-for-smart-manufacturing.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-21-industrial-agentic-ai-llm-driven-new-generation-agents-for-smart-manufacturing.html",
+      "sector": "14"
+    },
+    {
+      "id": "54e3262b206fcc87ef04d0ccbc170e42428c5de5",
+      "name": "press/2026-10-21-is-there-a-all-in-one-course-where-i-can-learn-how-to-use-different-chatbots-eff.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-21-is-there-a-all-in-one-course-where-i-can-learn-how-to-use-different-chatbots-eff.html",
+      "sector": "14"
+    },
+    {
+      "id": "73905fe778d309af4d712fadfd27b35b9ebe42db",
+      "name": "press/digest-2026-W42.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W42.html",
+      "sector": "14"
+    },
+    {
+      "id": "499a5b3162c223d26d440ce664f60a1fb87e3667",
+      "name": "CNAME",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/CNAME",
       "sector": "01"
     }
   ]
