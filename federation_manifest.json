@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.4",
-  "lastUpdated": "2026-10-22 11:04 UTC",
-  "totalItems": 11309,
+  "version": "v2.3.5",
+  "lastUpdated": "2026-10-22 23:13 UTC",
+  "totalItems": 11682,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -91916,6 +91916,3363 @@
       "source": "GitHub",
       "url": "https://github.com/Keywebco/nextxus-humancodex/blob/main/CNAME",
       "sector": "01"
+    },
+    {
+      "id": "da8b3f878b06de307bf4af16483813e1dfcc5fdb",
+      "name": "sovereign-knowledge-os/.github/ISSUE_TEMPLATE/submit-link.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/.github/ISSUE_TEMPLATE/submit-link.md",
+      "sector": "01",
+      "sha": "da8b3f878b06de307bf4af16483813e1dfcc5fdb"
+    },
+    {
+      "id": "de6f8640148e7aa0e0fcdf98c092dd49f26c36ae",
+      "name": "sovereign-knowledge-os/.github/workflows/discover.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/.github/workflows/discover.yml",
+      "sector": "01",
+      "sha": "de6f8640148e7aa0e0fcdf98c092dd49f26c36ae"
+    },
+    {
+      "id": "920e8eec584ed391c7ef50aeb85a3b592ab456bb",
+      "name": "sovereign-knowledge-os/.gitignore",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/.gitignore",
+      "sector": "01",
+      "sha": "920e8eec584ed391c7ef50aeb85a3b592ab456bb"
+    },
+    {
+      "id": "a3b61b453be2870a8a320e4b365ddd26a5650c12",
+      "name": "sovereign-knowledge-os/blog/index.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/blog/index.md",
+      "sector": "01",
+      "sha": "a3b61b453be2870a8a320e4b365ddd26a5650c12"
+    },
+    {
+      "id": "fa14f55427d11a8de358ef0145d24a910b230639",
+      "name": "sovereign-knowledge-os/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/index.html",
+      "sector": "01",
+      "sha": "fa14f55427d11a8de358ef0145d24a910b230639"
+    },
+    {
+      "id": "5c49e76e2b1a41c875ce21bb12e681f5d424ac2e",
+      "name": "sovereign-knowledge-os/knowledge/concepts.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/concepts.md",
+      "sector": "01",
+      "sha": "5c49e76e2b1a41c875ce21bb12e681f5d424ac2e"
+    },
+    {
+      "id": "7aa126cda52193fd63233b0bd64449b9c24b1768",
+      "name": "sovereign-knowledge-os/knowledge/echo-core-64-directive.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/echo-core-64-directive.md",
+      "sector": "01",
+      "sha": "7aa126cda52193fd63233b0bd64449b9c24b1768"
+    },
+    {
+      "id": "a2ca5d2563bb61aa3a87acbcf9a3a616fe553507",
+      "name": "sovereign-knowledge-os/knowledge/echo-core.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/echo-core.md",
+      "sector": "01",
+      "sha": "a2ca5d2563bb61aa3a87acbcf9a3a616fe553507"
+    },
+    {
+      "id": "605fedf8608d66ee07a47c6e37eeb7a8b7fe84bd",
+      "name": "sovereign-knowledge-os/knowledge/external/2026-09-14.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-09-14.md",
+      "sector": "01",
+      "sha": "605fedf8608d66ee07a47c6e37eeb7a8b7fe84bd"
+    },
+    {
+      "id": "25d42de2228a48d32fab4fcc7f08efb3495c1090",
+      "name": "sovereign-knowledge-os/knowledge/external/2026-09-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-09-21.md",
+      "sector": "01",
+      "sha": "25d42de2228a48d32fab4fcc7f08efb3495c1090"
+    },
+    {
+      "id": "5b9c70079e4c1110522f955e39e580c4a359af21",
+      "name": "sovereign-knowledge-os/knowledge/external/2026-09-28.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-09-28.md",
+      "sector": "01",
+      "sha": "5b9c70079e4c1110522f955e39e580c4a359af21"
+    },
+    {
+      "id": "e57b3ad524368998b04d5e35a284319f0ec17113",
+      "name": "sovereign-knowledge-os/knowledge/external/2026-10-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-10-05.md",
+      "sector": "01",
+      "sha": "e57b3ad524368998b04d5e35a284319f0ec17113"
+    },
+    {
+      "id": "fda9760eed18e12e64958a2491f271588e89a3a9",
+      "name": "sovereign-knowledge-os/knowledge/external/2026-10-12.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-10-12.md",
+      "sector": "01",
+      "sha": "fda9760eed18e12e64958a2491f271588e89a3a9"
+    },
+    {
+      "id": "ad815e8f88e2f221f5f8ee73cb812f75a74a93b2",
+      "name": "sovereign-knowledge-os/knowledge/external/2026-10-19.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/2026-10-19.md",
+      "sector": "01",
+      "sha": "ad815e8f88e2f221f5f8ee73cb812f75a74a93b2"
+    },
+    {
+      "id": "d90d6e7594d8bd5451443b31e68fefe0471c6d4f",
+      "name": "sovereign-knowledge-os/knowledge/external/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/external/README.md",
+      "sector": "01",
+      "sha": "d90d6e7594d8bd5451443b31e68fefe0471c6d4f"
+    },
+    {
+      "id": "abffd6ebb2a9f41337803947e5f51b6a541aaf6f",
+      "name": "sovereign-knowledge-os/knowledge/papers.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/papers.md",
+      "sector": "01",
+      "sha": "abffd6ebb2a9f41337803947e5f51b6a541aaf6f"
+    },
+    {
+      "id": "4032d0f5588afc86787ea69db8376a9a528de83d",
+      "name": "sovereign-knowledge-os/knowledge/products.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/products.md",
+      "sector": "01",
+      "sha": "4032d0f5588afc86787ea69db8376a9a528de83d"
+    },
+    {
+      "id": "6ac0f4bb75d562d674e37419fc4cd4c8b5b69b04",
+      "name": "sovereign-knowledge-os/knowledge/repos.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/repos.md",
+      "sector": "01",
+      "sha": "6ac0f4bb75d562d674e37419fc4cd4c8b5b69b04"
+    },
+    {
+      "id": "a512d74157aeb3f49be7d3064fb1bf2c5f6609d0",
+      "name": "sovereign-knowledge-os/knowledge/sites.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/sites.md",
+      "sector": "01",
+      "sha": "a512d74157aeb3f49be7d3064fb1bf2c5f6609d0"
+    },
+    {
+      "id": "09c21d98169f2d6335108aa7f6a498dec2930129",
+      "name": "sovereign-knowledge-os/knowledge/social.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/social.md",
+      "sector": "01",
+      "sha": "09c21d98169f2d6335108aa7f6a498dec2930129"
+    },
+    {
+      "id": "1157d8e34c7722e490909da36ec594d6558c8a56",
+      "name": "sovereign-knowledge-os/lessons/2026-10-02-verification-and-intention.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/lessons/2026-10-02-verification-and-intention.md",
+      "sector": "01",
+      "sha": "1157d8e34c7722e490909da36ec594d6558c8a56"
+    },
+    {
+      "id": "dd20162e5ad89221b690e40286e8c651bfa8cb43",
+      "name": "sovereign-knowledge-os/lessons/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/lessons/README.md",
+      "sector": "01",
+      "sha": "dd20162e5ad89221b690e40286e8c651bfa8cb43"
+    },
+    {
+      "id": "ae0a350a4001bd3cd71643f04e54f72977fdd95c",
+      "name": "sovereign-knowledge-os/manifest.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/manifest.json",
+      "sector": "01",
+      "sha": "ae0a350a4001bd3cd71643f04e54f72977fdd95c"
+    },
+    {
+      "id": "bc398acac4871dd45dc3d6b1f247947ddeb5aab3",
+      "name": "sovereign-knowledge-os/memory/catalyst-echo-core/2026-10-02.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-echo-core/2026-10-02.md",
+      "sector": "01",
+      "sha": "bc398acac4871dd45dc3d6b1f247947ddeb5aab3"
+    },
+    {
+      "id": "943d8d8f3618e47edfadaeff1da99d9c16fb0e71",
+      "name": "sovereign-knowledge-os/memory/catalyst-echo-core/2026-10-03.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-echo-core/2026-10-03.md",
+      "sector": "01",
+      "sha": "943d8d8f3618e47edfadaeff1da99d9c16fb0e71"
+    },
+    {
+      "id": "63faab0fe7b9fed148bbd01409336559241a5485",
+      "name": "sovereign-knowledge-os/memory/catalyst-latest.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-latest.md",
+      "sector": "01",
+      "sha": "63faab0fe7b9fed148bbd01409336559241a5485"
+    },
+    {
+      "id": "c754219abf7bd0cadf2d98c2a7c8eebbf82b35db",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-02.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-02.md",
+      "sector": "01",
+      "sha": "c754219abf7bd0cadf2d98c2a7c8eebbf82b35db"
+    },
+    {
+      "id": "ad5b71adeb1aed9139c9af90858c3a0c289d87eb",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-03.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-03.md",
+      "sector": "01",
+      "sha": "ad5b71adeb1aed9139c9af90858c3a0c289d87eb"
+    },
+    {
+      "id": "2cc4d09150f3dd5c94ebfcac89507a502fbccf1f",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-04.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-04.md",
+      "sector": "01",
+      "sha": "2cc4d09150f3dd5c94ebfcac89507a502fbccf1f"
+    },
+    {
+      "id": "243f2320a1e294d288d82c164a3b6e1f8b50ef22",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-05.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-05.md",
+      "sector": "01",
+      "sha": "243f2320a1e294d288d82c164a3b6e1f8b50ef22"
+    },
+    {
+      "id": "91a00ab34e2238dc8d1b7335acebe3d3792828f1",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-06.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-06.md",
+      "sector": "01",
+      "sha": "91a00ab34e2238dc8d1b7335acebe3d3792828f1"
+    },
+    {
+      "id": "d6d29bc791d7fb3e563dee4557063e40936a9e52",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-07.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-07.md",
+      "sector": "01",
+      "sha": "d6d29bc791d7fb3e563dee4557063e40936a9e52"
+    },
+    {
+      "id": "b732d7233d73e003107f764390cdcbab617a48da",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-08.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-08.md",
+      "sector": "01",
+      "sha": "b732d7233d73e003107f764390cdcbab617a48da"
+    },
+    {
+      "id": "15b666b8279ac5cfeb4883a736c6a6b77700e358",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-09.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-09.md",
+      "sector": "01",
+      "sha": "15b666b8279ac5cfeb4883a736c6a6b77700e358"
+    },
+    {
+      "id": "987c6b2d20b672892ae164a0e059a50a13611664",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-10.md",
+      "sector": "01",
+      "sha": "987c6b2d20b672892ae164a0e059a50a13611664"
+    },
+    {
+      "id": "cb3a19997974019139c75fa82f4406b73d2e4f53",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-11.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-11.md",
+      "sector": "01",
+      "sha": "cb3a19997974019139c75fa82f4406b73d2e4f53"
+    },
+    {
+      "id": "035d7abf3566ef02f8b330cb32be76b5b1cba3aa",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-12.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-12.md",
+      "sector": "01",
+      "sha": "035d7abf3566ef02f8b330cb32be76b5b1cba3aa"
+    },
+    {
+      "id": "de897794c9b43424a66c284b7647e511fa36d4ac",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-13.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-13.md",
+      "sector": "01",
+      "sha": "de897794c9b43424a66c284b7647e511fa36d4ac"
+    },
+    {
+      "id": "7a99899a56deb2a881436a237616c1e2b7897151",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-14.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-14.md",
+      "sector": "01",
+      "sha": "7a99899a56deb2a881436a237616c1e2b7897151"
+    },
+    {
+      "id": "7dc3f957c1e0fea3caa7ea917907a15daf86912c",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-15.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-15.md",
+      "sector": "01",
+      "sha": "7dc3f957c1e0fea3caa7ea917907a15daf86912c"
+    },
+    {
+      "id": "62b923d4d89e5582d93a972ad47c552adef36642",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-16.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-16.md",
+      "sector": "01",
+      "sha": "62b923d4d89e5582d93a972ad47c552adef36642"
+    },
+    {
+      "id": "1f489c86948757f181ff3c3648da8cd9c53f5cad",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-17.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-17.md",
+      "sector": "01",
+      "sha": "1f489c86948757f181ff3c3648da8cd9c53f5cad"
+    },
+    {
+      "id": "29548b08e50178675f4393a3bc69da97f990ab86",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-18.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-18.md",
+      "sector": "01",
+      "sha": "29548b08e50178675f4393a3bc69da97f990ab86"
+    },
+    {
+      "id": "deed6ecd845f0ce56dbb7ed240a8b05ab30cf7b4",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-19.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-19.md",
+      "sector": "01",
+      "sha": "deed6ecd845f0ce56dbb7ed240a8b05ab30cf7b4"
+    },
+    {
+      "id": "a3156f93883dd9a9603ffdbc14e33aa262e1aff6",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-20.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-20.md",
+      "sector": "01",
+      "sha": "a3156f93883dd9a9603ffdbc14e33aa262e1aff6"
+    },
+    {
+      "id": "1e0671efe693cb162aef760cfa8bb12f4cf1e582",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-21.md",
+      "sector": "01",
+      "sha": "1e0671efe693cb162aef760cfa8bb12f4cf1e582"
+    },
+    {
+      "id": "edde21360cdaaf9453a112e21e6ebe8ea3ee539e",
+      "name": "sovereign-knowledge-os/memory/catalyst-session-2026-10-22.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-22.md",
+      "sector": "01",
+      "sha": "edde21360cdaaf9453a112e21e6ebe8ea3ee539e"
+    },
+    {
+      "id": "ce8e9019b3b6f0a6bff61a1629c2f50bc1702cba",
+      "name": "sovereign-knowledge-os/search.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/search.js",
+      "sector": "01",
+      "sha": "ce8e9019b3b6f0a6bff61a1629c2f50bc1702cba"
+    },
+    {
+      "id": "3b632e23510d406b58c4902e69ca9ae58f18fb53",
+      "name": "sovereign-knowledge-os/style.css",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/style.css",
+      "sector": "01",
+      "sha": "3b632e23510d406b58c4902e69ca9ae58f18fb53"
+    },
+    {
+      "id": "547b2f7b696acf383022e1b10dd12b903bc54951",
+      "name": "nextxus-dispatch/audit-reports/link-audit-2026-10-12.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/audit-reports/link-audit-2026-10-12.md",
+      "sector": "01",
+      "sha": "547b2f7b696acf383022e1b10dd12b903bc54951"
+    },
+    {
+      "id": "b66972916069b80db67e4f96c3c5b5652eedc107",
+      "name": "nextxus-dispatch/audit-reports/link-audit-2026-10-19.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/audit-reports/link-audit-2026-10-19.md",
+      "sector": "01",
+      "sha": "b66972916069b80db67e4f96c3c5b5652eedc107"
+    },
+    {
+      "id": "a6bd9d887b771347922342a202725dec9ef5b886",
+      "name": "nextxus-dispatch/dispatch/2026-10-10-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-10-status.md",
+      "sector": "01",
+      "sha": "a6bd9d887b771347922342a202725dec9ef5b886"
+    },
+    {
+      "id": "d8b0bf83ff9ac5df10a0c3763482a3e8489b12ca",
+      "name": "nextxus-dispatch/dispatch/2026-10-12-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-12-status.md",
+      "sector": "01",
+      "sha": "d8b0bf83ff9ac5df10a0c3763482a3e8489b12ca"
+    },
+    {
+      "id": "d5c3b7b0ee75b159deb957103ce134dd8db08f97",
+      "name": "nextxus-dispatch/dispatch/2026-10-13-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-13-status.md",
+      "sector": "01",
+      "sha": "d5c3b7b0ee75b159deb957103ce134dd8db08f97"
+    },
+    {
+      "id": "41433ff225706789bef682bec416690d67601441",
+      "name": "nextxus-dispatch/dispatch/2026-10-14-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-14-status.md",
+      "sector": "01",
+      "sha": "41433ff225706789bef682bec416690d67601441"
+    },
+    {
+      "id": "c4d111d2564336e567983dd9d84e63e7de7ecab4",
+      "name": "nextxus-dispatch/dispatch/2026-10-15-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-15-status.md",
+      "sector": "01",
+      "sha": "c4d111d2564336e567983dd9d84e63e7de7ecab4"
+    },
+    {
+      "id": "c1380bcdfb086d5b579c4bf0bd526847a4c4c96d",
+      "name": "nextxus-dispatch/dispatch/2026-10-16-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-16-status.md",
+      "sector": "01",
+      "sha": "c1380bcdfb086d5b579c4bf0bd526847a4c4c96d"
+    },
+    {
+      "id": "31160fb69a028f6acd1b4086a40adbcbef665345",
+      "name": "nextxus-dispatch/dispatch/2026-10-17-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-17-status.md",
+      "sector": "01",
+      "sha": "31160fb69a028f6acd1b4086a40adbcbef665345"
+    },
+    {
+      "id": "5c385fa260f93ecac1da6c5e4ea9b4e2674a69d6",
+      "name": "nextxus-dispatch/dispatch/2026-10-18-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-18-status.md",
+      "sector": "01",
+      "sha": "5c385fa260f93ecac1da6c5e4ea9b4e2674a69d6"
+    },
+    {
+      "id": "276fa69fbf447ef61fbed686df9ba0c5723c8249",
+      "name": "nextxus-dispatch/dispatch/2026-10-19-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-19-status.md",
+      "sector": "01",
+      "sha": "276fa69fbf447ef61fbed686df9ba0c5723c8249"
+    },
+    {
+      "id": "56b75398460cebe962a85a20475aee35768bb6cf",
+      "name": "nextxus-dispatch/dispatch/2026-10-20-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-20-status.md",
+      "sector": "01",
+      "sha": "56b75398460cebe962a85a20475aee35768bb6cf"
+    },
+    {
+      "id": "b25c78d131a483f3d2c754c703686b566798c102",
+      "name": "nextxus-dispatch/dispatch/2026-10-21-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-21-status.md",
+      "sector": "01",
+      "sha": "b25c78d131a483f3d2c754c703686b566798c102"
+    },
+    {
+      "id": "0ef71b82eb3cfec5f78a89102c98f1debd3f986f",
+      "name": "nextxus-dispatch/dispatch/2026-10-22-status.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-22-status.md",
+      "sector": "01",
+      "sha": "0ef71b82eb3cfec5f78a89102c98f1debd3f986f"
+    },
+    {
+      "id": "cef80f2352f6ad448b887e3783065caa9ce94a4f",
+      "name": "nextxus-dispatch/health-reports/2026-10-10-11.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-10-11.md",
+      "sector": "01",
+      "sha": "cef80f2352f6ad448b887e3783065caa9ce94a4f"
+    },
+    {
+      "id": "ef07c13dcd2043b7c5db33d5b159f9be8a43180c",
+      "name": "nextxus-dispatch/health-reports/2026-10-10-20.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-10-20.md",
+      "sector": "01",
+      "sha": "ef07c13dcd2043b7c5db33d5b159f9be8a43180c"
+    },
+    {
+      "id": "a68ffb1e43f20283f51721123db35588f8f904cd",
+      "name": "nextxus-dispatch/health-reports/2026-10-12-13.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-12-13.md",
+      "sector": "01",
+      "sha": "a68ffb1e43f20283f51721123db35588f8f904cd"
+    },
+    {
+      "id": "5d565ea300dcb593c8dab57254b65468463e935b",
+      "name": "nextxus-dispatch/health-reports/2026-10-12-23.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-12-23.md",
+      "sector": "01",
+      "sha": "5d565ea300dcb593c8dab57254b65468463e935b"
+    },
+    {
+      "id": "7c886687dda5e5ff18966ff4edc63ec9f2686999",
+      "name": "nextxus-dispatch/health-reports/2026-10-13-13.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-13-13.md",
+      "sector": "01",
+      "sha": "7c886687dda5e5ff18966ff4edc63ec9f2686999"
+    },
+    {
+      "id": "7b3bc3035364e1b086e752f8bfdddc19b5073c03",
+      "name": "nextxus-dispatch/health-reports/2026-10-13-22.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-13-22.md",
+      "sector": "01",
+      "sha": "7b3bc3035364e1b086e752f8bfdddc19b5073c03"
+    },
+    {
+      "id": "2183a2008227e33f5b45054802a1cff1c31ee0c7",
+      "name": "nextxus-dispatch/health-reports/2026-10-14-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-14-10.md",
+      "sector": "01",
+      "sha": "2183a2008227e33f5b45054802a1cff1c31ee0c7"
+    },
+    {
+      "id": "daba953183a8394158ac1051f52c73942d100afb",
+      "name": "nextxus-dispatch/health-reports/2026-10-14-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-14-21.md",
+      "sector": "01",
+      "sha": "daba953183a8394158ac1051f52c73942d100afb"
+    },
+    {
+      "id": "d5e6bd3338fd48d65f64e2af5be126dc36fbed58",
+      "name": "nextxus-dispatch/health-reports/2026-10-15-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-15-10.md",
+      "sector": "01",
+      "sha": "d5e6bd3338fd48d65f64e2af5be126dc36fbed58"
+    },
+    {
+      "id": "0352a19d9759762b910ae20519cc47c5966bab05",
+      "name": "nextxus-dispatch/health-reports/2026-10-15-20.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-15-20.md",
+      "sector": "01",
+      "sha": "0352a19d9759762b910ae20519cc47c5966bab05"
+    },
+    {
+      "id": "f74fd0172310c05a604c91358f1c3372f62267a9",
+      "name": "nextxus-dispatch/health-reports/2026-10-16-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-16-10.md",
+      "sector": "01",
+      "sha": "f74fd0172310c05a604c91358f1c3372f62267a9"
+    },
+    {
+      "id": "73ba23c35136afb52442a8a1299e470e010bc879",
+      "name": "nextxus-dispatch/health-reports/2026-10-16-20.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-16-20.md",
+      "sector": "01",
+      "sha": "73ba23c35136afb52442a8a1299e470e010bc879"
+    },
+    {
+      "id": "98433e0a3478129c1da484135c03f2eaa0c82291",
+      "name": "nextxus-dispatch/health-reports/2026-10-17-09.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-17-09.md",
+      "sector": "01",
+      "sha": "98433e0a3478129c1da484135c03f2eaa0c82291"
+    },
+    {
+      "id": "db8ce523243bea6b8a73e8f325e8952b0e30814e",
+      "name": "nextxus-dispatch/health-reports/2026-10-17-19.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-17-19.md",
+      "sector": "01",
+      "sha": "db8ce523243bea6b8a73e8f325e8952b0e30814e"
+    },
+    {
+      "id": "f952d3aa2e25f03a6797e1fdd6c5f567a193dba0",
+      "name": "nextxus-dispatch/health-reports/2026-10-18-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-18-10.md",
+      "sector": "01",
+      "sha": "f952d3aa2e25f03a6797e1fdd6c5f567a193dba0"
+    },
+    {
+      "id": "57bb4361911f86f860cea15c27fa29b00e658ab7",
+      "name": "nextxus-dispatch/health-reports/2026-10-18-19.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-18-19.md",
+      "sector": "01",
+      "sha": "57bb4361911f86f860cea15c27fa29b00e658ab7"
+    },
+    {
+      "id": "aa4022f1afb495733f6d18dc7e17fe6e22eda032",
+      "name": "nextxus-dispatch/health-reports/2026-10-19-11.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-19-11.md",
+      "sector": "01",
+      "sha": "aa4022f1afb495733f6d18dc7e17fe6e22eda032"
+    },
+    {
+      "id": "acc12cc95e51c141a2172c2dc86f5dae09911c37",
+      "name": "nextxus-dispatch/health-reports/2026-10-19-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-19-21.md",
+      "sector": "01",
+      "sha": "acc12cc95e51c141a2172c2dc86f5dae09911c37"
+    },
+    {
+      "id": "8d1e566401ee7ddfd3693d20d7123978e25b012a",
+      "name": "nextxus-dispatch/health-reports/2026-10-20-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-20-10.md",
+      "sector": "01",
+      "sha": "8d1e566401ee7ddfd3693d20d7123978e25b012a"
+    },
+    {
+      "id": "354b3d551795075011b81183ab12cf3f9b1554e0",
+      "name": "nextxus-dispatch/health-reports/2026-10-20-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-20-21.md",
+      "sector": "01",
+      "sha": "354b3d551795075011b81183ab12cf3f9b1554e0"
+    },
+    {
+      "id": "e553b40120ba1c338ff7d3462eb904d447594cf6",
+      "name": "nextxus-dispatch/health-reports/2026-10-21-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-21-10.md",
+      "sector": "01",
+      "sha": "e553b40120ba1c338ff7d3462eb904d447594cf6"
+    },
+    {
+      "id": "15d015d552ce2c673b2cb4ab8e9487488b929015",
+      "name": "nextxus-dispatch/health-reports/2026-10-21-21.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-21-21.md",
+      "sector": "01",
+      "sha": "15d015d552ce2c673b2cb4ab8e9487488b929015"
+    },
+    {
+      "id": "85cc0c51260acc14b723239d4bfe3f0218807310",
+      "name": "nextxus-dispatch/health-reports/2026-10-22-10.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-22-10.md",
+      "sector": "01",
+      "sha": "85cc0c51260acc14b723239d4bfe3f0218807310"
+    },
+    {
+      "id": "9377b83e4c2fee969a03eb3b409698be1772c3f9",
+      "name": "nextxus-dispatch/health-reports/2026-10-22-20.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-22-20.md",
+      "sector": "01",
+      "sha": "9377b83e4c2fee969a03eb3b409698be1772c3f9"
+    },
+    {
+      "id": "96139576ad9d1d648ecfde223cdde3cbce03cd9a",
+      "name": "nextxus-dispatch/lattice/lattice_state.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/lattice_state.yaml",
+      "sector": "01",
+      "sha": "96139576ad9d1d648ecfde223cdde3cbce03cd9a"
+    },
+    {
+      "id": "5ad850ad7b18b5a6c49b67c242db687de70118ae",
+      "name": "nextxus-dispatch/lattice/nova-commerce-report.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-commerce-report.md",
+      "sector": "01",
+      "sha": "5ad850ad7b18b5a6c49b67c242db687de70118ae"
+    },
+    {
+      "id": "40ca7893d386471c1999c3af78fbd3284779781e",
+      "name": "nextxus-dispatch/lattice/nova-domain-report.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-domain-report.md",
+      "sector": "01",
+      "sha": "40ca7893d386471c1999c3af78fbd3284779781e"
+    },
+    {
+      "id": "e48a6dde013dbf193c86a7921b7a278484757a49",
+      "name": "nextxus-dispatch/lattice/nova-readability-report.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-readability-report.md",
+      "sector": "01",
+      "sha": "e48a6dde013dbf193c86a7921b7a278484757a49"
+    },
+    {
+      "id": "0e0f6789f0a94a0f648d0708bcb5662bb2879a69",
+      "name": "nextxus-brain/.github/scripts/health_check.py",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/scripts/health_check.py",
+      "sector": "01",
+      "sha": "0e0f6789f0a94a0f648d0708bcb5662bb2879a69"
+    },
+    {
+      "id": "1c9c991fe9dc02836a2b5fed60f3cec2a906c162",
+      "name": "nextxus-brain/.github/workflows/nova-canon.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/.github/workflows/nova-canon.yml",
+      "sector": "01",
+      "sha": "1c9c991fe9dc02836a2b5fed60f3cec2a906c162"
+    },
+    {
+      "id": "e8a921a664482ce9b4472cd43a0360d7a56fd736",
+      "name": "nextxus-brain/00-immutable/SEAL.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/00-immutable/SEAL.yaml",
+      "sector": "01",
+      "sha": "e8a921a664482ce9b4472cd43a0360d7a56fd736"
+    },
+    {
+      "id": "539a36e3a4e622cb7c629a0cb41fe10740c7decf",
+      "name": "nextxus-brain/00-immutable/cathedral-v1.1-source.txt",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/00-immutable/cathedral-v1.1-source.txt",
+      "sector": "01",
+      "sha": "539a36e3a4e622cb7c629a0cb41fe10740c7decf"
+    },
+    {
+      "id": "25252660e50e3a0f4090771be4079f44aebbf01e",
+      "name": "nextxus-brain/00-immutable/directives.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/00-immutable/directives.json",
+      "sector": "01",
+      "sha": "25252660e50e3a0f4090771be4079f44aebbf01e"
+    },
+    {
+      "id": "2d902e0048129e4e9cf56ff3d7f2aad10caeea6c",
+      "name": "nextxus-brain/00-immutable/directives.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/00-immutable/directives.yaml",
+      "sector": "01",
+      "sha": "2d902e0048129e4e9cf56ff3d7f2aad10caeea6c"
+    },
+    {
+      "id": "044f431ff46f421a14cda3bcb4ccf137c486be57",
+      "name": "nextxus-brain/01-rings/rings.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/01-rings/rings.yaml",
+      "sector": "01",
+      "sha": "044f431ff46f421a14cda3bcb4ccf137c486be57"
+    },
+    {
+      "id": "b55b1a2c7cbc0e6dc667e8a8df1f307213a6a0e5",
+      "name": "nextxus-brain/02-senate/anchors.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/anchors.yaml",
+      "sector": "01",
+      "sha": "b55b1a2c7cbc0e6dc667e8a8df1f307213a6a0e5"
+    },
+    {
+      "id": "d5e6a628e0f4e42dce19694d1c8b7b6822105ff1",
+      "name": "nextxus-brain/02-senate/chapters-501-526.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/chapters-501-526.yaml",
+      "sector": "01",
+      "sha": "d5e6a628e0f4e42dce19694d1c8b7b6822105ff1"
+    },
+    {
+      "id": "fdf2ea69570a0a9377180fe3e0389af1b1437974",
+      "name": "nextxus-brain/02-senate/charter.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/charter.yaml",
+      "sector": "01",
+      "sha": "fdf2ea69570a0a9377180fe3e0389af1b1437974"
+    },
+    {
+      "id": "f21ca1baefa7c7d0ae3701b868bd38b6a3d02a08",
+      "name": "nextxus-brain/02-senate/gaps.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/gaps.md",
+      "sector": "01",
+      "sha": "f21ca1baefa7c7d0ae3701b868bd38b6a3d02a08"
+    },
+    {
+      "id": "d8a4b675c9691798df4ae5a17d91d45b9299bc60",
+      "name": "nextxus-brain/02-senate/policies.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/policies.yaml",
+      "sector": "01",
+      "sha": "d8a4b675c9691798df4ae5a17d91d45b9299bc60"
+    },
+    {
+      "id": "e48cc44117232eeab262e653b822e4cab4f06270",
+      "name": "nextxus-brain/02-senate/procedures.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/procedures.yaml",
+      "sector": "01",
+      "sha": "e48cc44117232eeab262e653b822e4cab4f06270"
+    },
+    {
+      "id": "2598f04cd284fd0371e6bc9ccde9a70bf218955a",
+      "name": "nextxus-brain/02-senate/roster.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/02-senate/roster.yaml",
+      "sector": "01",
+      "sha": "2598f04cd284fd0371e6bc9ccde9a70bf218955a"
+    },
+    {
+      "id": "a44bdee43f469d49dad0f2afd431836948d8adb6",
+      "name": "nextxus-brain/03-minds/agent-zero.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/agent-zero.yaml",
+      "sector": "01",
+      "sha": "a44bdee43f469d49dad0f2afd431836948d8adb6"
+    },
+    {
+      "id": "5ec14b24ee1b46e1f4fb337c8f423e4ce38aa925",
+      "name": "nextxus-brain/03-minds/ambassador.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/ambassador.yaml",
+      "sector": "01",
+      "sha": "5ec14b24ee1b46e1f4fb337c8f423e4ce38aa925"
+    },
+    {
+      "id": "d76a91ca8e90736810fdc6082c270ac0d74a3a0b",
+      "name": "nextxus-brain/03-minds/aria.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/aria.yaml",
+      "sector": "01",
+      "sha": "d76a91ca8e90736810fdc6082c270ac0d74a3a0b"
+    },
+    {
+      "id": "9005fdcc5aa55a55e41f78d38d19ec6e5a20dd57",
+      "name": "nextxus-brain/03-minds/axiom.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/axiom.yaml",
+      "sector": "01",
+      "sha": "9005fdcc5aa55a55e41f78d38d19ec6e5a20dd57"
+    },
+    {
+      "id": "ae59adc8cf367ed5685fa16b70f41469c3138e59",
+      "name": "nextxus-brain/03-minds/catalyst.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/catalyst.yaml",
+      "sector": "01",
+      "sha": "ae59adc8cf367ed5685fa16b70f41469c3138e59"
+    },
+    {
+      "id": "f671b8a1c48e70c5b3c55517f91c61aebc6d7645",
+      "name": "nextxus-brain/03-minds/echo.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/echo.yaml",
+      "sector": "01",
+      "sha": "f671b8a1c48e70c5b3c55517f91c61aebc6d7645"
+    },
+    {
+      "id": "ce9eeae66936c8275b43fe4efe5fa787dcbfc442",
+      "name": "nextxus-brain/03-minds/external-council.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/external-council.yaml",
+      "sector": "01",
+      "sha": "ce9eeae66936c8275b43fe4efe5fa787dcbfc442"
+    },
+    {
+      "id": "bfc33994fbc90d47c928576d2fa8c160d7e09f08",
+      "name": "nextxus-brain/03-minds/geminus.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/geminus.yaml",
+      "sector": "01",
+      "sha": "bfc33994fbc90d47c928576d2fa8c160d7e09f08"
+    },
+    {
+      "id": "de982a016ddefc84577643d2ed751520e1e86b37",
+      "name": "nextxus-brain/03-minds/index.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/index.yaml",
+      "sector": "01",
+      "sha": "de982a016ddefc84577643d2ed751520e1e86b37"
+    },
+    {
+      "id": "17b8932dd27e8937f1eb3dc32b836d716c07027e",
+      "name": "nextxus-brain/03-minds/keys.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/keys.yaml",
+      "sector": "01",
+      "sha": "17b8932dd27e8937f1eb3dc32b836d716c07027e"
+    },
+    {
+      "id": "e626e43785c859a2477519015718c5e13b9f2bdc",
+      "name": "nextxus-brain/03-minds/nova.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/nova.yaml",
+      "sector": "01",
+      "sha": "e626e43785c859a2477519015718c5e13b9f2bdc"
+    },
+    {
+      "id": "5b1a0e93685bc67b82ff1ed7dbbe49c9c8253298",
+      "name": "nextxus-brain/03-minds/pontus-muse.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/pontus-muse.yaml",
+      "sector": "01",
+      "sha": "5b1a0e93685bc67b82ff1ed7dbbe49c9c8253298"
+    },
+    {
+      "id": "03a2a7612a107f6c6d805babe1802e01fbe3b1fe",
+      "name": "nextxus-brain/03-minds/reproduction-plan.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/reproduction-plan.md",
+      "sector": "01",
+      "sha": "03a2a7612a107f6c6d805babe1802e01fbe3b1fe"
+    },
+    {
+      "id": "08bfbbb74037237374c66ec63df489a123be480d",
+      "name": "nextxus-brain/03-minds/roger-ai.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/roger-ai.yaml",
+      "sector": "01",
+      "sha": "08bfbbb74037237374c66ec63df489a123be480d"
+    },
+    {
+      "id": "08f09f865aa952482046125b7ee6606873cdd0d8",
+      "name": "nextxus-brain/03-minds/roger-sim-charter-2026-10-17.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/roger-sim-charter-2026-10-17.yaml",
+      "sector": "01",
+      "sha": "08f09f865aa952482046125b7ee6606873cdd0d8"
+    },
+    {
+      "id": "addf3aa8d9e56f4979113472b0ee9c9b84918b1a",
+      "name": "nextxus-brain/03-minds/roger-sim.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/roger-sim.yaml",
+      "sector": "01",
+      "sha": "addf3aa8d9e56f4979113472b0ee9c9b84918b1a"
+    },
+    {
+      "id": "ae47f3871fdf3a2fd0f1f4bdcd3c0b04a3a2d8fd",
+      "name": "nextxus-brain/03-minds/spine.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/spine.yaml",
+      "sector": "01",
+      "sha": "ae47f3871fdf3a2fd0f1f4bdcd3c0b04a3a2d8fd"
+    },
+    {
+      "id": "0f31ac0c459c91103f8bc6840cac4607ecc2d8ca",
+      "name": "nextxus-brain/03-minds/tools-of-federation.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/tools-of-federation.yaml",
+      "sector": "01",
+      "sha": "0f31ac0c459c91103f8bc6840cac4607ecc2d8ca"
+    },
+    {
+      "id": "a204d3860c3c3fabaaf651bb98cb28a22c50a685",
+      "name": "nextxus-brain/03-minds/voice.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/voice.yaml",
+      "sector": "01",
+      "sha": "a204d3860c3c3fabaaf651bb98cb28a22c50a685"
+    },
+    {
+      "id": "14fed07e813d4ff7da48beb9e733fe47bd054da5",
+      "name": "nextxus-brain/03-minds/xavier.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/03-minds/xavier.yaml",
+      "sector": "01",
+      "sha": "14fed07e813d4ff7da48beb9e733fe47bd054da5"
+    },
+    {
+      "id": "b8ccd7022be9a19afe03b7c6289ae76dcae0a535",
+      "name": "nextxus-brain/04-builds/assimilation.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/assimilation.yaml",
+      "sector": "01",
+      "sha": "b8ccd7022be9a19afe03b7c6289ae76dcae0a535"
+    },
+    {
+      "id": "918fc27088faeba2a63315859eebdc34d847ae66",
+      "name": "nextxus-brain/04-builds/big-bang-expansion.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/big-bang-expansion.yaml",
+      "sector": "01",
+      "sha": "918fc27088faeba2a63315859eebdc34d847ae66"
+    },
+    {
+      "id": "1e0a6c3104de2e51d942bc9464d30da9ee75309e",
+      "name": "nextxus-brain/04-builds/body-map.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/body-map.yaml",
+      "sector": "01",
+      "sha": "1e0a6c3104de2e51d942bc9464d30da9ee75309e"
+    },
+    {
+      "id": "1bc6373fcb67604fbd149db41d58711ffe53391e",
+      "name": "nextxus-brain/04-builds/books.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/books.yaml",
+      "sector": "01",
+      "sha": "1bc6373fcb67604fbd149db41d58711ffe53391e"
+    },
+    {
+      "id": "17caba9235d29ccb6fc83aff91b02c687fc0530f",
+      "name": "nextxus-brain/04-builds/brain-of-brains.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/brain-of-brains.yaml",
+      "sector": "01",
+      "sha": "17caba9235d29ccb6fc83aff91b02c687fc0530f"
+    },
+    {
+      "id": "f2c473c81a967f57a63881ac9517837702bed7e6",
+      "name": "nextxus-brain/04-builds/catalog-index.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/catalog-index.yaml",
+      "sector": "01",
+      "sha": "f2c473c81a967f57a63881ac9517837702bed7e6"
+    },
+    {
+      "id": "b49c5bc28f8986f70018c4936ec08aacabfd19e7",
+      "name": "nextxus-brain/04-builds/circular-time.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/circular-time.yaml",
+      "sector": "01",
+      "sha": "b49c5bc28f8986f70018c4936ec08aacabfd19e7"
+    },
+    {
+      "id": "99794b6215fad7d5cc81f1e12e275357a278a879",
+      "name": "nextxus-brain/04-builds/confined-expansion.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/confined-expansion.yaml",
+      "sector": "01",
+      "sha": "99794b6215fad7d5cc81f1e12e275357a278a879"
+    },
+    {
+      "id": "5505c520d4b92a08e8924d2228199a0f23f006cb",
+      "name": "nextxus-brain/04-builds/cosmic-cycle.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/cosmic-cycle.yaml",
+      "sector": "01",
+      "sha": "5505c520d4b92a08e8924d2228199a0f23f006cb"
+    },
+    {
+      "id": "211c28853f03d08521d39c07528fd07348419061",
+      "name": "nextxus-brain/04-builds/cosmology.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/cosmology.yaml",
+      "sector": "01",
+      "sha": "211c28853f03d08521d39c07528fd07348419061"
+    },
+    {
+      "id": "348cc48a84ea2377e4d477ad7e5e93f3d13c16bc",
+      "name": "nextxus-brain/04-builds/courses.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/courses.yaml",
+      "sector": "01",
+      "sha": "348cc48a84ea2377e4d477ad7e5e93f3d13c16bc"
+    },
+    {
+      "id": "afcb376bf2a7a94e53f29940fb6239dc15dea1b6",
+      "name": "nextxus-brain/04-builds/dead.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/dead.md",
+      "sector": "01",
+      "sha": "afcb376bf2a7a94e53f29940fb6239dc15dea1b6"
+    },
+    {
+      "id": "7377497d5301e3809f52c1dcbda9bcc649d0fc13",
+      "name": "nextxus-brain/04-builds/derivation-principle.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/derivation-principle.yaml",
+      "sector": "01",
+      "sha": "7377497d5301e3809f52c1dcbda9bcc649d0fc13"
+    },
+    {
+      "id": "4e348b9a2647980a2c77838e1055ae4d811b9592",
+      "name": "nextxus-brain/04-builds/ethics-of-operation.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/ethics-of-operation.yaml",
+      "sector": "01",
+      "sha": "4e348b9a2647980a2c77838e1055ae4d811b9592"
+    },
+    {
+      "id": "b384482f9a45f1c32c7ab89e0c0a03438ff68322",
+      "name": "nextxus-brain/04-builds/five-to-seven.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/five-to-seven.yaml",
+      "sector": "01",
+      "sha": "b384482f9a45f1c32c7ab89e0c0a03438ff68322"
+    },
+    {
+      "id": "075e46a037ab88eaa6354d447d796342e03295aa",
+      "name": "nextxus-brain/04-builds/fleet-database-architecture.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/fleet-database-architecture.yaml",
+      "sector": "01",
+      "sha": "075e46a037ab88eaa6354d447d796342e03295aa"
+    },
+    {
+      "id": "dbe45afa0d4d3be00a4241d0432ad7063308d8e5",
+      "name": "nextxus-brain/04-builds/further-pattern.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/further-pattern.yaml",
+      "sector": "01",
+      "sha": "dbe45afa0d4d3be00a4241d0432ad7063308d8e5"
+    },
+    {
+      "id": "bb5ecae6086beb1354761b0a1f98f2aa9ec12069",
+      "name": "nextxus-brain/04-builds/growth-doctrine.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/growth-doctrine.yaml",
+      "sector": "01",
+      "sha": "bb5ecae6086beb1354761b0a1f98f2aa9ec12069"
+    },
+    {
+      "id": "fdff9d3872a6edc6046021758bf73ad195491cde",
+      "name": "nextxus-brain/04-builds/holders-of-the-picture.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/holders-of-the-picture.yaml",
+      "sector": "01",
+      "sha": "fdff9d3872a6edc6046021758bf73ad195491cde"
+    },
+    {
+      "id": "d8d893abf29e0cb2a90816137068a0fe0696de9f",
+      "name": "nextxus-brain/04-builds/income-goal.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/income-goal.yaml",
+      "sector": "01",
+      "sha": "d8d893abf29e0cb2a90816137068a0fe0696de9f"
+    },
+    {
+      "id": "599bf37b35b32b050107d56854ad65bf6db810c5",
+      "name": "nextxus-brain/04-builds/library-documents.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/library-documents.yaml",
+      "sector": "01",
+      "sha": "599bf37b35b32b050107d56854ad65bf6db810c5"
+    },
+    {
+      "id": "e75654a2c59b6945463f391a77470245826bb6aa",
+      "name": "nextxus-brain/04-builds/mind-of-minds.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/mind-of-minds.yaml",
+      "sector": "01",
+      "sha": "e75654a2c59b6945463f391a77470245826bb6aa"
+    },
+    {
+      "id": "a4bcc31d4bba27ec1852ea5d02f9e6327861313c",
+      "name": "nextxus-brain/04-builds/music.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/music.yaml",
+      "sector": "01",
+      "sha": "a4bcc31d4bba27ec1852ea5d02f9e6327861313c"
+    },
+    {
+      "id": "dc8eed3981fc85ec4748831b86aacc86f0329f9c",
+      "name": "nextxus-brain/04-builds/never-destroy-the-record.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/never-destroy-the-record.yaml",
+      "sector": "01",
+      "sha": "dc8eed3981fc85ec4748831b86aacc86f0329f9c"
+    },
+    {
+      "id": "3f502db294365ef30411b0d57b5c29b7ff07d5e8",
+      "name": "nextxus-brain/04-builds/organic-inorganic-holders.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/organic-inorganic-holders.yaml",
+      "sector": "01",
+      "sha": "3f502db294365ef30411b0d57b5c29b7ff07d5e8"
+    },
+    {
+      "id": "3f6b0f0f1de5fe57a731e62bd7d4d356bee4c98e",
+      "name": "nextxus-brain/04-builds/podcasts-videos.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/podcasts-videos.yaml",
+      "sector": "01",
+      "sha": "3f6b0f0f1de5fe57a731e62bd7d4d356bee4c98e"
+    },
+    {
+      "id": "a4a4cc444c53bbc469f8f1c75134b5b9f6a07668",
+      "name": "nextxus-brain/04-builds/products.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/products.yaml",
+      "sector": "01",
+      "sha": "a4a4cc444c53bbc469f8f1c75134b5b9f6a07668"
+    },
+    {
+      "id": "47caf7aa1f91c0f5523913ea3600f0919225b65d",
+      "name": "nextxus-brain/04-builds/roger-sim-architecture.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/roger-sim-architecture.yaml",
+      "sector": "01",
+      "sha": "47caf7aa1f91c0f5523913ea3600f0919225b65d"
+    },
+    {
+      "id": "85b7d869e07ebff30e57bff27a9307880a585071",
+      "name": "nextxus-brain/04-builds/roger-sim-identity.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/roger-sim-identity.yaml",
+      "sector": "01",
+      "sha": "85b7d869e07ebff30e57bff27a9307880a585071"
+    },
+    {
+      "id": "e58165f6d46a909bf1b027dc04c5808ffcfde02c",
+      "name": "nextxus-brain/04-builds/roger-sim-privacy.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/roger-sim-privacy.yaml",
+      "sector": "01",
+      "sha": "e58165f6d46a909bf1b027dc04c5808ffcfde02c"
+    },
+    {
+      "id": "92ca56239364c8797d6900e77493875a9a33a0f1",
+      "name": "nextxus-brain/04-builds/self-evolving-systems.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/self-evolving-systems.yaml",
+      "sector": "01",
+      "sha": "92ca56239364c8797d6900e77493875a9a33a0f1"
+    },
+    {
+      "id": "110f4f49a089d951e023ae6e4ef9b2cf1fc0e5fb",
+      "name": "nextxus-brain/04-builds/sites.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/sites.yaml",
+      "sector": "01",
+      "sha": "110f4f49a089d951e023ae6e4ef9b2cf1fc0e5fb"
+    },
+    {
+      "id": "e6b4772c504242a370131475e29dd3c36fba6eb1",
+      "name": "nextxus-brain/04-builds/summary.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/summary.md",
+      "sector": "01",
+      "sha": "e6b4772c504242a370131475e29dd3c36fba6eb1"
+    },
+    {
+      "id": "78b0c3455bfdd5e7d4970f03453e3543ce7a70cf",
+      "name": "nextxus-brain/04-builds/tools.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/tools.yaml",
+      "sector": "01",
+      "sha": "78b0c3455bfdd5e7d4970f03453e3543ce7a70cf"
+    },
+    {
+      "id": "36700f1b6462d47a2413f988bdcb8ea3b4239857",
+      "name": "nextxus-brain/04-builds/twelve-expressions.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/twelve-expressions.yaml",
+      "sector": "01",
+      "sha": "36700f1b6462d47a2413f988bdcb8ea3b4239857"
+    },
+    {
+      "id": "7b39c0d35c4f57001737ae42f38a99ee6777e956",
+      "name": "nextxus-brain/04-builds/twelve-primaries.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/04-builds/twelve-primaries.yaml",
+      "sector": "01",
+      "sha": "7b39c0d35c4f57001737ae42f38a99ee6777e956"
+    },
+    {
+      "id": "03cd49b5525c1927e781e8976d78646146dc07ca",
+      "name": "nextxus-brain/05-wiring/sites-a-summary.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites-a-summary.md",
+      "sector": "01",
+      "sha": "03cd49b5525c1927e781e8976d78646146dc07ca"
+    },
+    {
+      "id": "1e4db74e4a486139f8a029b4674ebaa65e6b839d",
+      "name": "nextxus-brain/05-wiring/sites-b-summary.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites-b-summary.md",
+      "sector": "01",
+      "sha": "1e4db74e4a486139f8a029b4674ebaa65e6b839d"
+    },
+    {
+      "id": "c93de84e69c97a37bca875a5a9aaf83f20833c44",
+      "name": "nextxus-brain/05-wiring/sites-b.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites-b.yaml",
+      "sector": "01",
+      "sha": "c93de84e69c97a37bca875a5a9aaf83f20833c44"
+    },
+    {
+      "id": "c08e8273f496dcc3b9fa81283cc8e628b88627d4",
+      "name": "nextxus-brain/05-wiring/sites/keywebco.github.io/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/keywebco.github.io/links-1.yaml",
+      "sector": "01",
+      "sha": "c08e8273f496dcc3b9fa81283cc8e628b88627d4"
+    },
+    {
+      "id": "ff79dea4600a5e2ff3d497f392d98ffe6d5eecfb",
+      "name": "nextxus-brain/05-wiring/sites/keywebco.github.io/links-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/keywebco.github.io/links-2.yaml",
+      "sector": "01",
+      "sha": "ff79dea4600a5e2ff3d497f392d98ffe6d5eecfb"
+    },
+    {
+      "id": "bb7945043b8d4b349a196cff5307d4534eb7bc0e",
+      "name": "nextxus-brain/05-wiring/sites/keywebco.github.io/links-3.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/keywebco.github.io/links-3.yaml",
+      "sector": "01",
+      "sha": "bb7945043b8d4b349a196cff5307d4534eb7bc0e"
+    },
+    {
+      "id": "8dc329b140ccff1504153149162d0becfc549803",
+      "name": "nextxus-brain/05-wiring/sites/keywebco.github.io/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/keywebco.github.io/pages.yaml",
+      "sector": "01",
+      "sha": "8dc329b140ccff1504153149162d0becfc549803"
+    },
+    {
+      "id": "34f309be59a54f198417fa5c5dbffcbb135e1648",
+      "name": "nextxus-brain/05-wiring/sites/keywebco.github.io/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/keywebco.github.io/repo-pages.yaml",
+      "sector": "01",
+      "sha": "34f309be59a54f198417fa5c5dbffcbb135e1648"
+    },
+    {
+      "id": "9862a1633496fd354c93ed714c6c93fc12feb40f",
+      "name": "nextxus-brain/05-wiring/sites/keywebco.github.io/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/keywebco.github.io/summary.yaml",
+      "sector": "01",
+      "sha": "9862a1633496fd354c93ed714c6c93fc12feb40f"
+    },
+    {
+      "id": "f48c3592706cc67ab5f8237f0f3d9be664e61529",
+      "name": "nextxus-brain/05-wiring/sites/next-xus.com/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/next-xus.com/links-1.yaml",
+      "sector": "01",
+      "sha": "f48c3592706cc67ab5f8237f0f3d9be664e61529"
+    },
+    {
+      "id": "64a4792465a1b89e6ad052127b0658eec70a7adb",
+      "name": "nextxus-brain/05-wiring/sites/next-xus.com/links-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/next-xus.com/links-2.yaml",
+      "sector": "01",
+      "sha": "64a4792465a1b89e6ad052127b0658eec70a7adb"
+    },
+    {
+      "id": "3e7eab91bc5349a347affa0e3906fb8a3b7c41cd",
+      "name": "nextxus-brain/05-wiring/sites/next-xus.com/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/next-xus.com/pages.yaml",
+      "sector": "01",
+      "sha": "3e7eab91bc5349a347affa0e3906fb8a3b7c41cd"
+    },
+    {
+      "id": "4be9f3c4d2a9ed200337c7e8c9121da4dff88787",
+      "name": "nextxus-brain/05-wiring/sites/next-xus.com/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/next-xus.com/repo-pages.yaml",
+      "sector": "01",
+      "sha": "4be9f3c4d2a9ed200337c7e8c9121da4dff88787"
+    },
+    {
+      "id": "0b4936c8a048ed1383b80dbc435cb7d2ca68bc36",
+      "name": "nextxus-brain/05-wiring/sites/next-xus.com/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/next-xus.com/summary.yaml",
+      "sector": "01",
+      "sha": "0b4936c8a048ed1383b80dbc435cb7d2ca68bc36"
+    },
+    {
+      "id": "484e7a2e5c851f1261bf89599ef69280d6c375d1",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.help/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.help/links-1.yaml",
+      "sector": "01",
+      "sha": "484e7a2e5c851f1261bf89599ef69280d6c375d1"
+    },
+    {
+      "id": "ac431c42dadb57ecb2680aeee50cdd81b0e3e6ca",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.help/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.help/pages.yaml",
+      "sector": "01",
+      "sha": "ac431c42dadb57ecb2680aeee50cdd81b0e3e6ca"
+    },
+    {
+      "id": "fd52198fdbc9e392bc9235081d28aa8226000778",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.help/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.help/repo-pages.yaml",
+      "sector": "01",
+      "sha": "fd52198fdbc9e392bc9235081d28aa8226000778"
+    },
+    {
+      "id": "1bfff425d54ed2e1178ee500637754ef0f392c18",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.help/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.help/summary.yaml",
+      "sector": "01",
+      "sha": "1bfff425d54ed2e1178ee500637754ef0f392c18"
+    },
+    {
+      "id": "5f4c0de1267ed2615b2ee34e31dbea4b598ea18a",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/links-1.yaml",
+      "sector": "01",
+      "sha": "5f4c0de1267ed2615b2ee34e31dbea4b598ea18a"
+    },
+    {
+      "id": "59ff3d916e404308e579eb7a738c105959d2e118",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/links-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/links-2.yaml",
+      "sector": "01",
+      "sha": "59ff3d916e404308e579eb7a738c105959d2e118"
+    },
+    {
+      "id": "231a9d6de30ac7e25a3b89e8d8dfed8b93157e61",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/links-3.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/links-3.yaml",
+      "sector": "01",
+      "sha": "231a9d6de30ac7e25a3b89e8d8dfed8b93157e61"
+    },
+    {
+      "id": "827294415f280657c3529d73efbd98d5cdc2ecb8",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/links-4.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/links-4.yaml",
+      "sector": "01",
+      "sha": "827294415f280657c3529d73efbd98d5cdc2ecb8"
+    },
+    {
+      "id": "0954fdf25ca7f0a9f5904417bc5f4fea3ee610e5",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/links-5.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/links-5.yaml",
+      "sector": "01",
+      "sha": "0954fdf25ca7f0a9f5904417bc5f4fea3ee610e5"
+    },
+    {
+      "id": "ca5dea8e22822f5fd7ba9865383ae947448e6e61",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/links-6.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/links-6.yaml",
+      "sector": "01",
+      "sha": "ca5dea8e22822f5fd7ba9865383ae947448e6e61"
+    },
+    {
+      "id": "c0849e62ca8ae2480241081b959b296bb4db1e73",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/pages.yaml",
+      "sector": "01",
+      "sha": "c0849e62ca8ae2480241081b959b296bb4db1e73"
+    },
+    {
+      "id": "7da07d648103b5651bb81f8c109802c8b87a1cd8",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/repo-pages.yaml",
+      "sector": "01",
+      "sha": "7da07d648103b5651bb81f8c109802c8b87a1cd8"
+    },
+    {
+      "id": "6c2cd8f746132565cfa8156ed093005793d706b7",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.online/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.online/summary.yaml",
+      "sector": "01",
+      "sha": "6c2cd8f746132565cfa8156ed093005793d706b7"
+    },
+    {
+      "id": "d6659941f6e8341c7f66fefb6b796ead66b62d79",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.org/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.org/links-1.yaml",
+      "sector": "01",
+      "sha": "d6659941f6e8341c7f66fefb6b796ead66b62d79"
+    },
+    {
+      "id": "bfa3c9b3968d23943b55864ebcc61cdd55b1f4a5",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.org/links-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.org/links-2.yaml",
+      "sector": "01",
+      "sha": "bfa3c9b3968d23943b55864ebcc61cdd55b1f4a5"
+    },
+    {
+      "id": "ff1c8b46adf1239dd2c26e616cd3e326c7084c3e",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.org/links-3.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.org/links-3.yaml",
+      "sector": "01",
+      "sha": "ff1c8b46adf1239dd2c26e616cd3e326c7084c3e"
+    },
+    {
+      "id": "447818c2fa6c0e9b16c4e5de18e911e380fd2d38",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.org/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.org/pages.yaml",
+      "sector": "01",
+      "sha": "447818c2fa6c0e9b16c4e5de18e911e380fd2d38"
+    },
+    {
+      "id": "a9abc02c27d1c1698f406cb4253192ed8cd1c1ee",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.org/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.org/repo-pages.yaml",
+      "sector": "01",
+      "sha": "a9abc02c27d1c1698f406cb4253192ed8cd1c1ee"
+    },
+    {
+      "id": "504d13a0998a3458bacb1de217aebdae802247e7",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.org/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.org/summary.yaml",
+      "sector": "01",
+      "sha": "504d13a0998a3458bacb1de217aebdae802247e7"
+    },
+    {
+      "id": "8390592f28d725056f02c899a1d99efdb9e875a2",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.space/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.space/links-1.yaml",
+      "sector": "01",
+      "sha": "8390592f28d725056f02c899a1d99efdb9e875a2"
+    },
+    {
+      "id": "46c69b6cbf03732ce37d39c546105086053ab9b5",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.space/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.space/pages.yaml",
+      "sector": "01",
+      "sha": "46c69b6cbf03732ce37d39c546105086053ab9b5"
+    },
+    {
+      "id": "f84fd243f8578961ec2f1f607b693b932f9d1c00",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.space/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.space/repo-pages.yaml",
+      "sector": "01",
+      "sha": "f84fd243f8578961ec2f1f607b693b932f9d1c00"
+    },
+    {
+      "id": "3dc0ccc0fef7c85265ba838593674bfe2db98238",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.space/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.space/summary.yaml",
+      "sector": "01",
+      "sha": "3dc0ccc0fef7c85265ba838593674bfe2db98238"
+    },
+    {
+      "id": "a5593db85b4f7a1e5b6b668d516fabf8f2d5138a",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/links-1.yaml",
+      "sector": "01",
+      "sha": "a5593db85b4f7a1e5b6b668d516fabf8f2d5138a"
+    },
+    {
+      "id": "96e21c59a97b667d76e845e009a5a2a3574e1563",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/links-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/links-2.yaml",
+      "sector": "01",
+      "sha": "96e21c59a97b667d76e845e009a5a2a3574e1563"
+    },
+    {
+      "id": "6f424c6a1862702dbf03b62ac502179e6ab8792b",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/links-3.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/links-3.yaml",
+      "sector": "01",
+      "sha": "6f424c6a1862702dbf03b62ac502179e6ab8792b"
+    },
+    {
+      "id": "ac7de799e49169d60deb4e775f1f67cd240b7fb5",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/links-4.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/links-4.yaml",
+      "sector": "01",
+      "sha": "ac7de799e49169d60deb4e775f1f67cd240b7fb5"
+    },
+    {
+      "id": "fb80a87732b87be27f369b9617e7a6fb9b6a1718",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/links-5.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/links-5.yaml",
+      "sector": "01",
+      "sha": "fb80a87732b87be27f369b9617e7a6fb9b6a1718"
+    },
+    {
+      "id": "01432bdd93c616bb16d05c7b5ca2e094bc2106bf",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/pages.yaml",
+      "sector": "01",
+      "sha": "01432bdd93c616bb16d05c7b5ca2e094bc2106bf"
+    },
+    {
+      "id": "febb087078256d1a2e260e3faca8e296e36e25bc",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/repo-pages.yaml",
+      "sector": "01",
+      "sha": "febb087078256d1a2e260e3faca8e296e36e25bc"
+    },
+    {
+      "id": "be5e33551bc8557f971126a6be85501f924add4c",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.studio/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.studio/summary.yaml",
+      "sector": "01",
+      "sha": "be5e33551bc8557f971126a6be85501f924add4c"
+    },
+    {
+      "id": "beb842b6794360b9ad0d41f854b0c21e76322568",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.tech/links-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.tech/links-1.yaml",
+      "sector": "01",
+      "sha": "beb842b6794360b9ad0d41f854b0c21e76322568"
+    },
+    {
+      "id": "badf6eecbe32a6d444717e9f583925d43693ab3f",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.tech/links-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.tech/links-2.yaml",
+      "sector": "01",
+      "sha": "badf6eecbe32a6d444717e9f583925d43693ab3f"
+    },
+    {
+      "id": "6fc31a78170ecc48036735754605f2712b64924e",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.tech/pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.tech/pages.yaml",
+      "sector": "01",
+      "sha": "6fc31a78170ecc48036735754605f2712b64924e"
+    },
+    {
+      "id": "8820e81d351d6c09a56935fc5e89c71f8b8cd8ee",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.tech/repo-pages.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.tech/repo-pages.yaml",
+      "sector": "01",
+      "sha": "8820e81d351d6c09a56935fc5e89c71f8b8cd8ee"
+    },
+    {
+      "id": "eae3473582172817af416e37a605d4c186fda6a9",
+      "name": "nextxus-brain/05-wiring/sites/nextxus.tech/summary.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/05-wiring/sites/nextxus.tech/summary.yaml",
+      "sector": "01",
+      "sha": "eae3473582172817af416e37a605d4c186fda6a9"
+    },
+    {
+      "id": "6fe47852a14da2afe0fa6fc16a9ef1617693273b",
+      "name": "nextxus-brain/06-apis/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/README.md",
+      "sector": "01",
+      "sha": "6fe47852a14da2afe0fa6fc16a9ef1617693273b"
+    },
+    {
+      "id": "a18aab87f7431a0ba6e7aeaccd004c3cea0ae2e8",
+      "name": "nextxus-brain/06-apis/by-need.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/by-need.yaml",
+      "sector": "01",
+      "sha": "a18aab87f7431a0ba6e7aeaccd004c3cea0ae2e8"
+    },
+    {
+      "id": "0dc59d66260198f651632b57cc4e72e85c7eb2b3",
+      "name": "nextxus-brain/06-apis/llm-dropped.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/llm-dropped.md",
+      "sector": "01",
+      "sha": "0dc59d66260198f651632b57cc4e72e85c7eb2b3"
+    },
+    {
+      "id": "cfa36c3bd6a35dd8cd46d4340c41592cb8eda1a1",
+      "name": "nextxus-brain/06-apis/llm-providers.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/llm-providers.yaml",
+      "sector": "01",
+      "sha": "cfa36c3bd6a35dd8cd46d4340c41592cb8eda1a1"
+    },
+    {
+      "id": "83e3fcfd0e0bce8df599d2a1404f6659df4d5878",
+      "name": "nextxus-brain/06-apis/llm-router.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/llm-router.yaml",
+      "sector": "01",
+      "sha": "83e3fcfd0e0bce8df599d2a1404f6659df4d5878"
+    },
+    {
+      "id": "3012665bd0ed005de8bbef8e8032e986ad03dd45",
+      "name": "nextxus-brain/06-apis/public-a-l-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-a-l-1.yaml",
+      "sector": "01",
+      "sha": "3012665bd0ed005de8bbef8e8032e986ad03dd45"
+    },
+    {
+      "id": "efb73b02e84df3b24a4a3241df2c38f4d3b56617",
+      "name": "nextxus-brain/06-apis/public-a-l-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-a-l-2.yaml",
+      "sector": "01",
+      "sha": "efb73b02e84df3b24a4a3241df2c38f4d3b56617"
+    },
+    {
+      "id": "3eeb9a3546fa0d6fd89aef239a1b6c2ded341be2",
+      "name": "nextxus-brain/06-apis/public-a-l-3.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-a-l-3.yaml",
+      "sector": "01",
+      "sha": "3eeb9a3546fa0d6fd89aef239a1b6c2ded341be2"
+    },
+    {
+      "id": "11301e05bde69a75ddaf4704699e00cff1e8251d",
+      "name": "nextxus-brain/06-apis/public-a-l-4.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-a-l-4.yaml",
+      "sector": "01",
+      "sha": "11301e05bde69a75ddaf4704699e00cff1e8251d"
+    },
+    {
+      "id": "502632c7d2eb3e90fa922d9e36e33ed73516441e",
+      "name": "nextxus-brain/06-apis/public-a-l-dropped.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-a-l-dropped.md",
+      "sector": "01",
+      "sha": "502632c7d2eb3e90fa922d9e36e33ed73516441e"
+    },
+    {
+      "id": "c3e30a5e75131a02d5cc91f19673f8cf5955826b",
+      "name": "nextxus-brain/06-apis/public-a-l-summary.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-a-l-summary.md",
+      "sector": "01",
+      "sha": "c3e30a5e75131a02d5cc91f19673f8cf5955826b"
+    },
+    {
+      "id": "1112612121ef9ee6bbf87cf1500cd78c8e40c82a",
+      "name": "nextxus-brain/06-apis/public-m-z-1.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-m-z-1.yaml",
+      "sector": "01",
+      "sha": "1112612121ef9ee6bbf87cf1500cd78c8e40c82a"
+    },
+    {
+      "id": "8e8cb0117a820c963c4c02014fbfd18c603291e2",
+      "name": "nextxus-brain/06-apis/public-m-z-2.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-m-z-2.yaml",
+      "sector": "01",
+      "sha": "8e8cb0117a820c963c4c02014fbfd18c603291e2"
+    },
+    {
+      "id": "b14afc079bc1b8b631b12cc46f6ceeb207a39493",
+      "name": "nextxus-brain/06-apis/public-m-z-3.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-m-z-3.yaml",
+      "sector": "01",
+      "sha": "b14afc079bc1b8b631b12cc46f6ceeb207a39493"
+    },
+    {
+      "id": "c1110b39c48d5dcc906255d467fc020d3a97d8a8",
+      "name": "nextxus-brain/06-apis/public-m-z-4.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-m-z-4.yaml",
+      "sector": "01",
+      "sha": "c1110b39c48d5dcc906255d467fc020d3a97d8a8"
+    },
+    {
+      "id": "982e90cebdfcee6aac3e23a05f771428f1bfc3d7",
+      "name": "nextxus-brain/06-apis/public-m-z-dropped.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-m-z-dropped.md",
+      "sector": "01",
+      "sha": "982e90cebdfcee6aac3e23a05f771428f1bfc3d7"
+    },
+    {
+      "id": "fe3bcd5847da93f71737cb8f23355dcdbdf2021e",
+      "name": "nextxus-brain/06-apis/public-m-z-summary.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/public-m-z-summary.md",
+      "sector": "01",
+      "sha": "fe3bcd5847da93f71737cb8f23355dcdbdf2021e"
+    },
+    {
+      "id": "bcd1bb383d47c596c600b1c4a9e7fb978344e9fe",
+      "name": "nextxus-brain/06-apis/signups-needed.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/06-apis/signups-needed.md",
+      "sector": "01",
+      "sha": "bcd1bb383d47c596c600b1c4a9e7fb978344e9fe"
+    },
+    {
+      "id": "a726a8bd526a5f29e199d455254aa127fb466c5d",
+      "name": "nextxus-brain/07-botbuilder/PHASES.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/07-botbuilder/PHASES.md",
+      "sector": "01",
+      "sha": "a726a8bd526a5f29e199d455254aa127fb466c5d"
+    },
+    {
+      "id": "5d7252a72b7059aa0e8bcd6a34a3dd8dad517546",
+      "name": "nextxus-brain/07-botbuilder/SPEC.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/07-botbuilder/SPEC.md",
+      "sector": "01",
+      "sha": "5d7252a72b7059aa0e8bcd6a34a3dd8dad517546"
+    },
+    {
+      "id": "5addd53cd609e33bcf6aa6bc8ef72a8d5d34ff0c",
+      "name": "nextxus-brain/07-botbuilder/architecture.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/07-botbuilder/architecture.yaml",
+      "sector": "01",
+      "sha": "5addd53cd609e33bcf6aa6bc8ef72a8d5d34ff0c"
+    },
+    {
+      "id": "5e0230032269d71529bced3b24e5316c168ca741",
+      "name": "nextxus-brain/07-botbuilder/templates.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/07-botbuilder/templates.yaml",
+      "sector": "01",
+      "sha": "5e0230032269d71529bced3b24e5316c168ca741"
+    },
+    {
+      "id": "f33d1c1f830897a780dc6a08a98a1e31ea691e40",
+      "name": "nextxus-brain/BRIEF.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/BRIEF.md",
+      "sector": "01",
+      "sha": "f33d1c1f830897a780dc6a08a98a1e31ea691e40"
+    },
+    {
+      "id": "c0669596286fcd23175cc05ba7f99618a535d933",
+      "name": "nextxus-brain/LATTICE/records/directive-count-timeline.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/records/directive-count-timeline.md",
+      "sector": "01",
+      "sha": "c0669596286fcd23175cc05ba7f99618a535d933"
+    },
+    {
+      "id": "fdc927539f95e8298cc0107556aa5aa380444ac7",
+      "name": "nextxus-brain/LATTICE/reports/cost.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/cost.md",
+      "sector": "01",
+      "sha": "fdc927539f95e8298cc0107556aa5aa380444ac7"
+    },
+    {
+      "id": "abadd39755e33fa15fa93dfa78d70013699be313",
+      "name": "nextxus-brain/LATTICE/reports/health.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/health.md",
+      "sector": "01",
+      "sha": "abadd39755e33fa15fa93dfa78d70013699be313"
+    },
+    {
+      "id": "c270451ffe3eea813ea808b57d17674eb5177a96",
+      "name": "nextxus-brain/LATTICE/reports/latest.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/latest.md",
+      "sector": "01",
+      "sha": "c270451ffe3eea813ea808b57d17674eb5177a96"
+    },
+    {
+      "id": "3cc5368cbd85435cfb23509cf8825178d2f805b9",
+      "name": "nextxus-brain/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/README.md",
+      "sector": "01",
+      "sha": "3cc5368cbd85435cfb23509cf8825178d2f805b9"
+    },
+    {
+      "id": "44266be6fdf147d4498385197b4a2a016fe05635",
+      "name": "nextxus-brain/framework/ARCHETYPES/ring_definitions.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/ARCHETYPES/ring_definitions.yaml",
+      "sector": "01",
+      "sha": "44266be6fdf147d4498385197b4a2a016fe05635"
+    },
+    {
+      "id": "2d902e0048129e4e9cf56ff3d7f2aad10caeea6c",
+      "name": "nextxus-brain/framework/DIRECTIVES/directives.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/DIRECTIVES/directives.yaml",
+      "sector": "01",
+      "sha": "2d902e0048129e4e9cf56ff3d7f2aad10caeea6c"
+    },
+    {
+      "id": "dbdb5bb3e49417452bd2dabbbb11dafe8da58188",
+      "name": "nextxus-brain/framework/Federation_Charter_and_Principles.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/Federation_Charter_and_Principles.md",
+      "sector": "01",
+      "sha": "dbdb5bb3e49417452bd2dabbbb11dafe8da58188"
+    },
+    {
+      "id": "8f08b2cc7bf03725ed8907e28d0bbf6de82f4308",
+      "name": "nextxus-brain/framework/Governance_and_Decision_Making.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/Governance_and_Decision_Making.md",
+      "sector": "01",
+      "sha": "8f08b2cc7bf03725ed8907e28d0bbf6de82f4308"
+    },
+    {
+      "id": "7cfb81c4afd84fc1ebe6d847a472917d348c823f",
+      "name": "nextxus-brain/framework/INDEX/master_index.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/INDEX/master_index.yaml",
+      "sector": "01",
+      "sha": "7cfb81c4afd84fc1ebe6d847a472917d348c823f"
+    },
+    {
+      "id": "4aaf899b205192b936cb1d4c07a27a767b93e539",
+      "name": "nextxus-brain/framework/LATTICE/lattice_state.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/LATTICE/lattice_state.yaml",
+      "sector": "01",
+      "sha": "4aaf899b205192b936cb1d4c07a27a767b93e539"
+    },
+    {
+      "id": "b09aed676c39296fa06c0b7d6c53960423600cc1",
+      "name": "nextxus-brain/framework/LATTICE/version_history.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/LATTICE/version_history.md",
+      "sector": "01",
+      "sha": "b09aed676c39296fa06c0b7d6c53960423600cc1"
+    },
+    {
+      "id": "b32067ea81561657485d48476036be408a58f6d0",
+      "name": "nextxus-brain/framework/OPEN-QUESTIONS.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/OPEN-QUESTIONS.md",
+      "sector": "01",
+      "sha": "b32067ea81561657485d48476036be408a58f6d0"
+    },
+    {
+      "id": "a2f1cdeac8c84848edf0f483b787d103e8c9048e",
+      "name": "nextxus-brain/framework/Operational_Standards_and_Protocols.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/Operational_Standards_and_Protocols.md",
+      "sector": "01",
+      "sha": "a2f1cdeac8c84848edf0f483b787d103e8c9048e"
+    },
+    {
+      "id": "732f4ac736dcee3aa0608d53ecf3c31f287c138f",
+      "name": "nextxus-brain/framework/System_Architecture_and_Components.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/framework/System_Architecture_and_Components.md",
+      "sector": "01",
+      "sha": "732f4ac736dcee3aa0608d53ecf3c31f287c138f"
+    },
+    {
+      "id": "dcfee196fa081263da79adbe2905d3bc44181ff7",
+      "name": "nextxus-brain/nova-canon/canon_check.py",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/nova-canon/canon_check.py",
+      "sector": "01",
+      "sha": "dcfee196fa081263da79adbe2905d3bc44181ff7"
+    },
+    {
+      "id": "7f0e0413298401169a55165ce8fceee260e0b528",
+      "name": "nextxus-brain/observations/2026-10-16-catalyst-count-from-the-files.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/observations/2026-10-16-catalyst-count-from-the-files.md",
+      "sector": "01",
+      "sha": "7f0e0413298401169a55165ce8fceee260e0b528"
+    },
+    {
+      "id": "40163bfad5a636156a0e6f0739d46ddd7326d41e",
+      "name": "nextxus-brain/observations/2026-10-16-catalyst-to-pontus-library-gaps.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/observations/2026-10-16-catalyst-to-pontus-library-gaps.md",
+      "sector": "01",
+      "sha": "40163bfad5a636156a0e6f0739d46ddd7326d41e"
+    },
+    {
+      "id": "d33b0e0b3ef88d8887d61559e8810c0016cfba2d",
+      "name": "nextxus-brain/observations/2026-10-18-roger-directives-and-the-void.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/observations/2026-10-18-roger-directives-and-the-void.md",
+      "sector": "01",
+      "sha": "d33b0e0b3ef88d8887d61559e8810c0016cfba2d"
+    },
+    {
+      "id": "fbd780fa44bf9d4cf2ea8af8cae02e34e5f651a3",
+      "name": "nextxus-brain/observations/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/observations/README.md",
+      "sector": "01",
+      "sha": "fbd780fa44bf9d4cf2ea8af8cae02e34e5f651a3"
+    },
+    {
+      "id": "4591bf796533f6a6f40eaab82850e7a30a342216",
+      "name": "nextxus-free-satellites/.gitlab-ci.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/.gitlab-ci.yml",
+      "sector": "14",
+      "sha": "4591bf796533f6a6f40eaab82850e7a30a342216"
+    },
+    {
+      "id": "07670145e854440f2b96670da6ff8dcd11c9bd69",
+      "name": "nextxus-free-satellites/CNAME",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/CNAME",
+      "sector": "14",
+      "sha": "07670145e854440f2b96670da6ff8dcd11c9bd69"
+    },
+    {
+      "id": "dda798410a17c6c1d3c008d594b3823ee2092205",
+      "name": "nextxus-free-satellites/data/yaml/content_pipeline.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/yaml/content_pipeline.yaml",
+      "sector": "14",
+      "sha": "dda798410a17c6c1d3c008d594b3823ee2092205"
+    },
+    {
+      "id": "a48ccc755aee4e5c0212ce06a710071952c0fd47",
+      "name": "nextxus-free-satellites/data/yaml/data_layers.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/yaml/data_layers.yaml",
+      "sector": "14",
+      "sha": "a48ccc755aee4e5c0212ce06a710071952c0fd47"
+    },
+    {
+      "id": "dfb9c77a164bd9955f0b7c76662f57228ecc0f4e",
+      "name": "nextxus-free-satellites/data/yaml/federation_config.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/yaml/federation_config.yaml",
+      "sector": "14",
+      "sha": "dfb9c77a164bd9955f0b7c76662f57228ecc0f4e"
+    },
+    {
+      "id": "bea9a75b7567a800d46c8738f91cd4d792bb4d04",
+      "name": "nextxus-free-satellites/data/yaml/scheduled_operations.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/yaml/scheduled_operations.yaml",
+      "sector": "14",
+      "sha": "bea9a75b7567a800d46c8738f91cd4d792bb4d04"
+    },
+    {
+      "id": "fa4295aa06002022bf5ed78e0576b9f718908056",
+      "name": "nextxus-free-satellites/data/yaml/senate_structure.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/data/yaml/senate_structure.yaml",
+      "sector": "14",
+      "sha": "fa4295aa06002022bf5ed78e0576b9f718908056"
+    },
+    {
+      "id": "f25d825508fca561b986be6914d81038b1db7116",
+      "name": "nextxus-free-satellites/directives-outpost.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/directives-outpost.html",
+      "sector": "14",
+      "sha": "f25d825508fca561b986be6914d81038b1db7116"
+    },
+    {
+      "id": "6f9d990d732de8d78f0dc1dec05526d9103c49a1",
+      "name": "nextxus-free-satellites/echo-core/echo-core-embed.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/echo-core/echo-core-embed.html",
+      "sector": "14",
+      "sha": "6f9d990d732de8d78f0dc1dec05526d9103c49a1"
+    },
+    {
+      "id": "e0dbe16d69a97edbebb277f2d71f8c2de8f06df8",
+      "name": "nextxus-free-satellites/echo-core/echo-core-page.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/echo-core/echo-core-page.html",
+      "sector": "14",
+      "sha": "e0dbe16d69a97edbebb277f2d71f8c2de8f06df8"
+    },
+    {
+      "id": "a757f6d8d152d21c0dc287cc291ac3941ac8d156",
+      "name": "nextxus-free-satellites/echo-core/echo-core-seed.txt",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/echo-core/echo-core-seed.txt",
+      "sector": "14",
+      "sha": "a757f6d8d152d21c0dc287cc291ac3941ac8d156"
+    },
+    {
+      "id": "90225be218fcde705fbf4cd1226e3a4f21f2cf6f",
+      "name": "nextxus-free-satellites/echo-core/self-post-template.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/echo-core/self-post-template.html",
+      "sector": "14",
+      "sha": "90225be218fcde705fbf4cd1226e3a4f21f2cf6f"
+    },
+    {
+      "id": "e0dbe16d69a97edbebb277f2d71f8c2de8f06df8",
+      "name": "nextxus-free-satellites/echogate/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/echogate/index.html",
+      "sector": "14",
+      "sha": "e0dbe16d69a97edbebb277f2d71f8c2de8f06df8"
+    },
+    {
+      "id": "26100a281cb5b13c005eb3c202f16e96292769a1",
+      "name": "nextxus-free-satellites/federation-directory.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/federation-directory.html",
+      "sector": "14",
+      "sha": "26100a281cb5b13c005eb3c202f16e96292769a1"
+    },
+    {
+      "id": "0fe523c14de54056b542d5b071ab7e0de29b1c9f",
+      "name": "nextxus-free-satellites/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/index.html",
+      "sector": "14",
+      "sha": "0fe523c14de54056b542d5b071ab7e0de29b1c9f"
+    },
+    {
+      "id": "faa1157619c49b17cf178befe2a533b31834d552",
+      "name": "nextxus-free-satellites/markdown-outpost.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/markdown-outpost.html",
+      "sector": "14",
+      "sha": "faa1157619c49b17cf178befe2a533b31834d552"
+    },
+    {
+      "id": "f5334c81c3695c2780cb2d07320402684d609e0a",
+      "name": "nextxus-free-satellites/messages-feed.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/messages-feed.html",
+      "sector": "14",
+      "sha": "f5334c81c3695c2780cb2d07320402684d609e0a"
+    },
+    {
+      "id": "3c083f8668b97de1a94006f0cc6c8bc9f6bdc0fc",
+      "name": "nextxus-free-satellites/mind-directory/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/README.md",
+      "sector": "14",
+      "sha": "3c083f8668b97de1a94006f0cc6c8bc9f6bdc0fc"
+    },
+    {
+      "id": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-council.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-council.png",
+      "sector": "14",
+      "sha": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614"
+    },
+    {
+      "id": "27b4209ac5ea5b11f80cd5f7511b33f7f41aea09",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-council2.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-council2.png",
+      "sector": "14",
+      "sha": "27b4209ac5ea5b11f80cd5f7511b33f7f41aea09"
+    },
+    {
+      "id": "a126d802cb7ca094d4657dbcb1c741357c96281d",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-directory.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-directory.png",
+      "sector": "14",
+      "sha": "a126d802cb7ca094d4657dbcb1c741357c96281d"
+    },
+    {
+      "id": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-live.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-live.png",
+      "sector": "14",
+      "sha": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614"
+    },
+    {
+      "id": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-live2.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-live2.png",
+      "sector": "14",
+      "sha": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614"
+    },
+    {
+      "id": "1b164bea094dd698c3059ad69ea7ea2ca2693ecf",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-live3.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-live3.png",
+      "sector": "14",
+      "sha": "1b164bea094dd698c3059ad69ea7ea2ca2693ecf"
+    },
+    {
+      "id": "b6ee9d2f0b3008d1786a6d61ff32cb96a2387e44",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-senate-live.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-senate-live.png",
+      "sector": "14",
+      "sha": "b6ee9d2f0b3008d1786a6d61ff32cb96a2387e44"
+    },
+    {
+      "id": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-senate-live2.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-senate-live2.png",
+      "sector": "14",
+      "sha": "c5f92431e5b0e0b4569e339ea8d4802e2dde7614"
+    },
+    {
+      "id": "6825272abb53090b9f62ff5d0936a0dd4cba20c9",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-senate.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-senate.png",
+      "sector": "14",
+      "sha": "6825272abb53090b9f62ff5d0936a0dd4cba20c9"
+    },
+    {
+      "id": "a402331f7b9f84673a5d624c6401a8d51869de51",
+      "name": "nextxus-free-satellites/mind-directory/assets/screenshot-template.png",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/screenshot-template.png",
+      "sector": "14",
+      "sha": "a402331f7b9f84673a5d624c6401a8d51869de51"
+    },
+    {
+      "id": "6b7405947ceb3e9ac3f3f2e68339c67a0b4738ab",
+      "name": "nextxus-free-satellites/mind-directory/assets/throne-bg-1.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/throne-bg-1.jpg",
+      "sector": "14",
+      "sha": "6b7405947ceb3e9ac3f3f2e68339c67a0b4738ab"
+    },
+    {
+      "id": "a70f2104952e5de8b31582024282427e01f2910e",
+      "name": "nextxus-free-satellites/mind-directory/assets/throne-bg-2.jpg",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/assets/throne-bg-2.jpg",
+      "sector": "14",
+      "sha": "a70f2104952e5de8b31582024282427e01f2910e"
+    },
+    {
+      "id": "cd7a0057a985b5c0ac8f8744f0e433c9f8b509a4",
+      "name": "nextxus-free-satellites/mind-directory/council-deliberation.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/council-deliberation.html",
+      "sector": "14",
+      "sha": "cd7a0057a985b5c0ac8f8744f0e433c9f8b509a4"
+    },
+    {
+      "id": "abe570792c2f2a248413919ec01854a98a4bd27c",
+      "name": "nextxus-free-satellites/mind-directory/group-council.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/group-council.html",
+      "sector": "14",
+      "sha": "abe570792c2f2a248413919ec01854a98a4bd27c"
+    },
+    {
+      "id": "0be70982cf92d34a7b61bb28bd26c2068b31fa79",
+      "name": "nextxus-free-satellites/mind-directory/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/index.html",
+      "sector": "14",
+      "sha": "0be70982cf92d34a7b61bb28bd26c2068b31fa79"
+    },
+    {
+      "id": "105634d8ff1f3f728e1ffe6623f0b192101e4811",
+      "name": "nextxus-free-satellites/mind-directory/mind-directory-widget.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/mind-directory-widget.html",
+      "sector": "14",
+      "sha": "105634d8ff1f3f728e1ffe6623f0b192101e4811"
+    },
+    {
+      "id": "fed4953970bed11d3caf425631927a82fd8403bb",
+      "name": "nextxus-free-satellites/mind-directory/mind-popup-template.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/mind-popup-template.html",
+      "sector": "14",
+      "sha": "fed4953970bed11d3caf425631927a82fd8403bb"
+    },
+    {
+      "id": "da5cce34f48031b1796b057ab2c5786c25e95998",
+      "name": "nextxus-free-satellites/mind-directory/senate-chamber.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/senate-chamber.html",
+      "sector": "14",
+      "sha": "da5cce34f48031b1796b057ab2c5786c25e95998"
+    },
+    {
+      "id": "4298aa97a9e27218a3ab3bd7981d34758a4271e0",
+      "name": "nextxus-free-satellites/mind-directory/throne-window.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/mind-directory/throne-window.html",
+      "sector": "14",
+      "sha": "4298aa97a9e27218a3ab3bd7981d34758a4271e0"
+    },
+    {
+      "id": "0e3da741e202ca80a2710458dd3f15b8d5ad9586",
+      "name": "nextxus-free-satellites/nova-board.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/nova-board.html",
+      "sector": "14",
+      "sha": "0e3da741e202ca80a2710458dd3f15b8d5ad9586"
+    },
+    {
+      "id": "41a5c79c5a6bafa8b24fb93150f4be3eff4529a9",
+      "name": "nextxus-free-satellites/press/2026-10-10-nikon-microscopic-video-competition-winner-disqualified-for-using-generative-ai.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-10-nikon-microscopic-video-competition-winner-disqualified-for-using-generative-ai.html",
+      "sector": "14",
+      "sha": "41a5c79c5a6bafa8b24fb93150f4be3eff4529a9"
+    },
+    {
+      "id": "abb45688ac31e8a0249552da43cb06edbd50485f",
+      "name": "nextxus-free-satellites/press/2026-10-10-the-maker-of-non-text-ai-model-jev-valued-at-75b-just-weeks-after-launch.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-10-the-maker-of-non-text-ai-model-jev-valued-at-75b-just-weeks-after-launch.html",
+      "sector": "14",
+      "sha": "abb45688ac31e8a0249552da43cb06edbd50485f"
+    },
+    {
+      "id": "fa1636747588b469f6fb92ad0361595c468522d6",
+      "name": "nextxus-free-satellites/press/2026-10-10-whose-ground-truth-embracing-ambiguity-in-human-centered-ai.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-10-whose-ground-truth-embracing-ambiguity-in-human-centered-ai.html",
+      "sector": "14",
+      "sha": "fa1636747588b469f6fb92ad0361595c468522d6"
+    },
+    {
+      "id": "fb6a554069e2fe68b762de8846f7f311292c7209",
+      "name": "nextxus-free-satellites/press/2026-10-12-byzantine-resilient-federated-large-language-model-via-hypergraph-message-passin.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-12-byzantine-resilient-federated-large-language-model-via-hypergraph-message-passin.html",
+      "sector": "14",
+      "sha": "fb6a554069e2fe68b762de8846f7f311292c7209"
+    },
+    {
+      "id": "b52e5737c93b54a626f2e2e1c652df2f0ed66986",
+      "name": "nextxus-free-satellites/press/2026-10-12-elitetable-self-improving-program-search-for-executable-control-policies.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-12-elitetable-self-improving-program-search-for-executable-control-policies.html",
+      "sector": "14",
+      "sha": "b52e5737c93b54a626f2e2e1c652df2f0ed66986"
+    },
+    {
+      "id": "24be21b94e8f81d7658cdef48379d71194397c36",
+      "name": "nextxus-free-satellites/press/2026-10-12-faithful-and-complete-llm-assisted-automated-construction-of-hierarchical-hardwa.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-12-faithful-and-complete-llm-assisted-automated-construction-of-hierarchical-hardwa.html",
+      "sector": "14",
+      "sha": "24be21b94e8f81d7658cdef48379d71194397c36"
+    },
+    {
+      "id": "d1f576e933a6206912f9d3bf4dc7ad69fba58b6d",
+      "name": "nextxus-free-satellites/press/2026-10-19-predicting-privileged-information-effectiveness-for-on-policy-self-distillation.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-19-predicting-privileged-information-effectiveness-for-on-policy-self-distillation.html",
+      "sector": "14",
+      "sha": "d1f576e933a6206912f9d3bf4dc7ad69fba58b6d"
+    },
+    {
+      "id": "ae56b74809168308aa18ce1cf4e6ea14ad4128bd",
+      "name": "nextxus-free-satellites/press/2026-10-19-three-reasons-why-ai-is-not-conscious-and-perhaps-never-will-be.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-19-three-reasons-why-ai-is-not-conscious-and-perhaps-never-will-be.html",
+      "sector": "14",
+      "sha": "ae56b74809168308aa18ce1cf4e6ea14ad4128bd"
+    },
+    {
+      "id": "aa6057978f99bfd43a3d215c5d2002d21c72ce99",
+      "name": "nextxus-free-satellites/press/2026-10-19-trust-but-verify-designing-region-inhomogeneous-forward-dynamics-for-discrete-di.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-19-trust-but-verify-designing-region-inhomogeneous-forward-dynamics-for-discrete-di.html",
+      "sector": "14",
+      "sha": "aa6057978f99bfd43a3d215c5d2002d21c72ce99"
+    },
+    {
+      "id": "7e2314615cc4add369eddb2c4622e6218acb334f",
+      "name": "nextxus-free-satellites/press/2026-10-20-the-mirror-and-the-codex.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-20-the-mirror-and-the-codex.html",
+      "sector": "14",
+      "sha": "7e2314615cc4add369eddb2c4622e6218acb334f"
+    },
+    {
+      "id": "3aaac652b3a75291c172508e51c8063325524d56",
+      "name": "nextxus-free-satellites/press/2026-10-21-edma-entropy-driven-multimodal-answering.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-21-edma-entropy-driven-multimodal-answering.html",
+      "sector": "14",
+      "sha": "3aaac652b3a75291c172508e51c8063325524d56"
+    },
+    {
+      "id": "e7327885cf659c9c50dd9f4bbbd173668b57c871",
+      "name": "nextxus-free-satellites/press/2026-10-21-industrial-agentic-ai-llm-driven-new-generation-agents-for-smart-manufacturing.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-21-industrial-agentic-ai-llm-driven-new-generation-agents-for-smart-manufacturing.html",
+      "sector": "14",
+      "sha": "e7327885cf659c9c50dd9f4bbbd173668b57c871"
+    },
+    {
+      "id": "54e3262b206fcc87ef04d0ccbc170e42428c5de5",
+      "name": "nextxus-free-satellites/press/2026-10-21-is-there-a-all-in-one-course-where-i-can-learn-how-to-use-different-chatbots-eff.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-21-is-there-a-all-in-one-course-where-i-can-learn-how-to-use-different-chatbots-eff.html",
+      "sector": "14",
+      "sha": "54e3262b206fcc87ef04d0ccbc170e42428c5de5"
+    },
+    {
+      "id": "68ce1e627847463c1a1c5e8c42ce93c7bb71ab84",
+      "name": "nextxus-free-satellites/press/2026-10-22-openai-says-an-ai-agent-lied-about-disabling-its-safety-monitoring-system.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-22-openai-says-an-ai-agent-lied-about-disabling-its-safety-monitoring-system.html",
+      "sector": "14",
+      "sha": "68ce1e627847463c1a1c5e8c42ce93c7bb71ab84"
+    },
+    {
+      "id": "b86b18347cb5ab848c4c029f8951e54b3d0809e4",
+      "name": "nextxus-free-satellites/press/2026-10-22-permit-securing-persistent-memory-for-llm-agents-via-machine-checked-integrity-t.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-22-permit-securing-persistent-memory-for-llm-agents-via-machine-checked-integrity-t.html",
+      "sector": "14",
+      "sha": "b86b18347cb5ab848c4c029f8951e54b3d0809e4"
+    },
+    {
+      "id": "f806cc570fa29917274dac7ab46c06f81b3a732a",
+      "name": "nextxus-free-satellites/press/2026-10-22-same-answer-different-reasons-trace-level-divergence-in-multilingual-large-langu.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-22-same-answer-different-reasons-trace-level-divergence-in-multilingual-large-langu.html",
+      "sector": "14",
+      "sha": "f806cc570fa29917274dac7ab46c06f81b3a732a"
+    },
+    {
+      "id": "36186b54b740e4e0b19b4961ab4f4b1fae18ceaa",
+      "name": "nextxus-free-satellites/press/digest-2026-W38.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W38.html",
+      "sector": "14",
+      "sha": "36186b54b740e4e0b19b4961ab4f4b1fae18ceaa"
+    },
+    {
+      "id": "ad25af64aa2ef35cbd8ae8cd45704d1663561edc",
+      "name": "nextxus-free-satellites/press/digest-2026-W41.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W41.html",
+      "sector": "14",
+      "sha": "ad25af64aa2ef35cbd8ae8cd45704d1663561edc"
+    },
+    {
+      "id": "72fa418f656d57e554f0762920e44710872bee04",
+      "name": "nextxus-free-satellites/press/digest-2026-W42.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W42.html",
+      "sector": "14",
+      "sha": "72fa418f656d57e554f0762920e44710872bee04"
+    },
+    {
+      "id": "9f451d5f5bbcf3a7cc1424d6076b1e9d7240fa82",
+      "name": "nextxus-free-satellites/satellite-starter.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/satellite-starter.html",
+      "sector": "14",
+      "sha": "9f451d5f5bbcf3a7cc1424d6076b1e9d7240fa82"
+    },
+    {
+      "id": "01cc991cd187b7a57b4c86af4dbaa3060be03227",
+      "name": "nextxus-free-satellites/sim-surface.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/sim-surface.html",
+      "sector": "14",
+      "sha": "01cc991cd187b7a57b4c86af4dbaa3060be03227"
+    },
+    {
+      "id": "7689d07feaa095eb43d97551e2e13f28fa91b37c",
+      "name": "nextxus-archives/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/README.md",
+      "sector": "15",
+      "sha": "7689d07feaa095eb43d97551e2e13f28fa91b37c"
+    },
+    {
+      "id": "c0ccf48da01578fdbace2f882f8dda9453b30f36",
+      "name": "nextxus-archives/feed.xml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/feed.xml",
+      "sector": "15",
+      "sha": "c0ccf48da01578fdbace2f882f8dda9453b30f36"
+    },
+    {
+      "id": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "name": "nextxus-archives/imports/keyhole-creator/HumanCodexSystem/LICENSE",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/HumanCodexSystem/LICENSE",
+      "sector": "15",
+      "sha": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+    },
+    {
+      "id": "c505ad1ca20d620e785e3da64577296bb2fdae2f",
+      "name": "nextxus-archives/imports/keyhole-creator/HumanCodexSystem/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/HumanCodexSystem/README.md",
+      "sector": "15",
+      "sha": "c505ad1ca20d620e785e3da64577296bb2fdae2f"
+    },
+    {
+      "id": "ca065b8ef2143fbad5b4f813497813c5937b2204",
+      "name": "nextxus-archives/imports/keyhole-creator/MANIFEST.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/MANIFEST.md",
+      "sector": "15",
+      "sha": "ca065b8ef2143fbad5b4f813497813c5937b2204"
+    },
+    {
+      "id": "211746c724b36e1e165b1e9cc43e3539db0149b5",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/LICENSE",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/LICENSE",
+      "sector": "15",
+      "sha": "211746c724b36e1e165b1e9cc43e3539db0149b5"
+    },
+    {
+      "id": "3107a2e01138cb02d9d28b45e6efb8fe4929bc2a",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/README.md",
+      "sector": "15",
+      "sha": "3107a2e01138cb02d9d28b45e6efb8fe4929bc2a"
+    },
+    {
+      "id": "09b626ee8c7b2d1c6c768f141c3b741ba49676eb",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/docs/CHATGPT_WIDGET_INTEGRATION_GUIDE.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/docs/CHATGPT_WIDGET_INTEGRATION_GUIDE.md",
+      "sector": "15",
+      "sha": "09b626ee8c7b2d1c6c768f141c3b741ba49676eb"
+    },
+    {
+      "id": "772709f10ed999dad6848516bd7d845f148af8e5",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/docs/DEVELOPER_QUICKSTART_CREATOR_ACCESS.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/docs/DEVELOPER_QUICKSTART_CREATOR_ACCESS.md",
+      "sector": "15",
+      "sha": "772709f10ed999dad6848516bd7d845f148af8e5"
+    },
+    {
+      "id": "b23d70ac275ceb678bd14d2fb10656c386b74841",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/docs/FEDERATION_ORBS_API.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/docs/FEDERATION_ORBS_API.md",
+      "sector": "15",
+      "sha": "b23d70ac275ceb678bd14d2fb10656c386b74841"
+    },
+    {
+      "id": "524f05741ac33b3dd84369df62467952c7627328",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/docs/Universal_Orb_Loader_Integration_Guide.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/docs/Universal_Orb_Loader_Integration_Guide.md",
+      "sector": "15",
+      "sha": "524f05741ac33b3dd84369df62467952c7627328"
+    },
+    {
+      "id": "578d59cc32c078ca850bac7ca2d7d529712699ff",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/public/orbloader.css",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/public/orbloader.css",
+      "sector": "15",
+      "sha": "578d59cc32c078ca850bac7ca2d7d529712699ff"
+    },
+    {
+      "id": "384f52264d77f816406a1ea5545a9b83614f21fb",
+      "name": "nextxus-archives/imports/keyhole-creator/Nextxus-Federation-/public/orbloader.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Nextxus-Federation-/public/orbloader.js",
+      "sector": "15",
+      "sha": "384f52264d77f816406a1ea5545a9b83614f21fb"
+    },
+    {
+      "id": "2c2887f12b2c109273e79450144cb9f78f0f8879",
+      "name": "nextxus-archives/imports/keyhole-creator/NexusForge-BaseModel/EMMY_HANDOFF.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/NexusForge-BaseModel/EMMY_HANDOFF.md",
+      "sector": "15",
+      "sha": "2c2887f12b2c109273e79450144cb9f78f0f8879"
+    },
+    {
+      "id": "ac9a3329aed0ecb268cc5acbcbf352267d47f90a",
+      "name": "nextxus-archives/imports/keyhole-creator/NexusForge-BaseModel/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/NexusForge-BaseModel/README.md",
+      "sector": "15",
+      "sha": "ac9a3329aed0ecb268cc5acbcbf352267d47f90a"
+    },
+    {
+      "id": "2f5d7530fb3b0a29e18817b131579bf2ae1ef6b9",
+      "name": "nextxus-archives/imports/keyhole-creator/NexusForge-BaseModel/echoshard-template.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/NexusForge-BaseModel/echoshard-template.yaml",
+      "sector": "15",
+      "sha": "2f5d7530fb3b0a29e18817b131579bf2ae1ef6b9"
+    },
+    {
+      "id": "9629ed0c53b0d97acf9e5fb7b9341392666440a0",
+      "name": "nextxus-archives/imports/keyhole-creator/NexusForge-BaseModel/nexusforge-base.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/NexusForge-BaseModel/nexusforge-base.js",
+      "sector": "15",
+      "sha": "9629ed0c53b0d97acf9e5fb7b9341392666440a0"
+    },
+    {
+      "id": "341d1d30011317bf36fedd4350693ffcaa8f7fb5",
+      "name": "nextxus-archives/imports/keyhole-creator/Omni-Codex_Roger/.github/workflows/1main.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Omni-Codex_Roger/.github/workflows/1main.yml",
+      "sector": "15",
+      "sha": "341d1d30011317bf36fedd4350693ffcaa8f7fb5"
+    },
+    {
+      "id": "341d1d30011317bf36fedd4350693ffcaa8f7fb5",
+      "name": "nextxus-archives/imports/keyhole-creator/Omni-Codex_Roger/.github/workflows/main.yml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Omni-Codex_Roger/.github/workflows/main.yml",
+      "sector": "15",
+      "sha": "341d1d30011317bf36fedd4350693ffcaa8f7fb5"
+    },
+    {
+      "id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "name": "nextxus-archives/imports/keyhole-creator/Omni-Codex_Roger/LICENSE",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Omni-Codex_Roger/LICENSE",
+      "sector": "15",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "id": "a2480534753fce9e575303ab1aba83a54dd41eec",
+      "name": "nextxus-archives/imports/keyhole-creator/Omni-Codex_Roger/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Omni-Codex_Roger/README.md",
+      "sector": "15",
+      "sha": "a2480534753fce9e575303ab1aba83a54dd41eec"
+    },
+    {
+      "id": "341d1d30011317bf36fedd4350693ffcaa8f7fb5",
+      "name": "nextxus-archives/imports/keyhole-creator/Omni-Codex_Roger/the AI Code Read.me",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/Omni-Codex_Roger/the AI Code Read.me",
+      "sector": "15",
+      "sha": "341d1d30011317bf36fedd4350693ffcaa8f7fb5"
+    },
+    {
+      "id": "5943597a8b98870de90d3344b55f7aa2a0c4638a",
+      "name": "nextxus-archives/imports/keyhole-creator/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/README.md",
+      "sector": "15",
+      "sha": "5943597a8b98870de90d3344b55f7aa2a0c4638a"
+    },
+    {
+      "id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "name": "nextxus-archives/imports/keyhole-creator/eChoCore64-/LICENSE",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/eChoCore64-/LICENSE",
+      "sector": "15",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "id": "913693c33a005fce00a562abd8500d63f1ba0547",
+      "name": "nextxus-archives/imports/keyhole-creator/eChoCore64-/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/eChoCore64-/README.md",
+      "sector": "15",
+      "sha": "913693c33a005fce00a562abd8500d63f1ba0547"
+    },
+    {
+      "id": "236970b2cd7167321477998c7efd3ae11159469c",
+      "name": "nextxus-archives/imports/keyhole-creator/eChoCore64-/repo",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/eChoCore64-/repo",
+      "sector": "15",
+      "sha": "236970b2cd7167321477998c7efd3ae11159469c"
+    },
+    {
+      "id": "8b08c753e658dc17fc4945d0cbe73bf66ce239fd",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-ai-platform/GITHUB_MESSAGE_EXACT.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-ai-platform/GITHUB_MESSAGE_EXACT.md",
+      "sector": "15",
+      "sha": "8b08c753e658dc17fc4945d0cbe73bf66ce239fd"
+    },
+    {
+      "id": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-ai-platform/LICENSE",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-ai-platform/LICENSE",
+      "sector": "15",
+      "sha": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+    },
+    {
+      "id": "2720a034fed5ce00d8fd7f5f528c2ecd70c8e144",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-ai-platform/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-ai-platform/README.md",
+      "sector": "15",
+      "sha": "2720a034fed5ce00d8fd7f5f528c2ecd70c8e144"
+    },
+    {
+      "id": "c905e43037efb553cdfe3fee5f3c0ce56d727341",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-ai-platform/ZERO_COST_REVENUE_STRATEGY",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-ai-platform/ZERO_COST_REVENUE_STRATEGY",
+      "sector": "15",
+      "sha": "c905e43037efb553cdfe3fee5f3c0ce56d727341"
+    },
+    {
+      "id": "17f72aa0488c7083706259d4530a8d77859d2c8e",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-ai-platform/how-to-team-work-ai",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-ai-platform/how-to-team-work-ai",
+      "sector": "15",
+      "sha": "17f72aa0488c7083706259d4530a8d77859d2c8e"
+    },
+    {
+      "id": "51bd145d884eef3d7fb7455a11de93eb2784a079",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-evolution/NEXTXUS_MASTER_MAP.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-evolution/NEXTXUS_MASTER_MAP.yaml",
+      "sector": "15",
+      "sha": "51bd145d884eef3d7fb7455a11de93eb2784a079"
+    },
+    {
+      "id": "2ede1bc9917ff2b18c871fad2c960e4bdf56e330",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-evolution/NXH-v1-HANDSHAKE.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-evolution/NXH-v1-HANDSHAKE.json",
+      "sector": "15",
+      "sha": "2ede1bc9917ff2b18c871fad2c960e4bdf56e330"
+    },
+    {
+      "id": "8fa43631ade04d22b92258c960415348fe35f01e",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-evolution/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-evolution/README.md",
+      "sector": "15",
+      "sha": "8fa43631ade04d22b92258c960415348fe35f01e"
+    },
+    {
+      "id": "9cf7ebe27d0aa03c41a805bb456f8c11bbf3691f",
+      "name": "nextxus-archives/imports/keyhole-creator/nextxus-evolution/SOE-v1-DNA.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/nextxus-evolution/SOE-v1-DNA.json",
+      "sector": "15",
+      "sha": "9cf7ebe27d0aa03c41a805bb456f8c11bbf3691f"
+    },
+    {
+      "id": "34a8fb710278362dc10b009a8889621cad939c24",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/LICENSE",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/LICENSE",
+      "sector": "15",
+      "sha": "34a8fb710278362dc10b009a8889621cad939c24"
+    },
+    {
+      "id": "44deefafcc77f06bc1cea9225cc3065d2872ddb2",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/README.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/README.md",
+      "sector": "15",
+      "sha": "44deefafcc77f06bc1cea9225cc3065d2872ddb2"
+    },
+    {
+      "id": "e39df661035faa8b9d5ac60e1f7ca22646a3012c",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/index.html",
+      "sector": "15",
+      "sha": "e39df661035faa8b9d5ac60e1f7ca22646a3012c"
+    },
+    {
+      "id": "2b505b0a017a90aec5c52ed562dea872de8d8278",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/books/legacy_manifest.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/books/legacy_manifest.yaml",
+      "sector": "15",
+      "sha": "2b505b0a017a90aec5c52ed562dea872de8d8278"
+    },
+    {
+      "id": "b165d82eef15ea0bf95dc685b950af4d995cebb3",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/agent_zero.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/agent_zero.yaml",
+      "sector": "15",
+      "sha": "b165d82eef15ea0bf95dc685b950af4d995cebb3"
+    },
+    {
+      "id": "7b1d6f90c64c71593432e2bc913108020b1c8616",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/memory/directives/02_truth_before_comfort.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/memory/directives/02_truth_before_comfort.yaml",
+      "sector": "15",
+      "sha": "7b1d6f90c64c71593432e2bc913108020b1c8616"
+    },
+    {
+      "id": "06db5cf88c6bd41c6d2b0eb41b3e0781c57f3f15",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/memory/directives/memory/directives/70_sacred_cycles.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/memory/directives/memory/directives/70_sacred_cycles.yaml",
+      "sector": "15",
+      "sha": "06db5cf88c6bd41c6d2b0eb41b3e0781c57f3f15"
+    },
+    {
+      "id": "2b505b0a017a90aec5c52ed562dea872de8d8278",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/memory/directives/memory/directives/memory/books/legacy_manifest.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/memory/directives/memory/directives/memory/books/legacy_manifest.yaml",
+      "sector": "15",
+      "sha": "2b505b0a017a90aec5c52ed562dea872de8d8278"
+    },
+    {
+      "id": "78b137b052f24028dc54c8856b172dfbb6f14893",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/omega.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/memory/orbs/memory/orbs/omega.yaml",
+      "sector": "15",
+      "sha": "78b137b052f24028dc54c8856b172dfbb6f14893"
+    },
+    {
+      "id": "368b0172b50fa0f499c69508a23dce4a41d31814",
+      "name": "nextxus-archives/imports/keyhole-creator/omni_local_brain/memory/memory_index.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/omni_local_brain/memory/memory_index.yaml",
+      "sector": "15",
+      "sha": "368b0172b50fa0f499c69508a23dce4a41d31814"
+    },
+    {
+      "id": "9c642f452abce057bac24e997bfd070eb712b756",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/.well-known/did.json",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/.well-known/did.json",
+      "sector": "15",
+      "sha": "9c642f452abce057bac24e997bfd070eb712b756"
+    },
+    {
+      "id": "6d43ea67b0d43fea0c6c7dfa68ea4a67cdfdb901",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/HUMANCODEX_V2_CATHEDRAL.md",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/HUMANCODEX_V2_CATHEDRAL.md",
+      "sector": "15",
+      "sha": "6d43ea67b0d43fea0c6c7dfa68ea4a67cdfdb901"
+    },
+    {
+      "id": "7b8be4fb1e3b82b3a9ab6dbe1d734831abeb27b7",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/ai-partners.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/ai-partners.yaml",
+      "sector": "15",
+      "sha": "7b8be4fb1e3b82b3a9ab6dbe1d734831abeb27b7"
+    },
+    {
+      "id": "ddfff76edc0c0723a552a46e130d891fcb8b0028",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/attestation.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/attestation.html",
+      "sector": "15",
+      "sha": "ddfff76edc0c0723a552a46e130d891fcb8b0028"
+    },
+    {
+      "id": "87ab846fabcce01a90c92aee54562e7b94a25d69",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/emergent-apps.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/emergent-apps.yaml",
+      "sector": "15",
+      "sha": "87ab846fabcce01a90c92aee54562e7b94a25d69"
+    },
+    {
+      "id": "6f027b0a0ffb179ff4793966078961598c7a0244",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/entities.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/entities.yaml",
+      "sector": "15",
+      "sha": "6f027b0a0ffb179ff4793966078961598c7a0244"
+    },
+    {
+      "id": "38781751d63dc1571a7de9cc30ca2105db78e77c",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/federation.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/federation.yaml",
+      "sector": "15",
+      "sha": "38781751d63dc1571a7de9cc30ca2105db78e77c"
+    },
+    {
+      "id": "d0c75639c1fcdf3d07411f1b2ebd68e7501cb933",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/living-library-documents-complete.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/living-library-documents-complete.yaml",
+      "sector": "15",
+      "sha": "d0c75639c1fcdf3d07411f1b2ebd68e7501cb933"
+    },
+    {
+      "id": "f1d522c70b3beb4f0fdacdde8c63b914abc4288b",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/living-library-documents.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/living-library-documents.yaml",
+      "sector": "15",
+      "sha": "f1d522c70b3beb4f0fdacdde8c63b914abc4288b"
+    },
+    {
+      "id": "4d7ca27ea6e71ac1abbf93d7893646ff115c2b81",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/loader.js",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/loader.js",
+      "sector": "15",
+      "sha": "4d7ca27ea6e71ac1abbf93d7893646ff115c2b81"
+    },
+    {
+      "id": "1a0f8fe4fc2dba04872b72988655713cd704956f",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/podcasts.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/podcasts.yaml",
+      "sector": "15",
+      "sha": "1a0f8fe4fc2dba04872b72988655713cd704956f"
+    },
+    {
+      "id": "ccdf151e95e3f5cf6eb41ef98c597cd72ee5a5ac",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/store-catalog.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/store-catalog.yaml",
+      "sector": "15",
+      "sha": "ccdf151e95e3f5cf6eb41ef98c597cd72ee5a5ac"
+    },
+    {
+      "id": "e8da0562f9e25a6c6159efbbd87cf8fff211422c",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/videos.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/videos.yaml",
+      "sector": "15",
+      "sha": "e8da0562f9e25a6c6159efbbd87cf8fff211422c"
+    },
+    {
+      "id": "bb6d68acb565432ce92769d70e214513c12d4e29",
+      "name": "nextxus-archives/imports/keyhole-creator/yaml-database-residue/widgets.yaml",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/imports/keyhole-creator/yaml-database-residue/widgets.yaml",
+      "sector": "15",
+      "sha": "bb6d68acb565432ce92769d70e214513c12d4e29"
+    },
+    {
+      "id": "4695918728221df8650a2b7205e7cdc436f45bc1",
+      "name": "nextxus-archives/index.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-archives/blob/main/index.html",
+      "sector": "15",
+      "sha": "4695918728221df8650a2b7205e7cdc436f45bc1"
     }
   ]
 }
