@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.9",
-  "lastUpdated": "2026-10-22 23:13 UTC",
-  "totalItems": 11682,
+  "version": "v2.3.10",
+  "lastUpdated": "2026-10-25 23:05 UTC",
+  "totalItems": 11719,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -95393,7 +95393,183 @@
       "source": "GitHub (nextxus-dispatch)",
       "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-domain-report.md",
       "sector": "14"
+    },
+    {
+      "id": "86462ba6f8271e7d739d4383ead1fedb7e988c8c",
+      "name": "memory/catalyst-latest.md",
+      "type": "file",
+      "source": "GitHub (sovereign-knowledge-os)",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-latest.md",
+      "sector": "01"
+    },
+    {
+      "id": "92b000b28240809eadbaca1b7ae6500500f923ed",
+      "name": "memory/catalyst-session-2026-10-23.md",
+      "type": "file",
+      "source": "GitHub (sovereign-knowledge-os)",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-23.md",
+      "sector": "01"
+    },
+    {
+      "id": "cb756fad58ab4885238e7dc8c0359685cda80279",
+      "name": "memory/catalyst-session-2026-10-24.md",
+      "type": "file",
+      "source": "GitHub (sovereign-knowledge-os)",
+      "url": "https://github.com/Keywebco/sovereign-knowledge-os/blob/main/memory/catalyst-session-2026-10-24.md",
+      "sector": "01"
+    },
+    {
+      "id": "455c6a6e967ce4e53c95e91ebd591859cf497630",
+      "name": "dispatch/2026-10-25-status.md",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-25-status.md",
+      "sector": "14"
+    },
+    {
+      "id": "7ae66bdafe126df7e20ba13a5485bcd906940105",
+      "name": "health-reports/2026-10-25-20.md",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-25-20.md",
+      "sector": "14"
+    },
+    {
+      "id": "19c3f10e0053f5b139c941bcf1d1f17e9d91e862",
+      "name": "lattice/lattice_state.yaml",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/lattice_state.yaml",
+      "sector": "14"
+    },
+    {
+      "id": "fd61f68c41171631188a9c0d32d76d399baf4e28",
+      "name": "lattice/nova-domain-report.md",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/lattice/nova-domain-report.md",
+      "sector": "14"
+    },
+    {
+      "id": "58437f3522eefea10f6f29417e851532c24fab46",
+      "name": "LATTICE/reports/health.md",
+      "type": "file",
+      "source": "GitHub (nextxus-brain)",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/health.md",
+      "sector": "01"
+    },
+    {
+      "id": "c4c7e7bd3470a0359a46c912e19881bf504e0769",
+      "name": "LATTICE/reports/latest.md",
+      "type": "file",
+      "source": "GitHub (nextxus-brain)",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/LATTICE/reports/latest.md",
+      "sector": "01"
+    },
+    {
+      "id": "c84477a3af53afbd37aa08094023a732734aa317",
+      "name": "federation-directory.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/federation-directory.html",
+      "sector": "05"
+    },
+    {
+      "id": "c66a51733c52792484c731f5f29c8399e9562d7f",
+      "name": "press/2026-10-23-gav-a-scientific-experimentation-environment-for-pde-agents.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-23-gav-a-scientific-experimentation-environment-for-pde-agents.html",
+      "sector": "05"
+    },
+    {
+      "id": "84c6f4ae7ffceb1537eb13c45e11648f0d7dcfee",
+      "name": "press/2026-10-23-llms-are-making-formal-software-verification-feasible-at-a-much-larger-scale.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-23-llms-are-making-formal-software-verification-feasible-at-a-much-larger-scale.html",
+      "sector": "05"
+    },
+    {
+      "id": "a5369ea5141c0c601c768b559bbb012da4dd0dee",
+      "name": "press/2026-10-23-what-should-i-use.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-23-what-should-i-use.html",
+      "sector": "05"
+    },
+    {
+      "id": "359840f172fe52adaab40b5d2935a6d61e2a2eb2",
+      "name": "press/2026-10-24-ai-models-think-humans-are-a-bunch-of-amoral-sheep.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-24-ai-models-think-humans-are-a-bunch-of-amoral-sheep.html",
+      "sector": "05"
+    },
+    {
+      "id": "d7d7149ed5737054ae068a81f62e53a2e236c525",
+      "name": "press/2026-10-24-chatgpt-plus-vs-claude-pro-20-for-learning-to-code.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-24-chatgpt-plus-vs-claude-pro-20-for-learning-to-code.html",
+      "sector": "05"
+    },
+    {
+      "id": "e3897f2aae296c1a42ab2668c2f9c6332672dff5",
+      "name": "press/2026-10-24-openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-si.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-24-openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-si.html",
+      "sector": "05"
+    },
+    {
+      "id": "3a3deadc0998b9b33015f814d73d2cc7d24266d1",
+      "name": "press/2026-10-25-forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-25-forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats.html",
+      "sector": "05"
+    },
+    {
+      "id": "de9a70aedaf4f429814080fcaed78c0a3f91a613",
+      "name": "press/2026-10-25-voice-ai-is-getting-scary-good-how-long-before-phone-calls-with-ai-become-indist.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-25-voice-ai-is-getting-scary-good-how-long-before-phone-calls-with-ai-become-indist.html",
+      "sector": "05"
+    },
+    {
+      "id": "275b6c8eae237278d6b3542dcee781d8ca5ae9b5",
+      "name": "press/digest-2026-W42.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/digest-2026-W42.html",
+      "sector": "05"
+    },
+    {
+      "id": "34b2c64c5846ea09732a43530f29549c5c4eb7cb",
+      "name": "records/card-changeover-inventory-2026-10-23.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/records/card-changeover-inventory-2026-10-23.html",
+      "sector": "05"
+    },
+    {
+      "id": "1ad0b47beeb250e4ceb40503b36d97fa8f81ba50",
+      "name": "records/cinemaflow-dispute-letter-2026-10-23.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/records/cinemaflow-dispute-letter-2026-10-23.html",
+      "sector": "05"
+    },
+    {
+      "id": "be3a3f9e82d2a121a1cca23c74f4fa6ba2d8c1f4",
+      "name": "records/cinemaflow-dispute-statement-2026-10-23.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/records/cinemaflow-dispute-statement-2026-10-23.html",
+      "sector": "05"
     }
   ],
-  "last_sync": "2026-10-25T11:09:03.299080Z"
+  "last_sync": "2026-10-25T23:05:35.743888Z"
 }
