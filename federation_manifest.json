@@ -1,6 +1,6 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.10",
+  "version": "v2.3.11",
   "lastUpdated": "2026-10-25 23:05 UTC",
   "totalItems": 11719,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
@@ -95571,5 +95571,5 @@
       "sector": "05"
     }
   ],
-  "last_sync": "2026-10-25T23:05:35.743888Z"
+  "last_sync": "2026-10-26 23:05 UTC"
 }
