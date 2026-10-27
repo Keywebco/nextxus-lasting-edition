@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.12",
-  "lastUpdated": "2026-10-27 11:06 UTC",
-  "totalItems": 11886,
+  "version": "v2.3.13",
+  "lastUpdated": "2026-10-27 23:07 UTC",
+  "totalItems": 11736,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -95569,6 +95569,142 @@
       "source": "GitHub (nextxus-free-satellites)",
       "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/records/cinemaflow-dispute-statement-2026-10-23.html",
       "sector": "05"
+    },
+    {
+      "id": "1CX7ht06B9wMSQrzDDzTpipIcyd6HHJoW",
+      "name": "grok_video_2026-10-27-09-05-27.mp4",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1CX7ht06B9wMSQrzDDzTpipIcyd6HHJoW/view",
+      "sector": "05"
+    },
+    {
+      "id": "1w8MR0TKZ3ViwPBSPATQBE41ZZwW0qNo8",
+      "name": "_users_generated_video_hd.mp4",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1w8MR0TKZ3ViwPBSPATQBE41ZZwW0qNo8/view",
+      "sector": "05"
+    },
+    {
+      "id": "1ZYcjXbe7dqdvhDBgMRPSN8m7HdbdpQfz",
+      "name": "_users_generated_video_hd.mp4",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZYcjXbe7dqdvhDBgMRPSN8m7HdbdpQfz/view",
+      "sector": "05"
+    },
+    {
+      "id": "1lt0KD0hYERXXm0kl4zBKmyviinYpu0pE",
+      "name": "CB3D6117-5EDF-470A-A62C-73CC8A5CA794-video.mp4",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lt0KD0hYERXXm0kl4zBKmyviinYpu0pE/view",
+      "sector": "05"
+    },
+    {
+      "id": "1HGcdJY0TTmxXsXoV7wGAXA1pgQ9c3M78",
+      "name": "YPkfDq8lIZWDWCyoNX.gif",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1HGcdJY0TTmxXsXoV7wGAXA1pgQ9c3M78/view",
+      "sector": "05"
+    },
+    {
+      "id": "1m_WwJd5w_szoiYlc2KakC8xE3YVRBlTg",
+      "name": "xe4dqw9T12XOIvktb4.gif",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1m_WwJd5w_szoiYlc2KakC8xE3YVRBlTg/view",
+      "sector": "05"
+    },
+    {
+      "id": "1TFN6dm8CRJJrPGejBZxRww-Gyoe8c3xK",
+      "name": "1189ae6c-1f65-4d20-b806-cb77ba5abc91.mp4",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TFN6dm8CRJJrPGejBZxRww-Gyoe8c3xK/view",
+      "sector": "05"
+    },
+    {
+      "id": "143U7CS_wz0GIn965B390cdjtQx5UtW-Z",
+      "name": "Unknown.jpeg",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/143U7CS_wz0GIn965B390cdjtQx5UtW-Z/view",
+      "sector": "05"
+    },
+    {
+      "id": "1WXsTy92yXRCA-APXaqHQBlez321rNS61",
+      "name": "Unknown.png",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WXsTy92yXRCA-APXaqHQBlez321rNS61/view",
+      "sector": "05"
+    },
+    {
+      "id": "1msFMxxH27Cv7qbapGQ7WWpnCZZ60Fmj-",
+      "name": "Gallery (video)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1msFMxxH27Cv7qbapGQ7WWpnCZZ60Fmj-/view",
+      "sector": "05"
+    },
+    {
+      "id": "1NcRuBrA0nuLCZvMRADKx0u-_CRz0VFKK",
+      "name": "Gallery (image)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NcRuBrA0nuLCZvMRADKx0u-_CRz0VFKK/view",
+      "sector": "05"
+    },
+    {
+      "id": "1tr-pELq0bAGzeS2U1G41KNcMl5ic69aE",
+      "name": "Gallery (video)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1tr-pELq0bAGzeS2U1G41KNcMl5ic69aE/view",
+      "sector": "05"
+    },
+    {
+      "id": "1ETFj8NIUExK6gpsAbmWJ8-mR7EhM-PYt",
+      "name": "Gallery (video)",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ETFj8NIUExK6gpsAbmWJ8-mR7EhM-PYt/view",
+      "sector": "05"
+    },
+    {
+      "id": "1RY5_mdeAbRFLVslCwqQ4TtKdLIWg2gjt",
+      "name": "roger-custom-gpts-recovery-list.md",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RY5_mdeAbRFLVslCwqQ4TtKdLIWg2gjt/view",
+      "sector": "01"
+    },
+    {
+      "id": "1_T82iZ1pt0BEqGKgq0RhjDlFkurJShfv",
+      "name": "chatgpt-gpts-mini-dashboard.html",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_T82iZ1pt0BEqGKgq0RhjDlFkurJShfv/view",
+      "sector": "14"
+    },
+    {
+      "id": "nextxus-free-satellites/chatgpt-gpts-mini-dashboard.html",
+      "name": "chatgpt-gpts-mini-dashboard.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/chatgpt-gpts-mini-dashboard.html",
+      "sector": "14"
+    },
+    {
+      "id": "keywebco.github.io/chatgpt-gpts-mini-dashboard.html",
+      "name": "chatgpt-gpts-mini-dashboard.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/keywebco.github.io/blob/main/chatgpt-gpts-mini-dashboard.html",
+      "sector": "14"
     }
   ],
   "last_sync": "2026-10-26 23:05 UTC"
