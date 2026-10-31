@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.19",
-  "lastUpdated": "2026-10-30 23:06 UTC",
-  "totalItems": 11806,
+  "version": "v2.3.20",
+  "lastUpdated": "2026-10-31 23:12 UTC",
+  "totalItems": 11816,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -96313,8 +96313,104 @@
       "source": "GitHub (nextxus-dispatch)",
       "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-30-status.md",
       "sector": "14"
+    },
+    {
+      "id": "1XqCj1dS2XF01dTGOcT6qxfqbuyaWmU-Cym70oxQeI_g",
+      "name": "Grok ↔ Muse (Pontus) Shared Working Document",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1XqCj1dS2XF01dTGOcT6qxfqbuyaWmU-Cym70oxQeI_g/edit?usp=drivesdk",
+      "sector": "07"
+    },
+    {
+      "id": "1Q4mwtrfWOCPbujmu9oSSZjCShEh_t2DaMtyTyFwl364",
+      "name": "Grok ↔ Muse (Pontus) Shared Working Document",
+      "type": "file",
+      "source": "Google Drive",
+      "url": "https://docs.google.com/document/d/1Q4mwtrfWOCPbujmu9oSSZjCShEh_t2DaMtyTyFwl364/edit?usp=drivesdk",
+      "sector": "07"
+    },
+    {
+      "id": "381014b88ea0a0e67d77813e70c1f908a748f2a3",
+      "name": "press/2026-10-31-ai-agents-said-done-when-nothing-actually-happened-and-making-them-think-harder.html",
+      "path": "press/2026-10-31-ai-agents-said-done-when-nothing-actually-happened-and-making-them-think-harder.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "repo": "nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-31-ai-agents-said-done-when-nothing-actually-happened-and-making-them-think-harder.html",
+      "sector": "05"
+    },
+    {
+      "id": "16576eb01780ec961de8db6428647d37470cc387",
+      "name": "press/2026-10-31-garden-generalist-autonomous-reward-design-through-evidence-navigation-for-coope.html",
+      "path": "press/2026-10-31-garden-generalist-autonomous-reward-design-through-evidence-navigation-for-coope.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "repo": "nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-31-garden-generalist-autonomous-reward-design-through-evidence-navigation-for-coope.html",
+      "sector": "05"
+    },
+    {
+      "id": "3f1c8087082b51167d6ee57e5f38b570a518de25",
+      "name": "press/2026-10-31-understanding-large-language-models-as-numerical-optimizers.html",
+      "path": "press/2026-10-31-understanding-large-language-models-as-numerical-optimizers.html",
+      "type": "file",
+      "source": "GitHub (nextxus-free-satellites)",
+      "repo": "nextxus-free-satellites",
+      "url": "https://github.com/Keywebco/nextxus-free-satellites/blob/main/press/2026-10-31-understanding-large-language-models-as-numerical-optimizers.html",
+      "sector": "05"
+    },
+    {
+      "id": "be9006abea3087211b4f4be83d1ed5111bd34e40",
+      "name": "2026-10-23-catalyst-checker-pass-on-own-packet.md",
+      "path": "observations/2026-10-23-catalyst-checker-pass-on-own-packet.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/observations/2026-10-23-catalyst-checker-pass-on-own-packet.md",
+      "sector": "09"
+    },
+    {
+      "id": "ed1348b36afbf8542645aa4f1f9f093f70d8b85b",
+      "name": "2026-10-23-catalyst-observer-checklist-senate-first-run.md",
+      "path": "observations/2026-10-23-catalyst-observer-checklist-senate-first-run.md",
+      "type": "file",
+      "source": "GitHub",
+      "repo": "nextxus-brain",
+      "url": "https://github.com/Keywebco/nextxus-brain/blob/main/observations/2026-10-23-catalyst-observer-checklist-senate-first-run.md",
+      "sector": "13"
+    },
+    {
+      "id": "ec3bdc0f7f9ef3420d61b04a5520d8096d8b85f5",
+      "name": "health-reports/2026-10-31-11.md",
+      "path": "health-reports/2026-10-31-11.md",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "repo": "nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-31-11.md",
+      "sector": "14"
+    },
+    {
+      "id": "9bc9a173aa0f0591e7805c1ff8a72dada6f91a6e",
+      "name": "health-reports/2026-10-31-20.md",
+      "path": "health-reports/2026-10-31-20.md",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "repo": "nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/health-reports/2026-10-31-20.md",
+      "sector": "14"
+    },
+    {
+      "id": "f1ea5a9fad7f603521e4fc9aabd401bebd8795c3",
+      "name": "dispatch/2026-10-31-status.md",
+      "path": "dispatch/2026-10-31-status.md",
+      "type": "file",
+      "source": "GitHub (nextxus-dispatch)",
+      "repo": "nextxus-dispatch",
+      "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-31-status.md",
+      "sector": "14"
     }
   ],
-  "last_sync": "2026-10-30 23:06 UTC",
-  "lastUpdate": "2026-10-30T23:06:48Z"
+  "last_sync": "2026-10-31 23:12 UTC",
+  "lastUpdate": "2026-10-31T23:12:40Z"
 }
