@@ -1,8 +1,8 @@
 {
   "manifest": "NX-023",
-  "version": "v2.3.20",
-  "lastUpdated": "2026-10-31 23:12 UTC",
-  "totalItems": 11816,
+  "version": "v2.3.21",
+  "lastUpdated": "2026-11-01 12:10 UTC",
+  "totalItems": 11817,
   "description": "NextXus Federation Master Navigation Manifest. Automated Scout & Sync.",
   "inventory": [
     {
@@ -96409,8 +96409,16 @@
       "repo": "nextxus-dispatch",
       "url": "https://github.com/Keywebco/nextxus-dispatch/blob/main/dispatch/2026-10-31-status.md",
       "sector": "14"
+    },
+    {
+      "id": "372c12e5d5ff4dd32964fcc322dcccc5e9ba23fe",
+      "name": "roger-sim-working-model.html",
+      "type": "file",
+      "source": "GitHub",
+      "url": "https://github.com/Keywebco/nextxus-sim/blob/main/roger-sim-working-model.html",
+      "sector": "06"
     }
   ],
-  "last_sync": "2026-10-31 23:12 UTC",
-  "lastUpdate": "2026-10-31T23:12:40Z"
+  "last_sync": "2026-11-01 12:10 UTC",
+  "lastUpdate": "2026-11-01T12:10:04Z"
 }
